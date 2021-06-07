@@ -30,7 +30,7 @@
 <label><img src="images/age-icon.svg" /></label><input type="text" placeholder="Your Age">
 </div>
 </div> <div class="col-sm-6 mt-5">
-<div class="form-row"><label><img src="images/pin-icon.svg" /></label><input type="text" class="search" placeholder="Where is your office located?"></div>
+<div class="form-row"><label><img src="images/pin-icon.svg" /></label><input type="search" class="search" placeholder="Where is your office located?"></div>
 
 </div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
 <div class="cont_select_center">
@@ -86,12 +86,12 @@
 <div class="cont_select_center">
 
   <!-- Custom select structure --> 
-<div class="select_mate" data-mate-select="active" >
-<select name="" onchange="" onclick="return false;" id="">
+<div class="select_mate department-options" data-mate-select="active" >
+<select name="" class="" onchange="" onclick="return false;" id="">
 <option value="" disabled selected>What is the size of your department at METRO?</option>
-<option value="1">5 Years</option>
-<option value="2" >10 Years</option>
-<option value="3">15 Years</option>
+<option value="5">5 Years</option>
+<option value="10" >10 Years</option>
+<option value="15">15 Years</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />
@@ -108,7 +108,7 @@
 </div>
 </div>
 <div class="col-sm-9 mt-5"><div class="form-row"><label></label>
-<input type="text" class="gray-out" placeholder="Please enter your Metro Organization, Team - ex: Metro AG, Corporate Responsibility">
+<input type="text" disabled="disabled" class="gray-out organization-team-input" placeholder="Please enter your Metro Organization, Team - ex: Metro AG, Corporate Responsibility">
 
 </div>
 </div>

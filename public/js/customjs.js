@@ -116,4 +116,16 @@ $(document).ready(function(){
 		$('.select_mate').click(function(){
 	$(this).toggleClass('active-dropdown');
 })
+setTimeout(function(){
+	
+$('.department-options li').click(function(){
+	
+	if(parseInt($('.department-options select').val()) >= 10){
+		$('.organization-team-input').removeAttr('disabled');
+	}
+	else{
+		$('.organization-team-input').attr('disabled','disabled');
+	}
+})
+},1000)
 })
