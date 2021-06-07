@@ -112,9 +112,15 @@ select_optiones[indx].selected = true;
   select_.onchange();
   salir_select(selc); 
 }
+// search code //
+
+// search code //
 $(document).ready(function(){
 		$('.select_mate').click(function(){
 	$(this).toggleClass('active-dropdown');
+})
+$('.search-clear').click(function(){
+	$('#search-input').val('');
 })
 setTimeout(function(){
 	
