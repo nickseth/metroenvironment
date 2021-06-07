@@ -89,9 +89,10 @@
 <div class="select_mate department-options" data-mate-select="active" >
 <select name="" class="" onchange="" onclick="return false;" id="">
 <option value="" disabled selected>What is the size of your department at METRO?</option>
-<option value="5">5 Years</option>
-<option value="10" >10 Years</option>
-<option value="15">15 Years</option>
+<option value="5">0-5</option>
+<option value="10" >5-10</option>
+<option value="15">10-15</option>
+<option value="20">15-20</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />
