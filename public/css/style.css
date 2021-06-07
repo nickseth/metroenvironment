@@ -1,5 +1,6 @@
 *{margin:0; padding:0}
-.hero{height:100vh; width:100%; background:url(../images/home-bg.jpg) no-repeat; background-size:cover; background-position:center; overflow-x:hidden}
+.hero{height:100vh; width:100%; background:url(../images/home-bg1.jpg) no-repeat; background-size:cover; background-position:center bottom; overflow-x:hidden}
+.index-page .navbar-default{    background: transparent;}
 body{overflow-x:hidden}
 
 a.navbar-brand img {
@@ -146,19 +147,22 @@ form {padding-bottom:15px}
 header{position:absolute; width:100%; left:0; right:0; top:0}
 header .navbar-default{background:transparent!important; border:none}
 .welcome {
-    position: absolute;
-    top: 15vh;
+    position: relative;
+    padding-top: 30px;
     left: 0;
     right: 0;
     margin: auto;
-    text-align: center;widh:300px;
+    text-align: center;
 }
-.welcome h3 {font-size:50px}
+.welcome h3 {font-size:50px;    margin: 0;}
 h3{color:#214d88!important;  font-family: 'SandwichMarkerPro'!important; }
-.home-content {position:absolute; top:47vh;  text-align:center; left:0; right:0; margin:auto;    max-width: 38.5vw;}
-.home-content p {text-align:left; font-size:16px;}
+.mid-content{padding-bottom: 120px;;}
+.home-content {position:relative;   padding-top: 50px;text-align:center; left:0; right:0; margin:auto;    max-width:700px;}
+.home-content p {font-size:18px;}
 .home-footer {position:absolute; left:0; right:0; bottom:20px; text-align:center}
-
+.footer-text h4{font-weight: bold; margin-bottom: 0;}
+.footer-text a{color: #000;
+    font-weight: 500;}
 input.gray-out {opacity:.7}
 input.gray-out::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #E6E6E6; opacity:1;

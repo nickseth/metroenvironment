@@ -112,8 +112,26 @@ select_optiones[indx].selected = true;
   select_.onchange();
   salir_select(selc); 
 }
+// search code //
+
+// search code //
 $(document).ready(function(){
 		$('.select_mate').click(function(){
 	$(this).toggleClass('active-dropdown');
 })
+$('.search-clear').click(function(){
+	$('#search-input').val('');
+})
+setTimeout(function(){
+	
+$('.department-options li').click(function(){
+	
+	if(parseInt($('.department-options select').val()) >= 10){
+		$('.organization-team-input').removeAttr('disabled');
+	}
+	else{
+		$('.organization-team-input').attr('disabled','disabled');
+	}
+})
+},1000)
 })
