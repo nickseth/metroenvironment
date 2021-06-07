@@ -126,6 +126,12 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
 .mt-5, .my-5 {
     margin-top: 3rem!important;
 }
+.mt-6, .my-6 {
+    margin-top: 4rem!important;
+}
+.mt-7, .my-7 {
+    margin-top: 5rem!important;
+}
 .form-info{background:#ffffff; border-radius:3px; border:solid 1px #cccccc; padding:15px 30px; display:flex; font-size:14px; align-items:center; width:calc(100% - 85px)}
 .form-info img{width:33px}
 .form-info span{margin-left:10px}
@@ -329,3 +335,73 @@ opacity:0!important;
 .select_mate:not(.active-dropdown) .cont_select_int{
 height:0!important;opacity:0!important;
 }
+.box-icon img{width:30px;}
+.box-head h4{font-size:29px; color:#214D88; margin-left:15px;}
+.box-head {display:flex;}
+.sec1-box-left p{color:#808080; margin:10px 0 0 45px}
+
+
+.checkbox-group > div {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+ 
+  margin-bottom: 10px;
+}
+.checkbox-group {
+  padding: 45px; 
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #E6E6E6;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px; border-radius:3px;width:32px; height:32px; margin-right:10px;
+}
+.form-group input:checked + label:before {
+	background:#4C9F38; border-color:#4C9F38;
+	
+}
+.form-group input:checked + label:after {
+  content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    width: 11px;
+    height: 21px;
+    border: solid #ffffff;
+    border-width: 0 5px 5px 0;
+    transform: rotate(
+45deg
+);
+}
+.checkbox-group label{font-size:21px;}
+

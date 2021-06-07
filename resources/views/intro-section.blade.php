@@ -18,8 +18,39 @@
  <div class="page-head">
  <h2>Introductory Section</h2>
  </div>
- <div class="page-width">
- <div class="row"> <div class="col-sm-8">dd</div><div class="col-sm-4">cc</div></div>
+ <div class="page-width mt-7">
+ <div class="row"> <div class="col-sm-8">
+ <div class="sec1-box-left">
+ <div class="box-head">
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect</h4>
+ </div>
+ <p class="animate__animated animate__fadeIn">Global warming is a serious problem all around the world, and rising temperatures<br>have shifted natural climatic patterns. Who do you think will feel these adverse<br> effects the most?</p>
+
+
+  <form><div class="checkbox-group">
+    <div class="form-group">
+      <input type="checkbox" id="html">
+      <label for="html">My generation</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">My grandchildren</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="javascript">
+      <label for="javascript">My children</label>
+    </div>
+	 <div class="form-group">
+      <input type="checkbox" id="java">
+      <label for="java">This not a serious threat</label>
+    </div></div>
+  </form>
+
+</div>
+ 
+ </div><div class="col-sm-4">
+ <div class="sec1-box-right"><img src="images/burning-earth.svg"/></div>
+ </div></div>
  </div>
  </div></div>
 </body>
