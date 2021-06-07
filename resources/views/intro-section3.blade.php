@@ -22,34 +22,34 @@
  <div class="row"> <div class="col-sm-8">
  <div class="sec1-box-left">
  <div class="box-head">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect</h4>
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">How many units of energy is required to mine 1 bitcoin?</h4>
  </div>
- <p class="animate__animated animate__fadeIn">Global warming is a serious problem all around the world, and rising temperatures<br>have shifted natural climatic patterns. Who do you think will feel these adverse<br> effects the most?</p>
+ <p class="animate__animated animate__fadeIn">Online processes also need significant amounts of non-renewable energy to function.<br>Choose the option you think is closest to the actual amount of energy used in <br>the mining of cryptocurrencies.</p>
 
 
   <form><div class="checkbox-group">
     <div class="form-group">
       <input type="checkbox" id="html">
-      <label for="html">My generation</label>
+      <label for="html">62 Terawatts</label>
     </div>
     <div class="form-group">
       <input type="checkbox" id="css">
-      <label for="css">My grandchildren</label>
+      <label for="css">72 Terawatts</label>
     </div>
     <div class="form-group">
       <input type="checkbox" id="javascript">
-      <label for="javascript">My children</label>
+      <label for="javascript">10 Terawatts</label>
     </div>
 	 <div class="form-group">
       <input type="checkbox" id="java">
-      <label for="java">This not a serious threat</label>
+      <label for="java">28 Terawatts</label>
     </div></div>
   </form>
 
 </div>
  
  </div><div class="col-sm-4">
- <div class="sec1-box-right"><img src="images/burning-earth.svg"/></div>
+ <div class="sec1-box-right bg-anim"></div>
  </div></div>
 <div class="button-wrapper bottom-button">
 <button>Next</button>

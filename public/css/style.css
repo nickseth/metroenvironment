@@ -579,7 +579,7 @@ height:0!important;opacity:0!important;
   flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
   /*demo*/
  
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .checkbox-group {
   padding: 45px; 
@@ -638,4 +638,49 @@ height:0!important;opacity:0!important;
 );
 }
 .checkbox-group label{font-size:21px;}
+.sec1-box-left {
+    margin-top: 45px;
+}
+.bottom-button{margin:30px 0 45px}
+.bg-anim {width:345px; height:334px}
+.bg-anim {background:url(../images/bitcoin.svg) no-repeat; background-size:cover}
+.bg-anim:hover{background:url(../images/bitcoin-over.svg) no-repeat; background-size:cover}
+.checkbox-group {
+  
+  animation-name: show-smooth;
+  animation-duration: 4s;
+}
 
+@keyframes show-smooth {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.cont_select_int li:first-child{display:none}
+.autocomplete {position:relative}
+.autocomplete input {
+    width: 100%;
+}
+.search-clear {position:absolute; right:15px;top:0; bottom:0; left:auto}
+.autocomplete .search-clear {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+   
+    left: auto;
+    display: inline-block!important;
+    width: 32px;height:32px; text-align:center; line-height:32px;background:#E6E6E6 url(../images/close-icon.svg) no-repeat center center;
+    background-size:18px; border-radius:50%; text-indent:-99999999px;cursor:pointer;
+}
+.autocomplete-items {
+    position: absolute;
+    top: calc(100% + 10px);
+    padding: 15px;
+    z-index: 99999;
+   
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 4px 10px -2px rgb(0 0 0 / 20%);
+    transition: all 375ms ease-in-out;
+    border: solid 1px #E6E6E6;
+}

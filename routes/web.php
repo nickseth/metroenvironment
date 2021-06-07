@@ -22,3 +22,9 @@ Route::get('/survey-start', function () {
 Route::get('/intro-section', function () {
     return view('intro-section');
 });
+Route::get('/intro-section2', function () {
+    return view('intro-section2');
+});
+Route::get('/intro-section3', function () {
+    return view('intro-section3');
+});
