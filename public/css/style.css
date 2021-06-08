@@ -412,8 +412,8 @@ svg #fish6{
             border-radius: 100%;    opacity: .9;
         }
         .fish-tank.fish-tank2   .tank-right1{ height: 73px;   top: 2px;}
-        .cow{position: absolute; top:43vh; left:1vw;}
-        .cow img{max-width: 45px}
+        .cow{position: absolute; top:43vh; left:2vw;}
+        .cow img{max-width: 40px}
 h3{color:#214d88!important;  font-family: 'SandwichMarkerPro'!important; }
 .navbar{    z-index: 11;}
 .mid-content{padding-bottom: 120px;;}
