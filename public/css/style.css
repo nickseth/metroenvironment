@@ -678,6 +678,9 @@ height:0!important;opacity:0!important;
     transition: all 375ms ease-in-out;
     border: solid 1px #E6E6E6;
 }
+.link-btn{
+	width:auto;
+}
 .sec1-box-right {position:relative;}
 .sec1-box-right img {
     max-width: 100%;
