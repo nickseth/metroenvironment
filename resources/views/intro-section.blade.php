@@ -49,7 +49,8 @@
 </div>
  
  </div><div class="col-sm-4">
- <div class="sec1-box-right"><img src="images/burning-earth.svg"/></div>
+ <div class="sec1-box-right"><div class="bird-anim"><img src="images/bird-anim.gif" /></div>
+ <img src="images/burning-earth-anim.gif"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
 <button>Next</button>
