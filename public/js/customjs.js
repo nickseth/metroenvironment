@@ -1,6 +1,15 @@
 
 window.onload = function(){
   crear_select();
+  $('.department-options li').click(function(){
+	
+	if(parseInt($('.department-options select').val()) > 10){
+		$('.organization-team-input').removeAttr('disabled');
+	}
+	else{
+		$('.organization-team-input').attr('disabled','disabled');
+	}
+})
 }
 
 function isMobileDevice() {
@@ -122,16 +131,4 @@ $(document).ready(function(){
 $('.search-clear').click(function(){
 	$('#search-input').val('');
 })
-setTimeout(function(){
-	
-$('.department-options li').click(function(){
-	
-	if(parseInt($('.department-options select').val()) >= 10){
-		$('.organization-team-input').removeAttr('disabled');
-	}
-	else{
-		$('.organization-team-input').attr('disabled','disabled');
-	}
-})
-},1000)
 })
