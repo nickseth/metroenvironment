@@ -29,19 +29,19 @@
 
   <form><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="climate_change">
+      <input type="radio" id="html" name="intro_section">
       <label for="html">My generation</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="climate_change">
+      <input type="radio" id="css" name="intro_section">
       <label for="css">My grandchildren</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="climate_change">
+      <input type="radio" id="javascript" name="intro_section">
       <label for="javascript">My children</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="climate_change">
+      <input type="radio" id="java" name="intro_section">
       <label for="java">This not a serious threat</label>
     </div></div>
   </form>
@@ -49,10 +49,11 @@
 </div>
  
  </div><div class="col-sm-4">
- <div class="sec1-box-right"><img src="images/burning-earth.svg"/></div>
+ <div class="sec1-box-right"><div class="bird-anim"><img src="images/bird-anim.gif" /></div>
+ <img src="images/burning-earth-anim.gif"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<button>Next</button>
+<a href="{{url('/intro-section2')}}" class="link-btn"><button>Next</button></a>
 </div>
  </div>
  </div></div>

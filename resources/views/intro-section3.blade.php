@@ -29,19 +29,19 @@
 
   <form><div class="checkbox-group">
     <div class="form-group">
-      <input type="checkbox" id="html">
+      <input type="radio" id="html" name="intro_section_3">
       <label for="html">62 Terawatts</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="css">
+      <input type="radio" id="css" name="intro_section_3">
       <label for="css">72 Terawatts</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript">
+      <input type="radio" id="javascript" name="intro_section_3">
       <label for="javascript">10 Terawatts</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java">
+      <input type="radio" id="java" name="intro_section_3">
       <label for="java">28 Terawatts</label>
     </div></div>
   </form>

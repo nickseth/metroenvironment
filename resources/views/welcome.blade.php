@@ -43566,7 +43566,7 @@ benefit the world around us. We promise it won't take long.</p></div>
 <p>Your participation in this survey is voluntary. By participating in this survey….. <a href="#">Read more</a></p>
 
     </div>
-<button>Agree</button>
+<a href="{{url('/survey-start')}}"><button>Agree</button></a>
 </div>
 </footer>
 </div>
