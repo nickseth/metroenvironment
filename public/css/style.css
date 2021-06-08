@@ -714,3 +714,10 @@ height:0!important;opacity:0!important;
 .form-row select:-moz-placeholder { /* Firefox 18- */
    color: #808080; opacity:1;
 }
+
+.jump-anim{
+	-moz-animation: bounce1 2s infinite;
+  -webkit-animation: bounce1 2s infinite;
+  animation: bounce1 2s infinite;
+	
+}

@@ -49,7 +49,7 @@
 </div>
  
  </div><div class="col-sm-4">
- <div class="sec1-box-right"><img src="images/straw.svg"/></div>
+ <div class="sec1-box-right jump-anim"><img src="images/straw.svg"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
 <button>Next</button>
