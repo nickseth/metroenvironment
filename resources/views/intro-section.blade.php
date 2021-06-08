@@ -29,19 +29,19 @@
 
   <form><div class="checkbox-group">
     <div class="form-group">
-      <input type="checkbox" id="html">
+      <input type="radio" id="html" name="climate_change">
       <label for="html">My generation</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="css">
+      <input type="radio" id="css" name="climate_change">
       <label for="css">My grandchildren</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript">
+      <input type="radio" id="javascript" name="climate_change">
       <label for="javascript">My children</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java">
+      <input type="radio" id="java" name="climate_change">
       <label for="java">This not a serious threat</label>
     </div></div>
   </form>
