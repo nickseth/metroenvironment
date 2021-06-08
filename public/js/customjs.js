@@ -66,6 +66,20 @@ $('.selecionado_opcion').each(function(){
 		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .cont_list_select_mate > ul")[0].style.opacity = "0";
 	}
 })
+$(document).click(function(e){
+    var container = $(".active-dropdown");
+
+    // If the target of the click isn't the container
+    if(!container.is(e.target) && container.has(e.target).length === 0){
+        $('.selecionado_opcion').each(function(){
+		$(this).parent().removeClass('active-dropdown');
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"']")[0].setAttribute('data-selec-open','false');
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .icon_select_mate")[0].style.transform = 'rotate(0deg)';
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .cont_list_select_mate > ul")[0].style.height = "0px";
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .cont_list_select_mate > ul")[0].style.opacity = "0";
+})
+    }
+});
   var ul_cont_li = document.querySelectorAll("[data-indx-select='"+idx1+"'] .cont_select_int > li");
 var hg = 0;
 var slect_open = document.querySelectorAll("[data-indx-select='"+idx1+"']")[0].getAttribute('data-selec-open');
