@@ -32,11 +32,11 @@
 }
 
 .boat {
-	width: 255px; height: 130px;
+	width: 165px; height: 110px;
 	padding: 0;
 	background: transparent;
 	position:absolute;    left: 0;
-    right: 0; top:50vh;
+    right: 0; top:55vh;
 }
 .cloud2 img, .cloud1 img, .cloud3 img, .boat img {width:100%; height:auto}
 
@@ -73,12 +73,12 @@
 
 .x4 {
 	
-	left:-15px;
+	left:240px;
 	-webkit-animation: moveboat 100s linear 1;
-	-moz-animation: moveboat 100s linear 1;
-	-o-animation: moveboat 100s linear 1;margin-left: 80%; 
+	-moz-animation: moveboat 100s linear 1; 
+	-o-animation: moveboat 100s linear 1;margin-left: 70%; 
 	background: url(../images/boat.svg) no-repeat;
-	background-size: contain;
+	background-size: contain;background-position: center bottom;
 }
 
 .x4 img{opacity: 0;}
@@ -102,27 +102,27 @@
 @-webkit-keyframes moveboat {
 	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-		80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
+		70% {margin-left: 70%;     background: url(../images/boat-ani.gif) no-repeat;
 			background-size: contain;}
-	90% {margin-left: 80%; animation-play-state: paused;
-		background: url(../images/boat.svg) no-repeat;
+	80% {margin-left: 70%; animation-play-state: paused;
+		background: url(../images/boat.svg) no-repeat; 
 		background-size: contain;}
 }
 @-moz-keyframes moveboat {
 	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-		80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
+		70% {margin-left: 70%;     background: url(../images/boat-ani.gif) no-repeat;
 			background-size: contain;}
-	100% {margin-left: 80%; animation-play-state: paused;
+	80% {margin-left: 70%; animation-play-state: paused;
 		background: url(../images/boat.svg) no-repeat;
 		background-size: contain;}
 }
 @-o-keyframes moveboat {
 	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-		80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
+		70% {margin-left: 70%;     background: url(../images/boat-ani.gif) no-repeat;
 			background-size: contain;}
-	100% {margin-left: 80%; animation-play-state: paused;
+	80% {margin-left: 70%; animation-play-state: paused;
 		background: url(../images/boat.svg) no-repeat;
 		background-size: contain;}
 }
