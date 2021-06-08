@@ -57,6 +57,15 @@ ul_cont[0].appendChild(li[i]);
 var cont_slc = 0;
 function open_select(idx){
 var idx1 =  idx.getAttribute('data-n-select');
+$('.selecionado_opcion').each(function(){
+	if($(this).attr('data-n-select') != idx1){
+		$(this).parent().removeClass('active-dropdown');
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"']")[0].setAttribute('data-selec-open','false');
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .icon_select_mate")[0].style.transform = 'rotate(0deg)';
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .cont_list_select_mate > ul")[0].style.height = "0px";
+		document.querySelectorAll("[data-indx-select='"+$(this).attr('data-n-select')+"'] > .cont_list_select_mate > ul")[0].style.opacity = "0";
+	}
+})
   var ul_cont_li = document.querySelectorAll("[data-indx-select='"+idx1+"'] .cont_select_int > li");
 var hg = 0;
 var slect_open = document.querySelectorAll("[data-indx-select='"+idx1+"']")[0].getAttribute('data-selec-open');
