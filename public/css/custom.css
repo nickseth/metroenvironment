@@ -73,13 +73,15 @@
 
 .x4 {
 	
-	left:-155px;
-	-webkit-animation: moveboat 100s linear infinite;
-	-moz-animation: moveboat 100s linear infinite;
-	-o-animation: moveboat 100s linear infinite;
+	left:-15px;
+	-webkit-animation: moveboat 100s linear 1;
+	-moz-animation: moveboat 100s linear 1;
+	-o-animation: moveboat 100s linear 1;margin-left: 80%; 
+	background: url(../images/boat.svg) no-repeat;
+	background-size: contain;
 }
 
-
+.x4 img{opacity: 0;}
 
 
 
@@ -98,14 +100,29 @@
 
 
 @-webkit-keyframes moveboat {
-	0% {margin-left: -100px;}
-	100% {margin-left: 100%;}
+	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+		background-size: contain;}
+		80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+	90% {margin-left: 80%; animation-play-state: paused;
+		background: url(../images/boat.svg) no-repeat;
+		background-size: contain;}
 }
 @-moz-keyframes moveboat {
-	0% {margin-left: -100px;}
-	100% {margin-left: 100%;}
+	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+		background-size: contain;}
+		80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+	100% {margin-left: 80%; animation-play-state: paused;
+		background: url(../images/boat.svg) no-repeat;
+		background-size: contain;}
 }
 @-o-keyframes moveboat {
-	0% {margin-left: -100px;}
-	100% {margin-left: 100%;}
+	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+		background-size: contain;}
+		80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+	100% {margin-left: 80%; animation-play-state: paused;
+		background: url(../images/boat.svg) no-repeat;
+		background-size: contain;}
 }
