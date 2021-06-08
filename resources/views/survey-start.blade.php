@@ -23,8 +23,9 @@
  </div>
 <div class="row"> <div class="col-sm-12">
 
-<form>
 <div class="row" >
+
+<form>
 <div class="col-sm-3 mt-5">
 <div class="form-row">
 <label><img src="images/age-icon.svg" /></label><input type="text" placeholder="Your Age">
@@ -119,15 +120,15 @@
 </div>
 </div>
 
-
+</form>
 
 <div class="col-sm-8 mt-5">
 <div class="button-wrapper">
-<button>Let’s Start the Survey</button>
+<a href="{{url('/intro-section')}}" class="link-btn"><button>Let’s Start the Survey</button></a>
 </div>
 </div>
 </div>
-</form>
+
 
 </div></div>
  </div>
