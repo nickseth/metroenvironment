@@ -29,19 +29,19 @@
 
   <form><div class="checkbox-group">
     <div class="form-group">
-      <input type="checkbox" id="html">
+      <input type="radio" id="html" name="intro_section_2">
       <label for="html">Wooden</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="css">
+      <input type="radio" id="css" name="intro_section_2">
       <label for="css">Paper</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript">
+      <input type="radio" id="javascript" name="intro_section_2">
       <label for="javascript">Plastic</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java">
+      <input type="radio" id="java" name="intro_section_2">
       <label for="java">Steel</label>
     </div></div>
   </form>
@@ -52,7 +52,7 @@
  <div class="sec1-box-right"><img src="images/straw.svg"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<button>Next</button>
+<a href="{{url('/intro-section3')}}" class="link-btn"><button>Next</button></a>
 </div>
  </div>
  </div></div>
