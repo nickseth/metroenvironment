@@ -1292,3 +1292,56 @@ height:0!important;opacity:0!important;
   .car {    right: 60%;}
 
 }
+
+
+.section-2 {background:none!important}
+
+.parent-zoom {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+  cursor: pointer;
+}
+
+.child-bg {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 1.8s;
+    -moz-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s;
+}
+
+/* Several different images */
+
+/* Several different images */
+.bg-one {background-image: url(../images/sec-2-home-bg.svg);}
+
+
+
+.parent-zoom:hover .child-bg, .parent-zoom:focus .child-bg {
+    -ms-transform: scale(4.2);
+    -moz-transform: scale(4.2);
+    -webkit-transform: scale(4.2);
+    -o-transform: scale(4.2);
+    transform: scale(4.2); background-position: 140px -50px;
+}
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .parent-zoom {width: 100%; margin: 0}
+   
+}
+
+.personal-level-start .navbar-default {position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
