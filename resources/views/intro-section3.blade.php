@@ -52,7 +52,7 @@
  <div class="sec1-box-right bg-anim"></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="#" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-start')}}" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
  </div>
  </div></div>
