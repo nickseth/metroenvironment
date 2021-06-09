@@ -19,12 +19,12 @@
  <h2>Introductory Section</h2>
  </div>
  <div class="page-width mt-7">
- <div class="row"> <div class="col-sm-8">
+ <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect</h4>
  </div>
- <p class="animate__animated animate__fadeIn">Global warming is a serious problem all around the world, and rising temperatures<br>have shifted natural climatic patterns. Who do you think will feel these adverse<br> effects the most?</p>
+ <p class="animate__animated animate__fadeIn">Global warming is a serious problem all around the world, and rising temperatures have shifted natural<br>climatic patterns. Who do you think will feel these adverse effects the most?</p>
 
 
   <form><div class="checkbox-group">
@@ -48,12 +48,12 @@
 
 </div>
  
- </div><div class="col-sm-4">
+ </div><div class="col-sm-3">
  <div class="sec1-box-right"><div class="bird-anim"><img src="images/bird-anim.gif" /></div>
  <img src="images/burning-earth-anim.gif"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section2')}}" class="link-btn"><button>Next</button></a>
+<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
  </div>
  </div></div>
