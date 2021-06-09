@@ -1,16 +1,23 @@
 *{margin:0; padding:0}
-.hero{height:100vh; width:100%; background:url(../images/home-bg.jpg) no-repeat; background-size:cover; background-position:center bottom; overflow-x:hidden}
+.hero{height:100vh; width:100%;    position: relative; _background:url(../images/home-bg.jpg) no-repeat; background-size:cover; background-position:center bottom; overflow-x:hidden}
 .index-page .navbar-default{    background: transparent;}
 body{overflow-x:hidden}
 
 a.navbar-brand img {
+<<<<<<< HEAD
+    width: 120px;
+    height: auto;
+}
+.navbar-collapse.right-header  h1{    font-size: 22px;}
+=======
     width: 140px;
     height: auto;
 }
 .navbar-collapse.right-header  h1{    font-size: 26px;}
+>>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
 @media(min-width:1600px) {
 a.navbar-brand img {
-    width: 160px;
+    width: 120px;
     
 }	
 .page-head h2{font-size:35px}	
@@ -155,7 +162,11 @@ header .navbar-default{background:transparent!important; border:none}
     margin: auto;
     text-align: center;
 }
+<<<<<<< HEAD
+.welcome h3 {font-size:30px; letter-spacing: 1px;   margin: 0;}
+=======
 .welcome h3 {font-size:35px;    margin: 0;}
+>>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
 .clouds {
     position: absolute;
     top: 0;
@@ -222,22 +233,22 @@ header .navbar-default{background:transparent!important; border:none}
   }
   .tractor-moving {
     position: absolute;
-    top: 37vh;
+    bottom: calc(100% - 27px);
     -webkit-animation-name:doDrift;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-direction: forwards;
     -webkit-animation-iteration-count: 1;
-    -webkit-animation-duration: 12s;
+    -webkit-animation-duration: 50s;
     -moz-animation-name: doDrift;
     -moz-animation-timing-function: ease-in-out;
     -moz-animation-direction: forwards;
     -moz-animation-iteration-count: 1;
-    -moz-animation-duration: 12s;
+    -moz-animation-duration: 50s;
     animation-name: doDrift;
     animation-timing-function: ease-in-out;
     animation-direction: forwards;
     animation-iteration-count: 1;
-    animation-duration: 12s;left: 24%;
+    animation-duration: 50s;left: 24%;
 
 }
 .tractor-moving img{max-width: 140px;}
@@ -386,7 +397,7 @@ svg #fish6{
     width: 100%;
     
     background-size: contain;max-width: 250px;    z-index: 1; text-align: center;
-    background-position: center bottom; position: absolute; top:54vh; left:0;}
+    background-position: center bottom; position: absolute; top:20%; left:0;}
     .fish-tank svg.fish{width: 176px;    left: 50%;
         top: 50%;height: auto;
         z-index: -1;
@@ -412,16 +423,37 @@ svg #fish6{
             border-radius: 100%;    opacity: .9;
         }
         .fish-tank.fish-tank2   .tank-right1{ height: 73px;   top: 2px;}
-        .cow{position: absolute; top:43vh; left:2vw;}
+        .cow{position: absolute; top:-18px; left:1vw;}
         .cow img{max-width: 40px}
+        .cow.cow2 {    top: -16px;
+          left: 4vw;
+      }
+      .cow.cow2 img{height: 25px;;}
+      .hut1{    max-width: 90px;
+        margin-left: 14%;
+        top: -16px;
+        position: relative;}
+        .hut2{    max-width: 90px;    float: right;
+          margin-right: 4%;
+          top: -6px;
+          position: relative;}
+          .hut2 img{width:90px; height: 23px;}
+  .top-section{background: url(../images/blue-bg.jpg) no-repeat; background-size: cover; background-position: center bottom; position: relative; top:0; left:0; height: 45vh; width: 100%;}      
+  .bottom-section{background: url(../images/water-bg.svg) no-repeat; background-size: cover; background-position: top center; position: relative; bottom:0; left:0; height: 55vh; width: 100%;}
 h3{color:#214d88!important;  font-family: 'SandwichMarkerPro'!important; }
 .navbar{    z-index: 11;}
 .mid-content{padding-bottom: 120px;;}
 .home-content {position:relative;   padding-top: 30px;text-align:center; left:0; right:0; margin:auto;    max-width:630px;}
+<<<<<<< HEAD
+.home-content p {font-size:14px;}
+=======
 .home-content p {font-size:15px;}
+>>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
 .home-footer {position:absolute; left:0; right:0; bottom:20px; text-align:center}
-.footer-text h4{font-weight: bold; margin-bottom: 0;}
-.footer-text a{color: #000;
+.footer-text h4{font-weight: bold; margin-bottom: 0;color: #000;
+  font-size: 16px;}
+  .footer-text p{color: #000; font-size: 14px;}
+.footer-text a{color: #000; text-decoration: underline;
     font-weight: 500;}
 .form-row input.gray-out {opacity:.7}
 .form-row input.gray-out::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -740,6 +772,81 @@ height:0!important;opacity:0!important;
 	
 }
 
+<<<<<<< HEAD
+
+@keyframes carmove{
+  0%{transform: translateY(0px);}
+  58%{transform: translateY(1px)}
+  62%{transform: translateY(2px)}
+  66%{transform: translateY(3px)}
+  75%{transform: translateY(1px)}
+  100%{transform: translateY(0px)}
+}
+@keyframes wheel{
+  0%{
+   transform: rotate(0deg);
+  }
+  35% {
+    transform: rotate(-500deg);
+  }
+  
+  100%{
+    transform: rotate(-1000deg); 
+  }
+}
+
+@keyframes moving {
+  0% {
+    right: 120px;
+    animation-timing-function: ease-out;
+  }
+ 
+  100% {
+    right: 65%;  animation-timing-function: ease-in;animation-play-state: paused;
+  }
+}
+
+@keyframes stableWheel {
+  from {transform: translateY(-.0em);}
+  to {transform: translateY(-.0em);}
+}
+
+.car{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute; right: 65%;
+  width: 110px;
+  height:90px;     bottom: calc(100% - 37px);
+  overflow:hidden;
+  animation:  moving 10s linear  1;
+}
+
+.carbody{
+  animation: carmove 3.1s infinite linear;
+  background: url(../images/tractor-base.svg) no-repeat;
+  background-size: cover;
+  height: 80px;
+  position: relative; 
+  width: 110px;
+  z-index: 125;
+}
+
+.weel{
+  /*animation: wheel 0.7s infinite linear;*/
+  animation:wheel 10s linear  infinite;
+  position: absolute;
+  top: 57%;background-size: contain;
+  z-index: 200;
+}
+
+.weel1{left: 3px;background: url(../images/wheel-front.svg) no-repeat;width: 26px;  height: 26px;}
+
+.weel2{left: 55px;background: url(../images/wheel-rear.svg) no-repeat;width: 43px;     margin-top: -18px; height: 43px;}
+
+.stopedWeel{
+     animation: stableWheel .2s linear 1 alternate;
+=======
 .sec1-bg .button-wrapper {height:auto}
 
 .sec1-bg .button-wrapper a i	{color:#4c9f38}
@@ -796,4 +903,5 @@ height:0!important;opacity:0!important;
   background: #4c9f38;
   content: attr(data-front);
   transform: translateY(0) rotateX(0); border-radius:15px;
+>>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
 }

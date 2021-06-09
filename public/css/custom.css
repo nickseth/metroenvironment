@@ -36,7 +36,7 @@
 	padding: 0;
 	background: transparent;
 	position:absolute;    left: 0;
-    right: 0; top:55vh;
+    right: 0; top:60px;
 }
 .cloud2 img, .cloud1 img, .cloud3 img, .boat img {width:100%; height:auto}
 
