@@ -37975,6 +37975,7 @@ benefit the world around us. We promise it won't take long.</p></div>
 
 <div class="car">
   <div class="carbody"></div>
+  <div class="plough"></div>
   <div class="weel weel1"></div>
   <div class="weel weel2"></div>
 </div>
@@ -43581,12 +43582,8 @@ benefit the world around us. We promise it won't take long.</p></div>
 <p>Your participation in this survey is voluntary. By participating in this survey….. <a href="#">Read more</a></p>
 
     </div>
-<<<<<<< HEAD
 	<a href="{{url('/survey-start')}}" class="btn-flip" data-back="Agree" data-front="Agree">Agree</a>
 
-=======
-	<a href="{{url('/survey-start')}}" class="btn-flip agree-btn" data-back="Agree" data-front="Agree"></a>
->>>>>>> e4efd6178724c0be452d9c7899cbd0dac6c59c9d
 </div>
 </footer>
 </div>
