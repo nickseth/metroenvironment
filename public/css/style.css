@@ -149,17 +149,13 @@ header{position:absolute; width:100%; left:0; right:0; top:0}
 header .navbar-default{background:transparent!important; border:none}
 .welcome {
     position: relative;
-    padding-top: 20px;
+    padding-top: 0;
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
 }
-<<<<<<< HEAD
 .welcome h3 {font-size:30px; letter-spacing: 1px;   margin: 0;}
-=======
-.welcome h3 {font-size:35px;    margin: 0;}
->>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
 .clouds {
     position: absolute;
     top: 0;
@@ -605,7 +601,7 @@ svg #fish6{
 h3{color:#214d88!important;  font-family: 'SandwichMarkerPro'!important; }
 .navbar{    z-index: 11;}
 .mid-content{padding-bottom: 120px;;}
-.home-content {position:relative;   padding-top: 30px;text-align:center; left:0; right:0; margin:auto;    max-width:630px;}
+.home-content {position:relative;   padding-top: 10px;text-align:center; left:0; right:0; margin:auto;    max-width:560px;}
 
 .home-content p {font-size:14px;}
 .home-footer {position:absolute; left:0; right:0; bottom:20px; text-align:center}
@@ -930,3 +926,5 @@ height:0!important;opacity:0!important;
   animation: bounce1 2s infinite;
 	
 }
+
+

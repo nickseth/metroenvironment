@@ -1,6 +1,71 @@
 @include('header')
 <body class="index-page">
 <div class="hero">
+<div class="ripples-wrap">
+<div class="ripples">
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="splash"></div>
+    <div class="particles">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="rain">
+    <div class="waves">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+</div>
 <div class="top-section">
 <div class="clouds">
 
