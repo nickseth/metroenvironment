@@ -4,14 +4,20 @@
 body{overflow-x:hidden}
 
 a.navbar-brand img {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 45678e30670fbb48d3c2d3b6fc0977092d59c199
     width: 140px;
     height: auto;
 }
 .navbar-collapse.right-header  h1{    font-size: 22px;}
 
 .navbar-collapse.right-header  h1{    font-size: 26px;}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 45678e30670fbb48d3c2d3b6fc0977092d59c199
 @media(min-width:1600px) {
 a.navbar-brand img {
     width: 120px;
@@ -428,10 +434,12 @@ svg #fish6{
         margin-left: 14%;
         top: -16px;
         position: relative;}
-        .hut2{    max-width: 90px;    float: right;
-          margin-right: 4%;
-          top: -6px;
-          position: relative;}
+        .hut2{max-width: 90px;
+    float: right;
+    margin-right: 0;
+    top: -14px;
+    position: absolute;
+    right: 2%;}
           .hut2 img{width:90px; height: 23px;}
   .top-section{background: url(../images/blue-bg.jpg) no-repeat; background-size: cover; background-position: center bottom; position: relative; top:0; left:0; height: 45vh; width: 100%;}      
   .bottom-section{background: url(../images/water-bg.svg) no-repeat; background-size: cover; background-position: top center; position: relative; bottom:0; left:0; height: 55vh; width: 100%;}
@@ -440,8 +448,12 @@ h3{color:#214d88!important;  font-family: 'SandwichMarkerPro'!important; }
 .mid-content{padding-bottom: 120px;;}
 .home-content {position:relative;   padding-top: 30px;text-align:center; left:0; right:0; margin:auto;    max-width:630px;}
 
+<<<<<<< HEAD
 .home-content p {font-size:15px;}
 
+=======
+.home-content p {font-size:14px;}
+>>>>>>> 45678e30670fbb48d3c2d3b6fc0977092d59c199
 .home-footer {position:absolute; left:0; right:0; bottom:20px; text-align:center}
 .footer-text h4{font-weight: bold; margin-bottom: 0;color: #000;
   font-size: 16px;}
@@ -765,7 +777,10 @@ height:0!important;opacity:0!important;
 	
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 45678e30670fbb48d3c2d3b6fc0977092d59c199
 
 @keyframes carmove{
   0%{transform: translateY(0px);}
@@ -773,7 +788,7 @@ height:0!important;opacity:0!important;
   62%{transform: translateY(2px)}
   66%{transform: translateY(3px)}
   75%{transform: translateY(1px)}
-  100%{transform: translateY(0px)}
+  100%{transform: translateY(0px);}
 }
 @keyframes wheel{
   0%{
@@ -791,9 +806,11 @@ height:0!important;opacity:0!important;
 @keyframes moving {
   0% {
     right: 120px;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-out; 
   }
- 
+  99% {
+    right: 65%;  opacity: 1;;
+  }
   100% {
     right: 65%;  animation-timing-function: ease-in;animation-play-state: paused;
   }
@@ -810,9 +827,9 @@ height:0!important;opacity:0!important;
   flex-wrap: wrap;
   position: absolute; right: 65%;
   width: 110px;
-  height:90px;     bottom: calc(100% - 37px);
+  height:90px;     bottom: calc(100% - 21px);
   overflow:hidden;
-  animation:  moving 10s linear  1;
+  animation:  moving 50s linear  1;
 }
 
 .carbody{
@@ -839,62 +856,4 @@ height:0!important;opacity:0!important;
 
 .stopedWeel{
      animation: stableWheel .2s linear 1 alternate;
-=======
-.sec1-bg .button-wrapper {height:auto}
-
-.sec1-bg .button-wrapper a i	{color:#4c9f38}
-
-.jump-anim img {
-       margin: auto auto auto 0;
-    max-width: 84.5%;
-}
-
-
-.btn-flip {
-  opacity: 1;
-  outline: 0;
-  color: #fff;
-  line-height: 30px;
-  position: relative;
-  text-align: center;
- font-weight:bold;
-  display: inline-block;
-  text-decoration: none;
-   text-transform: uppercase; border-radius:15px;
-}
-.btn-flip:hover:after {
-  opacity: 1;
-  transform: translateY(0) rotateX(0);
-}
-.btn-flip:hover:before {
-  opacity: 0;
-  transform: translateY(50%) rotateX(90deg);
-}
-.btn-flip:after {
-  top: 0;
-  left: 0;
-  opacity: 0;
-  width: 100%;
-  color: #fff;
-  display: block;
-  transition: 0.5s;
-  position: absolute;
-  background: #4c9f38;
-  content: attr(data-back);
-  transform: translateY(-50%) rotateX(90deg); border-radius:15px;
-}
-.btn-flip:before {
-  top: 0;
-  left: 0;
-  opacity: 1;
-  color: #fff;
-  display: block;
-  padding: 0 15px;
-  line-height: 30px;
-  transition: 0.5s;
-  position: relative;
-  background: #4c9f38;
-  content: attr(data-front);
-  transform: translateY(0) rotateX(0); border-radius:15px;
->>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
 }

@@ -28,3 +28,9 @@ Route::get('/intro-section2', function () {
 Route::get('/intro-section3', function () {
     return view('intro-section3');
 });
+Route::get('/personal-level-start', function () {
+    return view('personal-level-start');
+});
+Route::get('/personal-level-step1', function () {
+    return view('personal-level-step1');
+});
