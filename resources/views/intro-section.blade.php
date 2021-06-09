@@ -27,21 +27,21 @@
  <p class="animate__animated animate__fadeIn">Global warming is a serious problem all around the world, and rising temperatures have shifted natural<br>climatic patterns. Who do you think will feel these adverse effects the most?</p>
 
 
-  <form><div class="checkbox-group">
+  <form class="survey-form"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section">
+      <input type="radio" id="html" name="intro_section_question1" value="My generation">
       <label for="html">My generation</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section">
+      <input type="radio" id="css" name="intro_section_question1" value="My grandchildren">
       <label for="css">My grandchildren</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section">
+      <input type="radio" id="javascript" name="intro_section_question1" value="My children">
       <label for="javascript">My children</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="intro_section">
+      <input type="radio" id="java" name="intro_section_question1" value="This not a serious threat">
       <label for="java">This not a serious threat</label>
     </div></div>
   </form>
@@ -53,7 +53,7 @@
  <img src="images/burning-earth-anim.gif"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
  </div>
  </div></div>

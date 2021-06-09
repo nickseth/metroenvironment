@@ -1,4 +1,5 @@
-
+/*! js-cookie v3.0.0-rc.1 | MIT */
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e=e||self,function(){var n=e.Cookies,r=e.Cookies=t();r.noConflict=function(){return e.Cookies=n,r}}())}(this,function(){"use strict";function e(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)e[r]=n[r]}return e}var t={read:function(e){return e.replace(/(%[\dA-F]{2})+/gi,decodeURIComponent)},write:function(e){return encodeURIComponent(e).replace(/%(2[346BF]|3[AC-F]|40|5[BDE]|60|7[BCD])/g,decodeURIComponent)}};return function n(r,o){function i(t,n,i){if("undefined"!=typeof document){"number"==typeof(i=e({},o,i)).expires&&(i.expires=new Date(Date.now()+864e5*i.expires)),i.expires&&(i.expires=i.expires.toUTCString()),t=encodeURIComponent(t).replace(/%(2[346B]|5E|60|7C)/g,decodeURIComponent).replace(/[()]/g,escape),n=r.write(n,t);var c="";for(var u in i)i[u]&&(c+="; "+u,!0!==i[u]&&(c+="="+i[u].split(";")[0]));return document.cookie=t+"="+n+c}}return Object.create({set:i,get:function(e){if("undefined"!=typeof document&&(!arguments.length||e)){for(var n=document.cookie?document.cookie.split("; "):[],o={},i=0;i<n.length;i++){var c=n[i].split("="),u=c.slice(1).join("=");'"'===u[0]&&(u=u.slice(1,-1));try{var f=t.read(c[0]);if(o[f]=r.read(u,f),e===f)break}catch(e){}}return e?o[e]:o}},remove:function(t,n){i(t,"",e({},n,{expires:-1}))},withAttributes:function(t){return n(this.converter,e({},this.attributes,t))},withConverter:function(t){return n(e({},this.converter,t),this.attributes)}},{attributes:{value:Object.freeze(o)},converter:{value:Object.freeze(r)}})}(t,{path:"/"})});
 window.onload = function(){
   crear_select();
   $('.department-options li').click(function(){
@@ -7,6 +8,7 @@ window.onload = function(){
 		$('.organization-team-input').removeAttr('disabled');
 	}
 	else{
+		$('.organization-team-input').val('');
 		$('.organization-team-input').attr('disabled','disabled');
 	}
 })
@@ -144,14 +146,54 @@ select_optiones[indx].selected = true;
   select_.onchange();
   salir_select(selc); 
 }
-// search code //
+function getFormData($form){
+    var unindexed_array = $form.serializeArray();
+    var indexed_array = {};
 
-// search code //
+    $.map(unindexed_array, function(n, i){
+        indexed_array[n['name']] = n['value'];
+    });
+
+    return indexed_array;
+}
 $(document).ready(function(){
-		$('.select_mate').click(function(){
-	$(this).toggleClass('active-dropdown');
-})
-$('.search-clear').click(function(){
-	$('#search-input').val('');
-})
+	$('.select_mate').click(function(){
+		$(this).toggleClass('active-dropdown');
+	})
+	$('.search-clear').click(function(){
+		$('#search-input').val('');
+	})
+	$('.agree-btn').click(function(e){
+		e.preventDefault();
+		Cookies.set('surveyAgree','true', { expires: 1 });
+		window.location.href = $(this).attr('href');
+	})
+	if($('body').hasClass('index-page')){
+		Cookies.set('formdetails','');
+		Cookies.set('surveyAgree','');
+	}
+	else{
+		if(Cookies.get('surveyAgree') == undefined || Cookies.get('surveyAgree') == ''){
+			window.location.href = $('html').attr('data-base-path');
+		}
+	}
+	// storing form data in cookie //
+	
+	$('.get-survey-details').click(function(e){
+		e.preventDefault();
+		var $form = $(".survey-form");
+		var all_forms_data = '';
+		var data = getFormData($form);
+		if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
+			var previous_forms_data = JSON.parse(Cookies.get('formdetails'));
+			var new_form_data = $.extend({},previous_forms_data, data);
+			all_forms_data = new_form_data;
+		}
+		else{
+			all_forms_data = data;
+		}
+		Cookies.set('formdetails', JSON.stringify(all_forms_data), { expires: 1 });
+		window.location.href = $(this).attr('href');
+	})
+	// storing form data in cookie //
 })

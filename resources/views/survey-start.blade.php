@@ -25,24 +25,24 @@
 
 <div class="row" >
 
-<form>
+<form class="survey-form">
 <div class="col-sm-3 mt-5">
 <div class="form-row">
-<label><img src="images/age-icon.svg" /></label><input type="text" placeholder="Your Age">
+<label><img src="images/age-icon.svg" /></label><input type="text" name="age" placeholder="Your Age">
 </div>
 </div> <div class="col-sm-6 mt-5">
-<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search" placeholder="Where is your office located?"><span class="search-clear">X</span></div></div>
+<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search" placeholder="Where is your office located?" name="office_located"><span class="search-clear">X</span></div></div>
 
 </div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
 <div class="cont_select_center">
 
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
-<select name="" onchange="" onclick="return false;" id="">
+<select name="gender" onchange="" onclick="return false;" id="">
 <option value="" disabled selected >Gender</option>
-<option value="1">Male</option>
-<option value="2" >Female</option>
-<option value="3">Other</option>
+<option value="Male">Male</option>
+<option value="Female" >Female</option>
+<option value="Other">Other</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />
@@ -61,11 +61,11 @@
 
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
-<select name="" onchange="" onclick="return false;" id="">
+<select name="joining_years" onchange="" onclick="return false;" id="">
 <option value="" disabled selected>How long have you been a part of the METRO family</option>
-<option value="1">5 Years</option>
-<option value="2" >10 Years</option>
-<option value="3">15 Years</option>
+<option value="5 Years">5 Years</option>
+<option value="10 Years" >10 Years</option>
+<option value="15 Years">15 Years</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />
@@ -88,7 +88,7 @@
 
   <!-- Custom select structure --> 
 <div class="select_mate department-options" data-mate-select="active" >
-<select name="" class="" onchange="" onclick="return false;" id="">
+<select name="department_size" class="" onchange="" onclick="return false;" id="">
 <option value="" disabled selected>What is the size of your department at METRO?</option>
 <option value="5">0-5</option>
 <option value="10" >5-10</option>
@@ -110,7 +110,7 @@
 </div>
 </div>
 <div class="col-sm-9 mt-5"><div class="form-row"><label></label>
-<input type="text" disabled="disabled" class="gray-out organization-team-input" placeholder="Please enter your Metro Organization, Team - ex: Metro AG, Corporate Responsibility">
+<input type="text" name="metro_organization_team" disabled="disabled" class="gray-out organization-team-input" placeholder="Please enter your Metro Organization, Team - ex: Metro AG, Corporate Responsibility">
 
 </div>
 </div>
@@ -124,7 +124,7 @@
 
 <div class="col-sm-8 mt-5">
 <div class="button-wrapper">
-<a href="{{url('/intro-section')}}" class="link-btn"><button>Let’s Start the Survey</button></a>
+<a href="{{url('/intro-section')}}" class="link-btn get-survey-details"><button>Let’s Start the Survey</button></a>
 </div>
 </div>
 </div>
