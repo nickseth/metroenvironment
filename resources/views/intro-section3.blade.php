@@ -27,21 +27,21 @@
  <p class="animate__animated animate__fadeIn">Online processes also need significant amounts of non-renewable energy to function.<br>Choose the option you think is closest to the actual amount of energy used in <br>the mining of cryptocurrencies.</p>
 
 
-  <form><div class="checkbox-group">
+  <form class="survey-form"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section_3">
+      <input type="radio" id="html" name="intro_section_question3" value="62 Terawatts">
       <label for="html">62 Terawatts</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_3">
+      <input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
       <label for="css">72 Terawatts</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section_3">
+      <input type="radio" id="javascript" name="intro_section_question3" value="10 Terawatts">
       <label for="javascript">10 Terawatts</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="intro_section_3">
+      <input type="radio" id="java" name="intro_section_question3" value="28 Terawatts">
       <label for="java">28 Terawatts</label>
     </div></div>
   </form>

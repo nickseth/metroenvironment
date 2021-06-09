@@ -27,21 +27,21 @@
  <p class="animate__animated animate__fadeIn">The materials used to create these straws are all different from one another.<br>Choose the material you think is the most environment friendly.</p>
 
 
-  <form><div class="checkbox-group">
+  <form class="survey-form"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section_2">
+      <input type="radio" id="html" name="intro_section_question2" value="Wooden">
       <label for="html">Wooden</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_2">
+      <input type="radio" id="css" name="intro_section_question2" value="Paper">
       <label for="css">Paper</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section_2">
+      <input type="radio" id="javascript" name="intro_section_question2" value="Plastic">
       <label for="javascript">Plastic</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="intro_section_2">
+      <input type="radio" id="java" name="intro_section_question2" value="Steel">
       <label for="java">Steel</label>
     </div></div>
   </form>
@@ -52,7 +52,7 @@
  <div class="sec1-box-right jump-anim"><img src="images/straw.svg"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section3')}}" class="link-btn"><button>Next</button></a>
+<a href="{{url('/intro-section3')}}" class="link-btn get-survey-details"><button>Next</button></a>
 </div>
  </div>
  </div></div>
