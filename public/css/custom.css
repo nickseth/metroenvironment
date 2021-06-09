@@ -126,3 +126,68 @@
 		background: url(../images/boat.svg) no-repeat;
 		background-size: contain;}
 }
+
+@media (min-width:1800px) {
+	@-webkit-keyframes moveboat {
+		0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+			70% {margin-left: 75%;     background: url(../images/boat-ani.gif) no-repeat;
+				background-size: contain;}
+		80% {margin-left: 75%; animation-play-state: paused;
+			background: url(../images/boat.svg) no-repeat; 
+			background-size: contain;}
+	}
+	@-moz-keyframes moveboat {
+		0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+			70% {margin-left: 75%;     background: url(../images/boat-ani.gif) no-repeat;
+				background-size: contain;}
+		80% {margin-left: 75%; animation-play-state: paused;
+			background: url(../images/boat.svg) no-repeat;
+			background-size: contain;}
+	}
+	@-o-keyframes moveboat {
+		0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+			70% {margin-left: 75%;     background: url(../images/boat-ani.gif) no-repeat;
+				background-size: contain;}
+		80% {margin-left: 75%; animation-play-state: paused;
+			background: url(../images/boat.svg) no-repeat;
+			background-size: contain;}
+	}
+	.x4 {margin-left: 75%;}
+
+}
+
+
+@media (min-width:1800px) {
+	@-webkit-keyframes moveboat {
+		0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+			70% {margin-left: 65%;     background: url(../images/boat-ani.gif) no-repeat;
+				background-size: contain;}
+		80% {margin-left: 65%; animation-play-state: paused;
+			background: url(../images/boat.svg) no-repeat; 
+			background-size: contain;}
+	}
+	@-moz-keyframes moveboat {
+		0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+			70% {margin-left: 65%;     background: url(../images/boat-ani.gif) no-repeat;
+				background-size: contain;}
+		80% {margin-left: 65%; animation-play-state: paused;
+			background: url(../images/boat.svg) no-repeat;
+			background-size: contain;}
+	}
+	@-o-keyframes moveboat {
+		0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
+			background-size: contain;}
+			70% {margin-left: 65%;     background: url(../images/boat-ani.gif) no-repeat;
+				background-size: contain;}
+		80% {margin-left: 65%; animation-play-state: paused;
+			background: url(../images/boat.svg) no-repeat;
+			background-size: contain;}
+	}
+	.x4 {margin-left: 65%;}
+
+}
