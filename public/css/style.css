@@ -1326,7 +1326,7 @@ height:0!important;opacity:0!important;
 
 
 
-.parent-zoom:hover .child-bg, .parent-zoom:focus .child-bg {
+.zoom-backrgound .parent-zoom .child-bg, .zoom-backrgound .parent-zoom .child-bg {
     -ms-transform: scale(4.2);
     -moz-transform: scale(4.2);
     -webkit-transform: scale(4.2);
@@ -1343,5 +1343,7 @@ height:0!important;opacity:0!important;
     .parent-zoom {width: 100%; margin: 0}
    
 }
-
-.personal-level-start .navbar-default {position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
+.personal-level-start .button-wrapper {display:none; position:fixed; width:100%; left:0; right:0; bottom:0; height:auto;}
+.personal-level-start.zoom-backrgound .button-wrapper {display:block}
+.personal-level-start .navbar-default,.personal-level-step .navbar-default{position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
+.personal-level-step {background:url(../images/sec-2bg.jpg) no-repeat; background-size:cover}

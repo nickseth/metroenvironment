@@ -17,4 +17,7 @@
      
     </div>
   </div>
+  <div class="button-wrapper bottom-button "><div class="container text-right">
+<a href="{{url('/intro-section3')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+</div></div>
 </body>
