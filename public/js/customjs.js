@@ -12,6 +12,7 @@ window.onload = function(){
 		$('.organization-team-input').attr('disabled','disabled');
 	}
 })
+$('.personal-level-start').addClass('zoom-backrgound');
 }
 
 function isMobileDevice() {
