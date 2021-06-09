@@ -19,7 +19,7 @@
  <h2>Introductory Section</h2>
  </div>
  <div class="page-width mt-7">
- <div class="row"> <div class="col-sm-8">
+ <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">How many units of energy is required to mine 1 bitcoin?</h4>
@@ -48,11 +48,11 @@
 
 </div>
  
- </div><div class="col-sm-4">
+ </div><div class="col-sm-3">
  <div class="sec1-box-right bg-anim"></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<button>Next</button>
+<a href="#" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
  </div>
  </div></div>
