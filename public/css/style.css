@@ -4,17 +4,14 @@
 body{overflow-x:hidden}
 
 a.navbar-brand img {
-<<<<<<< HEAD
-    width: 120px;
-    height: auto;
-}
-.navbar-collapse.right-header  h1{    font-size: 22px;}
-=======
+
     width: 140px;
     height: auto;
 }
+.navbar-collapse.right-header  h1{    font-size: 22px;}
+
 .navbar-collapse.right-header  h1{    font-size: 26px;}
->>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
+
 @media(min-width:1600px) {
 a.navbar-brand img {
     width: 120px;
@@ -162,11 +159,9 @@ header .navbar-default{background:transparent!important; border:none}
     margin: auto;
     text-align: center;
 }
-<<<<<<< HEAD
-.welcome h3 {font-size:30px; letter-spacing: 1px;   margin: 0;}
-=======
+
 .welcome h3 {font-size:35px;    margin: 0;}
->>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
+
 .clouds {
     position: absolute;
     top: 0;
@@ -444,11 +439,9 @@ h3{color:#214d88!important;  font-family: 'SandwichMarkerPro'!important; }
 .navbar{    z-index: 11;}
 .mid-content{padding-bottom: 120px;;}
 .home-content {position:relative;   padding-top: 30px;text-align:center; left:0; right:0; margin:auto;    max-width:630px;}
-<<<<<<< HEAD
-.home-content p {font-size:14px;}
-=======
+
 .home-content p {font-size:15px;}
->>>>>>> 1a349874db4d9a975ac9313aff7cae70f69fa179
+
 .home-footer {position:absolute; left:0; right:0; bottom:20px; text-align:center}
 .footer-text h4{font-weight: bold; margin-bottom: 0;color: #000;
   font-size: 16px;}
@@ -772,7 +765,7 @@ height:0!important;opacity:0!important;
 	
 }
 
-<<<<<<< HEAD
+
 
 @keyframes carmove{
   0%{transform: translateY(0px);}
