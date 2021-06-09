@@ -43582,7 +43582,7 @@ benefit the world around us. We promise it won't take long.</p></div>
 <p>Your participation in this survey is voluntary. By participating in this survey….. <a href="#">Read more</a></p>
 
     </div>
-	<a href="{{url('/survey-start')}}" class="btn-flip" data-back="Agree" data-front="Agree">Agree</a>
+	<a href="{{url('/survey-start')}}" class="btn-flip agree-btn" data-back="Agree" data-front="Agree"></a>
 
 </div>
 </footer>
