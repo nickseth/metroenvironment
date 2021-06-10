@@ -194,3 +194,38 @@
 .main-content-wrapper{
 	margin-top:10%;
 }
+
+.rs-handle.rs-move:after {
+    content: "0";
+    position: absolute;
+    z-index: 99999999999999999;
+    transform: rotate(-90deg);
+    color: #fff;
+    left: 0;
+    right: 0;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.rs-handle.rs-move.stepmove1:after {
+	 content: "1";
+	 transform: rotate(-180deg);
+}
+.rs-handle.rs-move.stepmove2:after {
+	 content: "2";
+	 transform: rotate(-270deg);
+}
+.rs-handle.rs-move.stepmove3:after {
+	 content: "3";
+	 transform: rotate(-360deg);
+}
+.rs-handle.rs-move.stepmove4:after {
+	 content: "4";
+	 transform: rotate(-450deg);
+}
+.rs-handle.rs-move.stepmove5:after {
+	 content: "5";
+	 transform: rotate(-540deg);
+}
