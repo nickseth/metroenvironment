@@ -169,6 +169,7 @@ $(document).ready(function(){
 	$('.agree-btn').click(function(e){
 		e.preventDefault();
 		Cookies.set('surveyAgree','true', { expires: 1 });
+		        $("body").fadeOut(500); 
 		window.location.href = $(this).attr('href');
 	})
 	if($('body').hasClass('index-page')){
@@ -196,6 +197,7 @@ $(document).ready(function(){
 			all_forms_data = data;
 		}
 		Cookies.set('formdetails', JSON.stringify(all_forms_data), { expires: 1 });
+		 $("body").fadeOut(500); 
 		window.location.href = $(this).attr('href');
 	})
 	// storing form data in cookie //
@@ -205,9 +207,9 @@ $(document).ready(function(){
 		sliderType: "min-range",
 		width: 22,
 		radius: 100,
-		value: 1,
+		value: "0,0",
 		startAngle: 90,
-		min: 1,
+		min: 0,
 		max: "5",
 		lineCap: "square",
 		handleSize: "+15",
