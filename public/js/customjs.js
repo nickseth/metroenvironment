@@ -15,7 +15,7 @@ window.onload = function(){
 setTimeout(function(){
 	$('.personal-level-start').addClass('zoom-backrgound');
 },2000);
-
+$('body').addClass('hide-loader');
 }
 
 function isMobileDevice() {
@@ -57,9 +57,6 @@ ul_cont[0].appendChild(li[i]);
     }; // Fin For select_optiones
   }; // fin for divs_cont_select
 } // Fin Function 
-
-
-
 var cont_slc = 0;
 function open_select(idx){
 var idx1 =  idx.getAttribute('data-n-select');
