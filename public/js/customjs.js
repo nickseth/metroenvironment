@@ -219,7 +219,7 @@ $(document).ready(function(){
 		// handle the drag event here
 		},
 		change: function (args) {
-		// handle the change event here
+		console.log(args)
 		}
 	});
 	// circular range slider //
