@@ -191,3 +191,16 @@
 	.x4 {margin-left: 65%;}
 
 }
+#appearance4 .rs-range-color  {
+    background-color: #4c9f38;
+}
+#appearance4 .rs-path-color  {
+    background-color: #382d5f;
+    border-radius: 0;
+}
+#appearance4 .rs-handle  {
+    background-color: #4c9f38;
+}
+#appearance4 .rs-border  {
+    border: 8px solid #382d5f;
+}
