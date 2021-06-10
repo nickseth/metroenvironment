@@ -1368,3 +1368,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cace8', end
     z-index: 99999;
 }
 .hide-loader .loader-wrap {display:none;}
+
+.sec1-bg .button-wrapper {height:auto}

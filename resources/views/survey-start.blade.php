@@ -124,7 +124,7 @@
 
 <div class="col-sm-8 mt-5">
 <div class="button-wrapper">
-<a href="{{url('/intro-section')}}" class="link-btn get-survey-details"><button>Let’s Start the Survey</button></a>
+<a href="{{url('/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="Let’s Start the Survey" data-front="Let’s Start the Survey"></a>
 </div>
 </div>
 </div>
