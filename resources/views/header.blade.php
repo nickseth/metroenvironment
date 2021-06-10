@@ -17,7 +17,21 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="js/customjs.js?<?php echo rand(1,1000000);?>"></script>
       <meta name="csrf-token" content="{{ csrf_token() }}" />
-        <!-- Styles -->
-        <style>
-        </style>
+       <script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(2000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
     </head>
