@@ -1370,3 +1370,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cace8', end
 .hide-loader .loader-wrap {display:none;}
 
 .sec1-bg .button-wrapper {height:auto}
+.sec1-box-right img.jump-anim {
+    height: 325px;
+}

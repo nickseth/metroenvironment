@@ -49,7 +49,7 @@
 </div>
  
  </div><div class="col-sm-3">
- <div class="sec1-box-right bg-anim"></div>
+ <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="images/bitcoin-anim.gif" /> </div>
  </div></div>
 <div class="button-wrapper bottom-button">
 <a href="{{url('/personal-level-start')}}" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>

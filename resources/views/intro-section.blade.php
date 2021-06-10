@@ -49,7 +49,7 @@
 </div>
  
  </div><div class="col-sm-3">
- <div class="sec1-box-right"><div class="bird-anim"><img src="images/bird-anim.gif" /></div>
+ <div class="sec1-box-right animate__animated animate__fadeInRight"><div class="bird-anim"><img src="images/bird-anim.gif" /></div>
  <img src="images/burning-earth-anim.gif"/></div>
  </div></div>
 <div class="button-wrapper bottom-button">
