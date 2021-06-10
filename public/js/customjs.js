@@ -202,17 +202,23 @@ $(document).ready(function(){
 	
 	// circular range slider //
 	$(".circular-range-slider").roundSlider({
-		radius: 90,
-		width: 10,
-		handleSize: "+10",
-		sliderType: "range",
-		value: "10,85",
+		sliderType: "min-range",
+		width: 22,
+		radius: 100,
+		value: 1,
 		startAngle: 90,
-		endAngle:"+360",
-		min:1,
-		max:5,
-		step:1,
-		animation:true
+		min: 1,
+		max: "5",
+		lineCap: "square",
+		handleSize: "+15",
+		editableTooltip: false,
+		showTooltip: false,
+		drag: function (args) {
+		// handle the drag event here
+		},
+		change: function (args) {
+		// handle the change event here
+		}
 	});
 	// circular range slider //
 })
