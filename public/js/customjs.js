@@ -206,7 +206,13 @@ $(document).ready(function(){
 		width: 10,
 		handleSize: "+10",
 		sliderType: "range",
-		value: "10,85"
+		value: "10,85",
+		startAngle: 90,
+		endAngle:"+360",
+		min:1,
+		max:5,
+		step:1,
+		animation:true
 	});
 	// circular range slider //
 })
