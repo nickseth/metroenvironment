@@ -191,3 +191,16 @@
 	.x4 {margin-left: 65%;}
 
 }
+.circular-range-slider .rs-range-color  {
+    background-color: #4c9f38;
+}
+.circular-range-slider .rs-path-color  {
+    background-color: #382d5f;
+    border-radius: 0;
+}
+.circular-range-slider .rs-handle  {
+    background-color: #4c9f38;
+}
+.circular-range-slider .rs-border  {
+    border: 8px solid #382d5f;
+}
