@@ -191,6 +191,9 @@
 	.x4 {margin-left: 65%;}
 
 }
+.main-content-wrapper{
+	margin-top:10%;
+}
 .circular-range-slider .rs-range-color  {
     background-color: #4c9f38;
 }
