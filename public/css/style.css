@@ -1347,3 +1347,24 @@ height:0!important;opacity:0!important;
 .personal-level-start.zoom-backrgound .button-wrapper {display:block}
 .personal-level-start .navbar-default,.personal-level-step .navbar-default{position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
 .personal-level-step {background:url(../images/sec-2bg.jpg) no-repeat; background-size:cover}
+.loader-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2cace8+1,32ffff+46,32ffff+52,a8f731+53,dcf79e+100 */
+background: #2cace8; /* Old browsers */
+background: -moz-linear-gradient(top,  #2cace8 1%, #32ffff 46%, #32ffff 52%, #a8f731 53%, #dcf79e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2cace8 1%,#32ffff 46%,#32ffff 52%,#a8f731 53%,#dcf79e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2cace8 1%,#32ffff 46%,#32ffff 52%,#a8f731 53%,#dcf79e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cace8', endColorstr='#dcf79e',GradientType=0 ); /* IE6-9 */
+
+    z-index: 99999;
+}
+.hide-loader .loader-wrap {display:none;}
