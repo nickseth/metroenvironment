@@ -41,11 +41,13 @@ Route::get('/personal-level-step21', function () {
 Route::get('/personal-level-step4', function () {
     return view('personal-level-step4');
 });
-<<<<<<< HEAD
 Route::get('/personal-level-step19', function () {
     return view('personal-level-step19');
 });
-=======
+
+Route::get('/personal-level-step18', function () {
+    return view('personal-level-step18');
+});
 
 /*-------Basic page routes ------------*/
 
@@ -53,4 +55,3 @@ Route::get('/personal-level-step19', function () {
 
 /*-------DB API routes ------------*/
 
->>>>>>> ddc33ab24160022f5066d56c4b535a772ac0b0b5
