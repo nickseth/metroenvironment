@@ -194,7 +194,7 @@
 .main-content-wrapper{
 	margin-top:10%;
 }
-
+.rs-handle.rs-move {position:relative}
 .rs-handle.rs-move:after {
     content: "0";
     position: absolute;
@@ -229,3 +229,17 @@
 	 content: "5";
 	 transform: rotate(-540deg);
 }
+
+.box-top{    display: flex;
+    align-items: center;
+    justify-content: center;}
+.green-text{font-size: 18px;
+	line-height: 25px;padding-left: 15px;
+	color: #4c9f38;
+	font-family: "Verdana";
+	text-align: center;}
+.gray-text{font-size: 12px;
+	line-height: 25px;
+	color: #4c4c4c;
+	font-family: "Verdana";
+	text-align: center;}
