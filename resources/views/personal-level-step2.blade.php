@@ -34,23 +34,24 @@
  </div>
  <div class="col-sm-12">
 <div class="row">
+<form class="survey-form">
  <div class="col-sm-5">
 <div class="gbb-wrap">
 <div class="gbb-item gbb-item-1"><img src="images/pls2-item-1.svg"/></div>
  <div class="green-brdr-box"><div class="gbb-head">Bio:</div>
  <div class="form-group">
-     <input type="radio" id="nutritional" name="intro_section_question2" value="value1">
-      <label for="nutritional">Bio products have less nutritional value</label>
+     <input type="radio" id="nutritional_bio" name="personal_level_step2_bio" value="Bio products have less nutritional value">
+      <label for="nutritional_bio">Bio products have less nutritional value</label>
 	 
     </div>
   <div class="form-group">
-     <input type="radio" id="gm" name="intro_section_question2" value="value2">
-      <label for="gm">Bio products are generally genetically modified</label>
+     <input type="radio" id="gm_bio" name="personal_level_step2_bio" value="Bio products are generally genetically modified">
+      <label for="gm_bio">Bio products are generally genetically modified</label>
 	 
     </div>
 	<div class="form-group">
-     <input type="radio" id="pesticites" name="intro_section_question2" value="value3">
-      <label for="pesticites">Food producers do not use chemicals or pesticites</label>
+     <input type="radio" id="pesticites_bio" name="personal_level_step2_bio" value="Bio products are generally genetically modified">
+      <label for="pesticites_bio">Food producers do not use chemicals or pesticites</label>
 	 
     </div>
  </div> </div>
@@ -60,29 +61,30 @@
  <div class="gbb-item gbb-item-2"><img src="images/pls2-item-2.svg"/></div>
  <div class="green-brdr-box"><div class="gbb-head">Organic:</div>
  <div class="form-group">
-     <input type="radio" id="nutritional" name="intro_section_question2" value="value1">
-      <label for="nutritional">Organic food contributes to an increase in CO2 emissions</label>
+     <input type="radio" id="nutritional_organic" name="personal_level_step2_organic" value="Organic food contributes to an increase in CO2 emissions">
+      <label for="nutritional_organic">Organic food contributes to an increase in CO2 emissions</label>
 	 
     </div>
   <div class="form-group">
-     <input type="radio" id="gm" name="intro_section_question2" value="value2">
-      <label for="gm">Product is made with as little impact on the environment as possible</label>
+     <input type="radio" id="gm_organic" name="personal_level_step2_organic" value="Product is made with as little impact on the environment as possible">
+      <label for="gm_organic">Product is made with as little impact on the environment as possible</label>
 	 
     </div>
 	<div class="form-group">
-     <input type="radio" id="pesticites" name="intro_section_question2" value="value3">
-      <label for="pesticites">The organic certification does not have an own logo</label>
+     <input type="radio" id="pesticites_organic" name="personal_level_step2_organic" value="The organic certification does not have an own logo">
+      <label for="pesticites_organic">The organic certification does not have an own logo</label>
 	 
     </div>
  
  </div>
  <div class="outer-input"><div class="form-group">
-     <input type="radio" id="allsame" name="intro_section_question2" value="allsame">
+     <input type="checkbox" id="allsame" name="personal_level_step2_allsame" value="allsame">
       <label for="allsame">They are the same</label>
 	 
     </div></div>
  </div>
   </div>
+  </form>
 </div>
  </div></div>
 <div class="button-wrapper bottom-button">
