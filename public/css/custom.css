@@ -198,17 +198,20 @@
 
 .box-top{    display: flex;
     align-items: center;
-    justify-content: center;}
-.green-text{font-size: 22px;
-	line-height: 25px;padding-left: 15px;
+    }
+	.text-center .box-top{justify-content: center;text-align: center;}
+	.text-center .gray-text{justify-content: center;text-align: center;}
+	.text-left .box-top{justify-content: left;text-align: left;}
+	.text-left .gray-text{justify-content: left;padding-left: 45px;text-align: left;}
+.green-text{font-size: 25px;
+	line-height: 35px;padding-left: 15px;
 	color: #4c9f38;
 	font-family: "Verdana";
-	text-align: center;}
-.gray-text{font-size: 14px;
+	}
+.gray-text{font-size: 16px;    padding-top: 10px;
 	line-height: 25px;
 	color: #4c4c4c;
-	font-family: "Verdana";
-	text-align: center;}
+	font-family: "Verdana";}
 
 	.grid-container {
 		display: flex;    flex-wrap: wrap;
@@ -216,8 +219,8 @@
 		align-items: center;    margin-left: -70px;
 		padding: 30px 0 0;    
 	  }
-	  .row2{margin-bottom: -40px;}
-	  .grid-list{width:20%; padding: 0 0px 40px 70px;}
+	  .row2{margin-bottom: -20px;}
+	  .grid-list{width:20%; padding: 0 0px 10px 70px;}
 	  .grid-item {width: 100%;
 		padding: 5px;
 		height: 100%;
@@ -229,8 +232,8 @@
 		background-color: #4c9f38;
 	  }
 
-	  p.light-text{font-size: 12px;
-		line-height: 16px;
+	  p.light-text{font-size: 13px;
+		line-height: 19px;
 		color: #ffffff; border-top:1px solid #fff; padding: 5px 6px;
 		margin: 0 auto;
 		min-height: 65px;
@@ -252,5 +255,23 @@
 			width: 7px;
 			height: 12px; border-width: 0 3px 3px 0;}
 			.grid-icons svg{    width: 65px;
-				height: auto;
+				height: 65px;
 				margin: 10px 0;}
+.page19 .sec1-box-right svg{width: 100%;
+    height: auto;}
+	.page19  .checkbox-group{padding-bottom: 0;;}
+	.page19 .row{    display: flex;
+		align-items: center;}
+		.page19 .form-group label:before{border: 3px solid #E6E6E6;box-shadow: none;width: 28px;
+			height: 28px;
+			margin-right: 11px;
+			background: #fff;}
+			.page19 .checkbox-group label{font-size: 18px;color: #000;}
+			.page19 .checkbox-group > div {
+				flex: 33.333%;
+				margin-bottom: 0;
+			}
+			.page19	.form-group input:checked + label:after{top: 3px;
+				left: 10px;
+				width: 10px;
+				height: 17px;border-width: 0 4px 4px 0;}
