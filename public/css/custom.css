@@ -194,7 +194,7 @@
 .main-content-wrapper{
 	margin-top:10%;
 }
-
+.rs-handle.rs-move {position:relative}
 .rs-handle.rs-move:after {
     content: "0";
     position: absolute;
