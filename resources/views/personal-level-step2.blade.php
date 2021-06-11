@@ -1,0 +1,96 @@
+@include('header')
+<body class="personal-level-step1 personal-level-step sec2-bg2">
+<nav class="navbar navbar-default">
+  <div class="container"><div class="d-flex align-center space-between">
+    <div class="navbar-header">
+
+      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
+    </div>
+    <div class=" navbar-collapse right-header text-right" id="myNavbar">
+      <h1>#<span>M</span>vironment</h1>
+    </div></div>
+  </div>
+</nav>
+
+
+
+<div class="container "><div class="relative">
+
+ 
+ <div class="page-width mt-7">
+ <div class="row">
+
+  <div class="col-sm-12">
+
+ <div class="sec1-box-center text-center">
+ <div class="box-top">
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
+ <div class="animate__animated animate__fadeIn green-text">What is the difference between Bio products and Organic Products?</div>
+ </div>
+ <p class="animate__animated animate__fadeIn gray-text">Select the boxes with the statements that seem most relevant to you</p>
+
+</div>
+ 
+ </div>
+ <div class="col-sm-12">
+<div class="row">
+ <div class="col-sm-5">
+<div class="gbb-wrap">
+<div class="gbb-item gbb-item-1"><img src="images/pls2-item-1.svg"/></div>
+ <div class="green-brdr-box"><div class="gbb-head">Bio:</div>
+ <div class="form-group">
+     <input type="radio" id="nutritional" name="intro_section_question2" value="value1">
+      <label for="nutritional">Bio products have less nutritional value</label>
+	 
+    </div>
+  <div class="form-group">
+     <input type="radio" id="gm" name="intro_section_question2" value="value2">
+      <label for="gm">Bio products are generally genetically modified</label>
+	 
+    </div>
+	<div class="form-group">
+     <input type="radio" id="pesticites" name="intro_section_question2" value="value3">
+      <label for="pesticites">Food producers do not use chemicals or pesticites</label>
+	 
+    </div>
+ </div> </div>
+ </div>
+  <div class="col-sm-7">
+ <div class="gbb-wrap"> 
+ <div class="gbb-item gbb-item-2"><img src="images/pls2-item-2.svg"/></div>
+ <div class="green-brdr-box"><div class="gbb-head">Organic:</div>
+ <div class="form-group">
+     <input type="radio" id="nutritional" name="intro_section_question2" value="value1">
+      <label for="nutritional">Organic food contributes to an increase in CO2 emissions</label>
+	 
+    </div>
+  <div class="form-group">
+     <input type="radio" id="gm" name="intro_section_question2" value="value2">
+      <label for="gm">Product is made with as little impact on the environment as possible</label>
+	 
+    </div>
+	<div class="form-group">
+     <input type="radio" id="pesticites" name="intro_section_question2" value="value3">
+      <label for="pesticites">The organic certification does not have an own logo</label>
+	 
+    </div>
+ 
+ </div>
+ <div class="outer-input"><div class="form-group">
+     <input type="radio" id="allsame" name="intro_section_question2" value="allsame">
+      <label for="allsame">They are the same</label>
+	 
+    </div></div>
+ </div>
+  </div>
+</div>
+ </div></div>
+<div class="button-wrapper bottom-button">
+<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+</div>
+ </div>
+ </div></div>
+
+
+
+</body>

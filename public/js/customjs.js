@@ -160,6 +160,11 @@ function getFormData($form){
     return indexed_array;
 }
 $(document).ready(function(){
+$.ajaxSetup({
+headers: {
+'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+}
+});
 	$('.select_mate').click(function(){
 		$(this).toggleClass('active-dropdown');
 	})
@@ -198,8 +203,13 @@ $(document).ready(function(){
 			all_forms_data = data;
 		}
 		Cookies.set('formdetails', JSON.stringify(all_forms_data), { expires: 1 });
-		 $("body").fadeOut(500); 
-		window.location.href = $(this).attr('href');
+		 $("body").fadeOut(500);
+		if($(this).hasClass('submit-details')){
+			dataSubmission(JSON.stringify(all_forms_data),$('html').attr('data-base-path')+'/survey_submission')
+		}
+		else{
+			window.location.href = $(this).attr('href');
+		}
 	})
 	// storing form data in cookie //
 	
@@ -237,9 +247,24 @@ $(document).ready(function(){
 			$('.rs-first .rs-handle').addClass('stepmove'+max_value);
 			$(".circular-range-slider").addClass('current-step-'+max_value);
 			$('.hidden-circular-slider-input').val(max_value)
+		},
+		start:function(args){
+			console.log(args);
 		}
 	});
 	$(".circular-range-slider").addClass('current-step-0');
 	$('.rs-handle').addClass('stepmove0');
+	
 	// circular range slider //
 })
+function dataSubmission(data,url){
+	  $.ajax({
+          url: url,
+          type:"POST",
+          data:data,
+		  contentType: "application/json",
+          success:function(response){
+            console.log(response);
+          }
+         });
+}

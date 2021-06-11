@@ -36,11 +36,18 @@ Route::get('/personal-level-step1', function () {
     return view('personal-level-step1');
 });
 
+Route::get('/personal-level-step2', function () {
+    return view('personal-level-step2');
+});
+
 Route::get('/personal-level-step4', function () {
     return view('personal-level-step4');
 });
 Route::get('/personal-level-step16', function () {
     return view('personal-level-step16');
+});
+Route::get('/personal-level-step17', function () {
+    return view('personal-level-step17');
 });
 Route::get('/personal-level-step18', function () {
     return view('personal-level-step18');
@@ -56,6 +63,8 @@ Route::get('/personal-level-step21', function () {
 /*-------Basic page routes ------------*/
 
 /*-------DB API routes ------------*/
+
+Route::post('/survey_submission','Survey_Submission_Controller@index');
 
 /*-------DB API routes ------------*/
 
