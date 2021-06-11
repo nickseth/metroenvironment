@@ -46,5 +46,7 @@ Route::get('/personal-level-step4', function () {
 
 /*-------DB API routes ------------*/
 
+Route::post('/survey_submission','Survey_Submission_Controller@index');
+
 /*-------DB API routes ------------*/
 
