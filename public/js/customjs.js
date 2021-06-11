@@ -220,20 +220,26 @@ $(document).ready(function(){
 			//var min_value = args.value.split(',')[0]
 			var max_value = args.value
 			for(var i=0;i<=5;i++){
+				$(".circular-range-slider").removeClass('current-step-'+i);
 				$('.rs-first .rs-handle').removeClass('stepmove'+i);
 			}
 			$('.rs-first .rs-handle').addClass('stepmove'+max_value);
+			$(".circular-range-slider").addClass('current-step-'+max_value);
 			$('.hidden-circular-slider-input').val(max_value)
 		},
 		change: function (args) {
 			//var min_value = args.value.split(',')[0]
 			var max_value = args.value
 			for(var i=0;i<=5;i++){
+				$(".circular-range-slider").removeClass('current-step-'+i);
 				$('.rs-first .rs-handle').removeClass('stepmove'+i);
 			}
 			$('.rs-first .rs-handle').addClass('stepmove'+max_value);
+			$(".circular-range-slider").addClass('current-step-'+max_value);
 			$('.hidden-circular-slider-input').val(max_value)
 		}
 	});
+	$(".circular-range-slider").addClass('current-step-0');
+	$('.rs-handle').addClass('stepmove0');
 	// circular range slider //
 })

@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*-------Basic page routes ------------*/
 
 Route::get('/', function () {
     return view('welcome');
@@ -40,3 +41,10 @@ Route::get('/personal-level-step21', function () {
 Route::get('/personal-level-step4', function () {
     return view('personal-level-step4');
 });
+
+/*-------Basic page routes ------------*/
+
+/*-------DB API routes ------------*/
+
+/*-------DB API routes ------------*/
+
