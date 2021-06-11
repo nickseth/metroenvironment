@@ -1,6 +1,6 @@
 @include('header')
 
-<body class="sec1-bg">
+<body class="sec2-bg">
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
@@ -18,7 +18,7 @@
 	</nav>
 	<div class="container ">
 		<div class="relative">
-			<div class="page-width mt-4">
+			<div class="page-width mt-4 page21">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="sec1-box-center text-center">

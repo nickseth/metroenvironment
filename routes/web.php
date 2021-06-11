@@ -35,18 +35,22 @@ Route::get('/personal-level-start', function () {
 Route::get('/personal-level-step1', function () {
     return view('personal-level-step1');
 });
-Route::get('/personal-level-step21', function () {
-    return view('personal-level-step21');
-});
+
 Route::get('/personal-level-step4', function () {
     return view('personal-level-step4');
+});
+Route::get('/personal-level-step16', function () {
+    return view('personal-level-step16');
+});
+Route::get('/personal-level-step18', function () {
+    return view('personal-level-step18');
 });
 Route::get('/personal-level-step19', function () {
     return view('personal-level-step19');
 });
 
-Route::get('/personal-level-step18', function () {
-    return view('personal-level-step18');
+Route::get('/personal-level-step21', function () {
+    return view('personal-level-step21');
 });
 
 /*-------Basic page routes ------------*/

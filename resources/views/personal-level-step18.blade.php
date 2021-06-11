@@ -1,6 +1,6 @@
 @include('header')
 
-<body class="sec1-bg">
+<body class="sec2-bg">
 <!-- Navbar -->
 <nav class="navbar navbar-default">
 	<div class="container">

@@ -18,38 +18,22 @@
 	</nav>
 	<div class="container ">
 		<div class="relative">
-			<div class="page-width mt-7 page19">
+			<div class="page-width mt-7 page16">
 				<div class="row">
-					<div class="col-sm-7">
-						<div class="sec1-box-center text-left mt-7">
+					<div class="col-sm-12">
+						<div class="sec1-box-center text-center mt-5">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
 									<img src="images/leaves.svg" />
 								</div>
-								<div class="animate__animated animate__fadeIn green-text">In your opinion, is sustainable purchasing
-									<br/>more expensive than conventional purchasing?</div>
+								<div class="animate__animated animate__fadeIn green-text">While purchasing a company’s products, how would you prioritise <br>
+the factors that affect purchase decision?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Select the box that seems most relevant to you.</p>
-							<form class="survey-form">
-								<div class="checkbox-group">
-									<div class="form-group">
-										<input type="radio" id="html" name="intro_section_question1" value="My generation">
-										<label for="html">Yes</label>
-									</div>
-									<div class="form-group">
-										<input type="radio" id="css" name="intro_section_question1" value="My grandchildren">
-										<label for="css">No</label>
-									</div>
-									<div class="form-group">
-										<input type="radio" id="javascript" name="intro_section_question1" value="My children">
-										<label for="javascript">Maybe/Not sure</label>
-									</div>
-								</div>
-							</form>
+							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you, where 1 = Strongly disagree and 5 = Strongly agree</p>
 						</div>
 					</div>
-					<div class="col-sm-5">
-						<div class="sec1-box-right animate__animated animate__fadeInRight">
+					<div class="col-sm-12">
+						<div class="sec1-box-right animate__animated animate__fadeInUp">
 							<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 349 280" width="349" height="280" style="&#10;">
 								<title>New Project</title>
 								<style>
