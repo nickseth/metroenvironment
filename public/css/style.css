@@ -1478,7 +1478,7 @@ content: "5";}
 	background: url(../images/gray-circle.svg) no-repeat!important;
     background-size: 64px 64px;
     width: 64px!important;
-    height: 64px!important; margin-top:-27.5px!important;
+    height: 64px!important; margin-top:-27.5px!important;margin-left: -7px!important;
 }
 
 .circular-range-slider.current-step-5:before {
