@@ -205,7 +205,7 @@ $(document).ready(function(){
 	
 	// circular range slider //
 	$(".circular-range-slider").roundSlider({
-		sliderType: "range",
+		sliderType: "min-range",
 		width: 22,
 		radius: 100,
 		value: "0,0",
