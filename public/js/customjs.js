@@ -181,6 +181,7 @@ $(document).ready(function(){
 			window.location.href = $('html').attr('data-base-path');
 		}
 	}
+	console.log(Cookies.get('formdetails'));
 	// storing form data in cookie //
 	
 	$('.get-survey-details').click(function(e){
@@ -216,10 +217,22 @@ $(document).ready(function(){
 		editableTooltip: false,
 		showTooltip: false,
 		drag: function (args) {
-		// handle the drag event here
+			var min_value = args.value.split(',')[0]
+			var max_value = args.value.split(',')[1]
+			for(var i=0;i<=max_value;i++){
+				$('.rs-second .rs-handle').removeClass('stepmove'+i);
+			}
+			$('.rs-second .rs-handle').addClass('stepmove'+max_value);
+			$('.hidden-circular-slider-input').val(max_value)
 		},
 		change: function (args) {
-		console.log(args)
+			var min_value = args.value.split(',')[0]
+			var max_value = args.value.split(',')[1]
+			for(var i=0;i<=max_value;i++){
+				$('.rs-second .rs-handle').removeClass('stepmove'+i);
+			}
+			$('.rs-second .rs-handle').addClass('stepmove'+max_value);
+			$('.hidden-circular-slider-input').val(max_value)
 		}
 	});
 	// circular range slider //

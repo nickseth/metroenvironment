@@ -4,7 +4,7 @@
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="#"><img src="images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1>
@@ -13,6 +13,9 @@
 </nav>
 
 <div class="main-content-wrapper">
+<form class="survey-form hide">
+<input type="hidden" class="hidden-circular-slider-input" value="0" name="buy_locally_grown_fruit"/>
+</form>
 <div class="circular-range-slider"></div>
   <div class="button-wrapper bottom-button "><div class="container text-right">
   
