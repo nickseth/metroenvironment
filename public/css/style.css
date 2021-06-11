@@ -74,7 +74,7 @@ body{font-family: 'Verdana';}
 .right-header {font-family: 'SandwichMarkerPro'; color:#214d88; font-size:36px}
 .right-header span{color:#4c9f38}
 .navbar-brand {height:auto;}
-.navbar-default {background:#fff; border:none}
+.navbar-default {background:transparent; border:none}
 .d-flex{display:flex} 
 .align-center{align-items: center;} 
 .space-between{justify-content: space-between;}
@@ -1352,7 +1352,7 @@ display: block;
     left: 38%;
     top: 52%;
 	}
-.personal-level-start .navbar-default,.personal-level-step .navbar-default{position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
+.personal-level-start .navbar-default,.personal-level-start .navbar-default{position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
 .personal-level-step {background:url(../images/sec-2bg.jpg) no-repeat; background-size:cover}
 .loader-wrap {
     position: absolute;
@@ -1380,8 +1380,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cace8', end
 .sec1-box-right img.jump-anim {
     height: 325px;
 }
-.rs-handle.rs-move {position:relative}
-.rs-handle.rs-move:after {
+.rs-handle {position:relative}
+.rs-handle:after {
     content: "0";
 position: absolute;
 z-index: 99999999999999999;
@@ -1401,29 +1401,29 @@ background: #fff;
 border-radius: 50%;
 }
 
-.rs-handle.rs-move.stepmove1:after {
+.rs-handle.stepmove1:after {
 	 content: "1";
-	 transform: rotate(-180deg);
+	 transform: rotate(-162deg);
 }
-.rs-handle.rs-move.stepmove2:after {
+.rs-handle.stepmove2:after {
 	 content: "2";
-	 transform: rotate(-270deg);
+	 transform: rotate(-236deg);
 }
-.rs-handle.rs-move.stepmove3:after {
+.rs-handle.stepmove3:after {
 	 content: "3";
-	 transform: rotate(-360deg);
+	 transform: rotate(-306deg);
 }
-.rs-handle.rs-move.stepmove4:after {
+.rs-handle.stepmove4:after {
 	 content: "4";
-	 transform: rotate(-450deg);
+	 transform: rotate(-378deg);
 }
-.rs-handle.rs-move.stepmove5:after {
+.rs-handle.stepmove5:after {
 	 content: "5";
 	 transform: rotate(-540deg);
 }
 .rs-control {margin:45px auto}
 .circular-range-slider .rs-container, .circular-range-slider {width:440px!important; height:440px!important}
-.circular-range-slider .rs-handle {background:url(../images/gray-circle.svg) no-repeat; background-size:64px 64px; width:64px!important; height:64px!important}
+.circular-range-slider .rs-handle {}
 .rs-control .rs-range-color {
     background-color: #4c9f38;
 }
@@ -1439,15 +1439,55 @@ border-radius: 50%;
     background-color: #dbedd7;
     border-radius: 0;
 }
-.circular-range-slider .rs-handle  {
+.circular-range-slider .rs-handle {
     background-color: #4c9f38;
+    width: 50px!important;
+    height: 50px!important;
+    border: solid 1px#fff;
 }
 .circular-range-slider .rs-border  {
     border: 15px solid #dbedd7;
 }
 .circular-range-slider .rs-bar .rs-seperator {border:none}
-.circular-range-slider .rs-handle.rs-move {
+.circular-range-slider .rs-handle {
     
     margin-left: auto!important;
     margin-right: auto!important;
+}
+.circular-range-slider{padding:5px 0; position:relative;}
+.circular-range-slider.current-step-5:before {
+content: "5";}
+.circular-range-slider:before {
+	content: "0";
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../images/gray-circle.svg) no-repeat;
+    background-size: 64px 64px;
+    width: 64px!important;
+    height: 64px!important;
+    position: absolute;
+    top: -3px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personal-level-step1 .circular-range-slider .rs-bg-color {background:#ffffff url(../images/circle-cart.svg) no-repeat center center;
+background-size:300px 300px;
+}
+.personal-level-step1 .circular-range-slider.current-step-1 .rs-bg-color{background:#ffffff url(../images/circle-cart-1.svg) no-repeat center center;
+background-size:300px 300px;
+}
+.personal-level-step1 .circular-range-slider.current-step-2 .rs-bg-color{background:#ffffff url(../images/circle-cart-2.svg) no-repeat center center;
+background-size:300px 300px;
+}
+.personal-level-step1 .circular-range-slider.current-step-3 .rs-bg-color{background:#ffffff url(../images/circle-cart-3.svg) no-repeat center center;
+background-size:300px 300px;
+}
+.personal-level-step1 .circular-range-slider.current-step-4 .rs-bg-color{background:#ffffff url(../images/circle-cart-4.svg) no-repeat center center;
+background-size:300px 300px;
+}
+.personal-level-step1 .circular-range-slider.current-step-5 .rs-bg-color{background:#ffffff url(../images/circle-cart-5.svg) no-repeat center center;
+background-size:300px 300px;
 }
