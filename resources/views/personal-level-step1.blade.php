@@ -12,14 +12,38 @@
   </div>
 </nav>
 
-<div class="main-content-wrapper">
+
+
+<div class="container "><div class="relative">
+
+ 
+ <div class="page-width mt-7">
+ <div class="row">
+
+  <div class="col-sm-12">
+
+ <div class="sec1-box-center text-center">
+ <div class="box-top">
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
+ <div class="animate__animated animate__fadeIn green-text">I buy locally grown fruit and vegetables.</div>
+ </div>
+ <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 0 to 5 to submit your response, where 1 = least likely and 5 = most likely</p>
+
+</div>
+ 
+ </div>
+ <div class="col-sm-12">
 <form class="survey-form hide">
 <input type="hidden" class="hidden-circular-slider-input" value="0" name="buy_locally_grown_fruit"/>
 </form>
 <div class="circular-range-slider"></div>
-  <div class="button-wrapper bottom-button "><div class="container text-right">
-  
-<a href="{{url('/intro-section3')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
-</div></div>
+ </div></div>
+<div class="button-wrapper bottom-button">
+<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
+ </div>
+ </div></div>
+
+
+
 </body>
