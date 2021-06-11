@@ -5,7 +5,7 @@
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="#"><img src="images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1>
@@ -52,7 +52,7 @@
  <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="images/bitcoin-anim.gif" /> </div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-start')}}" class="link-btn hvr-forward"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-start')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
  </div>
  </div></div>
