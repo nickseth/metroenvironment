@@ -205,10 +205,10 @@ $(document).ready(function(){
 	
 	// circular range slider //
 	$(".circular-range-slider").roundSlider({
-		sliderType: "range",
-		width: 22,
+		sliderType: "min-range",
+		width: 20,
 		radius: 100,
-		value: "0,0",
+		value: "0",
 		startAngle: 90,
 		min: 0,
 		max: "5",
@@ -217,23 +217,29 @@ $(document).ready(function(){
 		editableTooltip: false,
 		showTooltip: false,
 		drag: function (args) {
-			var min_value = args.value.split(',')[0]
-			var max_value = args.value.split(',')[1]
+			//var min_value = args.value.split(',')[0]
+			var max_value = args.value
 			for(var i=0;i<=5;i++){
-				$('.rs-second .rs-handle').removeClass('stepmove'+i);
+				$(".circular-range-slider").removeClass('current-step-'+i);
+				$('.rs-first .rs-handle').removeClass('stepmove'+i);
 			}
-			$('.rs-second .rs-handle').addClass('stepmove'+max_value);
+			$('.rs-first .rs-handle').addClass('stepmove'+max_value);
+			$(".circular-range-slider").addClass('current-step-'+max_value);
 			$('.hidden-circular-slider-input').val(max_value)
 		},
 		change: function (args) {
-			var min_value = args.value.split(',')[0]
-			var max_value = args.value.split(',')[1]
+			//var min_value = args.value.split(',')[0]
+			var max_value = args.value
 			for(var i=0;i<=5;i++){
-				$('.rs-second .rs-handle').removeClass('stepmove'+i);
+				$(".circular-range-slider").removeClass('current-step-'+i);
+				$('.rs-first .rs-handle').removeClass('stepmove'+i);
 			}
-			$('.rs-second .rs-handle').addClass('stepmove'+max_value);
+			$('.rs-first .rs-handle').addClass('stepmove'+max_value);
+			$(".circular-range-slider").addClass('current-step-'+max_value);
 			$('.hidden-circular-slider-input').val(max_value)
 		}
 	});
+	$(".circular-range-slider").addClass('current-step-0');
+	$('.rs-handle').addClass('stepmove0');
 	// circular range slider //
 })
