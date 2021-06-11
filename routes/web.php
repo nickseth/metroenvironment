@@ -48,9 +48,15 @@ Route::get('/personal-level-step19', function () {
     return view('personal-level-step19');
 });
 
+Route::get('/personal-level-step18', function () {
+    return view('personal-level-step18');
+});
+
 /*-------Basic page routes ------------*/
 
 /*-------DB API routes ------------*/
+
+Route::post('/survey_submission','Survey_Submission_Controller@index');
 
 /*-------DB API routes ------------*/
 
