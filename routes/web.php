@@ -35,6 +35,9 @@ Route::get('/personal-level-start', function () {
 Route::get('/personal-level-step1', function () {
     return view('personal-level-step1');
 });
+Route::get('/personal-level-step2', function () {
+    return view('personal-level-step2');
+});
 Route::get('/personal-level-step21', function () {
     return view('personal-level-step21');
 });
