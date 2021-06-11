@@ -219,7 +219,7 @@ $(document).ready(function(){
 		drag: function (args) {
 			var min_value = args.value.split(',')[0]
 			var max_value = args.value.split(',')[1]
-			for(var i=0;i<=max_value;i++){
+			for(var i=0;i<=5;i++){
 				$('.rs-second .rs-handle').removeClass('stepmove'+i);
 			}
 			$('.rs-second .rs-handle').addClass('stepmove'+max_value);
@@ -228,7 +228,7 @@ $(document).ready(function(){
 		change: function (args) {
 			var min_value = args.value.split(',')[0]
 			var max_value = args.value.split(',')[1]
-			for(var i=0;i<=max_value;i++){
+			for(var i=0;i<=5;i++){
 				$('.rs-second .rs-handle').removeClass('stepmove'+i);
 			}
 			$('.rs-second .rs-handle').addClass('stepmove'+max_value);
