@@ -34,6 +34,7 @@
 					<div class="col-sm-12">
 						<div class="sec1-box-right animate__animated animate__zoomIn">
 							<div class="grid-container animate__zoomIn row1">
+								
 								<div class="grid-list">
 									<div class="grid-item">
 										<div class="grid-icons">
@@ -63,44 +64,9 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Water conservation</p>
-										
-									</div>
-                  <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
-										</div>
-								</div>
-								<div class="grid-list">
-									<div class="grid-item">
-										<div class="grid-icons">
-											<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 57 49" width="57" height="49">
-												<title>New Project</title>
-												<style>
-													tspan { white-space:pre }
-													.shp0 { fill: #ebb19c } 
-													.shp1 { fill: #e58d72 } 
-													.shp2 { fill: #c8effd } 
-													.shp3 { fill: #a0e1fd } 
-													.shp4 { fill: #edebfd } 
-													.shp5 { fill: #d2d2fc } 
-													.shp6 { fill: #e48c9b } 
-													.shp7 { fill: #cc5b6f }
-												</style>
-												<g id="&lt;Group&gt;">
-													<path id="&lt;Path&gt;" class="shp0" d="M0.78 38.16C0.78 39.79 1.75 41.25 3.25 41.89C18.67 48.46 18.11 48.33 20.03 48.72C22.68 49.26 25.44 49.06 28 48.12C35.93 45.2 34.22 45.52 39.3 45.52C39.78 45.52 40.17 45.12 40.17 44.64L40.17 29.76C40.17 29.28 39.78 28.89 39.3 28.89C34.42 28.89 33.54 28.76 31.68 29.36C27.06 30.87 28.58 30.64 21.79 30.64C18.49 30.64 16.34 34.19 17.95 37.12C4.75 33.97 5.5 34.11 4.83 34.11C2.6 34.11 0.78 35.93 0.78 38.16Z" />
-													<path id="&lt;Path&gt;" class="shp1" d="M0.78 38.16C0.78 35.57 3.19 33.64 5.71 34.2C3.43 36.15 3.97 39.83 6.75 41.02C22.11 47.56 21.6 47.45 23.53 47.85C25.12 48.17 26.71 48.22 28.23 48.03C24.35 49.46 20.61 49.29 17.22 47.85L3.25 41.89C1.75 41.25 0.78 39.79 0.78 38.16L0.78 38.16Z" />
-													<path id="&lt;Path&gt;" class="shp2" d="M16.74 0.32C13.99 3.65 7.35 12.52 7.35 17.07C7.35 22.62 11.86 27.13 17.41 27.13C22.96 27.13 27.48 22.62 27.48 17.07C27.48 12.53 20.84 3.65 18.09 0.32C17.74 -0.11 17.09 -0.11 16.74 0.32L16.74 0.32Z" />
-													<path id="&lt;Path&gt;" class="shp3" d="M7.35 17.07C7.35 12.49 13.84 3.9 16.74 0.32C17.09 -0.11 17.74 -0.11 18.09 0.32C18.1 0.33 18.81 1.19 19.82 2.52C17.32 5.81 12.16 12.99 12.16 17.07C12.16 21.79 15.43 25.76 19.82 26.84C13.5 28.41 7.35 23.6 7.35 17.07L7.35 17.07Z" />
-													<path id="&lt;Path&gt;" class="shp4" d="M38.42 29.1L38.42 45.3C38.42 46.38 39.31 47.27 40.39 47.27L44.55 47.27C45.03 47.27 45.42 46.87 45.42 46.39L45.42 28.01C45.42 27.53 45.03 27.13 44.55 27.13L40.39 27.13C39.31 27.13 38.42 28.02 38.42 29.1Z" />
-													<path id="&lt;Path&gt;" class="shp5" d="M40.39 27.13L43.02 27.13C41.93 27.13 41.05 28.02 41.05 29.1L41.05 45.3C41.05 46.38 41.93 47.27 43.02 47.27L40.39 47.27C39.3 47.27 38.42 46.38 38.42 45.3L38.42 29.1C38.42 28.02 39.3 27.13 40.39 27.13Z" />
-													<path id="&lt;Path&gt;" class="shp6" d="M43.67 28.01L43.67 46.39C43.67 46.87 44.07 47.27 44.55 47.27L55.93 47.27C56.41 47.27 56.8 46.87 56.8 46.39L56.8 28.01C56.8 27.53 56.41 27.13 55.93 27.13L44.55 27.13C44.07 27.13 43.67 27.53 43.67 28.01Z" />
-													<path id="&lt;Path&gt;" class="shp7" d="M44.55 27.13L48.93 27.13C48.44 27.13 48.05 27.53 48.05 28.01L48.05 46.39C48.05 46.88 48.44 47.27 48.93 47.27L44.55 47.27C44.07 47.27 43.67 46.88 43.67 46.39L43.67 28.01C43.67 27.53 44.07 27.13 44.55 27.13Z" />
-													<path id="&lt;Path&gt;" class="shp1" d="M17.95 37.12C17.98 37.12 18 37.12 18.02 37.12L27.53 37.12C28 37.12 28.41 37.47 28.44 37.94C28.47 38.45 28.07 38.87 27.56 38.87L18.83 38.87C18.35 38.87 17.95 38.48 17.95 38L17.95 37.12L17.95 37.12Z" />
-												</g>
-											</svg>
-										</div>
-										<p class="light-text">Energy conservation</p>
+										<p class="light-text">Its shape and size is
+different from mass
+produced alternatives</p>
 									
 									</div>
                   <div class="form-group">
@@ -137,7 +103,8 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Garbage saving</p>
+										<p class="light-text">I research about
+its producer</p>
 										
 									</div>
                   <div class="form-group">
@@ -174,7 +141,9 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Vegetarian/vegan diet</p>
+										<p class="light-text">The symbols on
+its packaging are
+clearly defined</p>
 									</div>
                   <div class="form-group">
 											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
@@ -210,7 +179,9 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Conscious mobility (bicycle, public transport, e-mobility)</p>
+										<p class="light-text">It’s created with zero
+usage of chemicals or
+pesticides for growth</p>
 										
 									</div>
                   <div class="form-group">
@@ -220,6 +191,7 @@
 								</div>
 </div>
 <div class="grid-container animate__zoomIn row2">
+								
 								<div class="grid-list">
 									<div class="grid-item">
 										<div class="grid-icons">
@@ -249,44 +221,9 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Reduced consumption</p>
-                    
-									</div>
-                  <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
-										</div>
-								</div>
-								<div class="grid-list">
-									<div class="grid-item">
-										<div class="grid-icons">
-											<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 57 49" width="57" height="49">
-												<title>New Project</title>
-												<style>
-													tspan { white-space:pre }
-													.shp0 { fill: #ebb19c } 
-													.shp1 { fill: #e58d72 } 
-													.shp2 { fill: #c8effd } 
-													.shp3 { fill: #a0e1fd } 
-													.shp4 { fill: #edebfd } 
-													.shp5 { fill: #d2d2fc } 
-													.shp6 { fill: #e48c9b } 
-													.shp7 { fill: #cc5b6f }
-												</style>
-												<g id="&lt;Group&gt;">
-													<path id="&lt;Path&gt;" class="shp0" d="M0.78 38.16C0.78 39.79 1.75 41.25 3.25 41.89C18.67 48.46 18.11 48.33 20.03 48.72C22.68 49.26 25.44 49.06 28 48.12C35.93 45.2 34.22 45.52 39.3 45.52C39.78 45.52 40.17 45.12 40.17 44.64L40.17 29.76C40.17 29.28 39.78 28.89 39.3 28.89C34.42 28.89 33.54 28.76 31.68 29.36C27.06 30.87 28.58 30.64 21.79 30.64C18.49 30.64 16.34 34.19 17.95 37.12C4.75 33.97 5.5 34.11 4.83 34.11C2.6 34.11 0.78 35.93 0.78 38.16Z" />
-													<path id="&lt;Path&gt;" class="shp1" d="M0.78 38.16C0.78 35.57 3.19 33.64 5.71 34.2C3.43 36.15 3.97 39.83 6.75 41.02C22.11 47.56 21.6 47.45 23.53 47.85C25.12 48.17 26.71 48.22 28.23 48.03C24.35 49.46 20.61 49.29 17.22 47.85L3.25 41.89C1.75 41.25 0.78 39.79 0.78 38.16L0.78 38.16Z" />
-													<path id="&lt;Path&gt;" class="shp2" d="M16.74 0.32C13.99 3.65 7.35 12.52 7.35 17.07C7.35 22.62 11.86 27.13 17.41 27.13C22.96 27.13 27.48 22.62 27.48 17.07C27.48 12.53 20.84 3.65 18.09 0.32C17.74 -0.11 17.09 -0.11 16.74 0.32L16.74 0.32Z" />
-													<path id="&lt;Path&gt;" class="shp3" d="M7.35 17.07C7.35 12.49 13.84 3.9 16.74 0.32C17.09 -0.11 17.74 -0.11 18.09 0.32C18.1 0.33 18.81 1.19 19.82 2.52C17.32 5.81 12.16 12.99 12.16 17.07C12.16 21.79 15.43 25.76 19.82 26.84C13.5 28.41 7.35 23.6 7.35 17.07L7.35 17.07Z" />
-													<path id="&lt;Path&gt;" class="shp4" d="M38.42 29.1L38.42 45.3C38.42 46.38 39.31 47.27 40.39 47.27L44.55 47.27C45.03 47.27 45.42 46.87 45.42 46.39L45.42 28.01C45.42 27.53 45.03 27.13 44.55 27.13L40.39 27.13C39.31 27.13 38.42 28.02 38.42 29.1Z" />
-													<path id="&lt;Path&gt;" class="shp5" d="M40.39 27.13L43.02 27.13C41.93 27.13 41.05 28.02 41.05 29.1L41.05 45.3C41.05 46.38 41.93 47.27 43.02 47.27L40.39 47.27C39.3 47.27 38.42 46.38 38.42 45.3L38.42 29.1C38.42 28.02 39.3 27.13 40.39 27.13Z" />
-													<path id="&lt;Path&gt;" class="shp6" d="M43.67 28.01L43.67 46.39C43.67 46.87 44.07 47.27 44.55 47.27L55.93 47.27C56.41 47.27 56.8 46.87 56.8 46.39L56.8 28.01C56.8 27.53 56.41 27.13 55.93 27.13L44.55 27.13C44.07 27.13 43.67 27.53 43.67 28.01Z" />
-													<path id="&lt;Path&gt;" class="shp7" d="M44.55 27.13L48.93 27.13C48.44 27.13 48.05 27.53 48.05 28.01L48.05 46.39C48.05 46.88 48.44 47.27 48.93 47.27L44.55 47.27C44.07 47.27 43.67 46.88 43.67 46.39L43.67 28.01C43.67 27.53 44.07 27.13 44.55 27.13Z" />
-													<path id="&lt;Path&gt;" class="shp1" d="M17.95 37.12C17.98 37.12 18 37.12 18.02 37.12L27.53 37.12C28 37.12 28.41 37.47 28.44 37.94C28.47 38.45 28.07 38.87 27.56 38.87L18.83 38.87C18.35 38.87 17.95 38.48 17.95 38L17.95 37.12L17.95 37.12Z" />
-												</g>
-											</svg>
-										</div>
-										<p class="light-text">Repair/Refurbishment</p>
+										<p class="light-text">It has a distinct
+flavour and
+fragrance profile</p>
 										
 									</div>
                   <div class="form-group">
@@ -323,7 +260,8 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Minimising food waste</p>
+										<p class="light-text">It has a
+distinct taste</p>
 										
 									</div>
                   <div class="form-group">
@@ -360,7 +298,8 @@
 												</g>
 											</svg>
 										</div>
-										<p class="light-text">Open field for own addition</p>
+										<p class="light-text">It has a specific
+price point</p>
 									
 									</div>
                   <div class="form-group">

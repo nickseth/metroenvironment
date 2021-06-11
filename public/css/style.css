@@ -1383,18 +1383,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cace8', end
 .rs-handle.rs-move {position:relative}
 .rs-handle.rs-move:after {
     content: "0";
-    position: absolute;
-    z-index: 99999999999999999;
-    transform: rotate(-90deg);
-    color: #fff;
-    left: 0;
-    right: 0;
-    display: flex;
-    top: 0;
-    bottom: 0;
-    align-items: center;
-    justify-content: center;
+position: absolute;
+z-index: 99999999999999999;
+transform: rotate(-90deg);
+color: #000;
+left: 0;
+right: 0;
+display: flex;
+top: 0;
+bottom: 0;
+align-items: center;
+justify-content: center;
+width: 28px;
+height: 28px;
+margin: auto;
+background: #fff;
+border-radius: 50%;
 }
+
 .rs-handle.rs-move.stepmove1:after {
 	 content: "1";
 	 transform: rotate(-180deg);
@@ -1414,4 +1420,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cace8', end
 .rs-handle.rs-move.stepmove5:after {
 	 content: "5";
 	 transform: rotate(-540deg);
+}
+.rs-control {margin:45px auto}
+.circular-range-slider .rs-container, .circular-range-slider {width:440px!important; height:440px!important}
+.circular-range-slider .rs-handle {background:url(../images/gray-circle.svg) no-repeat; background-size:64px 64px; width:64px!important; height:64px!important}
+.rs-control .rs-range-color {
+    background-color: #4c9f38;
+}
+.rs-control .rs-path-color {
+    background-color: #dbedd7;
+}
+.circular-range-slider .rs-border {border:none}
+
+.circular-range-slider .rs-range-color  {
+    background-color: #4c9f38;
+}
+.circular-range-slider .rs-path-color  {
+    background-color: #dbedd7;
+    border-radius: 0;
+}
+.circular-range-slider .rs-handle  {
+    background-color: #4c9f38;
+}
+.circular-range-slider .rs-border  {
+    border: 15px solid #dbedd7;
+}
+.circular-range-slider .rs-bar .rs-seperator {border:none}
+.circular-range-slider .rs-handle.rs-move {
+    
+    margin-left: auto!important;
+    margin-right: auto!important;
 }
