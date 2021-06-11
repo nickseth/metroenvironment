@@ -247,10 +247,14 @@ headers: {
 			$('.rs-first .rs-handle').addClass('stepmove'+max_value);
 			$(".circular-range-slider").addClass('current-step-'+max_value);
 			$('.hidden-circular-slider-input').val(max_value)
+		},
+		start:function(args){
+			console.log(args);
 		}
 	});
 	$(".circular-range-slider").addClass('current-step-0');
 	$('.rs-handle').addClass('stepmove0');
+	
 	// circular range slider //
 })
 function dataSubmission(data,url){
