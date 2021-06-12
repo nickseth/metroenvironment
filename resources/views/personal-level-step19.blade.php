@@ -17,6 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
+	<form class="survey-form">
 		<div class="relative">
 			<div class="page-width mt-7 page19">
 				<div class="row">
@@ -33,15 +34,15 @@
 							<form class="survey-form">
 								<div class="checkbox-group">
 									<div class="form-group">
-										<input type="radio" id="html" name="intro_section_question1" value="My generation">
+										<input type="radio" id="html" name="personal_level_step19" value="Yes">
 										<label for="html">Yes</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="css" name="intro_section_question1" value="My grandchildren">
+										<input type="radio" id="css" name="personal_level_step19" value="No">
 										<label for="css">No</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="javascript" name="intro_section_question1" value="My children">
+										<input type="radio" id="javascript" name="personal_level_step19" value="Maybe/Not sure">
 										<label for="javascript">Maybe/Not sure</label>
 									</div>
 								</div>
@@ -180,9 +181,10 @@
 				</div>
 			</div>
 			<div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-step20')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 			</div>
 		</div>
+	</form>
 	</div>
 	</div>
 </body>
