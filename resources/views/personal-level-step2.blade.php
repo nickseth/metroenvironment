@@ -38,7 +38,7 @@
  <div class="col-sm-5">
 <div class="gbb-wrap">
 <div class="gbb-item gbb-item-1"><img src="images/pls2-item-1.svg"/></div>
- <div class="green-brdr-box"><div class="gbb-head">Bio:</div>
+ <div class="green-brdr-box bio-options-wrapper"><div class="gbb-head">Bio:</div>
  <div class="form-group">
      <input type="radio" id="nutritional_bio" name="personal_level_step2_bio" value="Bio products have less nutritional value">
       <label for="nutritional_bio">Bio products have less nutritional value</label>
@@ -59,7 +59,7 @@
   <div class="col-sm-7">
  <div class="gbb-wrap"> 
  <div class="gbb-item gbb-item-2"><img src="images/pls2-item-2.svg"/></div>
- <div class="green-brdr-box"><div class="gbb-head">Organic:</div>
+ <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic:</div>
  <div class="form-group">
      <input type="radio" id="nutritional_organic" name="personal_level_step2_organic" value="Organic food contributes to an increase in CO2 emissions">
       <label for="nutritional_organic">Organic food contributes to an increase in CO2 emissions</label>
@@ -78,7 +78,7 @@
  
  </div>
  <div class="outer-input"><div class="form-group">
-     <input type="checkbox" id="allsame" name="personal_level_step2_allsame" value="allsame">
+     <input type="checkbox" id="allsame" name="personal_level_step2_allsame" value="true">
       <label for="allsame">They are the same</label>
 	 
     </div></div>
