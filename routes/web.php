@@ -51,6 +51,30 @@ Route::get('/personal-level-step4', function () {
     return view('personal-level-step4');
 });
 
+Route::get('/personal-level-step5', function () {
+    return view('personal-level-step5');
+});
+
+Route::get('/personal-level-step6', function () {
+    return view('personal-level-step6');
+});
+
+Route::get('/personal-level-step7', function () {
+    return view('personal-level-step7');
+});
+
+Route::get('/personal-level-step8', function () {
+    return view('personal-level-step8');
+});
+
+Route::get('/personal-level-step9', function () {
+    return view('personal-level-step9');
+});
+
+Route::get('/personal-level-step10', function () {
+    return view('personal-level-step10');
+});
+
 Route::get('/personal-level-step13', function () {
     return view('personal-level-step13');
 });

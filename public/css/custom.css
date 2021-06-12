@@ -262,7 +262,7 @@ height: auto;}
 .page19  .checkbox-group{padding-bottom: 0;;}
 .page19 .row{    display: flex;
 	align-items: center;}
-	.page19 .form-group label:before{border: 3px solid #E6E6E6;box-shadow: none;width: 28px;
+.page19 .form-group label:before{border: 3px solid #E6E6E6;box-shadow: none;width: 28px;
 		height: 28px;
 		margin-right: 11px;
 		background: #fff;}
@@ -271,7 +271,7 @@ height: auto;}
 			flex: 33.333%;
 			margin-bottom: 0;
 		}
-		.page19	.form-group input:checked + label:after{top: 3px;
+.page19	.form-group input:checked + label:after{top: 3px;
 			left: 10px;
 			width: 10px;
 			height: 17px;border-width: 0 4px 4px 0;}
@@ -466,3 +466,54 @@ border-right: 40px solid transparent;
 
 	.page14	.image-range-slider svg {
 			max-width: 400px;}
+
+.rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}
+.rangle-slider.yellow-range{background: #fbaf30;margin: 10px auto 0;}
+.rangle-slider.blue-range{background: #29abe2;margin: 10px auto 0;}
+.rangle-slider.pink-range{background: #ff9999;margin: 10px auto 0;}
+.rangle-slider.gray-range{background: #808080;margin: 10px auto 0;}
+.foods-range .dark-text{  font-family: 'SandwichMarkerPro';
+    font-size: 35px;
+    margin-bottom: 0;  color: #fff;}
+.foods-range .range-labels li{  font-size: 14px;
+    text-align: center;   opacity: .8;   color: #fff;}
+.foods-range  .range-labels .active {
+    color: #fff;
+}
+.foods-range  .range input::-webkit-slider-runnable-track{background: linear-gradient(to right, #6c353b 0%, #6c353b 25%, #e6e6e6 25%, #e6e6e6 100%);}
+.foods-range  .range input::-moz-range-track {
+	background: linear-gradient(to right, #6c353b 0%, #6c353b  25%, #e6e6e6 25%, #e6e6e6 100%);
+}
+
+.foods-range  .range input::-ms-track {
+	background: linear-gradient(to right, #6c353b 0%, #6c353b  25%, #e6e6e6 25%, #e6e6e6 100%);
+}
+.foods-check.outer-input {
+    margin: 25px auto 30px;
+    max-width: 700px;
+}
+.foods-check .form-group label{font-size: 18px;
+    color: #000;}
+.foods-check .form-group label:before{border: 3px solid #E6E6E6;box-shadow: none;width: 25px;
+		height: 25px;margin: 0;
+		margin-right: 11px;
+		background: #fff;}
+		
+.foods-check .form-group input:checked + label:after{top: 3px;
+			left: 8px;
+			width: 10px;
+			height: 17px;border-width: 0 4px 4px 0;}
+.foods-list {
+				max-width: 700px;    padding: 0 22px;
+				margin:20px auto 0;
+				border-radius: 15px;
+				background: url(../images/sec2-bg2.jpg) no-repeat top center;
+				background-size: cover;
+}
+.foods-list .grid-container{margin-left: -30px;padding: 20px 0 4px;}
+.foods-list  .grid-list {
+    width: 25%;
+    padding: 0 0px 10px 30px;
+}
+.foods-list .grid-item{background-color: transparent;}
+.foods-list p.light-text{color: #000;border-top: 0px;}
