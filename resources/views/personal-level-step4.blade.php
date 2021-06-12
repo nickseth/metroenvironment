@@ -17,6 +17,7 @@
 </div>
 </nav>
 <div class="container ">
+<form class="survey-form">
 <div class="relative">
 	<div class="page-width mt-4 page4">
 		<div class="row">
@@ -2935,8 +2936,10 @@ produced alternatives</p>
 							
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox1" class="multiple-checkbox-data" value="Its shape and size is
+different from mass
+produced alternatives">
+									<label for="checkbox1"></label>
 								</div>
 						</div>
 						<div class="grid-list">
@@ -5788,8 +5791,9 @@ its producer</p>
 								
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox2" class="multiple-checkbox-data" value="I research about
+its producer">
+									<label for="checkbox2"></label>
 								</div>
 						</div>
 						<div class="grid-list">
@@ -8632,8 +8636,10 @@ its packaging are
 clearly defined</p>
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox3" class="multiple-checkbox-data" value="The symbols on
+its packaging are
+clearly defined">
+									<label for="checkbox3"></label>
 								</div>
 						</div>
 						<div class="grid-list">
@@ -11480,8 +11486,9 @@ pesticides for growth</p>
 								
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox4" class="multiple-checkbox-data" value="Its created with zero
+usage of chemicals or pesticides for growth">
+									<label for="checkbox4"></label>
 								</div>
 						</div>
 </div>
@@ -14864,8 +14871,8 @@ fragrance profile</p>
 								
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox5" class="multiple-checkbox-data"  value="It has a distinct flavour and fragrance profile">
+									<label for="checkbox5"></label>
 								</div>
 						</div>
 						<div class="grid-list">
@@ -17761,8 +17768,8 @@ distinct taste</p>
 								
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox6" class="multiple-checkbox-data" value="It has a distinct taste">
+									<label for="checkbox6"></label>
 								</div>
 						</div>
 						<div class="grid-list">
@@ -20683,8 +20690,8 @@ price point</p>
 							
 							</div>
 			<div class="form-group">
-									<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-									<label for="css"></label>
+									<input type="checkbox" id="checkbox7" class="multiple-checkbox-data" value="It has a specific price point">
+									<label for="checkbox7"></label>
 								</div>
 						</div>
 					</div>
@@ -20692,10 +20699,12 @@ price point</p>
 </div>
 			</div>
 		</div>
+		<input type="hidden" class="multiple-checkbox-hidden" name="personal_level_step4"/>
 		<div class="button-wrapper bottom-button">
 <a href="{{url('/personal-level-step5')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 		</div>
 	</div>
+</form>
 </div>
 </div>
 </body>

@@ -149,6 +149,7 @@ select_optiones[indx].selected = true;
   select_.onchange();
   salir_select(selc); 
 }
+
 function getFormData($form){
     var unindexed_array = $form.serializeArray();
     var indexed_array = {};
@@ -165,6 +166,7 @@ headers: {
 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 }
 });
+
 	$('.select_mate').click(function(){
 		$(this).toggleClass('active-dropdown');
 	})
@@ -219,6 +221,29 @@ headers: {
 	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
+		// storing multiple checkbox data into single field //
+		var checkbox_all_data = '';
+		$('.multiple-checkbox-data:checked').each(function(i){
+			if(i != $('.multiple-checkbox-data:checked').length-1)
+				checkbox_all_data += $(this).val()+'|';
+			else
+				checkbox_all_data += $(this).val();
+		})
+		$('.multiple-checkbox-hidden').val(checkbox_all_data);
+		// storing multiple checkbox data into single field //
+		 
+		 // removing unchecked keys from json //
+		 
+		 if(!$('.never-selection-checkbox').is(':checked')){
+				var key = $('.never-selection-checkbox').attr('name');
+				var parsed_json = JSON.parse(Cookies.get('formdetails'))
+				try{
+				parsed_json[key] = '';
+				Cookies.set('formdetails',JSON.stringify(parsed_json), { expires: 1 })
+				}
+				catch(err){}
+			}
+		 // removing unchecked keys from json //
 		var $form = $(".survey-form");
 		var all_forms_data = '';
 		var data = getFormData($form);
@@ -285,6 +310,45 @@ headers: {
 	$('.rs-handle').addClass('stepmove0');
 	
 	// circular range slider //
+	var sheet = document.createElement('style'),  
+  $rangeInput = $('.range input'),
+  prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
+
+document.body.appendChild(sheet);
+
+var getTrackStyle = function (el) {  
+  var curVal = el.value,
+      val = (curVal-1) * 20,
+      style = '';
+  
+  // Set active label
+  $('.range-labels li').removeClass('active selected');
+  
+  var curLabel = $('.range-labels').find('li:nth-child(' + curVal + ')');
+  
+  curLabel.addClass('active selected');
+  curLabel.prevAll().addClass('selected');
+  
+  // Change background gradient
+  for (var i = 0; i < prefs.length; i++) {
+    style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+    style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+  }
+
+  return style;
+}
+
+$rangeInput.on('input', function () {
+  sheet.textContent = getTrackStyle(this);
+});
+
+// Change input value on label click
+$('.range-labels li').on('click', function () {
+  var index = $(this).index();
+  
+  $rangeInput.val(index + 1).trigger('input');
+  
+});
 })
 function dataSubmission(data,url){
 	  $.ajax({

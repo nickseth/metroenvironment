@@ -17,6 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
+	<form class="survey-form">
 		<div class="relative">
 			<div class="page-width mt-1 page5">
 				<div class="row">
@@ -11616,10 +11617,11 @@
 									</div>
 								</div>
 								</div>
+								
 								<div class="rangle-slider orange-range foods-range">
 									<p class="animate__animated animate__fadeIn dark-text">Red Meat</p>
 									<div class="range">
-										<input type="range" min="1" max="5" steps="1" value="1">
+										<input type="range" name="personal_level_step5" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
 										<li>No change in diet</li>
@@ -11631,10 +11633,11 @@
 								</div>
 								<div class="outer-input foods-check">
 									<div class="form-group">
-										<input type="radio" id="allsame" name="intro_section_question2" value="allsame">
-										<label for="allsame">I have never eaten Red Meat.</label>
+										<input type="checkbox" id="allsame_personal_step_5" name="personal_level_step5_never" value="I have never eaten Red Meat." class="never-selection-checkbox">
+										<label for="allsame_personal_step_5">I have never eaten Red Meat.</label>
 									</div>
 								</div>
+							
 							</div>
 						</div>
 					
@@ -11644,6 +11647,7 @@
 <a href="{{url('/personal-level-step6')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 			</div>
 		</div>
+	</form>
 	</div>
 	</div>
 </body>
