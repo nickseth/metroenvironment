@@ -226,7 +226,7 @@ font-family: "Verdana";}
 	height: 100%;
 	display: flex;justify-content: center;
 	flex-direction: column;
-	text-align: center;min-width: 128px;
+	text-align: center;
 	min-height: 110px;
 	border-radius: 10px;
 	background-color: #4c9f38;

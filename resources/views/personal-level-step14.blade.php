@@ -3070,7 +3070,7 @@ the factors that affect purchase decision?</div>
 				</div>
 			</div>
 			<div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-step15')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 			</div>
 		</div>
 	</div>
