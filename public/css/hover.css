@@ -4155,3 +4155,12 @@
 
 
 /* Custom Css */
+.clr-green{color: #4c9f38;}
+.clr-blue{color: #214d88;}
+
+.wrper-cstm-width{
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrper-cstm-width h3{line-height: normal;}
