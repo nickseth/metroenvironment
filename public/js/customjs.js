@@ -236,8 +236,8 @@ headers: {
 		 
 		 if(!$('.never-selection-checkbox').is(':checked')){
 				var key = $('.never-selection-checkbox').attr('name');
-				var parsed_json = JSON.parse(Cookies.get('formdetails'))
 				try{
+					var parsed_json = JSON.parse(Cookies.get('formdetails'))
 				parsed_json[key] = '';
 				Cookies.set('formdetails',JSON.stringify(parsed_json), { expires: 1 })
 				}
