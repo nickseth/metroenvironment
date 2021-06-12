@@ -306,7 +306,7 @@ document.body.appendChild(sheet);
 
 var getTrackStyle = function (el) {  
   var curVal = el.value,
-      val = (curVal - 1) * 20,
+      val = (curVal) * 20,
       style = '';
   
   // Set active label
@@ -319,8 +319,8 @@ var getTrackStyle = function (el) {
   
   // Change background gradient
   for (var i = 0; i < prefs.length; i++) {
-    style += '.range {background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #fff ' + val + '%, #fff 100%)}';
-    style += '.range input::-' + prefs[i] + '{background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
+    style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+    style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
   }
 
   return style;
