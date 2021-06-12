@@ -149,6 +149,7 @@ select_optiones[indx].selected = true;
   select_.onchange();
   salir_select(selc); 
 }
+
 function getFormData($form){
     var unindexed_array = $form.serializeArray();
     var indexed_array = {};
@@ -165,6 +166,7 @@ headers: {
 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 }
 });
+
 	$('.select_mate').click(function(){
 		$(this).toggleClass('active-dropdown');
 	})
@@ -296,6 +298,45 @@ headers: {
 	$('.rs-handle').addClass('stepmove0');
 	
 	// circular range slider //
+	var sheet = document.createElement('style'),  
+  $rangeInput = $('.range input'),
+  prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
+
+document.body.appendChild(sheet);
+
+var getTrackStyle = function (el) {  
+  var curVal = el.value,
+      val = (curVal - 1) * 20,
+      style = '';
+  
+  // Set active label
+  $('.range-labels li').removeClass('active selected');
+  
+  var curLabel = $('.range-labels').find('li:nth-child(' + curVal + ')');
+  
+  curLabel.addClass('active selected');
+  curLabel.prevAll().addClass('selected');
+  
+  // Change background gradient
+  for (var i = 0; i < prefs.length; i++) {
+    style += '.range {background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #fff ' + val + '%, #fff 100%)}';
+    style += '.range input::-' + prefs[i] + '{background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
+  }
+
+  return style;
+}
+
+$rangeInput.on('input', function () {
+  sheet.textContent = getTrackStyle(this);
+});
+
+// Change input value on label click
+$('.range-labels li').on('click', function () {
+  var index = $(this).index();
+  
+  $rangeInput.val(index + 1).trigger('input');
+  
+});
 })
 function dataSubmission(data,url){
 	  $.ajax({
