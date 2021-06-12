@@ -320,7 +320,21 @@ var getTrackStyle = function (el) {
   var curVal = el.value,
       val = (curVal-1) * 20,
       style = '';
-  
+  if(curVal == 1){
+	 val = 0; 
+  }
+  if(curVal == 2){
+	  val = 30;
+  }
+  if(curVal == 3){
+	  val = 50;
+  }
+  if(curVal == 4){
+	  val = 70;
+  }
+  if(curVal == 5){
+	  val = 100;
+  }
   // Set active label
   $('.range-labels li').removeClass('active selected');
   
