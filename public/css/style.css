@@ -1618,3 +1618,12 @@ background-size:300px 300px;
     right: 120px;
 }
 .vegi-group-imgs  img {width:100%; height:auto}
+
+.empty-plate {
+    max-width: 325px;
+    margin: auto;
+}
+.vegi-group .row {
+    display: flex;
+    align-items: center;
+}
