@@ -11619,7 +11619,7 @@
 								<div class="rangle-slider orange-range foods-range">
 									<p class="animate__animated animate__fadeIn dark-text">Red Meat</p>
 									<div class="range">
-										<input type="range" min="1" max="5" steps="1" value="1">
+										<input type="range" name="red_meat" min="0" max="5" steps="1" value="0">
 									</div>
 									<ul class="range-labels">
 										<li>No change in diet</li>
