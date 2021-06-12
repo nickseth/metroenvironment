@@ -14630,7 +14630,7 @@
 								</div>
 								<div class="outer-input foods-check">
 									<div class="form-group">
-										<input type="radio" id="allsame_personal_step_6" name="personal_level_step6_never" value="I have never eaten Poultry" class="never-selection-checkbox">
+										<input type="checkbox" id="allsame_personal_step_6" name="personal_level_step6_never" value="I have never eaten Poultry" class="never-selection-checkbox">
 										<label for="allsame_personal_step_6">I have never eaten Poultry</label>
 									</div>
 								</div>
