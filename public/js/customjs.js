@@ -231,7 +231,19 @@ headers: {
 		})
 		$('.multiple-checkbox-hidden').val(checkbox_all_data);
 		// storing multiple checkbox data into single field //
-		
+		 
+		 // removing unchecked keys from json //
+		 
+		 if(!$('.never-selection-checkbox').is(':checked')){
+				var key = $('.never-selection-checkbox').attr('name');
+				var parsed_json = JSON.parse(Cookies.get('formdetails'))
+				try{
+				parsed_json[key] = '';
+				Cookies.set('formdetails',JSON.stringify(parsed_json), { expires: 1 })
+				}
+				catch(err){}
+			}
+		 // removing unchecked keys from json //
 		var $form = $(".survey-form");
 		var all_forms_data = '';
 		var data = getFormData($form);

@@ -11633,8 +11633,8 @@
 								</div>
 								<div class="outer-input foods-check">
 									<div class="form-group">
-										<input type="checkbox" id="allsame" name="personal_level_step5_never" value="I have never eaten Red Meat.">
-										<label for="allsame">I have never eaten Red Meat.</label>
+										<input type="checkbox" id="allsame_personal_step_5" name="personal_level_step5_never" value="I have never eaten Red Meat." class="never-selection-checkbox">
+										<label for="allsame_personal_step_5">I have never eaten Red Meat.</label>
 									</div>
 								</div>
 							
