@@ -1,6 +1,8 @@
 @include('header')
 <body>
-
+<style>
+form *{display:block; width:100%}
+</style>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
@@ -16,7 +18,7 @@
 
 <!-- First Container -->
 
-<div class="container "><div class="relative">
+<div class="container survey-wrap"><div class="relative">
 
  <div class="page-head">
  <h2>Let's get to know you better!</h2>
