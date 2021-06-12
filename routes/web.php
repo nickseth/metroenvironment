@@ -40,6 +40,13 @@ Route::get('/personal-level-step2', function () {
     return view('personal-level-step2');
 });
 
+Route::get('/personal-level-step3', function () {
+    return view('personal-level-step3');
+});
+Route::get('/personal-level-step21', function () {
+    return view('personal-level-step21');
+});
+
 Route::get('/personal-level-step4', function () {
     return view('personal-level-step4');
 });
