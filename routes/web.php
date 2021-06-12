@@ -103,6 +103,10 @@ Route::get('/personal-level-step19', function () {
     return view('personal-level-step19');
 });
 
+Route::get('/personal-level-step20', function () {
+    return view('personal-level-step20');
+});
+
 Route::get('/personal-level-step21', function () {
     return view('personal-level-step21');
 });
