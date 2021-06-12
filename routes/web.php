@@ -76,6 +76,10 @@ Route::get('/personal-level-step10', function () {
 });
 
 
+Route::get('/personal-level-step11', function () {
+    return view('personal-level-step11');
+});
+
 Route::get('/personal-level-step12', function () {
     return view('personal-level-step12');
 });

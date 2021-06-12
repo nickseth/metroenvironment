@@ -186,14 +186,43 @@ headers: {
 			window.location.href = $('html').attr('data-base-path');
 		}
 	}
-	console.log(Cookies.get('formdetails'));
+	$('#allsame').click(function(){
+		setTimeout(function(){
+			if($('#allsame').is(':checked')){
+				$('.bio-options-wrapper input').prop('checked', false)
+				$('.organic-options-wrapper input').prop('checked', false)
+				var parsed_json = JSON.parse(Cookies.get('formdetails'))
+				try{
+				parsed_json['personal_level_step2_organic'] = '';
+				parsed_json['personal_level_step2_bio'] = '';
+				Cookies.set('formdetails',JSON.stringify(parsed_json), { expires: 1 })
+				}
+				catch(err){}
+			}
+		},300)
+	})
+	$('.bio-options-wrapper input,.organic-options-wrapper input').click(function(){
+		var elem = $(this)
+		setTimeout(function(){
+			if(elem.is(':checked')){
+				$('#allsame').prop('checked', false);
+				var parsed_json = JSON.parse(Cookies.get('formdetails'))
+				try{
+				parsed_json['personal_level_step2_allsame'] = '';
+				Cookies.set('formdetails',JSON.stringify(parsed_json), { expires: 1 })
+				}
+				catch(err){}
+			}
+		},300)
+	})
 	// storing form data in cookie //
-	
+	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
 		var $form = $(".survey-form");
 		var all_forms_data = '';
 		var data = getFormData($form);
+		console.log(data)
 		if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 			var previous_forms_data = JSON.parse(Cookies.get('formdetails'));
 			var new_form_data = $.extend({},previous_forms_data, data);
