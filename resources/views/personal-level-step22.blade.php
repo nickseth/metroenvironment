@@ -1,77 +1,12 @@
 @include('header')
-<body class="index-page">
+<body class="sec3-home-bg index-page">
 <div class="loader-wrap">
   <div class="loader"><img src="images/anim-tree.gif" /></div>
 </div>
 
-<div class="hero">
-  <div class="ripples-wrap">
-    <div class="ripples">
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-        <div class="splash"></div>
-        <div class="particles">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-      <div class="rain">
-        <div class="waves">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="herooo">
 
-  <div class="top-section">
+  <div class="top-sectionn">
     <div class="clouds"></div>
     <!-- Navbar -->
     <nav class="navbar navbar-default">

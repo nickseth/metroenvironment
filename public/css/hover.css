@@ -4157,10 +4157,19 @@
 /* Custom Css */
 .clr-green{color: #4c9f38;}
 .clr-blue{color: #214d88;}
+.sec3-home-bg{
+  height:100vh; width:100%;
+  position: relative;
+  background:url(../images/sec3-home-bg.jpg) no-repeat;
+  background-size:cover;
+  background-position:center bottom;
+  overflow-x:hidden
+}
 
 .wrper-cstm-width{
-  max-width: 350px;
+  max-width: 380px;
   margin: 0 auto;
   text-align: center;
+  padding: 0 15px;
 }
 .wrper-cstm-width h3{line-height: normal;}

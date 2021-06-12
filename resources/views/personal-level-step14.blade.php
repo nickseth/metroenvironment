@@ -17,6 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
+	<form class="survey-form">
 		<div class="relative">
 			<div class="page-width mt-1 page14">
 				<div class="row">
@@ -3053,8 +3054,7 @@ the factors that affect purchase decision?</div>
 <p class="animate__animated animate__fadeIn dark-text">Companies that are not related to human rights violations
 (exploitation, child labor)</p>
 <div class="range">
-  <input type="range" min="1" max="5" steps="1" value="1">
-</div>
+ <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"></div>
 
 <ul class="range-labels">
   <li>1</li>
@@ -3073,6 +3073,7 @@ the factors that affect purchase decision?</div>
 <a href="{{url('/personal-level-step15')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 			</div>
 		</div>
+	</form>
 	</div>
 	</div>
 </body>
