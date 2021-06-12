@@ -389,21 +389,21 @@ border-right: 40px solid transparent;
 		width: 100%;
 		height: 8px;
 		cursor: pointer;border-radius: 50px;
-		background: linear-gradient(to right, #000 0%, #000  25%, #e6e6e6 25%, #e6e6e6 100%);
+		background: linear-gradient(to right, #000 0%, #000  0%, #e6e6e6 0%, #e6e6e6 100%);
 	}
   
 	.range input::-moz-range-track {
 		width: 100%;border-radius: 50px;
 		height: 8px;
 		cursor: pointer;
-		background: linear-gradient(to right, #000 0%, #000  25%, #e6e6e6 25%, #e6e6e6 100%);
+		background: linear-gradient(to right, #000 0%, #000  0%, #e6e6e6 0%, #e6e6e6 100%);
 	}
   
 	.range input::-ms-track {
 		width: 100%;border-radius: 50px;
 		height: 8px;
 		cursor: pointer;
-		background: linear-gradient(to right, #000 0%, #000  25%, #e6e6e6 25%, #e6e6e6 100%);
+		background: linear-gradient(to right, #000 0%, #000  0%, #e6e6e6 0%, #e6e6e6 100%);
 	}
   
 	.range input:focus {
@@ -481,13 +481,13 @@ border-right: 40px solid transparent;
 .foods-range  .range-labels .active {
     color: #fff;
 }
-.foods-range  .range input::-webkit-slider-runnable-track{background: linear-gradient(to right, #6c353b 0%, #6c353b 25%, #e6e6e6 25%, #e6e6e6 100%);}
+.foods-range  .range input::-webkit-slider-runnable-track{_background: linear-gradient(to right, #6c353b 0%, #6c353b 0%, #e6e6e6 0%, #e6e6e6 100%);}
 .foods-range  .range input::-moz-range-track {
-	background: linear-gradient(to right, #6c353b 0%, #6c353b  25%, #e6e6e6 25%, #e6e6e6 100%);
+	_background: linear-gradient(to right, #6c353b 0%, #6c353b  0%, #e6e6e6 0%, #e6e6e6 100%);
 }
 
 .foods-range  .range input::-ms-track {
-	background: linear-gradient(to right, #6c353b 0%, #6c353b  25%, #e6e6e6 25%, #e6e6e6 100%);
+	_background: linear-gradient(to right, #6c353b 0%, #6c353b  0%, #e6e6e6 0%, #e6e6e6 100%);
 }
 .foods-check.outer-input {
     margin: 25px auto 30px;
@@ -566,4 +566,5 @@ border-right: 40px solid transparent;
     content: none;
 }
 .page11 ~ .button-wrapper{height: 60px;}
+.page17 .range-labels li,
 .page13 .range-labels li{    width: auto;}
