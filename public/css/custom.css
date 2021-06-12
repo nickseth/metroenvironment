@@ -429,7 +429,7 @@ border-right: 40px solid transparent;
 	.range-labels li {
 		position: relative;
 		float: left;
-		width: auto;
+		width: 20%;
 		text-align: left;
 		color: #5aaeae;
 		font-size: 20px;
@@ -564,3 +564,4 @@ border-right: 40px solid transparent;
 .mid-drag ul li:last-child:after {
     content: none;
 }
+.page11 ~ .button-wrapper{height: 60px;}
