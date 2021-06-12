@@ -219,6 +219,17 @@ headers: {
 	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
+		// storing multiple checkbox data into single field //
+		var checkbox_all_data = '';
+		$('.multiple-checkbox-data:checked').each(function(i){
+			if(i != $('.multiple-checkbox-data:checked').length-1)
+				checkbox_all_data += $(this).val()+'|';
+			else
+				checkbox_all_data += $(this).val();
+		})
+		$('.multiple-checkbox-hidden').val(checkbox_all_data);
+		// storing multiple checkbox data into single field //
+		
 		var $form = $(".survey-form");
 		var all_forms_data = '';
 		var data = getFormData($form);
