@@ -760,7 +760,7 @@ box-shadow:         0px 0px 10px 0px rgba(76, 159, 56, 0.95);}
 opacity:0!important;
 }
 .sec1-bg {background:url(../images/gi-bg.jpg) no-repeat top center; background-size:cover}
-.sec2-bg2 {background:url(../images/sec2-bg2.jpg) no-repeat top center; background-size:cover}
+.sec2-bg2 {background:url(../images/sec2-bg2.jpg) no-repeat top center!important; background-size:cover}
 .sec1-bg .navbar-default{background:transparent}
 .page-width {max-width:95%; margin:auto}
 .select_mate:not(.active-dropdown) .cont_select_int{
@@ -1625,4 +1625,13 @@ background-size:300px 300px;
 .vegi-group .row {
     display: flex;
     align-items: center;
+}
+.right-header {position:relative;}
+.right-header strong {
+    font-family: 'Verdana';
+    font-size: 12px;
+    position: absolute;
+    right: 17px;
+    color: #4c9f38;
+    text-transform: uppercase;
 }

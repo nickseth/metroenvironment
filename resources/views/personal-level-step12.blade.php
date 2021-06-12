@@ -1,5 +1,5 @@
 @include('header')
-<body class="personal-level-step12 personal-level-step">
+<body class="personal-level-step12 personal-level-step sec2-bg2">
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
-      <h1>#<span>M</span>vironment</h1>
+      <h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
     </div></div>
   </div>
 </nav>
