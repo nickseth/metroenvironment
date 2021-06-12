@@ -339,6 +339,7 @@ border-right: 40px solid transparent;
 .base_receive1 {    margin-bottom: 20px;
     margin-top: 10px;
 }
+.foods-list svg{width: 85px;}
 .image-range-slider svg{max-width: 300px;margin: 20px auto;display: block;}
   .range {
 	position: relative;
@@ -507,7 +508,7 @@ border-right: 40px solid transparent;
 				max-width: 700px;    padding: 0 22px;
 				margin:20px auto 0;
 				border-radius: 15px;
-				background: url(../images/sec2-bg2.jpg) no-repeat top center;
+				background: url(../images/slide-6bg.jpg) no-repeat center;
 				background-size: cover;
 }
 .foods-list .grid-container{margin-left: -30px;padding: 20px 0 4px;}
@@ -516,4 +517,7 @@ border-right: 40px solid transparent;
     padding: 0 0px 10px 30px;
 }
 .foods-list .grid-item{background-color: transparent;}
-.foods-list p.light-text{color: #000;border-top: 0px;}
+.foods-list p.light-text{color: #000;border-top: 0px;     font-size: 15px;}
+.poultry-f.foods-list .grid-list {
+    width: 20%;}
+.page6	.foods-list .grid-list:nth-child(4) svg{    width: 67px;}
