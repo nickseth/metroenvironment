@@ -306,7 +306,7 @@ document.body.appendChild(sheet);
 
 var getTrackStyle = function (el) {  
   var curVal = el.value,
-      val = (curVal) * 20,
+      val = (curVal-1) * 20,
       style = '';
   
   // Set active label
