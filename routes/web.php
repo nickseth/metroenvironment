@@ -124,6 +124,9 @@ Route::get('/personal-level-step22', function () {
     return view('personal-level-step22');
 });
 
+Route::get('/personal-level-step23', function () {
+    return view('personal-level-step23');
+});
 /*-------Basic page routes ------------*/
 
 /*-------DB API routes ------------*/

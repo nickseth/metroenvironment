@@ -315,26 +315,12 @@ headers: {
   prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
 
 document.body.appendChild(sheet);
-
+$('.range').append('<div class="custom-slider-div"></div>')
 var getTrackStyle = function (el) {  
   var curVal = el.value,
-      val = (curVal-1) * 20,
+      val = (curVal) * 20,
       style = '';
-  if(curVal == 1){
-	 val = 0; 
-  }
-  if(curVal == 2){
-	  val = 30;
-  }
-  if(curVal == 3){
-	  val = 50;
-  }
-  if(curVal == 4){
-	  val = 70;
-  }
-  if(curVal == 5){
-	  val = 100;
-  }
+	$('.custom-slider-div').css('width',val+'%');
   // Set active label
   $('.range-labels li').removeClass('active selected');
   
