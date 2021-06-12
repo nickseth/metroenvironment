@@ -571,7 +571,7 @@ border-right: 40px solid transparent;
 .custom-slider-div {
     background: #000;
     display: inline-block;
-    position: absolute;
+    position: absolute;pointer-events: none;width: 0;
     height: 8px;
     left: 0;
     top: -2px;
