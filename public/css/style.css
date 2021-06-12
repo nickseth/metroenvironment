@@ -1566,3 +1566,34 @@ background-size:300px 300px;
     background: #ffffff url(../images/veg-bowl-5.svg) no-repeat center center;
    
 }
+.personal-level-step20 .box-top {
+   
+    align-items: flex-start;
+}
+.personal-level-step20 .box-top .box-icon {margin-top:-7px}
+
+.personal-level-step20 .circular-range-slider .rs-bg-color {
+	background: #ffffff url(../images/dollor-circle-0.svg) no-repeat center center;
+	
+}
+.personal-level-step20 .circular-range-slider.current-step-1 .rs-bg-color {
+    background: #ffffff url(../images/dollor-circle-1.svg) no-repeat center center;
+   
+}
+.personal-level-step20 .circular-range-slider.current-step-2 .rs-bg-color {
+    background: #ffffff url(../images/dollor-circle-2.svg) no-repeat center center;
+   
+}
+.personal-level-step20 .circular-range-slider.current-step-3 .rs-bg-color {
+    background: #ffffff url(../images/dollor-circle-3.svg) no-repeat center center;
+   
+}
+.personal-level-step20 .circular-range-slider.current-step-4 .rs-bg-color {
+    background: #ffffff url(../images/dollor-circle-4.svg) no-repeat center center;
+   
+}
+.personal-level-step20 .circular-range-slider.current-step-5 .rs-bg-color {
+    background: #ffffff url(../images/dollor-circle-5.svg) no-repeat center center;
+   
+}
+.personal-level-step .button-wrapper {height:auto}
