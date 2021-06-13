@@ -52,7 +52,47 @@ class Survey_Submission_Controller extends BaseController
 		$personal_level_step20 = empty($request->personal_level_step20) ? null : $request->personal_level_step20;
 		$personal_level_step21 = empty($request->personal_level_step21) ? null : $request->personal_level_step21;
 		$final_level_step1 = empty($request->final_level_step1) ? null : $request->final_level_step1;
-		
+		$country_data = array(
+                'age' => $age,
+                'office_located' => $office_located,
+                'gender' => $gender,
+                'joining_years' => $joining_years,
+                'department_size' => $department_size,
+                'metro_organization_team' => $metro_organization_team,
+                'intro_section_question1' => $intro_section_question1,
+                'intro_section_question2' => $intro_section_question2,
+                'intro_section_question3' => $intro_section_question3,
+                'personal_level_step1' => $personal_level_step1,
+                'personal_level_step2_organic' => $personal_level_step2_organic,
+                'personal_level_step2_bio' => $personal_level_step2_bio,
+                'personal_level_step2_allsame' => $personal_level_step2_allsame,
+                'personal_level_step3' => $personal_level_step3,
+                'personal_level_step4' => $personal_level_step4,
+                'personal_level_step5' => $personal_level_step5,
+                'personal_level_step6' => $personal_level_step6,
+                'personal_level_step6_never' => $personal_level_step6_never,
+                'personal_level_step7' => $personal_level_step7,
+                'personal_level_step7_never' => $personal_level_step7_never,
+                'personal_level_step8' => $personal_level_step8,
+                'personal_level_step8_never' => $personal_level_step8_never,
+                'personal_level_step9' => $personal_level_step9,
+                'personal_level_step9_never' => $personal_level_step9_never,
+                'personal_level_step10' => $personal_level_step10,
+                'personal_level_step10_never' => $personal_level_step10_never,
+                'personal_level_step11' => $personal_level_step11,
+                'personal_level_step12' => $personal_level_step12,
+                'personal_level_step13' => $personal_level_step13,
+                'personal_level_step14' => $personal_level_step14,
+                'personal_level_step15' => $personal_level_step15,
+                'personal_level_step16' => $personal_level_step16,
+                'personal_level_step17' => $personal_level_step17,
+                'personal_level_step18' => $personal_level_step18,
+                'personal_level_step19' => $personal_level_step19,
+                'personal_level_step20' => $personal_level_step20,
+                'personal_level_step21' => $personal_level_step21,
+                'final_level_step1' => $final_level_step1;
+                );
+               DB::table('survey_data')->insert($country_data);
 
 	}
 }
