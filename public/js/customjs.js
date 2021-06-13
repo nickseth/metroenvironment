@@ -428,7 +428,7 @@ $('.vegi-group-imgs .plate-item').draggable({
   helper: 'clone'
 });
 $('.empty-plate').droppable({
-  accept: "..plate-item",
+  accept: ".plate-item",
   drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
