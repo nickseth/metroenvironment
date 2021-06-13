@@ -52,6 +52,7 @@ class Survey_Submission_Controller extends BaseController
 		$personal_level_step20 = empty($request->personal_level_step20) ? null : $request->personal_level_step20;
 		$personal_level_step21 = empty($request->personal_level_step21) ? null : $request->personal_level_step21;
 		$final_level_step1 = empty($request->final_level_step1) ? null : $request->final_level_step1;
+		
 
 	}
 }
