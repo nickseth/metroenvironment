@@ -393,6 +393,7 @@ $('.range-labels li').on('click', function () {
 
 
 $('.draggable').draggable({
+  start:handleDragStart,
   revert: "invalid",
   stack: ".draggable",
   helper: 'clone'
@@ -410,6 +411,10 @@ $('.mid-drag ul li').droppable({
 });
 
 }); //END ready
+
+function handleDragStart (event, ui) {
+    $(this).addClass('usedDraggable');
+} 
 
 $('.range-labels li').eq(0).click();
 
