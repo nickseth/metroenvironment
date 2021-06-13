@@ -4444,4 +4444,22 @@ a.read-more {
   fill: #b3b3b3;
   stroke: #666;
 }
-.popup-ques-container.active-popover{display: block;}
+.popup-ques-container.active-popover{display: block;    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;    -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;}
+.popup-ques-container.raw-material-sourcing{right: -40%; left:auto; top: 70px;}
+.blinking{
+	animation:blinkingText 0.8s infinite;
+}
+#Packaging_Plastic_R1 .cls-3{	animation:blinkingText 1s infinite;}
+@keyframes blinkingText{
+	0%{	fill: #003c7f;	}
+	49%{	fill: transparent;	}
+	50%{	fill: transparent;	}
+	99%{	fill:transparent;	}
+	100%{	fill: #003c7f;	}
+}

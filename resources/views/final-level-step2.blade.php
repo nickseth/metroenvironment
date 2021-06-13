@@ -678,9 +678,7 @@
 										<input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" /> <a href="#" class="read-more">Read More</a>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
-								<h2 class="clr-blue">Do you already know that METRO
-offers vegan/vegetarian alternatives
-to its customers?</h2>
+								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic Initative</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -718,9 +716,7 @@ laoreet dolore</p>
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container climate-action">
-								<h2 class="clr-blue">Do you already know that METRO
-offers vegan/vegetarian alternatives
-to its customers?</h2>
+								<h2 class="clr-blue">“My Sustainable Restaurant” ToolboxDo you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -758,9 +754,7 @@ laoreet dolore</p>
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
-								<h2 class="clr-blue">Do you already know that METRO
-offers vegan/vegetarian alternatives
-to its customers?</h2>
+								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -798,9 +792,7 @@ laoreet dolore</p>
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
-								<h2 class="clr-blue">Do you already know that METRO
-offers vegan/vegetarian alternatives
-to its customers?</h2>
+								<h2 class="clr-blue">METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -838,9 +830,7 @@ laoreet dolore</p>
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">Do you already know that METRO
-offers vegan/vegetarian alternatives
-to its customers?</h2>
+								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy?</h2> 
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -878,7 +868,7 @@ laoreet dolore</p>
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
+								<h2 class="clr-blue">Are you aware that a Social Standard Management tool exists?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">

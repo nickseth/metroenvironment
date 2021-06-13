@@ -168,9 +168,10 @@ Route::get('/final-level-step13', function () {
 Route::get('/final-level-step14', function () {
     return view('final-level-step142');
 });
-Route::get('/final-level-step15', function () {
-    return view('final-level-step15');
+Route::get('/final-level-last', function () {
+    return view('final-level-last');
 });
+
 
 /*-------Basic page routes ------------*/
 
