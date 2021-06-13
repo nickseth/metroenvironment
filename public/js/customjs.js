@@ -403,6 +403,7 @@ $('.mid-drag ul li').droppable({
     var droppable = $(this);
     var draggable = ui.draggable;
     // Move draggable into droppable
+    droppable.html('');
     draggable.clone().appendTo(droppable);
     // draggable.css({float:'left'});
   }
