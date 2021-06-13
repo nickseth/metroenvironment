@@ -1640,7 +1640,7 @@ background-size:300px 300px;
 
 .badge-text {text-transform:uppercase}
 .badge-owner{font-family: 'SandwichMarkerPro'!important; font-size:29px!important; color:#214d88}
-
+.thank-title{font-family: 'SandwichMarkerPro'!important; font-size:52px!important; color:#214d88}
 .badges {
     display: flex;
     align-items: center;
@@ -1724,3 +1724,13 @@ padding-bottom: 15px;
 .clmn-grid-slider.dark-green .custom-slider-div {background: #006837;}
 
 .clmn-grid-wrap .clmn-grid:last-child{border:none}
+
+.fieldset-box{border:solid 1px #4c9f38; position:relative; padding:30px;margin:15px auto; max-width:730px;}
+.legend-title{border:none; position:absolute; top:-10px; left:0; right:0; margin:auto; text-align:center}
+.legend-title span{display:inline-block; padding:0 10px; background:#fff; color:#4c9f38; font-size:16px; font-weight:bold; text-transform:uppercase}
+.user-rating li{width:20%; list-style:none; padding:0 1%; text-align:center;}
+.user-rating li img {width:64px;}
+.user-rating li span{display:block; color:#214d88; margin-top:15px;}
+.rate-bg svg {height:auto; width:100%;}
+.rate-bg {position:relative; bottom:0; left:0; right:0; padding-top:30px}
+.final-level-step15 .survey-form {}
