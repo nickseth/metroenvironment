@@ -420,9 +420,37 @@ $('.mid-drag ul li').droppable({
   }
 });
 
+
+$('.vegi-group-imgs .plate-item').draggable({
+  start:handleDragStartvegi,
+  revert: "invalid",
+  stack: ".draggable",
+  helper: 'clone'
+});
+$('.empty-plate').droppable({
+  accept: "..plate-item",
+  drop: function(event, ui) {
+    var droppable = $(this);
+    var draggable = ui.draggable;
+
+    if (droppable.find('.grid-icons').length) {
+	    draggable.draggable('option', 'revert', true);
+	    return false;
+    }
+    // Move draggable into droppable
+    // droppable.html('');
+    draggable.clone().appendTo(droppable);
+    draggable.css({pointerEvents:'none'});
+    draggable.addClass('usedDraggable');
+  }
+});
+
 }); //END ready
 
 function handleDragStart (event, ui) {
+    // $(this).addClass('');
+} 
+function handleDragStartvegi (event, ui) {
     // $(this).addClass('');
 } 
 setTimeout(function(){
