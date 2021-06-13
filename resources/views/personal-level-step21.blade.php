@@ -17,6 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
+	<form class="survey-form">
 		<div class="relative">
 			<div class="page-width mt-4 page21">
 				<div class="row">
@@ -25790,6 +25791,7 @@
 <a href="{{url('/personal-level-step22')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 				</div>
 			</div>
+		</form>
 		</div>
 	</div>
 </body>
