@@ -431,7 +431,7 @@ border-right: 40px solid transparent;
 		position: relative;
 		float: left;
 		width: 20%;
-		text-align: left;
+		text-align: center;
 		color: #5aaeae;
 		font-size: 20px;
 		cursor: pointer; }
@@ -481,6 +481,7 @@ border-right: 40px solid transparent;
 .foods-range  .range-labels .active {
     color: #fff;
 }
+.range-labels .active:before,
 .foods-range .range-labels .active:before {
     -webkit-appearance: none;
     width: 22px;
@@ -493,8 +494,8 @@ border-right: 40px solid transparent;
     border: 2px solid #000 !important;
     content: "";
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0px);
+    right: 0%;
+    /* transform: translate(-50%, 0px); */
     top: -20px;
     opacity: 1;
 }
@@ -584,12 +585,13 @@ border-right: 40px solid transparent;
 }
 .page11 ~ .button-wrapper{height: 60px;}
 .page17 .range-labels li, .page14 .range-labels li,
-.page13 .range-labels li{    width: auto;}
+.page13 .range-labels li{ width: 20%;
+    text-align: center;}
 .custom-slider-div {
     background: red;
     position: absolute;
     pointer-events: none;
     top: -2px;
-    left: 0;
+    left: 0;    border-radius: 11px;
     height: 8px;
 }
