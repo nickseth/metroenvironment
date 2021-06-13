@@ -370,7 +370,24 @@ $('.range-labels li').on('click', function () {
   $rangeInput.val(index + 1).trigger('input');
   
 });
-})
+
+$('.draggable').draggable({
+  revert: "invalid",
+  stack: ".draggable",
+  helper: 'clone'
+});
+$('.mid-drag ul li').droppable({
+  accept: ".draggable",
+  drop: function(event, ui) {
+    var droppable = $(this);
+    var draggable = ui.draggable;
+    // Move draggable into droppable
+    draggable.clone().appendTo(droppable);
+    // draggable.css({float:'left'});
+  }
+});
+
+}); //END ready
 function dataSubmission(data,url){
 	  $.ajax({
           url: url,
