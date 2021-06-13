@@ -39,35 +39,35 @@
 							<div class="popup-type-container">
 								<h2 class="clr-blue">The METRO’s sustainability strategy and the 8 focus areas</h2>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
-									<div class="emoji-cover-item">
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
 										<img src="images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item">
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
 								</div>
-
+<input type="hidden" name="final_level_step1" value="" class="hidden-smiley-data"/>
 								<div class="mt-3 btn-cover">
-					        <a href="javascript:void(0)" class="btn-flip next-btn" data-back="Agree" data-front="Agree"></a>
+					        <a href="{{url('/final-level-step2')}}" class="btn-flip next-btn get-survey-details" data-back="Agree" data-front="Agree"></a>
 					      </div>
 							</div>
 							</div>
@@ -75,9 +75,8 @@
 					
 				</div>
 			</div>
-			<div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step7')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
-			</div>
+			
+			
 		</div>
 	</form>
 	</div>

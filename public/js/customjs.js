@@ -217,6 +217,12 @@ headers: {
 			}
 		},300)
 	})
+	$('.emoji-option-js').click(function(){
+		$('.emoji-option-js').not($(this)).removeClass('active-option');
+		$(this).addClass('active-option');
+		$('.hidden-smiley-data').val($(this).attr('data-value'));
+		
+	})
 	// storing form data in cookie //
 	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
