@@ -669,13 +669,7 @@
 										<h5>Did you know?</h5>
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
-										<input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
-										<input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
-										<input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
-										<input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
-										<input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
-										<input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
-										<input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" /> <a href="#" class="read-more">Read More</a>
+										 <a href="#" class="read-more">Read More</a>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic Initative</h2>
@@ -712,7 +706,7 @@
 nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
-  
+  <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container climate-action">
@@ -750,7 +744,7 @@ laoreet dolore</p>
 nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
-  
+  <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
@@ -788,7 +782,7 @@ laoreet dolore</p>
 nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
-  
+  <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
@@ -826,7 +820,7 @@ laoreet dolore</p>
 nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
-  
+  <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container food-waste">
@@ -864,7 +858,7 @@ laoreet dolore</p>
 nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
-  
+  <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container organic">
@@ -899,7 +893,7 @@ laoreet dolore</p>
 								<hr>
 								<h5>Did you know?</h5>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-
+<input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
 					             <a href="#" class="read-more">Read More</a>
 							</div>
 							<div class="popup-ques-container conscious-proteins">
@@ -934,7 +928,7 @@ laoreet dolore</p>
 								<hr>
 								<h5>Did you know?</h5>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
-
+<input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
 					             <a href="#" class="read-more">Read More</a>
 							</div>
 							  
@@ -944,14 +938,6 @@ laoreet dolore</p>
 					</div>
 				</div>
 			</div>
-			<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="">
-<input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="">
-<input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="">
-<input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="">
-<input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="">
-<input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="">
-<input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="">
-<input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="">
 		</form>
 	</div>
 	</div>
