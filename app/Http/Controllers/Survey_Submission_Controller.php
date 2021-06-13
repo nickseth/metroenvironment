@@ -13,6 +13,8 @@ class Survey_Submission_Controller extends BaseController
 {
 	public function index(Request $request)
 	{
-		//echo json_encode($request->age);
+		extract($request);
+		
+		echo json_encode($age);
 	}
 }
