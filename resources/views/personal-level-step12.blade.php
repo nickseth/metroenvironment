@@ -40,13 +40,9 @@
  
  <div class="vegi-group-imgs">
  <div class="plate-item-1"><img src="images/plate-item-1.svg" /></div>
- <div class="plate-item-1d"><img src="images/plate-item-1.svg" /></div>
  <div class="plate-item-2"><img src="images/plate-item-2.svg" /></div>
- <div class="plate-item-2d"><img src="images/plate-item-2.svg" /></div>
  <div class="plate-item-3"><img src="images/plate-item-3.svg" /></div>
- <div class="plate-item-3d"><img src="images/plate-item-3.svg" /></div>
  <div class="plate-item-4"><img src="images/plate-item-4.svg" /></div>
- <div class="plate-item-4d"><img src="images/plate-item-4.svg" /></div>
  </div>
  
  </div><div class="col-sm-3"><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>

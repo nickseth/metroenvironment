@@ -403,6 +403,11 @@ $('.mid-drag ul li').droppable({
   drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
+
+    if (droppable.find('.grid-icons').length) {
+	    draggable.draggable('option', 'revert', true);
+	    return false;
+    }
     // Move draggable into droppable
     droppable.html('');
     draggable.clone().appendTo(droppable);
