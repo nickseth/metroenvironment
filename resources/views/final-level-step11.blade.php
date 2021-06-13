@@ -1,5 +1,5 @@
 @include('header')
-<body class="final-level-step12 personal-level-step">
+<body class="final-level-step11 personal-level-step">
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
@@ -25,7 +25,7 @@
  <div class="sec1-box-center text-center">
  <div class="box-top">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
- <div class="animate__animated animate__fadeIn green-text">I believe, sustainability is a promising business opportunity to be leveraged</div>
+ <div class="animate__animated animate__fadeIn green-text">I believe, sustainability & social factors have a direct influence on METRO’s overall success,<br>today and in the future</div>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 0 to 5 to submit your response, where 0 = least likely and 5 = most likely</p>
 
