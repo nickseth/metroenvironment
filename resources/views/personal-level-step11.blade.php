@@ -36,7 +36,7 @@
 						<div class="grid-container animate__zoomIn row1">
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Cocoa">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -2882,7 +2882,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Almonds">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 100.8 86.3" style="enable-background:new 0 0 100.8 86.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -5746,7 +5746,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Beef">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 65.4" style="enable-background:new 0 0 96 65.4;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -8651,7 +8651,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Cheese">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 111.4 96" style="enable-background:new 0 0 111.4 96;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -11500,7 +11500,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Eggs">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 105.6 82.3" style="enable-background:new 0 0 105.6 82.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -39893,8 +39893,8 @@
 </div>
 <div class="grid-container animate__zoomIn row2">
 							<div class="grid-list">
-								<div class="grid-item">
-									<div class="grid-icons">
+								<div class="grid-item" data-text="Avocado">
+									<div class="grid-icons draggable">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 77" style="enable-background:new 0 0 96 77;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -42736,7 +42736,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Milk">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 71.4 96" style="enable-background:new 0 0 71.4 96;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -45591,7 +45591,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Potato">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 105.3 62.4" style="enable-background:new 0 0 105.3 62.4;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -48445,7 +48445,7 @@
 							</div>
 							<div class="grid-list">
 								<div class="grid-item">
-									<div class="grid-icons">
+									<div class="grid-icons draggable" data-text="Tomato">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}

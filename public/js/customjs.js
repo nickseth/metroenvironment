@@ -390,8 +390,34 @@ $('.range-labels li').on('click', function () {
   $rangeInput.val(index + 1).trigger('input');
   
 });
+
+
+$('.draggable').draggable({
+  start:handleDragStart,
+  revert: "invalid",
+  stack: ".draggable",
+  helper: 'clone'
+});
+$('.mid-drag ul li').droppable({
+  accept: ".draggable",
+  drop: function(event, ui) {
+    var droppable = $(this);
+    var draggable = ui.draggable;
+    // Move draggable into droppable
+    droppable.html('');
+    draggable.clone().appendTo(droppable);
+    // draggable.css({float:'left'});
+  }
+});
+
+}); //END ready
+
+function handleDragStart (event, ui) {
+    $(this).addClass('usedDraggable');
+} 
+
 $('.range-labels li').eq(0).click();
-})
+
 function dataSubmission(data,url){
 	  $.ajax({
           url: url,
