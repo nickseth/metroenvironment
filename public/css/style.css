@@ -1627,6 +1627,7 @@ background-size:300px 300px;
     display: flex;
     align-items: center;
 }
+.usedDraggable { opacity: .5; pointer-events: none; }
 .right-header {position:relative;}
 .right-header strong {
     font-family: 'Verdana';
