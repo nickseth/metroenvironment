@@ -166,7 +166,7 @@ Route::get('/final-level-step13', function () {
     return view('final-level-step13');
 });
 Route::get('/final-level-step14', function () {
-    return view('final-level-step142');
+    return view('final-level-step14');
 });
 Route::get('/final-level-last', function () {
     return view('final-level-last');
