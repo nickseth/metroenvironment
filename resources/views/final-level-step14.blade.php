@@ -47,7 +47,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-1.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Image/promotion/branding</div></div> <div class="col-sm-6"><div class="clmn-grid-slider orange">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_1" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -71,7 +71,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-2.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Cost reduction</div></div> <div class="col-sm-6"><div class="clmn-grid-slider orange">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_2" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -96,7 +96,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-3.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Political requirements/laws<br>(national and European/international)</div></div> <div class="col-sm-6"><div class="clmn-grid-slider green">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_3" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -121,7 +121,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-4.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Ecological responsibility</div></div> <div class="col-sm-6"><div class="clmn-grid-slider dark-green">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_4" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -145,7 +145,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-5.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Motivation of the workforce</div></div> <div class="col-sm-6"><div class="clmn-grid-slider green">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_5" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -169,7 +169,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-6.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Social responsibility</div></div> <div class="col-sm-6"><div class="clmn-grid-slider green">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_6" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -193,7 +193,7 @@
   <div class="two-clmn-flex">
  <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-7.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Customer request</div></div> <div class="col-sm-6"><div class="clmn-grid-slider green">
  <div class="range ">
- <input type="range" min="1" max="5" name="personal_level_step14" steps="1" value="1"><div class="custom-slider-div" style="width: 20%;"></div></div>
+ <input type="range" min="1" max="5" name="final_level_step14_7" steps="1" value="1"></div>
  <ul class="range-labels">
   <li class="active selected">1</li>
   <li class="">2</li>
@@ -220,7 +220,7 @@
  </div>
 </div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step4')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/final-level-step15')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 </div>
  </div>
  </div></div>
