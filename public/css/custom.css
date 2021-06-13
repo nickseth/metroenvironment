@@ -582,17 +582,19 @@ border-right: 40px solid transparent;
     content: none;
 }
 .page11 ~ .button-wrapper{height: 60px;}
-.page15 .range,
+.page15 .range,.page16 .range,
 .page17 .range, .page14 .range,
 .page13 .range{width: 96%;}
 .page15 .range-labels,.page16 .range-labels,
 .page17 .range-labels, .page14 .range-labels,
 .page13 .range-labels{width: 119%;}
 .custom-slider-div {
-    background: red;
+    background: #6c353b;
     position: absolute;
     pointer-events: none;
     top: -2px;
     left: 0;    border-radius: 11px;
     height: 8px;
 }
+.page13 .custom-slider-div,.page14 .custom-slider-div,.page15 .custom-slider-div,.page16 .custom-slider-div,
+.page17 .custom-slider-div{background: #000;}
