@@ -3058,7 +3058,7 @@ the factors that affect purchase decision?</div>
 
 <ul class="range-labels">
   <li>1</li>
-  <li  class="active selected">2</li>
+  <li>2</li>
   <li>3</li>
   <li>4</li>
   <li>5</li>

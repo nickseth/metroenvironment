@@ -27834,7 +27834,7 @@
 									</div>
 									<ul class="range-labels">
 										<li>No change in diet</li>
-										<li class="active selected">Planning to reduce consumption</li>
+										<li>Planning to reduce consumption</li>
 										<li>Reduced consumption</li>
 										<li>Avoiding consumption</li>
 										<li>Have Stopped Completely</li>
