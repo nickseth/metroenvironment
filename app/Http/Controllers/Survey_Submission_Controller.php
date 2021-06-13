@@ -47,7 +47,6 @@ class Survey_Submission_Controller extends BaseController
 		$personal_level_step15 = empty($request->personal_level_step15) ? null : $request->personal_level_step15;
 		$personal_level_step16 = empty($request->personal_level_step16) ? null : $request->personal_level_step16;
 		$personal_level_step17 = empty($request->personal_level_step17) ? null : $request->personal_level_step17;
-		$personal_level_step18 = empty($request->personal_level_step18) ? null : $request->personal_level_step18;
 		$personal_level_step19 = empty($request->personal_level_step19) ? null : $request->personal_level_step19;
 		$personal_level_step20 = empty($request->personal_level_step20) ? null : $request->personal_level_step20;
 		$personal_level_step21 = empty($request->personal_level_step21) ? null : $request->personal_level_step21;
@@ -86,11 +85,10 @@ class Survey_Submission_Controller extends BaseController
                 'personal_level_step15' => $personal_level_step15,
                 'personal_level_step16' => $personal_level_step16,
                 'personal_level_step17' => $personal_level_step17,
-                'personal_level_step18' => $personal_level_step18,
                 'personal_level_step19' => $personal_level_step19,
                 'personal_level_step20' => $personal_level_step20,
                 'personal_level_step21' => $personal_level_step21,
-                'final_level_step1' => $final_level_step1;
+                'final_level_step1' => $final_level_step1
                 );
                DB::table('survey_data')->insert($country_data);
 

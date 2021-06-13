@@ -223,6 +223,11 @@ headers: {
 		$('.hidden-smiley-data').val($(this).attr('data-value'));
 		
 	})
+	$('#sust1-group g').click(function(){
+		var target = $(this).attr('id');
+		$('.popup-ques-container').removeClass('active-popover');
+		$('.'+target).addClass('active-popover')
+	})
 	// storing form data in cookie //
 	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
