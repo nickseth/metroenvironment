@@ -17,7 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
-		<form class="final-steps step2-page">
+		<form class="final-steps step2-page survey-form">
 			<div class="relative">
 				<div class="page-width mt-1">
 					<div class="row">
@@ -938,7 +938,7 @@ laoreet dolore</p>
 					</div>
 				</div>
 				<div class="button-wrapper bottom-button">
-<a href="http://localhost/metroenvironment/public/final-level-start" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/final-level-step3')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 				</div>
 			</div>
 		</form>
