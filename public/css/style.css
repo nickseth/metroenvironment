@@ -138,7 +138,7 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
 .form-info img{width:33px}
 .form-info span{margin-left:10px}
 .clear-left {clear:left}
-.button-wrapper {display:flex; align-items:flex-end; justify-content:flex-end; height:100px}
+.button-wrapper {display:flex; align-items:flex-end; justify-content:flex-end; height:100px; clear:both;}
 .button-wrapper button{width:auto}
 button {font-weight:bold!IMPORTANT; background:#4c9f38; color:#fff!important; text-transform:uppercase!IMPORTANT; border:none; border-radius: 15px;
     padding: 5px 15px;}
@@ -1682,3 +1682,45 @@ background-size:300px 300px;
 	
 }
 .circular-range-slider .rs-bg-color {background-size:300px!important;}
+
+.final-level-step14 .page-width {max-width:100%}
+
+.two-clmn-flex .row {display:flex; align-items:center; justify-content:flex-start}
+.clmn-grid-wrap .clmn-grid {border-bottom:solid 1px #606060;
+padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.clmn-grid-icon-text {display:flex; align-items:center}
+
+	.clmn-grid-text{color:#214d88; font-size:16px;}
+	
+	.clmn-grid-slider .range {width:100%}
+	
+	.clmn-grid-slider .range-labels li {
+    position: relative;
+    float: left;
+    width: auto;
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 14px;
+    cursor: pointer;
+}
+.clmn-grid-slider .range-labels {padding-top:15px;}
+
+.clmn-grid-slider  .range-labels .active:before, .clmn-grid-slider .range-labels .active:before {
+   
+    width: 16px;
+    height: 16px;
+    margin: -2px 0 0;
+   
+   
+}
+.clmn-grid-slider.orange .range-labels .active:before, .clmn-grid-slider.orange .range-labels .active:before {border: 2px solid #fbaf30 !important;}
+.clmn-grid-slider.orange .custom-slider-div {background: #fbaf30;}
+.clmn-grid-slider.green .range-labels .active:before, .clmn-grid-slider.green .range-labels .active:before {border: 2px solid #4c9f38 !important;}
+.clmn-grid-slider.green .custom-slider-div {background: #4c9f38;}
+
+.clmn-grid-slider.dark-green .range-labels .active:before, .clmn-grid-slider.green .range-labels .active:before {border: 2px solid #006837 !important;}
+.clmn-grid-slider.dark-green .custom-slider-div {background: #006837;}
+
+.clmn-grid-wrap .clmn-grid:last-child{border:none}
