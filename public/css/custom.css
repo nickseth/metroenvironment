@@ -566,7 +566,7 @@ border-right: 40px solid transparent;
     border-radius: 25px;padding: 8px;
 }
 .mid-drag ul{list-style: none; display: flex;margin: 0 ; padding: 0;justify-content: space-around; }
-.mid-drag ul svg{width:70px;    vertical-align: middle; }
+.mid-drag ul svg{width:70px;    vertical-align: middle;     margin: 0;}
 .mid-drag ul li > svg:nth-child(1){ opacity: 0;}
 .mid-drag ul li{width:11.111%; position:relative;text-align: center;}
 .ui-droppable .grid-icons {
