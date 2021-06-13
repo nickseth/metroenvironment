@@ -4155,6 +4155,7 @@
 
 
 /* Custom Css */
+/* Section 3 Page 1 */
 .clr-green{color: #4c9f38;}
 .clr-blue{color: #214d88;}
 .sec3-home-bg{
@@ -4173,3 +4174,156 @@
   padding: 0 15px;
 }
 .wrper-cstm-width h3{line-height: normal;}
+
+.sec3-home-bg .baloon{
+  position: absolute;
+  top: 40px;
+  left: 18%;
+  z-index: 99;
+  right: 0;
+  max-width: 80px;
+}
+
+.sec3-home-bg .baloon img{max-width: 80px;}
+
+@keyframes carmove{
+    0%{transform: translateY(0px);}
+    58%{transform: translateY(1px)}
+    62%{transform: translateY(2px)}
+    66%{transform: translateY(3px)}
+    75%{transform: translateY(1px)}
+    100%{transform: translateY(0px);animation-play-state: paused, running;}
+  }
+  @keyframes wheel{
+    0%{
+     transform: rotate(0deg);
+    }
+    35% {
+      transform: rotate(-500deg);
+    }
+    
+    100%{
+      transform: rotate(-1000deg); animation-play-state: paused;animation-timing-function: ease-out; animation-play-state: paused, running;
+    }
+  }
+  
+  @keyframes moving {
+    0% {
+      right: 120px;animation-play-state: running;
+      animation-timing-function: ease-out; 
+    }
+    99% {
+      right: 65%;  animation-play-state: running;
+    }
+    100% {
+      right: 65%;  animation-timing-function: ease-in;animation-play-state: paused;
+    }
+  }
+  
+  @keyframes stableWheel {
+    from {transform: translateY(-.0em);}
+    to {transform: translateY(-.0em);}
+  }
+  
+  .bike{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute; right: 65%;
+    width: 160px;
+    height:90px;     bottom: 40px;
+    overflow:hidden;
+    animation:  moving 40s linear  1;
+  }
+  
+  .bikebody{
+    animation: carmove 3.1s 1 linear;
+    background: url(../images/bike.svg) no-repeat;
+    background-size: cover;
+    height: 80px;
+    position: relative; 
+    width: 110px;
+    z-index: 125;
+  }
+  
+  .weel{
+    /*animation: wheel 0.7s infinite linear;*/
+    animation:wheel 10s linear  4;
+    position: absolute;
+    top: 57%;background-size: contain;
+    z-index: 200;
+  }
+  .bike-weel1{left: 3px;background: url(../images/bike-wheel-front.svg) no-repeat;width: 26px;  height: 26px;}
+  
+  .bike-weel2{left: 55px;background: url(../images/bike-wheel-rear.svg) no-repeat;
+    width: 43px;
+    margin-top: -18px; 
+    height: 43px;
+  }
+  
+  .stopedWeel{
+    animation: stableWheel .2s linear 1 alternate;
+  }
+
+
+/* Section 3 Page 2 */
+.popup-type-container{
+  position: relative;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 25px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  box-shadow: 7px 7px #eee;
+  text-align: center;
+  background-color: #fff;
+}
+
+.popup-type-container:before {
+  content: '';
+  display: block;
+  height: 125%;
+  width: 72%;
+  border: 10px solid #214d88;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.popup-type-container h2{
+  font-family: "Verdana"!important;
+  text-align: left;
+  margin-top: 0;
+}
+
+.popup-type-container .emoji-cover{
+  display: flex;
+  display: -webkit-flex;
+  display: -mox-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  justify-content:space-between;
+  -webkit-justify-content:space-between;
+  -moz-justify-content:space-between;
+}
+
+.popup-type-container .emoji-cover-item{
+  text-align: center;
+  max-width: 90px;
+  margin: 30px 0 20px;
+}
+
+.popup-type-container .emoji-cover-item img{
+  max-width: 70px;
+  margin:0 auto;
+}
+
+.popup-type-container .emoji-cover-item .emoji-title {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: normal;
+}
