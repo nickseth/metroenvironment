@@ -4283,7 +4283,7 @@
   margin: 10px auto;
   padding: 16px;    z-index: 11;
   border: 2px solid #eee;
-  border-radius: 10px;left: -50%;
+  border-radius: 10px;left: -75%;
   top: 100px;
   box-shadow: 7px 7px #eee;
   text-align: left;
@@ -4440,7 +4440,7 @@ a.read-more {
   color: #000;
   text-decoration: underline;
 }
-.next-to-active path {
+.next-to-active > path {
   fill: #b3b3b3;
   stroke: #666;
 }
@@ -4452,7 +4452,7 @@ a.read-more {
   animation-fill-mode: both;    -webkit-animation-name: zoomIn;
   animation-name: zoomIn;}
 .popup-ques-container.raw-material-sourcing{right: -40%; left:auto; top: 70px;}
-.blinking{
+.blinkingtext{
 	animation:blinkingText 0.8s infinite;
 }
 #Packaging_Plastic_R1 .cls-3{	animation:blinkingText 1s infinite;}
@@ -4463,6 +4463,39 @@ a.read-more {
 	99%{	fill:transparent;	}
 	100%{	fill: #003c7f;	}
 }
-.popup-ques-container.food-waste{left: -66%;}
-.popup-ques-container.organic{right: -76%; left:auto; top: 70px;}
-.popup-ques-container.conscious-proteins{top: 140px}
+.blinking{
+	animation:blinking 0.8s infinite;
+}
+@keyframes blinking{
+	0%{	opacity: 1;	}
+	50%{opacity: 0;	}
+	100%{	fill: #003c7f;	}
+}
+
+.popup-ques-container.food-waste{left: -75%;}
+.popup-ques-container.organic{right: -75%; left:auto; top: 70px;}
+.popup-ques-container.conscious-proteins{top: 120px}
+.final-step3 .form-group input:checked + label:before {
+  background: #10cfbd;
+  border-color: #10cfbd;
+}
+.final-step3 .checkbox-group label {
+  font-size: 18px;
+  color: #000;
+}
+.final-step3 .form-group input:checked + label:after{top: 1px;border-width: 0 4px 4px 0;left: 9px;}
+.final-step3 .form-group label:before {
+  border: 3px solid #E6E6E6;
+  box-shadow: none;
+  width: 28px;
+  height: 28px;
+  margin-right: 11px;
+  background: #fff;
+}
+.final-step3 > .row{ display: flex;align-items: center;}
+.grid-list .grid-icons.usedDraggable {
+  opacity: .5;
+  pointer-events: none;
+}
+.grid-list .grid-icons.usedDraggable  ~ .light-text{opacity: .5;
+  pointer-events: none;}
