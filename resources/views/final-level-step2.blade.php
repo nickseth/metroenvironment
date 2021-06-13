@@ -103,7 +103,7 @@
 																</g>
 															</g>
 														</g>
-														<g id="climate-action" data-name="Grey Circle Section CA" class="sust-item sust-item-8 sust-item--que1 next-to-active second-level-btn">
+														<g id="climate-action" data-name="Grey Circle Section CA" class="sust-item sust-item-8 sust-item--que1   second-level-btn">
 															<path class="cls-8" d="M449.22,265.25A184.84,184.84,0,0,1,376,412.55l35.26,48.53c59.43-44.74,97.94-115.87,97.94-195.83a244.15,244.15,0,0,0-11-72.72l-57.08,18.55A184.36,184.36,0,0,1,449.22,265.25Z" transform="translate(-5.5 -8.29)"></path>
 															<g id="Climate_Action_R1" data-name="Climate Action R1" class="sust-item--text">
 																<path class="cls-3" d="M427.26,382a14.15,14.15,0,1,0,20,.71A14.17,14.17,0,0,0,427.26,382Zm15.22-1.67,0,0-.53-.05-.47-.4A9.1,9.1,0,0,1,442.48,380.29Zm-1-.43-.13.39.38.7-.77-.05-.38-.37-.67,0h-.26l-.43.4.49.26.79-.19h.18l-.06.16.29.3-.16.34-.26.16-.31-.07.37-.31,0-.21-1.27.2-.27-.17,0,.58-.38.23.1,1.09.14.34-.29.32-.46.43-.4.13-.59-.47-.15-.35.38-.55.61-.37-.2-.34-.27.15-.34-.51.44-.57-.11-.84.32-.41.38-.27.12-.11-.51-.42-.26.55-.48-.22-.26.18-.28-.2v-.39l.16-.33A13.52,13.52,0,0,1,441.45,379.86Zm-5.08,1.56-.36.07-.26,0-.14-.16,0-.22.26-.38.46.33.43.12.24,0,.29-.11,0,.42-.35.39-.29.27-.29-.37.2-.27Zm-.34.16.18.23-.14.68-.23.21-.19-.2h0l-.1-.51.21-.31Zm-12,7.52.08-.08.34-.09.51-.3.19.13.69-.6-.29-.13-.61.54,0-.26-.2-.12-.54.51.13-.7c0-.12.08-.24.13-.37l.48-.45.61.12.46-.38,0-.51.29-.08,0,.69-.48.46s.37.31.37.31l.6-.59-.09-.23.4-.41-.18-.3-.29.19-.13-.3.14-.24.7-.58-.06.67.3.2.43-.29-.45-.45.18-.53.58-.67,1.32-.46.34.35.36-.2.12.42-.43.4.18.44-1.18.67.39-1.11-.52,0-.58.69v.12h0V386l-.29.32.17.13.15-.06.05.06-.22.27.11.17-.23.24-.31-.26-.32.54-.4,1.35.44.28.4-.07.56-.4.53.57.19-.25-.19-.64.37-.66-.63-.68.08-.5.87-.49.37.49.19-.18.28-.74.58.56.59-.12.31.37-.25.46.14.09.62-.21.22.25-.12.13h0l-.71.34-.19-.15h0l.06-.27-.15-.16-.22.12.1.19-.26.33,0,0v0l-.09.11-.25-.09-.14,0-.22.2,0,.17.17.18.24-.11.21-.14,0,.05v.35l-.16,0-.2.11-.06.83h.1l-.31,1,0,1.21.22.33-.24,1,0,.59.61.59-.61.19-.33-.36-1.18,1.1-.32.88.19.73.26.49.52.21.53-.39.29-1.22.3.19.18.66.68-.44.89.84.92-.61,0-1.05.73-.45.5.1.56-.58-.15-.19.47-.15.9.23.64-.57.61.19.5.46.94-.38.89-.81.65.18.5-.24.26.42.07.94,1,1.32-.1.67-.59.51.12.51.72.49.12,1.38.14.55-.33.84-.33.42.13.18.35-.18.13.21,0,.47.32.05.31-.27.19.24.13.3.15.21.78,0,.12.24-.61.54-1.07,0-1.22-.38-.66-.84-.78-.14-.59-.92-.26.13L437.9,399a9.94,9.94,0,0,0-1,.14s-.38.21-.38.21l-.36-.27-1.63-.25-.25-.4-.49-.58L434,397l-.65-.55-.82.65-1.23-.12-.53.28-.32.2-.2-.28-.39.28.13.14-1.08.59-.85-.21-.1-.39-1.3-.29-.64-.5-.23.21.61.5.93.23.18.27-.37.26-1-.31-.74-.79-.6.19-.16-.18A13.26,13.26,0,0,1,424.05,389.1Zm7.76-1.42.05.16-.13.15.1.16-.05.17-.16.18-.08-.06-.07.06-.13-.15.28-.27-.08-.2.11-.11Zm-.56.93.12.17-.19.21-.13-.16v-.2Zm18.86,2.68-.43-.47-.86-.16-.75-.8h-.56l-.33-.31-.29-1.05L445,387.9l-.7-.91-.69.52-.45,0-.42.4,0,.4L442,389l0,.09-.42.39-2-.2-.79-.85.11-.21-.24-.38-.23.21-.41-.25.36-1.82-.52-.57.26-.8.24-.18.44-.42.18-.51,1-1.13.53.57,1.09-.6.29,0,.17-.16-.29-.31.46-.52.82-.09.39-.36a13.26,13.26,0,0,1,6.55,10.44Z" transform="translate(-5.5 -8.29)"></path>
@@ -276,7 +276,7 @@
 																</g>
 															</g>
 														</g>
-														<g id="human-rights" data-name="Grey Circle Section HR" class="sust-item sust-item-5 sust-item--que1 next-to-active second-level-btn">
+														<g id="human-rights" data-name="Grey Circle Section HR" class="sust-item sust-item-5 sust-item--que1   second-level-btn">
 															<path id="HR_Grey" data-name="HR Grey" class="cls-8" d="M260.62,80.3v-60C154.92,21.83,65.21,90.62,32.48,185.71l57.08,18.54C114.45,133.2,181.54,81.82,260.62,80.3Z" transform="translate(-5.5 -8.29)"></path>
 															<g id="Human_Rights_R1" data-name="Human Rights R1" class="sust-item--text">
 																<g>
@@ -641,7 +641,43 @@
 										</div>
 									</div>
 									<!-- Legend -->
-									<div class="popup-ques-container">
+									<div class="popup-ques-container human-rights">
+										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
+										<div class="emoji-cover">
+											<div class="emoji-cover-item emoji-option-js active" data-value="1">
+												<img src="images/sec-3-01.svg" alt="Emoji">
+												<div class="emoji-title">Actively Involved</div>
+											</div>
+											<div class="emoji-cover-item emoji-option-js" data-value="2">
+												<img src="images/sec-3-02.svg" alt="Emoji">
+												<div class="emoji-title">Indirectly Involved</div>
+											</div>
+											<div class="emoji-cover-item emoji-option-js" data-value="3">
+												<img src="images/sec-3-03.svg" alt="Emoji">
+												<div class="emoji-title">Yes, I am aware</div>
+											</div>
+											<div class="emoji-cover-item emoji-option-js" data-value="4">
+												<img src="images/sec-3-04.svg" alt="Emoji">
+												<div class="emoji-title">Not fully Aware</div>
+											</div>
+											<div class="emoji-cover-item emoji-option-js" data-value="5">
+												<img src="images/sec-3-05.svg" alt="Emoji">
+												<div class="emoji-title">This is news to me</div>
+											</div>
+										</div>
+										<hr>
+										<h5>Did you know?</h5>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
+										<input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
+										<input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
+										<input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
+										<input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
+										<input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
+										<input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
+										<input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" /> <a href="#" class="read-more">Read More</a>
+									</div>
+									<div class="popup-ques-container packaging-plastic">
 								<h2 class="clr-blue">Do you already know that METRO
 offers vegan/vegetarian alternatives
 to its customers?</h2>
@@ -678,16 +714,254 @@ to its customers?</h2>
 nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
-<input type="hidden" name="final_level_step1" value="" class="hidden-smiley-data">
+  
 					        <a href="#" class="read-more">Read More</a>
 							</div>
+							<div class="popup-ques-container climate-action">
+								<h2 class="clr-blue">Do you already know that METRO
+offers vegan/vegetarian alternatives
+to its customers?</h2>
+								<div class="emoji-cover">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+										<img src="images/sec-3-01.svg" alt="Emoji">
+										<div class="emoji-title">Actively Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
+										<img src="images/sec-3-02.svg" alt="Emoji">
+										<div class="emoji-title">Indirectly Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
+										<img src="images/sec-3-03.svg" alt="Emoji">
+										<div class="emoji-title">Yes, I am aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
+										<img src="images/sec-3-04.svg" alt="Emoji">
+										<div class="emoji-title">Not fully Aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
+										<img src="images/sec-3-05.svg" alt="Emoji">
+										<div class="emoji-title">This is news to me</div>
+									</div>
+
 								</div>
-								
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore</p>
+  
+					        <a href="#" class="read-more">Read More</a>
+							</div>
+							<div class="popup-ques-container raw-material-sourcing">
+								<h2 class="clr-blue">Do you already know that METRO
+offers vegan/vegetarian alternatives
+to its customers?</h2>
+								<div class="emoji-cover">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+										<img src="images/sec-3-01.svg" alt="Emoji">
+										<div class="emoji-title">Actively Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
+										<img src="images/sec-3-02.svg" alt="Emoji">
+										<div class="emoji-title">Indirectly Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
+										<img src="images/sec-3-03.svg" alt="Emoji">
+										<div class="emoji-title">Yes, I am aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
+										<img src="images/sec-3-04.svg" alt="Emoji">
+										<div class="emoji-title">Not fully Aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
+										<img src="images/sec-3-05.svg" alt="Emoji">
+										<div class="emoji-title">This is news to me</div>
+									</div>
+
+								</div>
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore</p>
+  
+					        <a href="#" class="read-more">Read More</a>
+							</div>
+							<div class="popup-ques-container diversity-inclusion">
+								<h2 class="clr-blue">Do you already know that METRO
+offers vegan/vegetarian alternatives
+to its customers?</h2>
+								<div class="emoji-cover">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+										<img src="images/sec-3-01.svg" alt="Emoji">
+										<div class="emoji-title">Actively Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
+										<img src="images/sec-3-02.svg" alt="Emoji">
+										<div class="emoji-title">Indirectly Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
+										<img src="images/sec-3-03.svg" alt="Emoji">
+										<div class="emoji-title">Yes, I am aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
+										<img src="images/sec-3-04.svg" alt="Emoji">
+										<div class="emoji-title">Not fully Aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
+										<img src="images/sec-3-05.svg" alt="Emoji">
+										<div class="emoji-title">This is news to me</div>
+									</div>
+
+								</div>
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore</p>
+  
+					        <a href="#" class="read-more">Read More</a>
+							</div>
+							<div class="popup-ques-container food-waste">
+								<h2 class="clr-blue">Do you already know that METRO
+offers vegan/vegetarian alternatives
+to its customers?</h2>
+								<div class="emoji-cover">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+										<img src="images/sec-3-01.svg" alt="Emoji">
+										<div class="emoji-title">Actively Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
+										<img src="images/sec-3-02.svg" alt="Emoji">
+										<div class="emoji-title">Indirectly Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
+										<img src="images/sec-3-03.svg" alt="Emoji">
+										<div class="emoji-title">Yes, I am aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
+										<img src="images/sec-3-04.svg" alt="Emoji">
+										<div class="emoji-title">Not fully Aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
+										<img src="images/sec-3-05.svg" alt="Emoji">
+										<div class="emoji-title">This is news to me</div>
+									</div>
+
+								</div>
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore</p>
+  
+					        <a href="#" class="read-more">Read More</a>
+							</div>
+							<div class="popup-ques-container organic">
+								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
+								<div class="emoji-cover">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+										<img src="images/sec-3-01.svg" alt="Emoji">
+										<div class="emoji-title">Actively Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
+										<img src="images/sec-3-02.svg" alt="Emoji">
+										<div class="emoji-title">Indirectly Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
+										<img src="images/sec-3-03.svg" alt="Emoji">
+										<div class="emoji-title">Yes, I am aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
+										<img src="images/sec-3-04.svg" alt="Emoji">
+										<div class="emoji-title">Not fully Aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
+										<img src="images/sec-3-05.svg" alt="Emoji">
+										<div class="emoji-title">This is news to me</div>
+									</div>
+
+								</div>
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+
+					             <a href="#" class="read-more">Read More</a>
+							</div>
+							<div class="popup-ques-container conscious-proteins">
+								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
+								<div class="emoji-cover">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+										<img src="images/sec-3-01.svg" alt="Emoji">
+										<div class="emoji-title">Actively Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
+										<img src="images/sec-3-02.svg" alt="Emoji">
+										<div class="emoji-title">Indirectly Involved</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="3">
+										<img src="images/sec-3-03.svg" alt="Emoji">
+										<div class="emoji-title">Yes, I am aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
+										<img src="images/sec-3-04.svg" alt="Emoji">
+										<div class="emoji-title">Not fully Aware</div>
+									</div>
+
+									<div class="emoji-cover-item emoji-option-js" data-value="5">
+										<img src="images/sec-3-05.svg" alt="Emoji">
+										<div class="emoji-title">This is news to me</div>
+									</div>
+
+								</div>
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+
+					             <a href="#" class="read-more">Read More</a>
+							</div>
+							  
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="">
+<input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="">
+<input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="">
+<input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="">
+<input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="">
+<input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="">
+<input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="">
+<input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="">
 		</form>
 	</div>
 	</div>

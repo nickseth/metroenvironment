@@ -4330,11 +4330,11 @@
 
 .emoji-cover-item{
   text-align: center;
-  max-width: 90px;    width: 20%;
+  max-width: 90px;    width: 20%; cursor: pointer;
   padding: 0 9px;
   margin: 30px 0 20px;    opacity: .5;
 }
-.emoji-cover-item.active{opacity: 1;}
+.emoji-cover-item.active-option{opacity: 1;}
 
  .emoji-cover-item img{
   max-width: 70px;
@@ -4440,3 +4440,8 @@ a.read-more {
   color: #000;
   text-decoration: underline;
 }
+.next-to-active path {
+  fill: #b3b3b3;
+  stroke: #666;
+}
+.popup-ques-container.active-popover{display: block;}
