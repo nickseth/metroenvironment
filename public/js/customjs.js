@@ -218,10 +218,20 @@ headers: {
 		},300)
 	})
 	$('.emoji-option-js').click(function(){
-		$('.emoji-option-js').not($(this)).removeClass('active-option');
-		$(this).addClass('active-option');
-		$('.hidden-smiley-data').val($(this).attr('data-value'));
-		
+		if($('.hidden-smiley-data').length > 0){
+			$('.emoji-option-js').not($(this)).removeClass('active-option');
+			$(this).addClass('active-option');
+			$('.hidden-smiley-data').val($(this).attr('data-value'));
+		}
+	})
+	$('#sust1-group g').click(function(){
+		var target = $(this).attr('id');
+		$('.popup-ques-container').removeClass('active-popover');
+		$('.'+target).addClass('active-popover')
+	})
+	$('.popup-ques-container.active-popover  .emoji-option-js').click(function(){
+			$('.popup-ques-container.active-popover .emoji-option-js').not($(this)).removeClass('active-option');
+			$(this).addClass('active-option');
 	})
 	// storing form data in cookie //
 	console.log(Cookies.get('formdetails'))
