@@ -1,5 +1,5 @@
 @include('header')
-<body class="sec3-home-bg index-page">
+<body class="sec3-home-bg">
 <div class="loader-wrap">
   <div class="loader"><img src="images/anim-tree.gif" /></div>
 </div>
@@ -37994,7 +37994,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
         benefit the world around us. We promise it won't take long.</p>
         </div>
         <div class="mt-7 btn-cover">
-          <a href="{{url('/survey-start')}}" class="btn-flip agree-btn" data-back="Agree" data-front="Agree"></a>
+          <a href="{{url('/final-level-step1')}}" class="btn-flip" data-back="Agree" data-front="Agree"></a>
         </div>
       </div>
     </main>
