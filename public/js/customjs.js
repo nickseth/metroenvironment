@@ -406,14 +406,15 @@ $('.mid-drag ul li').droppable({
     // Move draggable into droppable
     droppable.html('');
     draggable.clone().appendTo(droppable);
-    // draggable.css({float:'left'});
+    draggable.css({pointerEvents:'none'});
+    draggable.addClass('usedDraggable');
   }
 });
 
 }); //END ready
 
 function handleDragStart (event, ui) {
-    $(this).addClass('usedDraggable');
+    // $(this).addClass('');
 } 
 
 $('.range-labels li').eq(0).click();
