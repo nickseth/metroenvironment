@@ -642,7 +642,9 @@
 									</div>
 									<!-- Legend -->
 									<div class="popup-ques-container">
-								<h2 class="clr-blue">The METRO’s sustainability strategy and the 8 focus areas</h2>
+								<h2 class="clr-blue">Do you already know that METRO
+offers vegan/vegetarian alternatives
+to its customers?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -670,10 +672,14 @@
 									</div>
 
 								</div>
+								<hr>
+								<h5>Did you know?</h5>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore</p>
 <input type="hidden" name="final_level_step1" value="" class="hidden-smiley-data">
-								<div class="mt-3 btn-cover">
-					        <a href="http://localhost/metroenvironment/public/final-level-step2" class="btn-flip next-btn get-survey-details" data-back="Next" data-front="Next"></a>
-					      </div>
+					        <a href="#" class="read-more">Read More</a>
 							</div>
 								</div>
 								
