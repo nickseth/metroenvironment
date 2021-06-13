@@ -1635,3 +1635,15 @@ background-size:300px 300px;
     color: #4c9f38;
     text-transform: uppercase;
 }
+
+.sec3-green-bg{background:url(../images/sec3-last-bg.jpg) no-repeat top center; background-size:100%;}
+
+.badge-text {text-transform:uppercase}
+.badge-owner{font-family: 'SandwichMarkerPro'!important; font-size:29px!important; color:#214d88}
+
+.badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.badges > div {max-width:13%; margin:3%}
