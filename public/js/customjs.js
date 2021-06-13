@@ -433,12 +433,13 @@ $('.empty-plate').droppable({
     var droppable = $(this);
     var draggable = ui.draggable;
 
-    if (droppable.find('.grid-icons').length) {
-	    draggable.draggable('option', 'revert', true);
-	    return false;
-    }
+    // if (droppable.find('.grid-icons').length) {
+	   //  draggable.draggable('option', 'revert', true);
+	   //  return false;
+    // }
     // Move draggable into droppable
     // droppable.html('');
+    droppable.find('.plate-item')..css({zIndex:'99'});
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');
