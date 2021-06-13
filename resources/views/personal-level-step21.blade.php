@@ -17,6 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
+	<form class="survey-form">
 		<div class="relative">
 			<div class="page-width mt-4 page21">
 				<div class="row">
@@ -2877,8 +2878,8 @@
 										
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox1" class="multiple-checkbox-data" value="Water conservation">
+											<label for="checkbox1"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -5736,8 +5737,8 @@
 									
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox2" class="multiple-checkbox-data" value="Energy conservation">
+											<label for="checkbox2"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -8585,8 +8586,8 @@
 										
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox3" class="multiple-checkbox-data" value="Garbage saving">
+											<label for="checkbox3"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -11452,8 +11453,8 @@
 										<p class="light-text">Vegetarian/vegan diet</p>
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox4" class="multiple-checkbox-data" value="Vegetarian/vegan diet">
+											<label for="checkbox4"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -14301,8 +14302,8 @@
 										
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox5" class="multiple-checkbox-data" value="Conscious mobility (bicycle, public transport, e-mobility)">
+											<label for="checkbox5"></label>
 										</div>
 								</div>
 </div>
@@ -17192,8 +17193,8 @@
                     
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="personal_level_step21" class="multiple-checkbox-data" value="Reduced consumption">
+											<label for="personal_level_step21"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -20057,8 +20058,8 @@
 										
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox6" class="multiple-checkbox-data" value="Repair/Refurbishment">
+											<label for="checkbox6"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -22925,8 +22926,8 @@
 										
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox7" class="multiple-checkbox-data" value="Minimising food waste">
+											<label for="checkbox7"></label>
 										</div>
 								</div>
 								<div class="grid-list">
@@ -25777,8 +25778,8 @@
 									
 									</div>
                   <div class="form-group">
-											<input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
-											<label for="css"></label>
+											<input type="checkbox" id="checkbox8" class="multiple-checkbox-data" value="Open field for own addition">
+											<label for="checkbox8"></label>
 										</div>
 								</div>
 							</div>
@@ -25786,10 +25787,12 @@
 </div>
 					</div>
 				</div>
+				<input type="hidden" class="multiple-checkbox-hidden" name="personal_level_step21"/>
 				<div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section2')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/final-level-start')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 				</div>
 			</div>
+		</form>
 		</div>
 	</div>
 </body>

@@ -217,6 +217,12 @@ headers: {
 			}
 		},300)
 	})
+	$('.emoji-option-js').click(function(){
+		$('.emoji-option-js').not($(this)).removeClass('active-option');
+		$(this).addClass('active-option');
+		$('.hidden-smiley-data').val($(this).attr('data-value'));
+		
+	})
 	// storing form data in cookie //
 	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
@@ -315,12 +321,27 @@ headers: {
   prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
 
 document.body.appendChild(sheet);
-$('.range').append('<div class="custom-slider-div"></div>')
+$('.range').append('<div class="custom-slider-div" style="width:20%;"></div>')
 var getTrackStyle = function (el) {  
   var curVal = el.value,
-      val = (curVal) * 20,
+      val = (curVal-1) * 20,
       style = '';
-	$('.custom-slider-div').css('width',val+'%');
+  if(curVal == 1){
+	 val = 20; 
+  }
+  if(curVal == 2){
+	  val = 40;
+  }
+  if(curVal == 3){
+	  val = 60;
+  }
+  if(curVal == 4){
+	  val = 80;
+  }
+  if(curVal == 5){
+	  val = 100;
+  }
+  $('.custom-slider-div').css('width',val+'%');
   // Set active label
   $('.range-labels li').removeClass('active selected');
   

@@ -120,12 +120,12 @@ Route::get('/personal-level-step21', function () {
     return view('personal-level-step21');
 });
 
-Route::get('/personal-level-step22', function () {
-    return view('personal-level-step22');
+Route::get('/final-level-start', function () {
+    return view('final-level-start');
 });
 
-Route::get('/personal-level-step23', function () {
-    return view('personal-level-step23');
+Route::get('/final-level-step1', function () {
+    return view('final-level-step1');
 });
 /*-------Basic page routes ------------*/
 
