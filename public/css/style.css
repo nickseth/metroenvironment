@@ -1566,11 +1566,11 @@ background-size:300px 300px;
     background: #ffffff url(../images/veg-bowl-5.svg) no-repeat center center;
    
 }
-.personal-level-step20 .box-top {
+.personal-level-step20 .box-top, .final-level-step11 .box-top {
    
     align-items: flex-start;
 }
-.personal-level-step20 .box-top .box-icon {margin-top:-7px}
+.personal-level-step20 .box-top .box-icon, .final-level-step11 .box-top .box-icon {margin-top:-7px}
 
 .personal-level-step20 .circular-range-slider .rs-bg-color {
 	background: #ffffff url(../images/dollor-circle-0.svg) no-repeat center center;
@@ -1635,3 +1635,50 @@ background-size:300px 300px;
     color: #4c9f38;
     text-transform: uppercase;
 }
+
+.sec3-green-bg{background:url(../images/sec3-last-bg.jpg) no-repeat top center; background-size:100%;}
+
+.badge-text {text-transform:uppercase}
+.badge-owner{font-family: 'SandwichMarkerPro'!important; font-size:29px!important; color:#214d88}
+
+.badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.badges > div {max-width:13%; margin:3%}
+
+
+.final-level-step13 .circular-range-slider .rs-bg-color {
+	background: #ffffff url(../images/fls-13-img0.svg) no-repeat center center;
+	
+}
+.final-level-step13 .circular-range-slider.current-step-1 .rs-bg-color {
+    background: #ffffff url(../images/fls-13-img1.svg) no-repeat center center;
+   
+}
+.final-level-step13 .circular-range-slider.current-step-2 .rs-bg-color {
+    background: #ffffff url(../images/fls-13-img2.svg) no-repeat center center;
+   
+}
+.final-level-step13 .circular-range-slider.current-step-3 .rs-bg-color {
+    background: #ffffff url(../images/fls-13-img3.svg) no-repeat center center;
+   
+}
+.final-level-step13 .circular-range-slider.current-step-4 .rs-bg-color {
+    background: #ffffff url(../images/fls-13-img4.svg) no-repeat center center;
+   
+}
+.final-level-step13 .circular-range-slider.current-step-5 .rs-bg-color {
+    background: #ffffff url(../images/fls-13-img5.svg) no-repeat center center;
+   
+}
+.final-level-step12 .circular-range-slider .rs-bg-color {
+	background: #ffffff url(../images/fls-12-img0.svg) no-repeat center center;
+	
+}
+.final-level-step11 .circular-range-slider .rs-bg-color {
+	background: #ffffff url(../images/fls-11-img0.svg) no-repeat center center;
+	
+}
+.circular-range-slider .rs-bg-color {background-size:300px!important;}
