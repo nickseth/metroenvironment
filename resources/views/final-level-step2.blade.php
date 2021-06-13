@@ -937,6 +937,9 @@ laoreet dolore</p>
 						</div>
 					</div>
 				</div>
+				<div class="button-wrapper bottom-button">
+<a href="http://localhost/metroenvironment/public/final-level-start" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+				</div>
 			</div>
 		</form>
 	</div>

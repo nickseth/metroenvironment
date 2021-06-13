@@ -4463,3 +4463,6 @@ a.read-more {
 	99%{	fill:transparent;	}
 	100%{	fill: #003c7f;	}
 }
+.popup-ques-container.food-waste{left: -66%;}
+.popup-ques-container.organic{right: -76%; left:auto; top: 70px;}
+.popup-ques-container.conscious-proteins{top: 140px}
