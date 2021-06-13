@@ -370,6 +370,7 @@ $('.range-labels li').on('click', function () {
   $rangeInput.val(index + 1).trigger('input');
   
 });
+$('.range-labels li').eq(0).click();
 })
 function dataSubmission(data,url){
 	  $.ajax({
