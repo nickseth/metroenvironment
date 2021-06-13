@@ -341,8 +341,8 @@ border-right: 40px solid transparent;
 .foods-list svg{width: 85px;}
 .image-range-slider svg{max-width: 300px;margin: 20px auto;display: block;}
   .range {
-	position: relative;
-	width: 100%;
+	position: relative;margin-bottom: 7px;
+	width: 80%;
   }
   
   .range input {
@@ -431,7 +431,7 @@ border-right: 40px solid transparent;
 		position: relative;
 		float: left;
 		width: 20%;
-		text-align: left;
+		text-align: center;
 		color: #5aaeae;
 		font-size: 20px;
 		cursor: pointer; }
@@ -477,17 +477,33 @@ border-right: 40px solid transparent;
     font-size: 35px;
     margin-bottom: 0;  color: #fff;}
 .foods-range .range-labels li{  font-size: 14px;
-    text-align: center;   opacity: .8;   color: #fff;}
+    text-align: center;   opacity: 1;   color: #fff;}
 .foods-range  .range-labels .active {
     color: #fff;
 }
-.foods-range  .range input::-webkit-slider-runnable-track{_background: linear-gradient(to right, #6c353b 0%, #6c353b 0%, #e6e6e6 0%, #e6e6e6 100%);}
+.range-labels .active:before,
+.foods-range .range-labels .active:before {
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    margin: -17px 0 0;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid #000 !important;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: -20px;
+}
+.foods-range  .range input::-webkit-slider-runnable-track{background: linear-gradient(to right, #6c353b 0%, #6c353b 0%, #e6e6e6 0%, #e6e6e6 100%);}
 .foods-range  .range input::-moz-range-track {
-	_background: linear-gradient(to right, #6c353b 0%, #6c353b  0%, #e6e6e6 0%, #e6e6e6 100%);
+	background: linear-gradient(to right, #6c353b 0%, #6c353b  0%, #e6e6e6 0%, #e6e6e6 100%);
 }
 
 .foods-range  .range input::-ms-track {
-	_background: linear-gradient(to right, #6c353b 0%, #6c353b  0%, #e6e6e6 0%, #e6e6e6 100%);
+	background: linear-gradient(to right, #6c353b 0%, #6c353b  0%, #e6e6e6 0%, #e6e6e6 100%);
 }
 .foods-check.outer-input {
     margin: 25px auto 30px;
@@ -566,27 +582,19 @@ border-right: 40px solid transparent;
     content: none;
 }
 .page11 ~ .button-wrapper{height: 60px;}
-.page17 .range-labels li, .page14 .range-labels li,
-.page13 .range-labels li{    width: auto;}
+.page15 .range,.page16 .range,
+.page17 .range, .page14 .range,
+.page13 .range{width: 96%;}
+.page15 .range-labels,.page16 .range-labels,
+.page17 .range-labels, .page14 .range-labels,
+.page13 .range-labels{width: 119%;}
 .custom-slider-div {
-    background: #000;
-    display: inline-block;
-    position: absolute;pointer-events: none;width: 0;
-    height: 8px;
-    left: 0;
-    top: -2px;
-    border-radius: 10px 0px 0 10px;
-    z-index: 1;
-}
-.custom-slider-div:before {
-    content: "";
-    border: 2px solid #000;
-    border-radius: 50%;
-    background: #fff;
-    width: 22px;
-    height: 22px;
+    background: #6c353b;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
+    pointer-events: none;
+    top: -2px;
+    left: 0;    border-radius: 11px;
+    height: 8px;
 }
+.page13 .custom-slider-div,.page14 .custom-slider-div,.page15 .custom-slider-div,.page16 .custom-slider-div,
+.page17 .custom-slider-div{background: #000;}

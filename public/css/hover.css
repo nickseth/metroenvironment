@@ -4194,7 +4194,7 @@
     75%{transform: translateY(1px)}
     100%{transform: translateY(0px);animation-play-state: paused, running;}
   }
-  @keyframes wheel{
+  @keyframes que{
     0%{
      transform: rotate(0deg);
     }
@@ -4220,7 +4220,7 @@
     }
   }
   
-  @keyframes stableWheel {
+  @keyframes stableque {
     from {transform: translateY(-.0em);}
     to {transform: translateY(-.0em);}
   }
@@ -4233,7 +4233,7 @@
     width: 160px;
     height:90px;     bottom: 40px;
     overflow:hidden;
-    animation:  moving 40s linear  1;
+    animation:  moving 40s linear  1;animation-direction: alternate-reverse;
   }
   
   .bikebody{
@@ -4247,22 +4247,22 @@
   }
   
   .weel{
-    /*animation: wheel 0.7s infinite linear;*/
-    animation:wheel 10s linear  4;
+    /*animation: que 0.7s infinite linear;*/
+    animation:que 10s linear  4;
     position: absolute;
     top: 57%;background-size: contain;
     z-index: 200;
   }
-  .bike-weel1{left: 3px;background: url(../images/bike-wheel-front.svg) no-repeat;width: 26px;  height: 26px;}
+  .bike-weel1{left: 3px;background: url(../images/bike-que-front.svg) no-repeat;width: 26px;  height: 26px;animation: que 10s linear 4;animation-direction: alternate-reverse;}
   
-  .bike-weel2{left: 55px;background: url(../images/bike-wheel-rear.svg) no-repeat;
-    width: 43px;
+  .bike-weel2{left: 55px;background: url(../images/bike-que-rear.svg) no-repeat;
+    width: 43px;animation: que 10s linear 4;animation-direction: alternate-reverse;
     margin-top: -18px; 
     height: 43px;
   }
   
   .stopedWeel{
-    animation: stableWheel .2s linear 1 alternate;
+    animation: stableque .2s linear 1 alternate;
   }
 
 
@@ -4278,7 +4278,19 @@
   text-align: center;
   background-color: #fff;
 }
-
+.popup-ques-container{position: absolute;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 16px;    z-index: 11;
+  border: 2px solid #eee;
+  border-radius: 10px;left: -50%;
+  top: 100px;
+  box-shadow: 7px 7px #eee;
+  text-align: left;
+  background-color: #fff; display: none;}
+  .popup-ques-container h2{    margin: 0;    text-align: left;
+    font-size: 16px;
+    line-height: 19px;}
 .popup-type-container:before {
   content: '';
   display: block;
@@ -4292,18 +4304,23 @@
   transform: translate(-50%, -50%);
   z-index: -1;
 }
-
+.popup-ques-container hr {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #214d88;
+}
 .popup-type-container h2{
   font-family: "Verdana"!important;
-  text-align: left;
+  text-align: left;    font-size: 22px;
   margin-top: 0;
 }
 
-.popup-type-container .emoji-cover{
+.emoji-cover{
   display: flex;
   display: -webkit-flex;
   display: -mox-flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;    margin: 0 -5px;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
   justify-content:space-between;
@@ -4311,19 +4328,141 @@
   -moz-justify-content:space-between;
 }
 
-.popup-type-container .emoji-cover-item{
+.emoji-cover-item{
   text-align: center;
-  max-width: 90px;
-  margin: 30px 0 20px;
+  max-width: 90px;    width: 20%; cursor: pointer;
+  padding: 0 9px;
+  margin: 30px 0 20px;    opacity: .5;
 }
+.emoji-cover-item.active-option{opacity: 1;}
 
-.popup-type-container .emoji-cover-item img{
+ .emoji-cover-item img{
   max-width: 70px;
   margin:0 auto;
 }
 
-.popup-type-container .emoji-cover-item .emoji-title {
-  font-size: 14px;
+.emoji-cover-item .emoji-title {
+  font-size: 12px;
   margin-top: 10px;
   line-height: normal;
 }
+.sec3-home-bg  .mid-content{padding-bottom: 0;}
+.btn-flip{min-width: 100px;}
+#sust-que{text-align: center;}
+.sust-que {
+  position: relative;
+  max-width: 520px;  margin: 10px auto 10px; min-height: 520px;
+}
+#sust1-svg-wrapper, #sust2-svg-wrapper {
+  pointer-events: none;
+}
+#sust1-svg-wrapper {
+  position: absolute;
+  z-index: 4;
+}
+#sust2-svg-wrapper {
+  position: absolute;
+  z-index: 5;
+}
+#sust3-svg-wrapper {
+  position: absolute;
+  z-index: 6;
+  pointer-events: none;
+}
+#sust1-svg__static {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+#sust1-svg-wrapper-inner, #sust2-svg-wrapper-inner {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform .5s ease;
+  z-index: 5;
+  pointer-events: none;
+}
+#sust1-svg, #sust2-svg, #sust3-svg, #sust4-svg-wrapper-inner {
+  transition: all .5s ease;
+  transform: rotate(0);
+}
+.sust-item {
+  transition: all .5s ease;
+}
+.sust-item:not([data-active=active]) {
+  cursor: pointer;
+}
+#Climate_Action_R2, #Diversity_Inclusion_R2, #Human_Rights_R2, #Packaging_Plastic_R2, #Raw_Material_Sourcing_R2 {
+  display: none;
+}
+#sust1-svg-wrapper-inner #sust1-group path, #sust1-svg-wrapper-inner #sust2-group path, #sust1-svg-wrapper-inner #sust3-group path, #sust2-svg-wrapper-inner #sust1-group path, #sust2-svg-wrapper-inner #sust2-group path, #sust2-svg-wrapper-inner #sust3-group path {
+  pointer-events: auto;
+}
+.sust-item--que1:hover>path, body.que1 .sust-item--que1[data-active=active]>path {
+  fill: #b3b3b3;
+  stroke: #666;
+}
+#sust2-svg-wrapper .sust-item-2 .sust-item--text-inside, #sust2-svg-wrapper[data-que="1"] .sust-item-2 .sust-item--text-inside {
+  display: none;
+}
+#sust3-svg-wrapper svg g {
+  pointer-events: auto;
+  cursor: pointer;
+}
+#sust2-svg-wrapper .sust-item-1 .sust-item--text-outside, #sust2-svg-wrapper[data-que="1"] .sust-item-1 .sust-item--text-outside {
+  display: none;
+}
+#sust2-svg-wrapper .sust-item-3 .sust-item--text-outside, #sust2-svg-wrapper[data-que="1"] .sust-item-3 .sust-item--text-outside {
+  display: none;
+}
+.sust-item--que2:hover>g:first-of-type path {
+  fill: #00245b;
+}
+#sust3-svg:after {
+  content: '';
+  height: 135px;
+  width: 135px;
+  background: 0 0;
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% + 1px);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 transparent;
+  transition: all .2s ease;
+}
+#sust3-svg:hover:after {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+}
+.popup-ques-container h5{color: #214d88;font-weight: 600;}
+a.read-more {
+  color: #000;
+  text-decoration: underline;
+}
+.next-to-active path {
+  fill: #b3b3b3;
+  stroke: #666;
+}
+.popup-ques-container.active-popover{display: block;    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-duration: var(--animate-duration);
+  animation-duration: var(--animate-duration);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;    -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;}
+.popup-ques-container.raw-material-sourcing{right: -40%; left:auto; top: 70px;}
+.blinking{
+	animation:blinkingText 0.8s infinite;
+}
+#Packaging_Plastic_R1 .cls-3{	animation:blinkingText 1s infinite;}
+@keyframes blinkingText{
+	0%{	fill: #003c7f;	}
+	49%{	fill: transparent;	}
+	50%{	fill: transparent;	}
+	99%{	fill:transparent;	}
+	100%{	fill: #003c7f;	}
+}
+.popup-ques-container.food-waste{left: -66%;}
+.popup-ques-container.organic{right: -76%; left:auto; top: 70px;}
+.popup-ques-container.conscious-proteins{top: 140px}

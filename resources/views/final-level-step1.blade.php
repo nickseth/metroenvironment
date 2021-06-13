@@ -17,9 +17,9 @@
 		</div>
 	</nav>
 	<div class="container ">
-	<form class="survey-form">
+	<form class="final-steps step1-page">
 		<div class="relative">
-			<div class="page-width mt-1 page6">
+			<div class="page-width mt-1">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="sec1-box-center text-center mt-5">
@@ -39,7 +39,7 @@
 							<div class="popup-type-container">
 								<h2 class="clr-blue">The METRO’s sustainability strategy and the 8 focus areas</h2>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
@@ -67,7 +67,7 @@
 								</div>
 <input type="hidden" name="final_level_step1" value="" class="hidden-smiley-data"/>
 								<div class="mt-3 btn-cover">
-					        <a href="{{url('/final-level-step2')}}" class="btn-flip next-btn get-survey-details" data-back="Agree" data-front="Agree"></a>
+					        <a href="{{url('/final-level-step2')}}" class="btn-flip next-btn get-survey-details" data-back="Next" data-front="Next"></a>
 					      </div>
 							</div>
 							</div>
