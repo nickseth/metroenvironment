@@ -439,7 +439,7 @@ $('.empty-plate').droppable({
     // }
     // Move draggable into droppable
     // droppable.html('');
-    droppable.find('.plate-item')..css({zIndex:'99'});
+    droppable.find('.plate-item').css({zIndex:'99'});
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');
