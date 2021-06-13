@@ -1,5 +1,5 @@
 @include('header')
-<body class="final-level-step14 personal-level-step">
+<body class="final-level-step14 sec2-bg2">
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
