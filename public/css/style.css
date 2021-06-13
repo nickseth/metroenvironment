@@ -1617,11 +1617,11 @@ background-size:300px 300px;
     max-width: 325px;height:180px; position:relative;
     margin: auto; background:url(../images/empty-plate.svg ) no-repeat bottom center; background-size:325px auto;
 }
-.empty-plate .plate-item_1{width:158px; height:105px; left:12px; top:15px}
-.empty-plate .plate-item_2{width:188px; height:75px; left:92px; top:0px}
+.empty-plate .plate-item_1, .empty-plate .plate-item-1{width:158px; height:105px; left:12px; top:15px}
+.empty-plate .plate-item_2, .empty-plate .plate-item-2{width:188px; height:75px; left:92px; top:0px}
 
-.empty-plate .plate-item_3{width:178px; height:72px; left:77px; top:45px}
-.empty-plate .plate-item_4{width:162px; height:65px; left:107px; top:70px}
+.empty-plate .plate-item_3, .empty-plate .plate-item-3{width:178px; height:72px; left:77px; top:45px}
+.empty-plate .plate-item_4, .empty-plate .plate-item-4{width:162px; height:65px; left:107px; top:70px}
 .vegi-group .row {
     display: flex;
     align-items: center;
