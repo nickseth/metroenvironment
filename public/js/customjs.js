@@ -243,6 +243,10 @@ headers: {
 			$('#'+target).addClass('next-to-active');
 			$('.popup-ques-container').removeClass('active-popover');
 	})
+	$('.user-rating li').click(function(){
+		$('.user-rating li').not($(this)).removeClass('active-icon');
+		$(this).addClass('active-icon')
+	})
 	// storing form data in cookie //
 	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
@@ -342,7 +346,7 @@ headers: {
 
 document.body.appendChild(sheet);
 $('.range').append('<div class="custom-slider-div" style="width:20%;"></div>')
-var getTrackStyle = function (el) {  
+var getTrackStyle = function (el,elem) {  
   var curVal = el.value,
       val = (curVal-1) * 20,
       style = '';
@@ -361,11 +365,11 @@ var getTrackStyle = function (el) {
   if(curVal == 5){
 	  val = 100;
   }
-  $('.custom-slider-div').css('width',val+'%');
+  elem.next().css('width',val+'%');
   // Set active label
-  $('.range-labels li').removeClass('active selected');
+  elem.parent().next().find('li').removeClass('active selected');
   
-  var curLabel = $('.range-labels').find('li:nth-child(' + curVal + ')');
+  var curLabel = elem.parent().next().find('li:nth-child(' + curVal + ')');
   
   curLabel.addClass('active selected');
   curLabel.prevAll().addClass('selected');
@@ -380,7 +384,7 @@ var getTrackStyle = function (el) {
 }
 
 $rangeInput.on('input', function () {
-  sheet.textContent = getTrackStyle(this);
+  sheet.textContent = getTrackStyle(this,$(this));
 });
 
 // Change input value on label click
@@ -421,8 +425,10 @@ $('.mid-drag ul li').droppable({
 function handleDragStart (event, ui) {
     // $(this).addClass('');
 } 
+setTimeout(function(){
+	$('.range-labels li').eq(0).click();
+},1000)
 
-$('.range-labels li').eq(0).click();
 
 function dataSubmission(data,url){
 	  $.ajax({

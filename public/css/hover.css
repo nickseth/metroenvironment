@@ -4493,9 +4493,9 @@ a.read-more {
   background: #fff;
 }
 .final-step3 > .row{ display: flex;align-items: center;}
-.grid-icons.usedDraggable {
+.grid-list .grid-icons.usedDraggable {
   opacity: .5;
   pointer-events: none;
 }
-.grid-icons.usedDraggable  ~ .light-text{opacity: .5;
+.grid-list .grid-icons.usedDraggable  ~ .light-text{opacity: .5;
   pointer-events: none;}
