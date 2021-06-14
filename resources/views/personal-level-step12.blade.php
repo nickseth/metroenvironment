@@ -66,7 +66,7 @@
 </div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step13')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>
