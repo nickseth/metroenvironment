@@ -28,7 +28,7 @@
 								<img src="images/chat-guy-1.svg" class="cg1" />
 								<img src="images/chat-guy-2.svg" class="cg2" />
 								</div>
-								<div class="message-section">
+								<div class="message-section animate__animated animate__bounceIn">
 									<div class="messages msg_receive">
 										<p>I believe that that sustainable <br>
 										purchasing is more expensive<br>
