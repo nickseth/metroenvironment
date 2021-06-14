@@ -51296,7 +51296,7 @@
 				</div>
 			</div>
 			<div class="button-wrapper bottom-button">
-<a href="http://localhost/metroenvironment/public/personal-level-step12" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/personal-level-step12')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
 			</div>
 		</div>
 	</div>
