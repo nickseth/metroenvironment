@@ -67,7 +67,7 @@
 								</div>
 <input type="hidden" name="final_level_step1" value="" class="hidden-smiley-data"/>
 								<div class="mt-3 btn-cover">
-					        <a href="{{url('/final-level-step2')}}" class="btn-flip next-btn get-survey-details" data-back="Next" data-front="Next"></a>
+					        <a href="{{url('/final-level-step2')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 					      </div>
 							</div>
 							</div>
