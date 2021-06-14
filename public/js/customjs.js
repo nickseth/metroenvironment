@@ -13,7 +13,7 @@ window.onload = function(){
 		$('.msg_container').eq(2).addClass('animate-bubble');
 	},4500)
 	setTimeout(function(){
-		$('.msg_container').eq(2).addClass('animate-bubble');
+		$('.msg_container').eq(3).addClass('animate-bubble');
 	},6000)
   crear_select();
   $('.department-options li').click(function(){
