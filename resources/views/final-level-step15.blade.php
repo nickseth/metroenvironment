@@ -52,6 +52,7 @@
 							</div>
 							</div>
 							<div class=" text-center">Please rank your experience of taking this survey by clicking one of the stars.</div>
+							<div class="center-btn text-center"><a href="https://localhost/metroenvironment/public/final-level-step2" class="btn-flip next-btn get-survey-details" data-back="Submit" data-front="Submit"></a></div>
 						</div>
 					
 				</div>
