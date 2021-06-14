@@ -389,7 +389,7 @@ border-right: 40px solid transparent;
 		width: 100%;
 		height: 8px;
 		cursor: pointer;border-radius: 50px;
-		background: linear-gradient(to right, #000 0%, #000  0%, #e6e6e6 0%, #e6e6e6 100%);
+		background: linear-gradient(to right, #e6e6e6 0%, #e6e6e6 100%);
 	}
   
 	.range input::-moz-range-track {
@@ -603,3 +603,6 @@ border-right: 40px solid transparent;
 .page13 .custom-slider-div,.page14 .custom-slider-div,.page15 .custom-slider-div,.page16 .custom-slider-div,
 .page17 .custom-slider-div{background: #000;}
  .grid-item:hover .grid-icons svg{    -webkit-animation-duration: 1s;   animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;animation-name: bounceIn;}
+
+ .page13 .sec1-box-right img{    margin: 0 auto;    padding-top: 30px;
+    display: block;}

@@ -4499,4 +4499,186 @@ a.read-more {
 }
 .grid-list .grid-icons.usedDraggable  ~ .light-text{opacity: .5;
   pointer-events: none;}
+  @-webkit-keyframes spinAround {
+    from {
+      -webkit-transform: rotate(0deg)
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes spinAround {
+    from {
+      -moz-transform: rotate(0deg)
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @keyframes spinAround {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
+  @-moz-keyframes spinPulse {
+    from { -moz-transform:rotate(0deg);}
+	to { -moz-transform:rotate(-360deg);;}
+}
+@-moz-keyframes spinoffPulse {
+    0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+  from { -webkit-transform:rotate(0deg);}
+	to { -webkit-transform:rotate(-360deg);}
+}
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-moz-keyframes rotatecircle {
+    0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(-360deg); }
+}
+
+@-webkit-keyframes rotatecircle {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
+}
+
+.drop-w {
+  -moz-animation-name: bounce;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  animation-timing-function: cubic-bezier(1,0,.91,.19);
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes pulseB {
+  0% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+  50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+}
+@keyframes pulseB {
+  0% {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+  50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+  }
+}
+@-webkit-keyframes flash {
+  0%,
+  50%,
+  to {
+      opacity: 1;
+  }
+  25%,
+  75% {
+      opacity: 0;
+  }
+}
+@keyframes flash {
+  0%,
+  50%,
+  to {
+      opacity: 1; fill: #ffa412;
+  }
+  25%,
+  75% {
+      opacity: 0;
+  }
+}
+.animate__flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+
+.zoomIn{-moz-animation-name: flash;
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;}
+
+
+  @keyframes plant4{
+    from{
+      transform:rotate(-10deg);
+    }
+    45%{
+      transform:rotate(-16deg);
+    }
+    50%{
+      transform:rotate(-2deg);
+    }
+    to{
+      transform:rotate(-10deg);
+    }
+  }
+  @-moz-keyframes plant4{
+    from{
+      -moz-transform:rotate(-10deg);
+    }
+    45%{
+      -moz-transform:rotate(-16deg);
+    }
+    50%{
+      -moz-transform:rotate(-2deg);
+    }
+    to{
+      -moz-transform:rotate(-10deg);
+    }
+  }
+  @-webkit-keyframes plant4{
+    from{
+      -webkit-transform:rotate(-10deg);
+    }
+    45%{
+      -webkit-transform:rotate(-16deg);
+    }
+    50%{
+      -webkit-transform:rotate(-2deg);
+    }
+    to{
+      -webkit-transform:rotate(-10deg);
+    }
+  }
+
+.tree-moving{    animation-name: plant4;
+  animation-duration: 14.98s;transform-origin: center bottom;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: plant4;
+  -moz-animation-duration: 14.98s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  /* -webkit-animation-name: plant4; */
+  -webkit-animation-duration: 14.98s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;}
