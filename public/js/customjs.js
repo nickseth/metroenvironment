@@ -20,10 +20,12 @@ window.onload = function(){
 	
 	if(parseInt($('.department-options select').val()) > 10){
 		$('.organization-team-input').removeAttr('disabled');
+		$('.organization-team-input').addClass('highlight');
 	}
 	else{
 		$('.organization-team-input').val('');
 		$('.organization-team-input').attr('disabled','disabled');
+		$('.organization-team-input').removeClass('highlight');
 	}
 })
 setTimeout(function(){
