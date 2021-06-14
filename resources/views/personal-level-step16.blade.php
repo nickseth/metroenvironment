@@ -2859,6 +2859,7 @@ the factors that affect purchase decision?</div>
 	.st2819{fill:#24B278;}
 </style>
 <g>
+	<g class="animate__animated animate_shakeX glass-effect" style="animation-iteration-count: 2;   animation-delay: 1s;">
 	<path class="st2650" d="M177.7,269.5H18.8L0,0h196.4L177.7,269.5z"/>
 	<g>
 		<path class="st2651" d="M177.7,269.5H98.2V0h98.2L177.7,269.5z"/>
@@ -2866,10 +2867,12 @@ the factors that affect purchase decision?</div>
 	</g>
 	<path class="st2652" d="M178.5,362.3H98.2V260.1h80.3V362.3z"/>
 	<path class="st28" d="M133.6,311.2c-4-15.8-18.3-27.5-35.4-27.5s-31.3,11.7-35.4,27.5H18v23.6h160.5v-23.6H133.6z M98.2,307.3   c3.6,0,6.8,1.5,9.2,3.9H89C91.4,308.8,94.6,307.3,98.2,307.3z"/>
-	<g>
-		<path class="st2653" d="M178.5,311.2h-44.9c-4-15.8-18.3-27.5-35.4-27.5v23.6c3.6,0,6.8,1.5,9.2,3.9h-9.2v23.6h80.3V311.2z"/>
+	<path class="st2653" d="M178.5,311.2h-44.9c-4-15.8-18.3-27.5-35.4-27.5v23.6c3.6,0,6.8,1.5,9.2,3.9h-9.2v23.6h80.3V311.2z"/>
+</g>
+<g class="animate__animated animate_shakeX glass-effect" style="animation-iteration-count: 2;   animation-delay: 3s;">
+		
 		<path class="st2653" d="M286.7,119.6c0,26.1-48.4,42.2-48.4,61.2v16.9h110.5v-16.9C348.9,133.8,286.7,119.6,286.7,119.6z"/>
-	</g>
+	
 	<path class="st2654" d="M293.6,197.8h55.3v-16.9c0-37.3-39.1-54-55.3-59.2C293.6,127.6,293.6,197.8,293.6,197.8z"/>
 	<rect x="226.4" y="180.9" class="st2655" width="134.3" height="45.3"/>
 	<rect x="293.6" y="180.9" class="st2656" width="67.1" height="45.3"/>
@@ -2877,6 +2880,7 @@ the factors that affect purchase decision?</div>
 	<path class="st2655" d="M390.7,362.3h-97.2c0,0,0-139.2,0-147.5h73.3c13.2,0,23.8,10.7,23.8,23.8V362.3z"/>
 	<rect x="233.6" y="255.4" class="st28" width="120" height="76.7"/>
 	<rect x="293.6" y="255.4" class="st2653" width="60" height="76.7"/>
+	</g>
 </g>
 </svg>
 <div class="rangle-slider">
