@@ -146,8 +146,8 @@ Route::get('/final-level-step6', function () {
 Route::get('/final-level-step7', function () {
     return view('final-level-step7');
 });
-Route::get('/final-level-step8', function () {
-    return view('final-level-step8');
+Route::get('/survey_rating', function () {
+    return view('survey_rating');
 });
 
 Route::get('/final-level-last', function () {

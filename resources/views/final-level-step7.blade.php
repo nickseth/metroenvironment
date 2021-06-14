@@ -14,7 +14,9 @@
 
 
 
-<div class="container "><div class="relative">
+<div class="container ">
+<form class="survey-form">
+<div class="relative">
 
  
  <div class="page-width mt-7">
@@ -224,6 +226,7 @@
 </div>
  </div>
  </div></div>
+</form>
 </div>
 
 

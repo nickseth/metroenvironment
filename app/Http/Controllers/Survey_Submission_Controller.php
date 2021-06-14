@@ -51,6 +51,26 @@ class Survey_Submission_Controller extends BaseController
 		$personal_level_step20 = empty($request->personal_level_step20) ? null : $request->personal_level_step20;
 		$personal_level_step21 = empty($request->personal_level_step21) ? null : $request->personal_level_step21;
 		$final_level_step1 = empty($request->final_level_step1) ? null : $request->final_level_step1;
+		$final_level_step2_ques1 = empty($request->final_level_step2_ques1) ? null : $request->final_level_step2_ques1;
+		$final_level_step2_ques2 = empty($request->final_level_step2_ques2) ? null : $request->final_level_step2_ques2;
+		$final_level_step2_ques3 = empty($request->final_level_step2_ques3) ? null : $request->final_level_step2_ques3;
+		$final_level_step2_ques4 = empty($request->final_level_step2_ques4) ? null : $request->final_level_step2_ques4;
+		$final_level_step2_ques5 = empty($request->final_level_step2_ques5) ? null : $request->final_level_step2_ques5;
+		$final_level_step2_ques6 = empty($request->final_level_step2_ques6) ? null : $request->final_level_step2_ques6;
+		$final_level_step2_ques7 = empty($request->final_level_step2_ques7) ? null : $request->final_level_step2_ques7;
+		$final_level_step2_ques8 = empty($request->final_level_step2_ques8) ? null : $request->final_level_step2_ques8;
+		$final_level_step3 = empty($request->final_level_step3) ? null : $request->final_level_step3;
+		$final_level_step4 = empty($request->final_level_step4) ? null : $request->final_level_step4;
+		$final_level_step5 = empty($request->final_level_step5) ? null : $request->final_level_step5;
+		$final_level_step6 = empty($request->final_level_step6) ? null : $request->final_level_step6;
+		$final_level_step7_1 = empty($request->final_level_step7_1) ? null : $request->final_level_step7_1;
+		$final_level_step7_2 = empty($request->final_level_step7_2) ? null : $request->final_level_step7_2;
+		$final_level_step7_3 = empty($request->final_level_step7_3) ? null : $request->final_level_step7_3;
+		$final_level_step7_4 = empty($request->final_level_step7_4) ? null : $request->final_level_step7_4;
+		$final_level_step7_5 = empty($request->final_level_step7_5) ? null : $request->final_level_step7_5;
+		$final_level_step7_6 = empty($request->final_level_step7_6) ? null : $request->final_level_step7_6;
+		$final_level_step7_7 = empty($request->final_level_step7_7) ? null : $request->final_level_step7_7;
+		$survey_rating = empty($request->survey_rating) ? null : $request->survey_rating;
 		$country_data = array(
                 'age' => $age,
                 'office_located' => $office_located,
@@ -88,7 +108,27 @@ class Survey_Submission_Controller extends BaseController
                 'personal_level_step19' => $personal_level_step19,
                 'personal_level_step20' => $personal_level_step20,
                 'personal_level_step21' => $personal_level_step21,
-                'final_level_step1' => $final_level_step1
+                'final_level_step1' => $final_level_step1,
+                'final_level_step2_ques1' => $final_level_step2_ques1,
+                'final_level_step2_ques2' => $final_level_step2_ques2,
+                'final_level_step2_ques3' => $final_level_step2_ques3,
+                'final_level_step2_ques4' => $final_level_step2_ques4,
+                'final_level_step2_ques5' => $final_level_step2_ques5,
+                'final_level_step2_ques6' => $final_level_step2_ques6,
+                'final_level_step2_ques7' => $final_level_step2_ques7,
+                'final_level_step2_ques8' => $final_level_step2_ques8,
+                'final_level_step3' => $final_level_step3,
+                'final_level_step4' => $final_level_step4,
+                'final_level_step5' => $final_level_step5,
+                'final_level_step6' => $final_level_step6,
+                'final_level_step7_1' => $final_level_step7_1,
+                'final_level_step7_2' => $final_level_step7_2,
+                'final_level_step7_3' => $final_level_step7_3,
+                'final_level_step7_4' => $final_level_step7_4,
+                'final_level_step7_5' => $final_level_step7_5,
+                'final_level_step7_6' => $final_level_step7_6,
+                'final_level_step7_7' => $final_level_step7_7,
+                'survey_rating' => $survey_rating
                 );
                DB::table('survey_data')->insert($country_data);
 
