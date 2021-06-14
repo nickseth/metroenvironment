@@ -134,20 +134,20 @@ Route::get('/final-level-step2', function () {
 Route::get('/final-level-step3', function () {
     return view('final-level-step3');
 });
-Route::get('/final-level-step11', function () {
-    return view('final-level-step11');
+Route::get('/final-level-step4', function () {
+    return view('final-level-step4');
 });
-Route::get('/final-level-step12', function () {
-    return view('final-level-step12');
+Route::get('/final-level-step5', function () {
+    return view('final-level-step5');
 });
-Route::get('/final-level-step13', function () {
-    return view('final-level-step13');
+Route::get('/final-level-step6', function () {
+    return view('final-level-step6');
 });
-Route::get('/final-level-step14', function () {
-    return view('final-level-step14');
+Route::get('/final-level-step7', function () {
+    return view('final-level-step7');
 });
-Route::get('/final-level-step15', function () {
-    return view('final-level-step15');
+Route::get('/survey_rating', function () {
+    return view('survey_rating');
 });
 
 Route::get('/final-level-last', function () {

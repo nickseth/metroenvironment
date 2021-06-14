@@ -33,11 +33,11 @@
 							<form class="survey-form">
 								<div class="checkbox-group">
 									<div class="form-group">
-										<input type="radio" id="html" name="personal_level_step19" value="Yes">
+										<input type="radio" id="html" name="final_level_step3" value="Yes">
 										<label for="html">Yes</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="css" name="personal_level_step19" value="No">
+										<input type="radio" id="css" name="final_level_step3" value="No">
 										<label for="css">No</label>
 									</div>
 									
@@ -1578,7 +1578,7 @@
 				</div>
 			</div>
 			<div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step20')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/final-level-step4')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>
 	</form>

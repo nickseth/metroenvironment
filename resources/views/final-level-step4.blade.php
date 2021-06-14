@@ -34,12 +34,12 @@
  </div>
  <div class="col-sm-12">
 <form class="survey-form hide">
-<input type="hidden" class="hidden-circular-slider-input" value="0" name="final_level_step11"/>
+<input type="hidden" class="hidden-circular-slider-input" value="0" name="final_level_step4"/>
 </form>
 <div class="circular-range-slider"></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/final-level-step12')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/final-level-step5')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>

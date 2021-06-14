@@ -32,27 +32,28 @@
 							<div class="fieldset-box">
 							<div class="legend-title"><span>Rate your Surve Experience</span></div>
 							<ul class="d-flex user-rating">
-							<li><img src="images/rate-0.svg"/>
+							<li data-value="1"><img src="images/rate-0.svg"/>
 							<span class="rate-title">Very unsatisfied</span>
 							</li>
-							<li><img src="images/rate-1.svg"/>
+							<li data-value="2"><img src="images/rate-1.svg"/>
 							<span class="rate-title">Unsatisfied</span>
 							</li>
-							<li><img src="images/rate-2.svg"/>
+							<li data-value="3"><img src="images/rate-2.svg"/>
 							<span class="rate-title">Neutral</span>
 							</li>
-							<li><img src="images/rate-3.svg"/>
+							<li data-value="4"><img src="images/rate-3.svg"/>
 							<span class="rate-title">Satisfied</span>
 							</li>
-							<li><img src="images/rate-4.svg"/>
+							<li data-value="5"><img src="images/rate-4.svg"/>
 							<span class="rate-title">Very Satisfied</span>
 							</li>
 							
 							</ul>
+							<input type="hidden" class="hidden-survey-rating" value="" name="survey_rating"/>
 							</div>
 							</div>
 							<div class=" text-center">Please rank your experience of taking this survey by clicking one of the stars.</div>
-							<div class="center-btn text-center"><a href="https://localhost/metroenvironment/public/final-level-step2" class="btn-flip next-btn get-survey-details" data-back="Submit" data-front="Submit"></a></div>
+							<div class="center-btn text-center"><a href="{{url('/')}}" class="btn-flip next-btn get-survey-details" data-back="Submit" data-front="Submit"></a></div>
 						</div>
 					
 				</div>
