@@ -11,7 +11,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1>
+					<h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
 				</div>
 			</div>
 		</div>
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 			<div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step20')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-step20')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>
 	</form>

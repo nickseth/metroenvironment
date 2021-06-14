@@ -46,12 +46,12 @@
  </div>
  
  </div><div class="col-sm-3"><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>
- <div class="row"><div class="col-sm-3 mt-5"><p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 mt-5"><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div><div class="col-sm-3 mt-5"><p class="text-center"><strong>Others</strong>(please mention)</p></div></div>
+ <div class="row"><div class="col-sm-3 mt-5"><p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 mt-5"> </div><div class="col-sm-3 mt-5"><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
  </div>
 </div>
 <div class="vegi-plate">
 <div class="row"> <div class="col-sm-3"> </div>
-<div class="col-sm-6 mt-7">
+<div class="col-sm-6 ">
  
 <div class="empty-plate">
 <!-- <div class="plate-item_1"><img src="images/plate-item-1.svg" /></div>
@@ -66,7 +66,7 @@
 </div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step13')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>

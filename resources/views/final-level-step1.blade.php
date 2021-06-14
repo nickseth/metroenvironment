@@ -11,7 +11,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1>
+					<h1>#<span>M</span>vironment</h1><strong>Professional level</strong>
 				</div>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 								</div>
 <input type="hidden" name="final_level_step1" value="" class="hidden-smiley-data"/>
 								<div class="mt-3 btn-cover">
-					        <a href="{{url('/final-level-step2')}}" class="btn-flip next-btn get-survey-details" data-back="Next" data-front="Next"></a>
+					        <a href="{{url('/final-level-step2')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 					      </div>
 							</div>
 							</div>

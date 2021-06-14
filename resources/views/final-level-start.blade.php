@@ -1,9 +1,5 @@
 @include('header')
 <body class="sec3-home-bg">
-<div class="loader-wrap">
-  <div class="loader"><img src="images/anim-tree.gif" /></div>
-</div>
-
 <div class="herooo">
 
   <div class="top-sectionn">
