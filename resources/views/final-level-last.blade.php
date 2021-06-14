@@ -32,9 +32,13 @@
 					</div>
 					<div class="col-sm-12">
 						<div class="sec1-box-right animate__animated animate__fadeInUp ">
-							<div class="badges"><div class="badge-1"><img src="images/gold.png" /></div> <div class="badge-2"><img src="images/silver.png" /></div> <div class="badge-3"><img src="images/bornze.png" /></div></div>
+							<div class="badges">
+								<div class="badge-1 gold-badge"><img src="images/gold.png" /></div>
+								<div class="badge-2 silver-badge"><img src="images/silver.png" /></div>
+								<div class="badge-3 bronze-badge"><img src="images/bornze.png" /></div>
 							</div>
-							<div class="center-btn text-center"><a href="https://localhost/metroenvironment/public/final-level-step2" class="btn-flip next-btn get-survey-details" data-back="Download" data-front="Download"></a></div>
+							</div>
+							<div class="center-btn text-center"><a href="{{url('/')}}" class="btn-flip next-btn get-survey-details" data-back="Download" data-front="Download"></a></div>
 						</div>
 					
 				</div>

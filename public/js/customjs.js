@@ -303,7 +303,7 @@ headers: {
 		Cookies.set('formdetails', JSON.stringify(all_forms_data), { expires: 1 });
 		 $("body").fadeOut(500);
 		if($(this).hasClass('submit-details')){
-			dataSubmission(JSON.stringify(all_forms_data),$('html').attr('data-base-path')+'/survey_submission')
+			dataSubmission(JSON.stringify(all_forms_data),$('html').attr('data-base-path')+'/survey_submission',$(this).attr('href'))
 		}
 		else{
 			window.location.href = $(this).attr('href');
@@ -389,10 +389,10 @@ var getTrackStyle = function (el,elem) {
   curLabel.prevAll().addClass('selected');
   
   // Change background gradient
-  for (var i = 0; i < prefs.length; i++) {
-    style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
-    style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
-  }
+  // for (var i = 0; i < prefs.length; i++) {
+    // style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+    // style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+  // }
 
   return style;
 }
@@ -475,14 +475,18 @@ setTimeout(function(){
 },1000)
 
 
-function dataSubmission(data,url){
+function dataSubmission(data,url,redirect){
 	  $.ajax({
           url: url,
           type:"POST",
           data:data,
 		  contentType: "application/json",
           success:function(response){
-            console.log(response);
-          }
+            window.location.href = redirect;
+          },
+		  error:function(err){
+			  alert('Something went wrong.');
+			  window.location.href = redirect;
+		  }
          });
 }
