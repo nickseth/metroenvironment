@@ -31,6 +31,9 @@ window.onload = function(){
 setTimeout(function(){
 	$('.personal-level-start').addClass('zoom-backrgound');
 },2000);
+setTimeout(function(){
+	$('.personal-level-start').addClass('zoom-backrgound-new');
+},3000);
 $('body').addClass('hide-loader');
 }
 

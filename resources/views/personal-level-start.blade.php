@@ -14,10 +14,15 @@
 
   <div class="parent-zoom" onclick="">
     <div class="child-bg bg-one">
-     
+    
     </div>
-  </div>
-  <div class="button-wrapper bottom-button "><div class="container text-right">
+	
+	 <div class="caption-sec2">
+	<p> Tell us a bit more about your personal consumption patterns</p>
+	<div class=" text-left">
 <a href="{{url('/personal-level-step1')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
-</div></div>
+</div>
+	 </div>
+  </div>
+  
 </body>
