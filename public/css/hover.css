@@ -4682,3 +4682,63 @@ a.read-more {
   -webkit-animation-duration: 14.98s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;}
+.cleaingbag{animation-name: cleaingbag;}
+  @keyframes cleaingbag{
+    0%{
+      transform:rotate(-3deg);
+    }
+    25%{transform:rotate(0deg);}
+    50%{ transform:rotate(3deg);}
+    75%{transform:rotate(0deg);}
+    100%{
+      transform:rotate(-3deg);
+    }
+  }
+  @keyframes shakeX {
+    0%,
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(-8px, 0, 0);
+        transform: translate3d(-8px, 0, 0);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(8px, 0, 0);
+        transform: translate3d(8px, 0, 0);
+    }
+}
+@-webkit-keyframes shakeX {
+    0%,
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(-8px, 0, 0);
+        transform: translate3d(-8px, 0, 0);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(8px, 0, 0);
+        transform: translate3d(8px, 0, 0);
+    }
+}
+
+  .animate_shakeX{-webkit-animation-name: shakeX;
+      animation-name: shakeX;}
+     
