@@ -1,6 +1,6 @@
 @include('header')
 <body class="index-page">
-<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
+
 <div class="hero">
 <div class="ripples-wrap">
 <div class="ripples">
