@@ -1738,7 +1738,7 @@ padding-bottom: 15px;
 
 .clmn-grid-wrap .clmn-grid:last-child{border:none}
 
-.fieldset-box{border:solid 1px #4c9f38; position:relative; padding:30px 20px 10px;margin:15px auto; max-width:730px;}
+.fieldset-box{border:solid 1px #4c9f38; position:relative; padding:30px;margin:15px auto; max-width:730px;}
 .legend-title{border:none; position:absolute; top:-10px; left:0; right:0; margin:auto; text-align:center}
 .legend-title span{display:inline-block; padding:0 10px; background:#fff; color:#4c9f38; font-size:16px; font-weight:bold; text-transform:uppercase}
 .user-rating li{width:20%; list-style:none; padding:0 1%; text-align:center;}
