@@ -146,7 +146,7 @@
 										</g>
 									</g>
 									<g id="&lt;Group&gt;">
-										<g id="&lt;Group&gt;">
+										<g id="&lt;Group&gt;" class="animate__animated animate_shakeX glass-effect" style="animation-iteration-count: 2;   animation-delay: 1s;">
 											<g id="&lt;Group&gt;">
 												<path id="&lt;Path&gt;" class="shp4" d="M344.66 116.57L337.39 276.2L273.87 276.2L267.18 116.57C267.18 115.87 267.48 115.22 267.98 114.73C268.55 114.16 269.39 113.8 270.32 113.8L341.52 113.8C343.25 113.8 344.66 115.05 344.66 116.57Z" />
 												<path id="&lt;Path&gt;" class="shp3" d="M308.93 276.2L273.87 276.2L267.18 116.57C267.18 115.87 267.48 115.22 267.98 114.73L303.71 117.87L308.93 276.2Z" />

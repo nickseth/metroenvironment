@@ -498,7 +498,7 @@ function dataSubmission(data,url,redirect){
           },
 		  error:function(err){
 			alert('Something went wrong.');
-			window.location.href = redirect;
+			//window.location.href = redirect;
 		  }
          });
 }

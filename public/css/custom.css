@@ -637,22 +637,15 @@ form.survey-form input::-webkit-input-placeholder {
 	@keyframes rotateBlades {
 		0% {
 		  transform: translateX(-50%);
-		  transform-origin: 50% 140px;
+		  transform-origin: 50% 140.5px;
 		}
 		
 		100% {
 		  transform: translateX(-50%) rotate(360deg);
-		  transform-origin: 50% 140px;
+		  transform-origin: 50% 140.5px;
 		}
 	  }
-.blade-wrapper {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
-    height: 200px;
-    animation: rotateBlades 5s infinite linear;
-}
+
 .pole {
 	position: absolute;
     top: auto;
@@ -673,7 +666,7 @@ blade-wrapper::after {
 }
 
 .box-canvas{
-	position: absolute;
+	position: absolute; pointer-events: none;
 	margin: auto;
 	display: block;
 	width: 320px;
@@ -683,8 +676,8 @@ blade-wrapper::after {
   
   .pole {
 	position: absolute;
-	top: 150px;
-	left: 50%;
+	top: 143px;
+	left: 51%;
 	transform: translateX(-50%);
 	width: 30px;
 	height: 200px;
@@ -695,53 +688,54 @@ blade-wrapper::after {
 	content: '';
 	position: absolute;
 	bottom: 0px;
-	width: 80px;
-	height: 20px;
-	background: #000;
-	clip-path: polygon(20% 0, 0% 100%, 100% 100%);
+	width: 20px;
+	height: 83px;
+	background: url(../images/windwill-fan1.svg) no-repeat);
+    background-position: top center;
   }
   
   .blade {
 	position: absolute;
-	width: 20px;
-	height: 10px;
-	background: #000;
+	width: 33px;
   }
   
   .blade.one {
 	top: 140px;
-	left: 305px;
+	left: 312px;
   }
-  
   .blade.two {
-	top: 150px;
-	left: 275px;
+	top: 148px;
+	left: 302px;
 	transform: rotate(120deg);
   }
-  
   .blade.three {
 	transform: rotate(240deg);
-	top: 120px;
-	left: 290px;
+	top: 136px;
+	left: 301px;
   }
-  
   .blade-wrapper {
-	position: absolute;
-	left: 50%;
+	position: absolute;    z-index: 1;
+	left: 50%;    z-index: 1;
 	transform: translateX(-50%);
-	width: 600px;
+	width: 650px;
 	height: 600px;
-	animation: rotateBlades 5s infinite linear;
+	animation: rotateBlades 10s infinite linear;
   }
   
   .blade-wrapper::after {
 	content: '';
 	position: absolute;
-	width: 30px;
-	height: 30px;
-	background: radial-gradient(white, var(--accent-gray));
+	width: 15px;
+	height: 15px;
+	background: url(../images/windwill-circle.svg) no-repeat; background-size: contain;
 	border-radius: 50%;
 	left: 50%;
 	transform: translateX(-50%);
-	top: 125px;
+	top: 134px;    margin-left: -3px;
   }
+  .box-canvas.box1 {
+    right: 25%;
+    bottom: 28px;
+}
+.box1 .pole{height: 120px;}
+.box1 .blade::after {  height: 58px;}

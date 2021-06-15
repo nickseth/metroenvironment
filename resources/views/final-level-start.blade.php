@@ -37970,6 +37970,14 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
       <div class="wheel bike-weel1"></div>
       <div class="wheel bike-weel2"></div>
     </div>
+    <div class="box-canvas box1">
+    <div class="blade-wrapper">
+      <div class="blade one"></div>
+      <div class="blade two"></div>
+      <div class="blade three"></div>
+    </div>
+    <div class="pole"></div>
+    </div>
     <div class="box-canvas">
     <div class="blade-wrapper">
       <div class="blade one"></div>
