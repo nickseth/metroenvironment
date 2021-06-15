@@ -364,22 +364,22 @@ headers: {
   prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
 
 document.body.appendChild(sheet);
-$('.range').append('<div class="custom-slider-div" style="width:20%;"></div>')
+$('.range').append('<div class="custom-slider-div"></div>')
 var getTrackStyle = function (el,elem) {  
   var curVal = el.value,
-      val = (curVal-1) * 20,
+      val = (curVal-1) * 25,
       style = '';
   if(curVal == 1){
-	 val = 20; 
+	 val = 0; 
   }
   if(curVal == 2){
-	  val = 40;
+	  val = 25;
   }
   if(curVal == 3){
-	  val = 60;
+	  val = 50;
   }
   if(curVal == 4){
-	  val = 80;
+	  val = 75;
   }
   if(curVal == 5){
 	  val = 100;
