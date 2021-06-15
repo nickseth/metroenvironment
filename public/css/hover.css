@@ -5093,12 +5093,12 @@ a.read-more {
   .animate_shakeX{-webkit-animation-name: shakeX;
       animation-name: shakeX;}
      
-      .bottom-section-final{background: url(../images/sec3-home-background.png) no-repeat;
+      .bottom-section-final{background: url(../images/sec3home-background.png) no-repeat;
         background-size: cover;
         background-position: center bottom;
         position: absolute;
         bottom: 0;
         left: 0;
-        height: 100vh;
+        height: 100vh;overflow: hidden;
         width: 100%;}
 .herooo{    height: 100vh;}        
