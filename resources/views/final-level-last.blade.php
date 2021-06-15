@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#">
+					<a class="navbar-brand" href="{{url('/')}}">
 						<img src="images/metro-logo.svg" />
 					</a>
 				</div>
@@ -33,12 +33,20 @@
 					<div class="col-sm-12">
 						<div class="sec1-box-right animate__animated animate__fadeInUp ">
 							<div class="badges">
-								<div class="badge-1 gold-badge"><img src="images/gold.png" /></div>
-								<div class="badge-2 silver-badge"><img src="images/silver.png" /></div>
-								<div class="badge-3 bronze-badge"><img src="images/bornze.png" /></div>
+								<div class="badge-1 gold-badge hide">
+								<img src="images/gold_new.png" />
+								<div class="center-btn text-center"><a href="download/gold.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
+								</div>
+								<div class="badge-2 silver-badge hide">
+								<img src="images/silver_new.png" />
+								<div class="center-btn text-center"><a href="download/silver.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
+								</div>
+								<div class="badge-3 bronze-badge hide">
+								<img src="images/bronze.png" />
+								<div class="center-btn text-center"><a href="download/bronze.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
+								</div>
 							</div>
 							</div>
-							<div class="center-btn text-center"><a href="{{url('/')}}" class="btn-flip next-btn get-survey-details" data-back="Download" data-front="Download"></a></div>
 						</div>
 					
 				</div>
