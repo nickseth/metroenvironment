@@ -489,12 +489,16 @@ function dataSubmission(data,url,redirect){
           data:data,
 		  contentType: "application/json",
           success:function(response){
-			  console.log(response);
-            //window.location.href = redirect;
+			try{
+				var parsed_response = JSON.parse(response);
+				Cookies.set('badge_score', parsed_response.badge_score, { expires: 1 });
+			}
+			catch(err){}
+            window.location.href = redirect;
           },
 		  error:function(err){
-			  alert('Something went wrong.');
-			  window.location.href = redirect;
+			alert('Something went wrong.');
+			window.location.href = redirect;
 		  }
          });
 }
