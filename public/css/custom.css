@@ -560,7 +560,7 @@ border-right: 40px solid transparent;
 .mid-drag-wrap {
     background: linear-gradient(to right, #fc0602, #8fc03d);
     border-radius: 30px;
-	margin: 35px 0;    padding: 7px;
+	margin:  0;    padding: 7px;
 }
 .mid-drag {
     background: #f2f2f2;
