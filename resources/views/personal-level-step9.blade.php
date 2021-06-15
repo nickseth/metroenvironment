@@ -3158,7 +3158,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">From chickens</p>
+											<p class="light-text">Chickens</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -27837,7 +27837,7 @@
 										<li>Planning to reduce consumption</li>
 										<li>Reduced consumption</li>
 										<li>Avoiding consumption</li>
-										<li>Have Stopped Completely</li>
+										<li>Have stopped completely</li>
 									</ul>
 								</div>
 								<div class="outer-input foods-check">

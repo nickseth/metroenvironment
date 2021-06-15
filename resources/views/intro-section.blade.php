@@ -21,10 +21,11 @@
  <div class="page-width mt-7 intro-sectionpage">
  <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
+ <p class="animate__animated animate__fadeIn">Global warming is a serious problem, and rising temperatures have shifted natural climatic patterns. Who do you think will feel these adverse effects the most?</p>
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect</h4>
  </div>
- <p class="animate__animated animate__fadeIn">Global warming is a serious problem all around the world, and rising temperatures have shifted natural<br>climatic patterns. Who do you think will feel these adverse effects the most?</p>
+ 
 
 
   <form class="survey-form"><div class="checkbox-group">

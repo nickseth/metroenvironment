@@ -14625,7 +14625,7 @@
 										<li>Planning to reduce consumption</li>
 										<li>Reduced consumption</li>
 										<li>Avoiding consumption</li>
-										<li>Have Stopped Completely</li>
+										<li>Have stopped completely</li>
 									</ul>
 								</div>
 								<div class="outer-input foods-check">

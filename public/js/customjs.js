@@ -219,7 +219,7 @@ headers: {
 				}
 				catch(err){}
 			}
-		},300)
+		},100)
 	})
 	$('.bio-options-wrapper input,.organic-options-wrapper input').click(function(){
 		var elem = $(this)
@@ -233,7 +233,7 @@ headers: {
 				}
 				catch(err){}
 			}
-		},300)
+		},100)
 	})
 	$('.emoji-option-js').click(function(){
 		if($('.hidden-smiley-data').length > 0){

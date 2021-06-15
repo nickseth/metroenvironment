@@ -11457,7 +11457,10 @@
 											<label for="checkbox4"></label>
 										</div>
 								</div>
-								<div class="grid-list">
+								
+</div>
+<div class="grid-container animate__zoomIn row2">
+<div class="grid-list">
 									<div class="grid-item">
 										<div class="grid-icons">
 										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 98.4 73.8" style="enable-background:new 0 0 98.4 73.8;" xml:space="preserve">
@@ -14306,8 +14309,6 @@
 											<label for="checkbox5"></label>
 										</div>
 								</div>
-</div>
-<div class="grid-container animate__zoomIn row2">
 								<div class="grid-list">
 									<div class="grid-item">
 										<div class="grid-icons">

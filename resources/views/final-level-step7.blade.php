@@ -222,7 +222,7 @@
  </div>
 </div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/final-level-step8')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/survey_rating')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>

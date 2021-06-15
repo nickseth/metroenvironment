@@ -26,8 +26,10 @@
 							<div class="box-icon animate__animated animate__fadeInLeft">
 								<img src="images/leaves.svg">
 							</div>
-							<div class="animate__animated animate__fadeIn green-text">Have you changed your consumption patterns for the following foods in the past few years?</div>
+							<div class="animate__animated animate__fadeIn green-text">Sort the following foods according to the amount of water used in their production for 1kg.</div>
+							
 						</div>
+						<p class="animate__animated animate__fadeIn">Drag and drop the food items into the red boxes, according to the highest amount of water required to produce them.</p>
 						
 					</div>
 				</div>
