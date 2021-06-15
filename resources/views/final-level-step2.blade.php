@@ -29,9 +29,7 @@
 									</div>
 									<div class="animate__animated animate__fadeIn green-text">Mark your awareness level on the various Metro Sustainability initiatives</div>
 								</div>
-								<p class="animate__animated animate__fadeIn gray-text">This que indicates Metro's Sustainability initiatives. The que will now start blinking, one section at a time.
-									<br>For the questions corresponding to each section, please select one box as your answer.
-									<br>And below each question Choose the box most relevant to you.</p>
+								<p class="animate__animated animate__fadeIn gray-text">Select a section of the wheel to view the information under each one of them.</p>
 							</div>
 						</div>
 						<div class="col-sm-12">

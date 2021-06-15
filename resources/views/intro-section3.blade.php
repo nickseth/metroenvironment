@@ -21,10 +21,11 @@
  <div class="page-width mt-7">
  <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
- <div class="box-head">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">How many units of energy is required to mine 1 bitcoin?</h4>
- </div>
  <p class="animate__animated animate__fadeIn">Online processes also need significant amounts of non-renewable energy to function.<br>Choose the option you think is closest to the actual amount of energy used in <br>the mining of cryptocurrencies.</p>
+ <div class="box-head">
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">How many units of energy are required to mine one bitcoin?</h4>
+ </div>
+ 
 
 
   <form class="survey-form"><div class="checkbox-group">

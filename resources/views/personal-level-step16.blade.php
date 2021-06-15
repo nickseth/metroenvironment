@@ -2884,8 +2884,7 @@ the factors that affect purchase decision?</div>
 </g>
 </svg>
 <div class="rangle-slider">
-<p class="animate__animated animate__fadeIn dark-text">Companies that are not related to human rights violations
-(exploitation, child labor)</p>
+<p class="animate__animated animate__fadeIn dark-text">Companies that use little or no chemical additives (cleaning agents, hygiene products, cosmetics)</p>
 <div class="range">
   <input type="range" min="1" name="personal_level_step16" max="5" steps="1" value="1">
 </div>
