@@ -35,25 +35,21 @@
  <div class="col-sm-12">
  <div class="vegi-grup-wrap mt-7">
 <div class="vegi-group">
- <div class="vegi-group-imgs"><div class="row"> <div class="col-sm-3">
+ <div class="row"> <div class="col-sm-3">
  
- <div class="plate-item-3 plate-item"><img src="images/plate-item-3.svg" /></div><p class="text-center"><strong>Tofu/soy products</strong>(soy cutlets, seitan, tempeh etc.)</p></div>
+ <div class="plate-item-3 plate-item "><img src="images/plate-item-3.svg" /></div><p class="text-center"><strong>Tofu/soy products</strong>(soy cutlets, seitan, tempeh etc.)</p></div>
 <div class="col-sm-6">
  
 
  
- </div><div class="col-sm-3"><div class="plate-item-2 plate-item"><img src="images/plate-item-2.svg" /></div><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div></div>
- <div class="row"><div class="col-sm-3 mt-5">
+ </div><div class="col-sm-3"><div class="plate-item-2 plate-item"><img src="images/plate-item-2.svg" /></div><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>
+ <div class="row"><div class="col-sm-3 ">
  <div class="plate-item-1 plate-item"><img src="images/plate-item-1.svg" /></div>
  <p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 "><div class="vegi-plate">
 
 <div class="empty-plate">
-<!-- <div class="plate-item_1"><img src="images/plate-item-1.svg" /></div>
-<div class="plate-item_2"><img src="images/plate-item-2.svg" /></div>
-<div class="plate-item_3"><img src="images/plate-item-3.svg" /></div>
-<div class="plate-item_4"><img src="images/plate-item-4.svg" /></div> -->
 </div>
-</div></div><div class="col-sm-3 mt-5"> <div class="plate-item-4 plate-item"><img src="images/plate-item-4.svg" /></div><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
+</div></div><div class="col-sm-3 "> <div class="plate-item-4 plate-item"><img src="images/plate-item-4.svg" /></div><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
  </div>
 </div>
 

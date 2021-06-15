@@ -223,7 +223,7 @@ font-family: "Verdana";}
 	.row2{margin-bottom: -20px;}
 	.grid-list{width:20%; padding: 0 0px 10px 70px;}
 	.grid-item {width: 100%;
-	padding: 5px;
+	padding: 5px 0;
 	height: 100%;
 	display: flex;justify-content: center;
 	flex-direction: column;
@@ -256,9 +256,10 @@ font-family: "Verdana";}
 		height: 12px; border-width: 0 3px 3px 0;}
 		.grid-icons svg{    width: 65px;
 			height: 65px;
-			margin: 10px 0;}
+			margin:  0;}
 .page19 .sec1-box-right svg{width: 100%;
 height: auto;}
+.page19  ~ .button-wrapper.bottom-button{margin-top: 30px;;}
 .page19  .checkbox-group{padding-bottom: 0;;}
 .page19 .row{    display: flex;
 	align-items: center;}
@@ -278,7 +279,7 @@ height: auto;}
 
 			.chat-window {
 				margin: 0 auto;
-				max-width: 800px;
+				max-width: 700px;
 			}
 			.messages {display: inline-block;
 				position: relative;
@@ -340,7 +341,7 @@ border-right: 40px solid transparent;
     margin-top: 10px;
 }
 .foods-list svg{width: 85px; transition: all .3s;}
-.image-range-slider svg{max-width: 300px;margin: 20px auto;display: block;}
+.image-range-slider svg{max-width: 280px;margin: 10px auto;display: block;}
   .range {
 	position: relative;margin-bottom: 7px;
 	width: 80%;
@@ -451,24 +452,24 @@ border-right: 40px solid transparent;
 		flex-direction: column;
 		margin-top: 30px;
 		max-width: 700px;
-		margin: 30px auto 0;text-align: center;
+		margin: 10px auto 0;text-align: center;
 		background: #97d3d3;
-		padding: 22px 30px;
+		padding: 20px 30px;
 		border-radius: 15px;
 	}
 	.dark-text {
-		font-size: 22px;
+		font-size: 18px;
 		color: #000;
-		padding: 0 20px 25px;
+		padding: 0 20px 15px;
 	}
 	.page14 .box-icon,
 	.page15 .box-icon, .page16 .box-icon,.page18 .box-icon,
 	.page17 .box-icon{    top: -14px;
 		position: relative;}
 
-	.page14	.image-range-slider svg {
-			max-width: 400px;}
-
+.page14	.image-range-slider svg {	max-width: 360px;}
+.page13  .sec1-box-right img{    max-width: 250px;}
+.page13.survey-form, .page14.survey-form, .page16.survey-form{padding-bottom:0;}
 .rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}
 .rangle-slider.yellow-range{background: #fbaf30;margin: 10px auto 0;}
 .rangle-slider.blue-range{background: #29abe2;margin: 10px auto 0;}
@@ -507,8 +508,8 @@ border-right: 40px solid transparent;
 	background: linear-gradient(to right,  #e6e6e6 0%, #e6e6e6 100%);
 }
 .foods-check.outer-input {
-    margin: 25px auto 30px;
-    max-width: 800px;
+    margin: 15px auto 10px;
+    max-width: 700px;
 }
 .foods-check .form-group label{font-size: 18px;
     color: #000;}
@@ -522,13 +523,13 @@ border-right: 40px solid transparent;
 			width: 10px;
 			height: 17px;border-width: 0 4px 4px 0;}
 .foods-list {
-				max-width: 800px;    padding: 0 22px;
+				max-width: 700px;    padding: 0 22px;
 				margin:20px auto 0;
 				border-radius: 15px;
 				background: url(../images/slide-6bg.jpg) no-repeat center;
 				background-size: cover;
 }
-.foods-list .grid-container{margin-left: -30px;padding: 20px 0 4px;}
+.foods-list .grid-container{margin-left: -30px;padding: 12px 0 0px}
 .page5 .foods-list  .grid-list {
     width: 25%;
 }
@@ -545,12 +546,12 @@ border-right: 40px solid transparent;
 .page9 .foods-list .grid-list { width: auto;}
 
 .page9 .foods-list svg {
-    width: 110px;
-    height: 110px;
-    margin: 0;
+    width: 90px;
+    height: 90px;
+    margin: 0 0 -20px;
 }
 .page10 .foods-list svg {
-    width: 85px;height: 85px;
+    width: 85px;
 }
 .page11 .grid-item{background-color: transparent;}
 .page11  p.light-text{color:#000; border:0; font-size: 15px;min-height: inherit;;} 
@@ -623,3 +624,9 @@ form.survey-form input::-webkit-input-placeholder {
  .intro-sectionpage .checkbox-group label {
     font-size: 18px;
 }
+.page21 .grid-item{padding: 5px;}
+.home-content p {
+    margin-bottom: 30px;
+}
+.page21 .grid-icons svg{    margin: 3px auto 10px;}
+.survey-ratingpage .btn-flip{margin-top: 20px;}

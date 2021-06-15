@@ -46,7 +46,7 @@
  </div>
  
  </div><div class="col-sm-3"><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>
- <div class="row"><div class="col-sm-3 mt-5"><p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 mt-5"> </div><div class="col-sm-3 mt-5"><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
+ <div class="row"><div class="col-sm-3 "><p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 "> </div><div class="col-sm-3 "><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
  </div>
 </div>
 <div class="vegi-plate">

@@ -1,5 +1,5 @@
 @include('header')
-<body>
+<body class="survey-start-page">
 <style>
 form *{display:block; width:100%}
 </style>

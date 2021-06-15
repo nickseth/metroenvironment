@@ -442,7 +442,7 @@ $('.mid-drag ul li').droppable({
 });
 
 
-$('.vegi-group-imgs .plate-item').draggable({
+$('.vegi-group .plate-item').draggable({
   start:handleDragStartvegi,
   revert: "invalid",
   stack: ".draggable",
@@ -460,7 +460,7 @@ $('.empty-plate').droppable({
     // }
     // Move draggable into droppable
     // droppable.html('');
-    droppable.find('.plate-item').css({zIndex:'99'});
+    // droppable.find('.plate-item').css({zIndex:'99'});
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');
@@ -470,11 +470,11 @@ $('.empty-plate').droppable({
 }); //END ready
 
 function handleDragStart (event, ui) {
-	$(this).css({zIndex:'99999999999'});
+	// $(this).css({zIndex:'99'});
     // $(this).addClass('');
 } 
 function handleDragStartvegi (event, ui) {
-	$(this).css({zIndex:'99999999999'});
+	// $(this).css({zIndex:'99'});
     // $(this).addClass('');
 } 
 setTimeout(function(){
