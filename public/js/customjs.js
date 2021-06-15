@@ -502,3 +502,11 @@ function dataSubmission(data,url,redirect){
 		  }
          });
 }
+
+function randOrder() {
+    return ( Math.round(Math.random())-0.5 ); 
+} 
+
+setInterval(function() {
+    $('.st86').removeClass('st86__active').sort( randOrder ).slice(0,3).addClass('st86__active')
+}, 1000);
