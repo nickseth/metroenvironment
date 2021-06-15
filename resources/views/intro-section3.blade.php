@@ -18,7 +18,7 @@
  <div class="page-head">
  <h2>Introductory Section</h2>
  </div>
- <div class="page-width mt-7">
+ <div class="page-width mt-7 intro-sectionpage">
  <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
  <div class="box-head">
