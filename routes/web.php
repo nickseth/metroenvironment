@@ -153,7 +153,9 @@ Route::get('/survey_rating', function () {
 Route::get('/final-level-last', function () {
     return view('final-level-last');
 });
-
+Route::get('/personal-level-step12-backup', function () {
+    return view('personal-level-step12-backup');
+});
 /*-------Basic page routes ------------*/
 
 /*-------DB API routes ------------*/
