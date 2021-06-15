@@ -4800,7 +4800,7 @@ a.read-more {
 .blinkingtext{
 	animation:blinkingText 0.8s infinite;
 }
-#Packaging_Plastic_R1 .cls-3{	animation:blinkingText 1s infinite;}
+.blinking-text{	animation:blinkingText 1s infinite;}
 @keyframes blinkingText{
 	0%{	fill: #003c7f;	}
 	49%{	fill: transparent;	}
