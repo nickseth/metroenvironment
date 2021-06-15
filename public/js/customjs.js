@@ -440,7 +440,7 @@ $('.mid-drag ul li').droppable({
 });
 
 
-$('.vegi-group-imgs .plate-item').draggable({
+$('.vegi-group .plate-item').draggable({
   start:handleDragStartvegi,
   revert: "invalid",
   stack: ".draggable",

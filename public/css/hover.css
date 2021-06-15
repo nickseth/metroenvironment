@@ -4624,15 +4624,16 @@
   background-color: #fff;
 }
 .popup-ques-container{position: absolute;
-  max-width: 500px;
+  max-width: 430px;
   margin: 10px auto;
   padding: 16px;    z-index: 11;
   border: 2px solid #eee;
-  border-radius: 10px;left: -75%;
-  top: 100px;
+  border-radius: 10px;right: -77%;
+  top: 10px;
   box-shadow: 7px 7px #eee;
   text-align: left;
   background-color: #fff; display: none;}
+  .popup-ques-container p{font-size: 13px;}
   .popup-ques-container h2{    margin: 0;    text-align: left;
     font-size: 16px;
     line-height: 19px;}
@@ -4796,11 +4797,10 @@ a.read-more {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;    -webkit-animation-name: zoomIn;
   animation-name: zoomIn;}
-.popup-ques-container.raw-material-sourcing{right: -40%; left:auto; top: 70px;}
 .blinkingtext{
 	animation:blinkingText 0.8s infinite;
 }
-#Packaging_Plastic_R1 .cls-3{	animation:blinkingText 1s infinite;}
+.blinking-text{	animation:blinkingText 1s infinite;}
 @keyframes blinkingText{
 	0%{	fill: #003c7f;	}
 	49%{	fill: transparent;	}
@@ -4817,9 +4817,6 @@ a.read-more {
 	100%{	fill: #003c7f;	}
 }
 
-.popup-ques-container.food-waste{left: -75%;}
-.popup-ques-container.organic{right: -75%; left:auto; top: 70px;}
-.popup-ques-container.conscious-proteins{top: 120px}
 .final-step3 .form-group input:checked + label:before {
   background: #10cfbd;
   border-color: #10cfbd;
