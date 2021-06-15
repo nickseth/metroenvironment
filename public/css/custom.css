@@ -203,13 +203,14 @@ align-items: center;
 .text-center .gray-text{justify-content: center;text-align: center;}
 .text-left .box-top{justify-content: left;text-align: left;}
 .text-left .gray-text{justify-content: left;padding-left: 45px;text-align: left;}
-.green-text{font-size: 25px;
+.green-text{font-size: 21px;
 line-height: 35px;padding-left: 15px;
 color: #4c9f38;
 font-family: "Verdana";
 }
-.gray-text{font-size: 16px;    padding-top: 10px;
-line-height: 25px;
+.green-text br{display: none;}
+.gray-text{font-size: 15px;    padding-top: 10px;
+line-height: 23px;
 color: #4c4c4c;
 font-family: "Verdana";}
 
@@ -586,12 +587,6 @@ border-right: 40px solid transparent;
     content: none;
 }
 .page11 ~ .button-wrapper{height: 60px;}
-.page15 .range,.page16 .range,
-.page17 .range, .page14 .range,
-.page13 .range{width: 96%;}
-.page15 .range-labels,.page16 .range-labels,
-.page17 .range-labels, .page14 .range-labels,
-.page13 .range-labels{width: 119%;}
 .custom-slider-div {
     background: #6c353b;
     position: absolute;
