@@ -792,7 +792,7 @@ height:0!important;opacity:0!important;
   margin-bottom: 35px;
 }
 .checkbox-group {
-  padding: 45px; 
+  padding: 45px 45px 0 45px; 
     display: flex;
   flex-wrap: wrap;
 }
@@ -1626,12 +1626,14 @@ background-size:90%
 .empty-plate {
     max-width: 476px;height:264px; position:relative;
     margin: auto; background:url(../images/empty-plate.svg ) no-repeat bottom center; background-size:476px auto;
-}.plate-item {width:100%}
-.empty-plate .plate-item_1, .empty-plate .plate-item-1{width:158px; height:105px; left:12px; top:15px; position:absolute}
-.empty-plate .plate-item_2, .empty-plate .plate-item-2{width:188px; height:75px; left:92px; top:0px; position:absolute}
+}
+.plate-item {width:100%}
+.empty-plate > div{max-width:none; position:absolute}
+.empty-plate .plate-item_1, .empty-plate .plate-item-1{width:230px; height:154px; left:15px; top:20px; }
+.empty-plate .plate-item_2, .empty-plate .plate-item-2{width:272px; height:119px; left:138px; top:0px; }
 
-.empty-plate .plate-item_3, .empty-plate .plate-item-3{width:178px; height:72px; left:77px; top:45px; position:absolute}
-.empty-plate .plate-item_4, .empty-plate .plate-item-4{width:162px; height:65px; left:107px; top:70px; position:absolute}
+.empty-plate .plate-item_3, .empty-plate .plate-item-3{width:259px; height:111px; left:118px; top:65px; }
+.empty-plate .plate-item_4, .empty-plate .plate-item-4{width:235px; height:95px; left:155px; top:105px; }
 .vegi-group .row {
     display: flex;
     align-items: center;
@@ -1831,3 +1833,9 @@ input.highlight {animation: mymove 1s infinite;}
 }
 
 .navbar{margin-bottom:10px}
+.page-width.mt-7.intro-sectionpage {
+    margin-top: 5rem!important;
+}
+.sec1-box-left p {
+    margin-bottom: 15px;
+}
