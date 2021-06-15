@@ -1841,3 +1841,5 @@ input.highlight {animation: mymove 1s infinite;}
 }
 
 .vegi-group > .row:last-child > .col-sm-3 {margin-top:90px}
+.sust-item { filter: grayscale(100%);}
+.next-to-active.sust-item { filter: none;}
