@@ -39,7 +39,7 @@
 <div class="circular-range-slider"></div>
  </div></div>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step4')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/personal-level-step4')}}" class="link-btn get-survey-details btn-flip submit-details" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>
