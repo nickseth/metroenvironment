@@ -18,13 +18,14 @@
  <div class="page-head">
  <h2>Introductory Section</h2>
  </div>
- <div class="page-width mt-7">
+ <div class="page-width mt-7 intro-sectionpage">
  <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
+ <p class="animate__animated animate__fadeIn">The materials used to create these straws are all different from one another.<br>Choose the material you think is the most environment friendly.</p>
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Which straw do you think is the most sustainable?</h4>
  </div>
- <p class="animate__animated animate__fadeIn">The materials used to create these straws are all different from one another.<br>Choose the material you think is the most environment friendly.</p>
+ 
 
 
   <form class="survey-form"><div class="checkbox-group">

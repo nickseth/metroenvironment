@@ -2930,7 +2930,7 @@
 </g>
 </svg>
 								</div>
-								<p class="light-text">Its shape and size is
+								<p class="light-text">It's shape and size is
 different from mass
 produced alternatives</p>
 							

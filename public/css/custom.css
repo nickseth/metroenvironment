@@ -606,3 +606,25 @@ border-right: 40px solid transparent;
 
  .page13 .sec1-box-right img{    margin: 0 auto;    padding-top: 30px;
     display: block;}
+	.selecionado_opcion,.cont_select_int > li,
+form.survey-form input, form.survey-form  select{font-size: 16px;}
+form.survey-form  select::-webkit-input-placeholder,
+form.survey-form input::-webkit-input-placeholder {
+	opacity: .8;
+  }
+  form.survey-form  select::-moz-input-placeholder,
+  form.survey-form input::-moz-placeholder { 
+	opacity: .8;
+  }
+  form.survey-form  select::-ms-input-placeholder,
+  form.survey-form input:-ms-input-placeholder { 
+	opacity: .8;
+  }
+  form.survey-form  select::-moz-input-placeholder,
+  form.survey-form input:-moz-placeholder {
+	opacity: .8;
+  }
+
+ .intro-sectionpage .checkbox-group label {
+    font-size: 18px;
+}
