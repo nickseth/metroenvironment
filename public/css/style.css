@@ -12,10 +12,10 @@ body.index-page .d-flex.align-center.space-between {
 body{overflow-x:hidden}
 
 a.navbar-brand img {
-    width: 140px;
+    width: 125px;
     height: auto;
 }
-.navbar-collapse.right-header  h1{    font-size: 26px;}
+.navbar-collapse.right-header  h1{    font-size: 24px; margin:0 0 3px 0}
 @media(min-width:1600px) {
 a.navbar-brand img {
     width: 120px;
@@ -140,7 +140,11 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
     margin-top: 4rem!important;
 }
 .mt-7, .my-7 {
-    margin-top: 2rem!important;
+    margin-top: 1rem!important;
+}
+.page-width.mt-7 {
+    margin: 0 auto!important;
+    padding: 0;
 }
 .form-info{background:#ffffff; border-radius:3px; border:solid 1px #cccccc; padding:15px 30px; display:flex; font-size:13px;color:#aaaaaa; align-items:center; width:calc(100% - 85px)}
 .form-info img{width:33px}
@@ -1820,4 +1824,7 @@ input.highlight {animation: mymove 1s infinite;}
 .plate-item-4{
     max-width: 240px;
   
+}
+.page-width.mt-4.page11 {
+    margin-top: 0!important;
 }
