@@ -30,6 +30,7 @@ window.onload = function(){
 })
 setTimeout(function(){
 	$('.personal-level-start').addClass('zoom-backrgound');
+	$('.sust1-marked-element').addClass('blinking-text');
 },2000);
 setTimeout(function(){
 	$('.personal-level-start').addClass('zoom-backrgound-new');
@@ -244,11 +245,13 @@ headers: {
 	})
 	var target = '';
 	$('#sust1-group .sust-item').click(function(){
+		$('.sust1-marked-element').removeClass('blinking-text');
 	 target = $(this).attr('id');
 		$('.popup-ques-container').removeClass('active-popover');
 		$('.'+target).addClass('active-popover')
 	})
 	$('#sust2-svg .sust-item').click(function(){
+		$('.sust1-marked-element').removeClass('blinking-text');
 		target = $(this).attr('id');
 		$('.popup-ques-container').removeClass('active-popover');
 		$('.'+target).addClass('active-popover')
@@ -267,7 +270,6 @@ headers: {
 		$('.hidden-survey-rating').val(rating);
 	})
 	// storing form data in cookie //
-	console.log(Cookies.get('formdetails'))
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
 		// storing multiple checkbox data into single field //
@@ -487,7 +489,8 @@ function dataSubmission(data,url,redirect){
           data:data,
 		  contentType: "application/json",
           success:function(response){
-            window.location.href = redirect;
+			  console.log(response);
+            //window.location.href = redirect;
           },
 		  error:function(err){
 			  alert('Something went wrong.');
