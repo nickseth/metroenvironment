@@ -4161,15 +4161,12 @@
 .sec3-home-bg{
   height:100vh; width:100%;
   position: relative;
-  background:url(../images/sec3-home-background.png) no-repeat;
-  background-size:cover;
-  background-position:center bottom;
   overflow-x:hidden
 }
 
 .wrper-cstm-width{
   max-width: 380px;
-  margin: 0 auto;
+  margin: 80px auto 20px;
   text-align: center;
   padding: 0 15px;
 }
@@ -4424,7 +4421,7 @@
 
 @keyframes balloonmove {
   0% {
-    top: 15%;
+    top: 17%;
     left: 21%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -4435,7 +4432,7 @@
 
   15% {
     top: 12%;
-    left: 22%;
+    left: 21%;
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
@@ -4444,8 +4441,8 @@
   }
 
   30% {
-    top: 220px;
-    left: 480px;
+    top: 8%;
+    left: 20%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -4454,8 +4451,8 @@
   }
 
   45% {
-    top: 260px;
-    left: 500px;
+    top: 15%;
+    left: 22%;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
@@ -4464,8 +4461,8 @@
   }
 
   60% {
-    top: 220px;
-    left: 520px;
+    top: 12%;
+    left: 25%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -4474,8 +4471,8 @@
   }
 
   75% {
-    top: 180px;
-    left: 530px;
+    top: 8%;
+    left: 25%;
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
@@ -4485,8 +4482,8 @@
 
   /* line 38, ../sass/components/_balloon.scss */
   90% {
-    top: 160px;
-    left: 500px;
+    top: 12%;
+    left: 23%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -4495,8 +4492,8 @@
   }
 
   100% {
-    top: 140px;
-    left: 480px;
+    top: 8%;
+    left: 25%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -4514,7 +4511,7 @@
   -moz-animation: balloonmove 15s infinite linear;
   -ms-animation: balloonmove 15s infinite linear;
   animation: balloonmove 15s infinite linear;
-  max-width: 80px;
+  max-width: 40px;
 }
 
 .sec3-home-bg .baloon img{max-width: 80px;}
@@ -4537,6 +4534,18 @@
     
     100%{
       transform: rotate(-1000deg); animation-play-state: paused;animation-timing-function: ease-out; animation-play-state: paused, running;
+    }
+  }
+  @keyframes queCycle{
+    0%{
+     transform: rotate(0deg);
+    }
+    35% {
+      transform: rotate(500deg);
+    }
+    
+    100%{
+      transform: rotate(1000deg); animation-play-state: paused;animation-timing-function: ease-out; animation-play-state: paused, running;
     }
   }
   
@@ -4562,36 +4571,39 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute; right: 65%;
+    position: absolute; right: 8%;
     width: 160px;
-    height:90px;     bottom: 40px;
-    overflow:hidden;
-    animation:  moving 40s linear  1;animation-direction: alternate-reverse;
+    height:120px;     bottom: 40px;
+    overflow:hidden;    justify-content: center;
+    animation:  moving 20s linear  1;animation-direction: alternate-reverse;
   }
   
   .bikebody{
     animation: carmove 3.1s 1 linear;
     background: url(../images/bike.svg) no-repeat;
     background-size: cover;
-    height: 80px;
+    height: 100px;
     position: relative; 
-    width: 110px;
+    width: 80px;
     z-index: 125;
   }
   
-  .weel{
-    /*animation: que 0.7s infinite linear;*/
-    animation:que 10s linear  4;
+  .bike .wheel {
+    animation: queCycle 10s linear 3;
     position: absolute;
-    top: 57%;background-size: contain;
+    background-size: contain;
     z-index: 200;
   }
-  .bike-weel1{left: 3px;background: url(../images/bike-que-front.svg) no-repeat;width: 26px;  height: 26px;animation: que 10s linear 4;animation-direction: alternate-reverse;}
+  .bike .bike-weel1{left: 28px;background: url(../images/bike-wheel-front.svg) no-repeat;width: 26px;  height: 26px;
+     animation: queCycle 10s linear 3;background-size: contain;
+    background-position: center;    bottom: 9px;
+    top: auto;}
   
-  .bike-weel2{left: 55px;background: url(../images/bike-que-rear.svg) no-repeat;
-    width: 43px;animation: que 10s linear 4;animation-direction: alternate-reverse;
-    margin-top: -18px; 
-    height: 43px;
+  .bike  .bike-weel2{right: 34px;background: url(../images/bike-wheel-rear.svg) no-repeat;background-size: contain;
+    background-position: center;
+    width: 33px;animation: queCycle 10s linear 3;
+    height: 33px;    top: auto;
+    bottom: 5px;
   }
   
   .stopedWeel{
@@ -5075,3 +5087,12 @@ a.read-more {
   .animate_shakeX{-webkit-animation-name: shakeX;
       animation-name: shakeX;}
      
+      .bottom-section-final{background: url(../images/sec3-home-background.png) no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;}
+.herooo{    height: 100vh;}        
