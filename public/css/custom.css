@@ -666,7 +666,7 @@ blade-wrapper::after {
 }
 
 .box-canvas{
-	position: absolute;
+	position: absolute; pointer-events: none;
 	margin: auto;
 	display: block;
 	width: 320px;
