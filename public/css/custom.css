@@ -278,7 +278,7 @@ height: auto;}
 
 			.chat-window {
 				margin: 0 auto;
-				max-width: 800px;
+				max-width: 700px;
 			}
 			.messages {display: inline-block;
 				position: relative;
@@ -508,7 +508,7 @@ border-right: 40px solid transparent;
 }
 .foods-check.outer-input {
     margin: 25px auto 30px;
-    max-width: 800px;
+    max-width: 700px;
 }
 .foods-check .form-group label{font-size: 18px;
     color: #000;}
@@ -522,7 +522,7 @@ border-right: 40px solid transparent;
 			width: 10px;
 			height: 17px;border-width: 0 4px 4px 0;}
 .foods-list {
-				max-width: 800px;    padding: 0 22px;
+				max-width: 700px;    padding: 0 22px;
 				margin:20px auto 0;
 				border-radius: 15px;
 				background: url(../images/slide-6bg.jpg) no-repeat center;
