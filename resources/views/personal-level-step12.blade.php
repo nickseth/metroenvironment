@@ -44,7 +44,7 @@
  
  </div><div class="col-sm-3"><div class="plate-item-2 plate-item" style="z-index: 99;"><img src="images/plate-item-2.svg" /></div><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>
  <div class="row"><div class="col-sm-3 mt-5">
- <div class="plate-item-1 plate-item style="z-index: 99;""><img src="images/plate-item-1.svg" /></div>
+ <div class="plate-item-1 plate-item" style="z-index: 99;"><img src="images/plate-item-1.svg" /></div>
  <p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 "><div class="vegi-plate">
 
 <div class="empty-plate">
