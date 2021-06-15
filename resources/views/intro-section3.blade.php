@@ -18,7 +18,7 @@
  <div class="page-head">
  <h2>Introductory Section</h2>
  </div>
- <div class="page-width mt-7">
+ <div class="page-width mt-7 intro-sectionpage">
  <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
  <p class="animate__animated animate__fadeIn">Online processes also need significant amounts of non-renewable energy to function.<br>Choose the option you think is closest to the actual amount of energy used in <br>the mining of cryptocurrencies.</p>

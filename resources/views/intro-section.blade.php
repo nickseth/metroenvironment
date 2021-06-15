@@ -18,7 +18,7 @@
  <div class="page-head">
  <h2>Introductory Section</h2>
  </div>
- <div class="page-width mt-7">
+ <div class="page-width mt-7 intro-sectionpage">
  <div class="row"> <div class="col-sm-9">
  <div class="sec1-box-left">
  <p class="animate__animated animate__fadeIn">Global warming is a serious problem, and rising temperatures have shifted natural climatic patterns. Who do you think will feel these adverse effects the most?</p>
