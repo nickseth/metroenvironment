@@ -22,7 +22,7 @@
 			<div class="page-width mt-1 survey-ratingpage">
 				<div class="row">
 					<div class="col-sm-12">
-						<div class="sec1-box-center text-center mt-5">
+						<div class="sec1-box-center text-center">
 		
 							<p class="animate__animated animate__fadeIn  thank-title">Thank You!</p>
 						</div>
@@ -65,7 +65,6 @@
 	</div>
 	
 	</div>
-	
 	<div class="rate-bg">
 	<img src="images/rate-bg.svg" />
 	</div>

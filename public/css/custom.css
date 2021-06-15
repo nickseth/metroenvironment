@@ -283,8 +283,8 @@ height: auto;}
 			}
 			.messages {display: inline-block;
 				position: relative;
-				height: auto; font-size: 16px; color: #fff;;
-				background-color: #e8505b;padding: 20px;
+				height: auto; font-size: 14px; color: #fff;;
+				background-color: #e8505b;padding: 10px;
 				border-radius: 15px 15px 15px 0;}
 			.msg_receive:after {
 				content: ' ';
@@ -299,8 +299,8 @@ height: auto;}
     border-left: 40px solid transparent;
 }
 
-			.avatar{width: 20%;    float: left;}
-			.message-section{width: 80%;     padding-left: 0;  float: left;}
+			.avatar{width: 17%;    float: left;}
+			.message-section{width: 82%;     padding-left: 0;  float: left;}
 			.messages  p:last-child{margin-bottom: 0;}
 			.base_receive .message-section{    padding-left: 40px;}
 			.base_receive .avatar{margin-top: 70px;}
@@ -630,3 +630,118 @@ form.survey-form input::-webkit-input-placeholder {
 }
 .page21 .grid-icons svg{    margin: 3px auto 10px;}
 .survey-ratingpage .btn-flip{margin-top: 20px;}
+.final-level-step15  .rate-bg{  margin-top: -50px;  padding-top: 0; pointer-events: none;}
+.final-level-step15  .rate-bg img{    margin-top: -50px;}
+.final-level-step15 .thank-title{margin-bottom: 0;}
+
+	@keyframes rotateBlades {
+		0% {
+		  transform: translateX(-50%);
+		  transform-origin: 50% 140px;
+		}
+		
+		100% {
+		  transform: translateX(-50%) rotate(360deg);
+		  transform-origin: 50% 140px;
+		}
+	  }
+.blade-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    animation: rotateBlades 5s infinite linear;
+}
+.pole {
+	position: absolute;
+    top: auto;
+    left: 50%;
+    transform: none;
+    width: 35px;    transform: translateX(-50%);
+    height: 245px;
+    background: url(../images/windwill-piller.svg) no-repeat;
+    bottom: 20px;
+    background-position: top center;
+}
+
+.blade::after {
+    background: url(../images/windwill-fan1.svg) no-repeat;
+}
+blade-wrapper::after {
+    background: url(../images/windwill-circle.svg) no-repeat; background-size: contain;
+}
+
+.box-canvas{
+	position: absolute;
+	margin: auto;
+	display: block;
+	width: 320px;
+	height:320px;right: 16%;    bottom: 90px
+  }
+  
+  
+  .pole {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 30px;
+	height: 200px;
+	background: url(../images/windwill-piller.svg) no-repeat top center;
+  }
+  
+  .blade::after {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	width: 80px;
+	height: 20px;
+	background: #000;
+	clip-path: polygon(20% 0, 0% 100%, 100% 100%);
+  }
+  
+  .blade {
+	position: absolute;
+	width: 20px;
+	height: 10px;
+	background: #000;
+  }
+  
+  .blade.one {
+	top: 140px;
+	left: 305px;
+  }
+  
+  .blade.two {
+	top: 150px;
+	left: 275px;
+	transform: rotate(120deg);
+  }
+  
+  .blade.three {
+	transform: rotate(240deg);
+	top: 120px;
+	left: 290px;
+  }
+  
+  .blade-wrapper {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+	height: 600px;
+	animation: rotateBlades 5s infinite linear;
+  }
+  
+  .blade-wrapper::after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: radial-gradient(white, var(--accent-gray));
+	border-radius: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 125px;
+  }
