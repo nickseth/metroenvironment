@@ -71,6 +71,8 @@ class Survey_Submission_Controller extends BaseController
 		$final_level_step7_6 = empty($request->final_level_step7_6) ? null : $request->final_level_step7_6;
 		$final_level_step7_7 = empty($request->final_level_step7_7) ? null : $request->final_level_step7_7;
 		$survey_rating = empty($request->survey_rating) ? null : $request->survey_rating;
+		$badge_calculation_elements = [$personal_level_step1,$personal_level_step3];
+		$total_badge_score = array_sum($badge_calculation_elements);
 		$country_data = array(
                 'age' => $age,
                 'office_located' => $office_located,
@@ -128,9 +130,16 @@ class Survey_Submission_Controller extends BaseController
                 'final_level_step7_5' => $final_level_step7_5,
                 'final_level_step7_6' => $final_level_step7_6,
                 'final_level_step7_7' => $final_level_step7_7,
-                'survey_rating' => $survey_rating
+                'survey_rating' => $survey_rating,
+				'total_badge_score' => $total_badge_score
                 );
-               DB::table('survey_data')->insert($country_data);
+               $execution = DB::table('survey_data')->insert($country_data);
+			   if(isset($execution)){
+				echo json_encode(array(
+				"status" => "success",
+				"badge_score" => $total_badge_score
+				),JSON_UNESCAPED_SLASHES);
+			   }
 
 	}
 }

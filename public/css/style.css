@@ -1622,18 +1622,18 @@ background-size:90%
 .vegi-group-imgs .plate-item-3d {width:260px; right:220px; top:80px;}
 .vegi-group-imgs .plate-item-4d {width:160px; right:120px; top:150px;}---*/
 .vegi-group-imgs  img {width:100%; height:auto}
-
+.col-sm-3 > .plate-item {z-index:99}
 .empty-plate {
     max-width: 476px;height:264px; position:relative;
     margin: auto; background:url(../images/empty-plate.svg ) no-repeat bottom center; background-size:476px auto;
 }
 .plate-item {width:100%}
 .empty-plate > div{max-width:none; position:absolute}
-.empty-plate .plate-item_1, .empty-plate .plate-item-1{width:230px; height:154px; left:15px; top:20px; }
-.empty-plate .plate-item_2, .empty-plate .plate-item-2{width:272px; height:119px; left:138px; top:0px; }
+.empty-plate .plate-item_1, .empty-plate .plate-item-1{width:230px; height:154px; left:15px; top:20px; z-index:105 }
+.empty-plate .plate-item_2, .empty-plate .plate-item-2{width:272px; height:119px; left:138px; top:0px; z-index:110 }
 
-.empty-plate .plate-item_3, .empty-plate .plate-item-3{width:259px; height:111px; left:118px; top:65px; }
-.empty-plate .plate-item_4, .empty-plate .plate-item-4{width:235px; height:95px; left:155px; top:105px; }
+.empty-plate .plate-item_3, .empty-plate .plate-item-3{width:259px; height:111px; left:118px; top:65px; z-index:115 }
+.empty-plate .plate-item_4, .empty-plate .plate-item-4{width:235px; height:95px; left:155px; top:105px; z-index:120 }
 .vegi-group .row {
     display: flex;
     align-items: center;
@@ -1839,3 +1839,5 @@ input.highlight {animation: mymove 1s infinite;}
 .sec1-box-left p {
     margin-bottom: 15px;
 }
+
+.vegi-group > .row:last-child > .col-sm-3 {margin-top:90px}
