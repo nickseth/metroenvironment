@@ -4623,7 +4623,11 @@
   text-align: center;
   background-color: #fff;
 }
-.popup-ques-container{position: absolute;
+.submit-btn {
+    text-align: center;
+    margin-top: 15px;
+}
+.popup-ques-container{
   max-width: 430px;
   margin: 10px auto;
   padding: 16px;    z-index: 11;
