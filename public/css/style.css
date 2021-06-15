@@ -95,7 +95,7 @@ body{font-family: 'Verdana';}
 .page-bg-1 img{display:block; width:100%}
 .relative {position:relative}
 
-form label	{color:#808080; font-weight:normal; margin:0; width:auto;  font-family: 'Verdana'; font-style:normal; font-size:18px}
+form label	{color:#808080; font-weight:normal; margin:0; width:auto;  font-family: 'Verdana'; font-style:normal; font-size:14px}
 form input, form select	{border-radius:3px;background:#ffffff; border:solid 1px #ccc; outline:none; height:50px; line-height:1; padding:0 15px; font-size:20px;color:#aaaaaa;}
 form select {background:url(../images/select-arrow.svg) no-repeat right center;
     appearance: none;
@@ -1374,7 +1374,7 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: center;
-  background:rgba(255, 255, 255, .8)
+  background:rgba(255, 255, 255, 1)
 
 
     z-index: 99999;
