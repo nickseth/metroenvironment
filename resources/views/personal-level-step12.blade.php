@@ -37,7 +37,7 @@
 <div class="vegi-group">
  <div class="row"> <div class="col-sm-3">
  
- <div class="plate-item-3 plate-item"><img src="images/plate-item-3.svg" /></div><p class="text-center"><strong>Tofu/soy products</strong>(soy cutlets, seitan, tempeh etc.)</p></div>
+ <div class="plate-item-3 plate-item "><img src="images/plate-item-3.svg" /></div><p class="text-center"><strong>Tofu/soy products</strong>(soy cutlets, seitan, tempeh etc.)</p></div>
 <div class="col-sm-6">
  
 
