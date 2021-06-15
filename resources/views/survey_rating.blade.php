@@ -19,7 +19,7 @@
 	<div class="container ">
 	<form class="survey-form">
 		<div class="relative">
-			<div class="page-width mt-1 page6">
+			<div class="page-width mt-1 survey-ratingpage">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="sec1-box-center text-center mt-5">

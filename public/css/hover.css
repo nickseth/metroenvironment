@@ -4697,8 +4697,12 @@
 #sust-que{text-align: center;}
 .sust-que {
   position: relative;
-  max-width: 520px;  margin: 10px auto 10px; min-height: 520px;
+  max-width: 460px;  margin: 10px auto -10px; min-height: 460px  ;
 }
+form.final-steps.step2-page{
+  padding: 0;
+}
+.sust-que svg{width: 100%; height: auto;}
 #sust1-svg-wrapper, #sust2-svg-wrapper {
   pointer-events: none;
 }

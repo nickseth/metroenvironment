@@ -17,12 +17,12 @@
 		</div>
 	</nav>
 	<div class="container ">
-	<form class="survey-form">
+	<form class="survey-form page16">
 		<div class="relative">
-			<div class="page-width mt-1 page16">
+			<div class="page-width mt-1 ">
 				<div class="row">
 					<div class="col-sm-12">
-						<div class="sec1-box-center text-center mt-5">
+						<div class="sec1-box-center text-center ">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
 									<img src="images/leaves.svg" />
