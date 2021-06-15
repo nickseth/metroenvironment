@@ -150,7 +150,8 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
 .form-info img{width:33px}
 .form-info span{margin-left:10px}
 .clear-left {clear:left}
-.button-wrapper {display:flex; align-items:flex-end; justify-content:flex-end; height:100px; clear:both;}
+.button-wrapper {display:flex; align-items:flex-end; justify-content:flex-end;  clear:both;}
+.survey-start-page .button-wrapper {height:100px;}
 .button-wrapper button{width:auto}
 button {font-weight:bold!IMPORTANT; background:#4c9f38; color:#fff!important; text-transform:uppercase!IMPORTANT; border:none; border-radius: 15px;
     padding: 5px 15px;}
@@ -1430,8 +1431,8 @@ border-radius: 50%;
 	 content: "5";
 	 transform: rotate(-450deg);
 }
-.rs-control {margin:45px auto}
-.circular-range-slider .rs-container, .circular-range-slider {width:440px!important; height:440px!important}
+.rs-control {margin:20px auto 0 auto;}
+.circular-range-slider .rs-container, .circular-range-slider {width:390px!important; height:390px!important}
 .circular-range-slider .rs-handle {}
 .rs-control .rs-range-color {
     background-color: #4c9f38;
@@ -1495,22 +1496,22 @@ content: "5";}
 }
 
 .personal-level-step1 .circular-range-slider .rs-bg-color {background:#ffffff url(../images/circle-cart.svg) no-repeat center center;
-background-size:300px 300px;
+background-size:90%
 }
 .personal-level-step1 .circular-range-slider.current-step-1 .rs-bg-color{background:#ffffff url(../images/circle-cart-1.svg) no-repeat center center;
-background-size:300px 300px;
+background-size:90%
 }
 .personal-level-step1 .circular-range-slider.current-step-2 .rs-bg-color{background:#ffffff url(../images/circle-cart-2.svg) no-repeat center center;
-background-size:300px 300px;
+background-size:90%
 }
 .personal-level-step1 .circular-range-slider.current-step-3 .rs-bg-color{background:#ffffff url(../images/circle-cart-3.svg) no-repeat center center;
-background-size:300px 300px;
+background-size:90%
 }
 .personal-level-step1 .circular-range-slider.current-step-4 .rs-bg-color{background:#ffffff url(../images/circle-cart-4.svg) no-repeat center center;
-background-size:300px 300px;
+background-size:90%
 }
 .personal-level-step1 .circular-range-slider.current-step-5 .rs-bg-color{background:#ffffff url(../images/circle-cart-5.svg) no-repeat center center;
-background-size:300px 300px;
+background-size:90%
 }
 .gbb-wrap {position:relative; margin-top:45px}
 .col-sm-5 .gbb-wrap {margin-right:5%; }
@@ -1625,7 +1626,7 @@ background-size:300px 300px;
 .empty-plate {
     max-width: 476px;height:264px; position:relative;
     margin: auto; background:url(../images/empty-plate.svg ) no-repeat bottom center; background-size:476px auto;
-}
+}.plate-item {width:100%}
 .empty-plate .plate-item_1, .empty-plate .plate-item-1{width:158px; height:105px; left:12px; top:15px; position:absolute}
 .empty-plate .plate-item_2, .empty-plate .plate-item-2{width:188px; height:75px; left:92px; top:0px; position:absolute}
 
@@ -1691,7 +1692,7 @@ background-size:300px 300px;
 	background: #ffffff url(../images/fls-11-img0.svg) no-repeat center center;
 	
 }
-.circular-range-slider .rs-bg-color {background-size:300px!important;}
+.circular-range-slider .rs-bg-color {background-size:90%!important;}
 
 .final-level-step14 .page-width {max-width:100%}
 
@@ -1828,3 +1829,5 @@ input.highlight {animation: mymove 1s infinite;}
 .page-width.mt-4.page11 {
     margin-top: 0!important;
 }
+
+.navbar{margin-bottom:10px}
