@@ -32,9 +32,8 @@
 								<p class="animate__animated animate__fadeIn gray-text">Select a section of the wheel to view the information under each one of them.</p>
 							</div>
 						</div>
-						
-						<div class="col-sm-6">
-							<div id="sust-que" class="animate__animated animate__fadeInLeft">
+						<div class="col-sm-12">
+							<div id="sust-que">
 								<div class="sust-que content-width-lg sust-que-initial">
 									<!-- sust que 1 -->
 									<!-- buttons grey background -->
@@ -640,14 +639,7 @@
 										</div>
 									</div>
 									<!-- Legend -->
-									
-							  
-								</div>
-							</div>
-						</div>
-						
-						
-						<div class="col-sm-6"><div class="popup-ques-container human-rights">
+									<div class="popup-ques-container human-rights">
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -714,9 +706,6 @@ consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
 					        <a href="#" class="read-more">Read More</a>
-							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
-							</div>
 							</div>
 							<div class="popup-ques-container climate-action">
 								<h2 class="clr-blue">“My Sustainable Restaurant” ToolboxDo you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
@@ -755,9 +744,6 @@ consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 					        <a href="#" class="read-more">Read More</a>
-							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
-							</div>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
 								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
@@ -796,9 +782,6 @@ consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more">Read More</a>
-							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
-							</div>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
 								<h2 class="clr-blue">METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?</h2>
@@ -837,9 +820,6 @@ consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
 					        <a href="#" class="read-more">Read More</a>
-							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
-							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
 								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy?</h2> 
@@ -878,9 +858,6 @@ consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more">Read More</a>
-							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
-							</div>
 							</div>
 							<div class="popup-ques-container organic">
 								<h2 class="clr-blue">Are you aware that a Social Standard Management tool exists?</h2>
@@ -916,9 +893,6 @@ laoreet dolore</p>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
 					             <a href="#" class="read-more">Read More</a>
-								 <div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
-							</div>
 							</div>
 							<div class="popup-ques-container conscious-proteins">
 								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
@@ -954,13 +928,11 @@ laoreet dolore</p>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
 					             <a href="#" class="read-more">Read More</a>
-								 <div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
 							</div>
+							  
+								</div>
 							</div>
-							
-							
-							</div>
+						</div>
 					</div>
 				</div>
 				<div class="button-wrapper bottom-button">
