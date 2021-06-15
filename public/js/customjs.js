@@ -468,11 +468,11 @@ $('.empty-plate').droppable({
 }); //END ready
 
 function handleDragStart (event, ui) {
-	$(this).css({zIndex:'99999999999'});
+	// $(this).css({zIndex:'99'});
     // $(this).addClass('');
 } 
 function handleDragStartvegi (event, ui) {
-	$(this).css({zIndex:'99999999999'});
+	// $(this).css({zIndex:'99'});
     // $(this).addClass('');
 } 
 setTimeout(function(){
