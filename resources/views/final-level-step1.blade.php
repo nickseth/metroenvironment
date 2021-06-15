@@ -22,7 +22,7 @@
 			<div class="page-width mt-1">
 				<div class="row">
 					<div class="col-sm-12">
-						<div class="sec1-box-center text-center mt-5">
+						<div class="sec1-box-center text-center mt">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
 									<img src="images/leaves.svg" />
