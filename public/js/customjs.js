@@ -410,7 +410,7 @@ $rangeInput.on('input', function () {
 $('.range-labels li').on('click', function () {
   var index = $(this).index();
   
-  $rangeInput.val(index + 1).trigger('input');
+  $(this).parent().prev().find('input').val(index + 1).trigger('input');
   
 });
 
