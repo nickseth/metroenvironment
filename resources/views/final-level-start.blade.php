@@ -2,18 +2,10 @@
 <body class="sec3-home-bg">
 <div class="herooo">
 
-  <div class="top-sectionn">
-
+  <div class="top-section">
     <div class="baloon">
       <img src="images/sec3-balloon.svg" alt="Baloon">
-    </div>
-
-    <div class="bike">
-      <div class="bikebody"></div>
-      <div class="wheel bike-weel1"></div>
-      <div class="wheel bike-weel2"></div>
-    </div>
-
+    </div>   
     <div class="clouds">
       <svg class="cloud super-slow" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" -->
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1855 265"
@@ -37958,11 +37950,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
 </i:pgf>
 </svg>
 
-
 </div>
-
-  
-
     <!-- Navbar -->
     <nav class="navbar navbar-default">
       <div class="container"><div class="d-flex align-center space-between">
@@ -37975,8 +37963,14 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
         </div></div>
       </div>
     </nav>
-
-    <main class="mid-content">
+  </div>
+<div class="bottom-section-final">
+<div class="bike">
+      <div class="bikebody"></div>
+      <div class="wheel bike-weel1"></div>
+      <div class="wheel bike-weel2"></div>
+    </div>
+  <main class="mid-content">
       <div class="wrper-cstm-width">
         <div class="welcome">
           <h3>
@@ -37984,7 +37978,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
             <span class="clr-blue">YOU@METRO<span>
           </h3>
         </div>
-        <div class="home-content clr-blue mt-5">
+        <div class="home-content clr-blue mt-3">
           <p>Hello and welcome! Thanks for taking out the time to take this interactive
         survey. Your responses will enable us to create impactful strategies that
         benefit the world around us. We promise it won't take long.</p>
@@ -37994,7 +37988,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
         </div>
       </div>
     </main>
-  </div>
+    </div>
 </div>
 
 </body>
