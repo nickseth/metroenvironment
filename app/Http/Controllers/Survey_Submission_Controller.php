@@ -137,7 +137,7 @@ class Survey_Submission_Controller extends BaseController
 			   if(isset($execution)){
 				echo json_encode(array(
 				"status" => "success",
-				"badge_score" => $total_badge_score;
+				"badge_score" => $total_badge_score
 				),JSON_UNESCAPED_SLASHES);
 			   }
 
