@@ -305,6 +305,19 @@ headers: {
 		var rating = $(this).attr('data-value');
 		$('.hidden-survey-rating').val(rating);
 	})
+	$('.never-selection-checkbox').click(function(){
+		var elem = $(this);
+		setTimeout(function(){
+		if(elem.is(':checked')){
+			$('.range-labels li').eq(0).click();
+			$('.rangle-slider').addClass('disabled');
+		}
+		else{
+			$('.rangle-slider').removeClass('disabled');
+		}
+		},100)
+		
+	})
 	console.log(Cookies.get('formdetails'))
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
@@ -495,7 +508,8 @@ $('.draggable').draggable({
   start:handleDragStart,
   revert: "invalid",
   stack: ".draggable",
-  helper: 'clone'
+  helper: 'clone',
+    cursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
   accept: ".draggable",
@@ -514,13 +528,12 @@ $('.mid-drag ul li').droppable({
     draggable.addClass('usedDraggable');
   }
 });
-
-
 $('.vegi-group .plate-item').draggable({
   start:handleDragStartvegi,
   revert: "invalid",
   stack: ".draggable",
-  helper: 'clone'
+  helper: 'clone',
+  cursorAt: {left: 50}
 });
 $('.empty-plate').droppable({
   accept: ".plate-item",
