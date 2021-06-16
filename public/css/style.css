@@ -820,14 +820,14 @@ height:0!important;opacity:0!important;
   content:'';
   -webkit-appearance: none;
   background-color: transparent;
-  border: 2px solid #E6E6E6;
+  border: 2px solid #bbb;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
   padding: 10px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  margin-right: 5px; border-radius:3px;width:32px; height:32px; margin-right:15px;
+  margin-right: 5px; border-radius:3px;width:28px; height:28px; margin-right:15px;
 }
 .form-group input:checked + label:before {
 	background:#4C9F38; border-color:#4C9F38;
@@ -1801,7 +1801,7 @@ input.highlight {animation: mymove 1s infinite;}
     left: 5%;
     
     top: 48%;
-    padding: 30px; transform:translateY(-50%);max-width:30%;
+    padding: 30px; transform:translateY(-50%);max-width:34%;
 	-webkit-transition: all 1.8s;
     -moz-transition: all 1.8s;
     -o-transition: all 1.8s;
@@ -1811,7 +1811,7 @@ input.highlight {animation: mymove 1s infinite;}
 .zoom-backrgound-new .caption-sec2 {opacity:1;}
 @media(min-width:1600px) {
 	.caption-sec2 { left: 2.5%;
-    
+    max-width:30%;
     top: 36%;}
 	.caption-sec2 p{ font-size:30px;}
 }
