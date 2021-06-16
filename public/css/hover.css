@@ -4421,96 +4421,27 @@
 
 @keyframes balloonmove {
   0% {
-    top: 17%;
+    top: 40%;
     left: 21%;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    
   }
 
-  15% {
-    top: 12%;
-    left: 21%;
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
-
-  30% {
-    top: 8%;
-    left: 20%;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  45% {
-    top: 15%;
-    left: 22%;
-    -webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    transform: rotate(15deg);
-  }
-
-  60% {
-    top: 12%;
-    left: 25%;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  75% {
-    top: 8%;
-    left: 25%;
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    -o-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
-
-  /* line 38, ../sass/components/_balloon.scss */
-  90% {
-    top: 12%;
-    left: 23%;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
 
   100% {
-    top: 8%;
-    left: 25%;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    top: -10%;
+    left: 21%;
   }
 }
 
 .sec3-home-bg .baloon{
   position: absolute;
-  top: 40px;
-  left: 18%;
+  top: 40%;
+  left: 21%;
   z-index: 99;    height: 120px;
-  right: 0;    -webkit-animation: balloonmove 15s infinite linear;
-  -moz-animation: balloonmove 15s infinite linear;
-  -ms-animation: balloonmove 15s infinite linear;
-  animation: balloonmove 15s infinite linear;
+  right: 0;    -webkit-animation: balloonmove 10s infinite linear;
+  -moz-animation: balloonmove 10s infinite linear;
+  -ms-animation: balloonmove 10s infinite linear;
+  animation: balloonmove 10s infinite linear;
   max-width: 40px;
 }
 
@@ -4551,14 +4482,14 @@
   
   @keyframes moving {
     0% {
-      right: 120px;animation-play-state: running;
+      right: -12%;animation-play-state: running;
       animation-timing-function: ease-out; 
     }
     99% {
-      right: 65%;  animation-play-state: running;
+      right: 60%;  animation-play-state: running;
     }
     100% {
-      right: 65%;  animation-timing-function: ease-in;animation-play-state: paused;
+      right: 60%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
   }
   
@@ -4571,7 +4502,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute; right: 8%;
+    position: absolute; right: -12%;
     width: 160px;
     height:120px;     bottom: 40px;
     overflow:hidden;    justify-content: center;
@@ -5098,7 +5029,7 @@ a.read-more {
         background-position: center bottom;
         position: absolute;
         bottom: 0;
-        left: 0;
+        left: 0; z-index:1;
         height: 100vh;overflow: hidden;
         width: 100%;}
 .herooo{    height: 100vh;}        
