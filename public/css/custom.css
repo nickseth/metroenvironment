@@ -246,16 +246,13 @@ font-family: "Verdana";
 	font-family: "Verdana";
 	text-align: center;}
 
-	.grid-list .form-group label:before{padding: 7px;width: 15px;height: 15px;    margin: 0;}
+	
 	.grid-list .form-group input:checked + label:before {
 		background: #10cfbd;
 		border-color: #10cfbd;
 	}
 	.grid-list .form-group {    margin-top: 15px;    margin-bottom: 0;text-align: center;}
-	.grid-list .form-group input:checked + label:after{top: 6px;
-		left: 6px;
-		width: 7px;
-		height: 12px; border-width: 0 3px 3px 0;}
+
 		.grid-icons svg{    width: 65px;
 			height: 65px;
 			margin:  0;}
