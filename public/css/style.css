@@ -1918,3 +1918,22 @@ input.highlight {animation: mymove 1s infinite;}
 }
 
 .question-wrapper{transition: width 2s;}
+.final-step3 .sec1-box-right svg {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.grid-list .form-group label:before {
+    padding: 7px;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.grid-list .form-group input:checked + label:after {
+    top: 6px;
+    left: 6px;
+    width: 7px;
+    height: 12px;
+    border-width: 0 3px 3px 0;
+}

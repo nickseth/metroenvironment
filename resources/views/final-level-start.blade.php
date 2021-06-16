@@ -1,5 +1,6 @@
 @include('header')
 <body class="sec3-home-bg">
+<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <div class="herooo">
 
   <div class="top-section">
