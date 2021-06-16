@@ -33,7 +33,7 @@
 							</div>
 						</div>
 						
-						<div class="col-sm-6">
+						<div class="col-sm-6 question-wrapper">
 							<div id="sust-que" class="animate__animated animate__fadeInLeft">
 								<div class="sust-que content-width-lg sust-que-initial">
 									<!-- sust que 1 -->
@@ -647,7 +647,7 @@
 						</div>
 						
 						
-						<div class="col-sm-6"><div class="popup-ques-container human-rights">
+						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -673,7 +673,7 @@
 										</div>
 										<hr>
 										<h5>Did you know?</h5>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+										<p>METRO’s SSM tool ensures latest audit information, System-to-system interphase with leading social compliance and social compliance status in one glance.</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
 										 <a href="#" class="read-more">Read More</a>
 										 <div class="submit-btn">
@@ -752,10 +752,7 @@ laoreet dolore</p>
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore</p>
+								<p>With more than 48 solar panel equipped stores in Germany, METRO produces 21,000,000 kWh of solar energy per year.</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
@@ -793,10 +790,7 @@ laoreet dolore</p>
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore</p>
+								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Initiative aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
@@ -834,12 +828,9 @@ laoreet dolore</p>
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore</p>
+								<p>The METRO Water Initiative in Bihar, India aims to provide sustainable access to water and sanitation to half a million people. The METRO Plastic initiative enables better informed consumer choices through recyclable packaging.</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
-					        <a href="#" class="read-more">Read More</a>
+					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" class="read-more" target="_blank">Read More</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -916,9 +907,10 @@ laoreet dolore</p>
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+								<p>METRO’s Sustainable Restaurant Toolbox is a guide to sustainability that enables communication with HoreCa customers on topics including food waste, plastic use, energy, ingredient sourcing and safe food practices. </p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
-					             <a href="#" class="read-more">Read More</a>
+					             <a href="https://www.metro.de/unternehmen/nachhaltigkeit/plastikinitiative
+" class="read-more" target="_blank">Read More</a>
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -954,9 +946,9 @@ laoreet dolore</p>
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy ibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+								<p>With plant based meat alternatives such as burgers, strips and mince, the METRO Chef Veggie range is available in 15 Metro countries. It is an excellent example of METRO’s shift consciousness towards changing global patterns.</p>
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
-					             <a href="#" class="read-more">Read More</a>
+					             <a href="https://responsibility.metroag.de/focus-areas/conscious-proteins" target="_blank" class="read-more">Read More</a>
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="conscious-proteins" data-back="Submit" data-front="Submit" ></a>
 							</div>
