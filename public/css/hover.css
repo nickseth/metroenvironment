@@ -4421,27 +4421,27 @@
 
 @keyframes balloonmove {
   0% {
-    top: 40%;
+    top: 50%;
     left: 21%;
     
   }
 
 
   100% {
-    top: -10%;
+    top: -50%;
     left: 21%;
   }
 }
 
 .sec3-home-bg .baloon{
   position: absolute;
-  top: 40%;
+  top: -40%;
   left: 21%;
   z-index: 99;    height: 120px;
-  right: 0;    -webkit-animation: balloonmove 10s infinite linear;
-  -moz-animation: balloonmove 10s infinite linear;
-  -ms-animation: balloonmove 10s infinite linear;
-  animation: balloonmove 10s infinite linear;
+  right: 0;    -webkit-animation: balloonmove 10s 1 linear;
+  -moz-animation: balloonmove 10s 1 linear;
+  -ms-animation: balloonmove 10s 1 linear;
+  animation: balloonmove 10s 1 linear;
   max-width: 40px;
 }
 
@@ -5033,3 +5033,5 @@ a.read-more {
         height: 100vh;overflow: hidden;
         width: 100%;}
 .herooo{    height: 100vh;}        
+.sec3-home-bg .top-section{    z-index: 1;}
+.sec3-home-bg .bottom-section{    z-index: 11;}
