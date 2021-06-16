@@ -280,8 +280,12 @@ headers: {
 			$('.popup-ques-container.active-popover .emoji-option-js').not($(this)).removeClass('active-option');
 			$(this).addClass('active-option');
 			$('.popup-ques-container.active-popover input').val($(this).attr('data-value'));
-			$('#'+target).addClass('next-to-active');
-			$('.popup-ques-container').removeClass('active-popover');
+			//$('.popup-ques-container').removeClass('active-popover');
+	})
+	$('.popover-btn').click(function(){
+		var target_popover = $(this).attr('data-target');
+		$('#'+target_popover).addClass('next-to-active');
+		$('.popup-ques-container').removeClass('active-popover');
 	})
 	$('.user-rating li').click(function(){
 		$('.user-rating li').not($(this)).removeClass('active-icon');
