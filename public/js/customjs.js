@@ -284,6 +284,9 @@ headers: {
 	})
 	$('.popover-btn').click(function(){
 		var target_popover = $(this).attr('data-target');
+		if($('.'+target_popover).find('.active-option').length == 0){
+			return false;
+		}
 		$('#'+target_popover).addClass('next-to-active');
 		$('#'+target_popover).removeClass('blinking-text');
 		if(!$('#'+target_popover).next().hasClass('next-to-active') && $('#sust1-group .sust-item').length != $('#sust1-group .next-to-active').length){
@@ -322,15 +325,32 @@ headers: {
 		},100)
 		
 	})
+	$('.back-navigate-btn').click(function(){
+		window.history.back();
+	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
 		// form validation //
 		if($('.required-field').length > 0 ){
+			$('.select_mate ').removeClass('field-is-required')
+			$('.required-field').removeClass('field-is-required')
 			try{
 			$('.required-field').each(function(){
 				if($(this).val()!= undefined && $(this).val() != '' ){
 					$(this).addClass('validated');
+				}
+			})
+			var required_class_added = false;
+			$('.required-field').each(function(){
+				if(!$(this).hasClass('validated') && required_class_added == false){
+					if($(this).find('option').length != 0){
+						$(this).parent().addClass('field-is-required');
+					}
+					else{
+					$(this).addClass('field-is-required');
+					}
+					required_class_added = true;
 				}
 			})
 			if($('.required-field').length != $('.validated').length){
