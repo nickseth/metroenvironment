@@ -1845,9 +1845,11 @@ input.highlight {animation: mymove 1s infinite;}
 }
 
 .vegi-group > .row:last-child > .col-sm-3 {margin-top:90px}
-.sust-item { filter: grayscale(100%);}
+.sust-item { filter: grayscale(100%); pointer-events:none;}
+.sust-item path{pointer-events:none!important;}
 .next-to-active.sust-item { filter: none;}
-
+.sust-item.blinking-text {pointer-events:auto;}
+.sust-item.blinking-text path{pointer-events:auto!important;}
 .st86.st86__active{fill:#000!important}
 @keyframes skew {
   0% {
@@ -1914,3 +1916,5 @@ input.highlight {animation: mymove 1s infinite;}
   animation-direction: alternate; 
      
 }
+
+.question-wrapper{transition: width 2s;}
