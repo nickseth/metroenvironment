@@ -208,6 +208,8 @@ headers: {
 		}
 	}
 	if($('body').hasClass('badge-calculation-screen')){
+		Cookies.set('formdetails','');
+		Cookies.set('surveyAgree','');
 		var badge_score = parseInt(Cookies.get('badge_score'));
 		if(badge_score <= 24 ){
 			$('.badge-grid').not($('.bronze-badge')).remove();
@@ -336,6 +338,12 @@ headers: {
 	})
 	// storing form data in cookie //
 	
+	$('.download-zip-btn').click(function(){
+		setTimeout(function(){
+			Cookies.set('badge_score',0, { expires: 1 });
+			window.location.href = $('html').attr('data-base-path');
+		},1000)
+	})
 	// circular range slider //
 	$(".circular-range-slider").roundSlider({
 		sliderType: "min-range",

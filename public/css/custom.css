@@ -739,3 +739,6 @@ blade-wrapper::after {
 }
 .box1 .pole{height: 120px;}
 .box1 .blade::after {  height: 58px;}
+.download-zip-btn{
+	margin-top:20px;
+}
