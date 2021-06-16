@@ -668,7 +668,7 @@
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="5">
 												<img src="images/sec-3-05.svg" alt="Emoji">
-												<div class="emoji-title">This is news to me</div>
+												<div class="emoji-title">This is new to me</div>
 											</div>
 										</div>
 										<hr>
@@ -705,7 +705,7 @@
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
 										<img src="images/sec-3-05.svg" alt="Emoji">
-										<div class="emoji-title">This is news to me</div>
+										<div class="emoji-title">This is new to me</div>
 									</div>
 
 								</div>
@@ -746,7 +746,7 @@ laoreet dolore</p>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
 										<img src="images/sec-3-05.svg" alt="Emoji">
-										<div class="emoji-title">This is news to me</div>
+										<div class="emoji-title">This is new to me</div>
 									</div>
 
 								</div>
@@ -784,7 +784,7 @@ laoreet dolore</p>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
 										<img src="images/sec-3-05.svg" alt="Emoji">
-										<div class="emoji-title">This is news to me</div>
+										<div class="emoji-title">This is new to me</div>
 									</div>
 
 								</div>
@@ -822,7 +822,7 @@ laoreet dolore</p>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
 										<img src="images/sec-3-05.svg" alt="Emoji">
-										<div class="emoji-title">This is news to me</div>
+										<div class="emoji-title">This is new to me</div>
 									</div>
 
 								</div>

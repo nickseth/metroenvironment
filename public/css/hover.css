@@ -4607,6 +4607,7 @@
   justify-content:space-between;
   -webkit-justify-content:space-between;
   -moz-justify-content:space-between;
+  flex-direction: row-reverse;
 }
 
 .emoji-cover-item{
