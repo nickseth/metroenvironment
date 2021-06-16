@@ -1845,9 +1845,11 @@ input.highlight {animation: mymove 1s infinite;}
 }
 
 .vegi-group > .row:last-child > .col-sm-3 {margin-top:90px}
-.sust-item { filter: grayscale(100%);}
+.sust-item { filter: grayscale(100%); pointer-events:none;}
+.sust-item path{pointer-events:none!important;}
 .next-to-active.sust-item { filter: none;}
-
+.sust-item.blinking-text {pointer-events:auto;}
+.sust-item.blinking-text path{pointer-events:auto!important;}
 .st86.st86__active{fill:#000!important}
 @keyframes skew {
   0% {
@@ -1919,4 +1921,24 @@ input.highlight {animation: mymove 1s infinite;}
     -webkit-box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%);
     -moz-box-shadow: 0px 0px 10px 0px rgba(76, 159, 56, 0.95);
     box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%);
+}
+.question-wrapper{transition: width 2s;}
+.final-step3 .sec1-box-right svg {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.grid-list .form-group label:before {
+    padding: 7px;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.grid-list .form-group input:checked + label:after {
+    top: 6px;
+    left: 6px;
+    width: 7px;
+    height: 12px;
+    border-width: 0 3px 3px 0;
 }
