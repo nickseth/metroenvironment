@@ -48,7 +48,6 @@
   </form>
 
 </div>
- 
  </div><div class="col-sm-3">
  <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="images/straw.svg" class="jump-anim"/></div>
  </div></div>
