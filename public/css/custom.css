@@ -278,7 +278,7 @@ height: auto;}
 
 			.chat-window {
 				margin: 0 auto;
-				max-width: 700px;
+				max-width: 980px;
 			}
 			.messages {display: inline-block;
 				position: relative;
@@ -340,12 +340,15 @@ border-right: 40px solid transparent;
     margin-top: 10px;
 }
 .foods-list svg{width: 85px; transition: all .3s;}
-.image-range-slider svg{max-width: 280px;margin: 10px auto;display: block;}
+.image-range-slider svg{max-width: 280px;margin: 30px auto 15px auto;display: block;}
   .range {
 	position: relative;margin-bottom: 7px;
 	width: 80%;
   }
-  
+  .page15 .image-range-slider svg, .page16 .image-range-slider svg {
+    max-width: 230px;
+    height: auto;
+}
   .range input {
 	width: 100%;
 	position: absolute;
@@ -466,7 +469,7 @@ border-right: 40px solid transparent;
 	.page17 .box-icon{    top: -14px;
 		position: relative;}
 
-.page14	.image-range-slider svg {	max-width: 360px;}
+
 .page13  .sec1-box-right img{    max-width: 250px;}
 .page13.survey-form, .page14.survey-form, .page16.survey-form{padding-bottom:0;}
 .rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}

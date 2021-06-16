@@ -1865,7 +1865,25 @@ input.highlight {animation: mymove 1s infinite;}
       transform-origin: center;
 }
 
-@keyframes translate {
+
+@keyframes skewtree {
+  0% {
+    transform: skewX(5deg);
+  }
+  100% {
+    transform: skewX(-5deg);
+  }
+}
+	.move-lr{
+  display: inline-block;
+  animation: skewtree 3s infinite;
+  transform: skew(5deg);
+  animation-direction: alternate;
+      transform-origin: center;
+}
+
+
+@keyframes movecloud-small {
   0% {
     transform: translateX(0);
   }
@@ -1873,10 +1891,26 @@ input.highlight {animation: mymove 1s infinite;}
     transform: translateX(-100px);
   }
 }
-	.move-cloud{
+	.move-cloud-small{
   display: inline-block;
-  animation: translateX 3s infinite;
+  animation: movecloud-small 60s infinite;
   transform: translateX(100px);
   animation-direction: alternate;
+     
+}
+
+@keyframes movecloud {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-492px);
+  }
+}
+	.move-cloud{
+  display: inline-block;
+  animation: movecloud 45s infinite;
+  transform: translateX(492px);
+  animation-direction: alternate; 
      
 }

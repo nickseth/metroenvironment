@@ -2859,7 +2859,7 @@ the factors that affect purchase decision?</div>
 	.st2819{fill:#24B278;}
 </style>
 <g>
-	<g class="animate__animated animate_shakeX glass-effect" style="animation-iteration-count: 2;   animation-delay: 1s;">
+	<g class="animate__animated animate__bounceIn glass-effect" style="animation-iteration-count: 1;   animation-delay: 1s;">
 	<path class="st2650" d="M177.7,269.5H18.8L0,0h196.4L177.7,269.5z"/>
 	<g>
 		<path class="st2651" d="M177.7,269.5H98.2V0h98.2L177.7,269.5z"/>
@@ -2869,7 +2869,7 @@ the factors that affect purchase decision?</div>
 	<path class="st28" d="M133.6,311.2c-4-15.8-18.3-27.5-35.4-27.5s-31.3,11.7-35.4,27.5H18v23.6h160.5v-23.6H133.6z M98.2,307.3   c3.6,0,6.8,1.5,9.2,3.9H89C91.4,308.8,94.6,307.3,98.2,307.3z"/>
 	<path class="st2653" d="M178.5,311.2h-44.9c-4-15.8-18.3-27.5-35.4-27.5v23.6c3.6,0,6.8,1.5,9.2,3.9h-9.2v23.6h80.3V311.2z"/>
 </g>
-<g class="animate__animated animate_shakeX glass-effect" style="animation-iteration-count: 2;   animation-delay: 3s;">
+<g class="animate__animated animate__bounceIn glass-effect" style="animation-iteration-count: 1;   animation-delay: 3s;">
 		
 		<path class="st2653" d="M286.7,119.6c0,26.1-48.4,42.2-48.4,61.2v16.9h110.5v-16.9C348.9,133.8,286.7,119.6,286.7,119.6z"/>
 	
@@ -2884,7 +2884,7 @@ the factors that affect purchase decision?</div>
 </g>
 </svg>
 <div class="rangle-slider">
-<p class="animate__animated animate__fadeIn dark-text">Companies that use little or no chemical additives (cleaning agents, hygiene products, cosmetics)</p>
+<p class="animate__animated animate__fadeIn dark-text">Companies that use little or no chemical additives<br>(cleaning agents, hygiene products, cosmetics)</p>
 <div class="range">
   <input type="range" min="1" name="personal_level_step16" max="5" steps="1" value="1">
 </div>
