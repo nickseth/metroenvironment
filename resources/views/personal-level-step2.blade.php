@@ -35,7 +35,7 @@
  <div class="col-sm-12">
 <div class="row">
 <form class="survey-form">
- <div class="col-sm-5">
+ <div class="col-sm-6">
 <div class="gbb-wrap">
 <div class="gbb-item gbb-item-1"><img src="images/pls2-item-1.svg"/></div>
  <div class="green-brdr-box bio-options-wrapper"><div class="gbb-head">Bio:</div>
@@ -56,7 +56,7 @@
     </div>
  </div> </div>
  </div>
-  <div class="col-sm-7">
+  <div class="col-sm-6">
  <div class="gbb-wrap"> 
  <div class="gbb-item gbb-item-2"><img src="images/pls2-item-2.svg"/></div>
  <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic:</div>
