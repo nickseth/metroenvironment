@@ -544,10 +544,10 @@ border-right: 40px solid transparent;
 .page7 p.light-text{    min-height: inherit;padding: 0;}
 .page9 .foods-list .grid-list { width: auto;}
 
-.page9 .foods-list svg {
+.page9 .foods-list img {
     width: 90px;
-    height: 90px;
-    margin: 0 0 -20px;
+    height: auto;
+    
 }
 .page10 .foods-list svg {
     width: 85px;
