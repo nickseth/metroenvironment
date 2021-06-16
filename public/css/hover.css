@@ -4777,8 +4777,9 @@ a.read-more {
 .final-step3 > .row{ display: flex;align-items: center;}
 .grid-list .grid-icons.usedDraggable {
   opacity: .5;
-  pointer-events: none;
+  pointer-events: none;filter:grayscale(100%);
 }
+.grid-list .grid-icons.usedDraggable svg{    animation-name: none!important;}
 .grid-list .grid-icons.usedDraggable  ~ .light-text{opacity: .5;
   pointer-events: none;}
   @-webkit-keyframes spinAround {
