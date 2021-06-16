@@ -1336,7 +1336,9 @@ height:0!important;opacity:0!important;
 /* Several different images */
 
 /* Several different images */
-.bg-one {background-image: url(../images/sec-2-home-bg.svg);}
+.bg-one {background-image: url(../images/sec-2-home-bg.svg);
+background-position: 140px -80px;
+}
 
 
 
@@ -1796,19 +1798,21 @@ transform: scale(1.4); opacity:1}
 input.highlight {animation: mymove 1s infinite;}
 .caption-sec2 {
     position: absolute;
-    left: 1%;
-    right: 0;
-    top: 65%;
+    left: 5%;
+    
+    top: 48%;
     padding: 30px; transform:translateY(-50%);max-width:30%;
 	-webkit-transition: all 1.8s;
     -moz-transition: all 1.8s;
     -o-transition: all 1.8s;
     transition: all 1.8s; opacity:0
 }
-.caption-sec2 p{color:#4c9f38; font-size:16px;}
+.caption-sec2 p{color:#4c9f38; font-size:25px;}
 .zoom-backrgound-new .caption-sec2 {opacity:1;}
 @media(min-width:1600px) {
-	
+	.caption-sec2 { left: 2.5%;
+    
+    top: 36%;}
 	.caption-sec2 p{ font-size:30px;}
 }
 .plate-item{  margin: 0 auto 10px auto;}
