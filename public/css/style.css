@@ -1702,8 +1702,12 @@ background-size:90%
 
 .two-clmn-flex .row {display:flex; align-items:center; justify-content:flex-start}
 .clmn-grid-wrap .clmn-grid {border-bottom:solid 1px #606060;
-padding-bottom: 15px;
-    margin-bottom: 15px;
+padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.clmn-grid-wrap {
+    max-width: 95%;
+    margin: auto;
 }
 .clmn-grid-icon-text {display:flex; align-items:center}
 
@@ -1746,7 +1750,7 @@ padding-bottom: 15px;
 .user-rating li{width:20%; list-style:none; padding:0 1%; text-align:center;}
 .user-rating li img {width:64px; opacity:.8}
 .user-rating li span{display:block; color:#214d88; margin-top:15px;}
-.rate-bg svg {height:auto; width:100%;}
+.rate-bg svg {height:auto; width:100%; display:block;}
 .rate-bg {position:relative; bottom:0; left:0; right:0; padding-top:30px}
 .final-level-step15 .survey-form {}
 
@@ -1936,4 +1940,7 @@ input.highlight {animation: mymove 1s infinite;}
     width: 7px;
     height: 12px;
     border-width: 0 3px 3px 0;
+}
+.clmn-grid-icon img {
+    max-width: 100px;
 }

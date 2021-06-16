@@ -24,11 +24,11 @@
 
   <div class="col-sm-12">
 
-<div class="two-clmn-flex">
+
  <div class="row">
 
-  <div class="col-sm-4">
-  <div class="sec1-box-center text-left ">
+  <div class="col-sm-12">
+  <div class="sec1-box-center text-center ">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
 									<img src="images/leaves.svg">
@@ -40,7 +40,7 @@
   
   </div>  
   
-  <div class="col-sm-8">
+  <div class="col-sm-12">
  <div class="clmn-grid-wrap">
 <div class="clmn-grid">
 
@@ -219,7 +219,7 @@
 
 </div>
  
- </div>
+
 </div>
 <div class="button-wrapper bottom-button">
 <a href="{{url('/survey_rating')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>

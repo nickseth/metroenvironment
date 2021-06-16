@@ -935,7 +935,7 @@ laoreet dolore</p>
 						</div>
 					</div>
 				</div>
-				<div class="button-wrapper bottom-button">
+				<div class="button-wrapper bottom-button bknxt"><a href="#" class="link-btn  btn-flip back-navigate-btn" data-back="Back" data-front="Back" ></a>
 <a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 				</div>
 			</div>
