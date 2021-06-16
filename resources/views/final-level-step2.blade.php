@@ -676,6 +676,9 @@
 										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
 										 <a href="#" class="read-more">Read More</a>
+										 <div class="submit-btn">
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Submit" data-front="Submit" ></a>
+							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic Initative</h2>
@@ -715,7 +718,7 @@ laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container climate-action">
@@ -756,7 +759,7 @@ laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="climate-action" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
@@ -797,7 +800,7 @@ laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
@@ -838,7 +841,7 @@ laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
@@ -879,7 +882,7 @@ laoreet dolore</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
@@ -917,7 +920,7 @@ laoreet dolore</p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
 					             <a href="#" class="read-more">Read More</a>
 								 <div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container conscious-proteins">
@@ -955,7 +958,7 @@ laoreet dolore</p>
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
 					             <a href="#" class="read-more">Read More</a>
 								 <div class="submit-btn">
-							<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="conscious-proteins" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							
