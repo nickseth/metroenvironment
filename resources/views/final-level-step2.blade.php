@@ -33,7 +33,7 @@
 							</div>
 						</div>
 						
-						<div class="col-sm-6">
+						<div class="col-sm-6 question-wrapper">
 							<div id="sust-que" class="animate__animated animate__fadeInLeft">
 								<div class="sust-que content-width-lg sust-que-initial">
 									<!-- sust que 1 -->
@@ -647,7 +647,7 @@
 						</div>
 						
 						
-						<div class="col-sm-6"><div class="popup-ques-container human-rights">
+						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="1">

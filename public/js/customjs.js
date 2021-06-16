@@ -297,6 +297,10 @@ headers: {
 				$('#sust2-svg #'+target_popover).next().addClass('blinking-text')
 			}
 		}
+		if($('.next-to-active').length == 8 ){
+			$('.question-wrapper').removeClass('col-sm-6').addClass('col-sm-12');
+			$('.answers-wrapper').addClass('hide');
+		}
 		$('.popup-ques-container').removeClass('active-popover');
 	})
 	$('.user-rating li').click(function(){
