@@ -220,7 +220,7 @@ headers: {
 			$('.silver-badge').removeClass('hide');
 		}
 		else if(badge_score > 39 && badge_score <= 55 ){
-			$('.badge-grid').not($('.silver-badge')).remove();
+			$('.badge-grid').not($('.gold-badge')).remove();
 			$('.gold-badge').removeClass('hide');
 		}
 		else{
@@ -322,10 +322,25 @@ headers: {
 		},100)
 		
 	})
-	console.log(Cookies.get('formdetails'))
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
+		// form validation //
+		if($('.required-field').length > 0 ){
+			try{
+			$('.required-field').each(function(){
+				if($(this).val()!= undefined && $(this).val() != '' ){
+					$(this).addClass('validated');
+				}
+			})
+			if($('.required-field').length != $('.validated').length){
+				return false;
+			}
+			}
+			catch(err){}
+		}
+		// form validation //
+		
 		// storing multiple checkbox data into single field //
 		var checkbox_all_data = '';
 		$('.multiple-checkbox-data:checked').each(function(i){
