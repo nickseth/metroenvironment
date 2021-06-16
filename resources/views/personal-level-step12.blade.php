@@ -37,26 +37,29 @@
 <div class="vegi-group">
  <div class="row"> <div class="col-sm-3">
  
- <div class="plate-item-3 plate-item "><img src="images/plate-item-3.svg" /></div><p class="text-center"><strong>Tofu/soy products</strong>(soy cutlets, seitan, tempeh etc.)</p></div>
+ <div class="plate-item-3 plate-item "><img src="images/plate-item-3.svg" data-text="Tofu/soy products" /></div><p class="text-center"><strong>Tofu/soy products</strong>(soy cutlets, seitan, tempeh etc.)</p></div>
 <div class="col-sm-6">
  
 
  
- </div><div class="col-sm-3"><div class="plate-item-2 plate-item"><img src="images/plate-item-2.svg" /></div><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>
+ </div><div class="col-sm-3"><div class="plate-item-2 plate-item"><img src="images/plate-item-2.svg" data-text="Meat alternatives" /></div><p class="text-center"><strong>Meat alternatives</strong>(Veggie sausage, mince, burger.)</p></div></div>
  <div class="row"><div class="col-sm-3 ">
- <div class="plate-item-1 plate-item"><img src="images/plate-item-1.svg" /></div>
+ <div class="plate-item-1 plate-item"><img src="images/plate-item-1.svg" data-text="Legumes" /></div>
  <p class="text-center"><strong>Legumes</strong>(lentils, chickpeas, kidney beans, peas etc.)</p></div><div class="col-sm-6 "><div class="vegi-plate">
 
 <div class="empty-plate">
 </div>
-</div></div><div class="col-sm-3 "> <div class="plate-item-4 plate-item"><img src="images/plate-item-4.svg" /></div><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
+</div></div><div class="col-sm-3 "> <div class="plate-item-4 plate-item"><img src="images/plate-item-4.svg" data-text="Nuts/seeds" /></div><p class="text-center"><strong>Nuts/seeds</strong>(pumpkin- sunflower seeds, peanuts, cashew etc.)</p></div></div>
  </div>
 </div>
 
 </div>
  </div></div>
+ <form class="survey-form hide">
+				<input type="hidden" name="personal_level_step12" value="" class="drag-input-details"/>
+			</form>
 <div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip get-veg-input-details" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>

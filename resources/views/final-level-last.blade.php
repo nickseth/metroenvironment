@@ -1,6 +1,6 @@
 @include('header')
 
-<body class="sec3-green-bg">
+<body class="sec3-green-bg badge-calculation-screen">
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
@@ -33,15 +33,15 @@
 					<div class="col-sm-12">
 						<div class="sec1-box-right animate__animated animate__fadeInUp ">
 							<div class="badges">
-								<div class="badge-1 gold-badge hide">
+								<div class="badge-1 badge-grid gold-badge hide">
 								<img src="images/gold_new.png" />
 								<div class="center-btn text-center"><a href="download/gold.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
 								</div>
-								<div class="badge-2 silver-badge hide">
+								<div class="badge-2 badge-grid silver-badge hide">
 								<img src="images/silver_new.png" />
 								<div class="center-btn text-center"><a href="download/silver.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
 								</div>
-								<div class="badge-3 bronze-badge hide">
+								<div class="badge-3 badge-grid bronze-badge hide">
 								<img src="images/bronze.png" />
 								<div class="center-btn text-center"><a href="download/bronze.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
 								</div>

@@ -51297,8 +51297,11 @@
 </div>
 				</div>
 			</div>
+			<form class="survey-form hide">
+				<input type="hidden" name="personal_level_step11" value="" class="drag-input-details"/>
+			</form>
 			<div class="button-wrapper bottom-button">
-<a href="{{url('/personal-level-step12')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>
 	</div>
