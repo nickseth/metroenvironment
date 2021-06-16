@@ -76,7 +76,7 @@ left:900px;
 left:240px;
 -webkit-animation: moveboat 100s linear 1;
 -moz-animation: moveboat 100s linear 1; 
--o-animation: moveboat 100s linear 1;margin-left: 70%; 
+-o-animation: moveboat 100s linear 1;margin-left: 90%; 
 background: url(../images/boat.svg) no-repeat;
 background-size: contain;background-position: center bottom;
 }
@@ -102,27 +102,27 @@ background-size: contain;background-position: center bottom;
 @-webkit-keyframes moveboat {
 0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 	background-size: contain;}
-	70% {margin-left: 70%;     background: url(../images/boat-ani.gif) no-repeat;
+	80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-80% {margin-left: 70%; animation-play-state: paused;
+90% {margin-left: 90%; animation-play-state: paused;
 	background: url(../images/boat.svg) no-repeat; 
 	background-size: contain;}
 }
 @-moz-keyframes moveboat {
 0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 	background-size: contain;}
-	70% {margin-left: 70%;     background: url(../images/boat-ani.gif) no-repeat;
+	80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-80% {margin-left: 70%; animation-play-state: paused;
+90% {margin-left: 90%; animation-play-state: paused;
 	background: url(../images/boat.svg) no-repeat;
 	background-size: contain;}
 }
 @-o-keyframes moveboat {
 0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 	background-size: contain;}
-	70% {margin-left: 70%;     background: url(../images/boat-ani.gif) no-repeat;
+	80% {margin-left: 80%;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-80% {margin-left: 70%; animation-play-state: paused;
+90% {margin-left: 90%; animation-play-state: paused;
 	background: url(../images/boat.svg) no-repeat;
 	background-size: contain;}
 }
@@ -131,31 +131,30 @@ background-size: contain;background-position: center bottom;
 @-webkit-keyframes moveboat {
 	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-		70% {margin-left: 75%;     background: url(../images/boat-ani.gif) no-repeat;
+		80% {margin-left: 85%;     background: url(../images/boat-ani.gif) no-repeat;
 			background-size: contain;}
-	80% {margin-left: 75%; animation-play-state: paused;
+	95% {margin-left: 95%; animation-play-state: paused;
 		background: url(../images/boat.svg) no-repeat; 
 		background-size: contain;}
 }
 @-moz-keyframes moveboat {
 	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-		70% {margin-left: 75%;     background: url(../images/boat-ani.gif) no-repeat;
+		80% {margin-left: 85%;     background: url(../images/boat-ani.gif) no-repeat;
 			background-size: contain;}
-	80% {margin-left: 75%; animation-play-state: paused;
+			95% {margin-left: 95%; animation-play-state: paused;
 		background: url(../images/boat.svg) no-repeat;
 		background-size: contain;}
 }
 @-o-keyframes moveboat {
 	0% {margin-left: 0px;     background: url(../images/boat-ani.gif) no-repeat;
 		background-size: contain;}
-		70% {margin-left: 75%;     background: url(../images/boat-ani.gif) no-repeat;
+		80% {margin-left: 85%;     background: url(../images/boat-ani.gif) no-repeat;
 			background-size: contain;}
-	80% {margin-left: 75%; animation-play-state: paused;
+			95% {margin-left: 95%; animation-play-state: paused;
 		background: url(../images/boat.svg) no-repeat;
 		background-size: contain;}
 }
-.x4 {margin-left: 75%;}
 
 }
 
@@ -188,7 +187,6 @@ background-size: contain;background-position: center bottom;
 		background: url(../images/boat.svg) no-repeat;
 		background-size: contain;}
 }
-.x4 {margin-left: 65%;}
 
 }
 .main-content-wrapper{
@@ -203,17 +201,21 @@ align-items: center;
 .text-center .gray-text{justify-content: center;text-align: center;}
 .text-left .box-top{justify-content: left;text-align: left;}
 .text-left .gray-text{justify-content: left;padding-left: 45px;text-align: left;}
-.green-text{font-size: 21px;
+.green-text{font-size: 19px;
 line-height: 35px;padding-left: 15px;
 color: #4c9f38;
 font-family: "Verdana";
 }
 .green-text br{display: none;}
-.gray-text{font-size: 15px;    padding-top: 10px;
-line-height: 23px;
-color: #4c4c4c;
-font-family: "Verdana";}
 
+.gray-text {
+    font-size: 11px;
+    padding-top: 0px;
+    line-height: 23px;
+   color: #4C4C4C;
+    font-family: "Verdana";
+    font-style: italic;
+}
 .grid-container {
 	display: flex;    flex-wrap: wrap;
 	justify-content: center;
