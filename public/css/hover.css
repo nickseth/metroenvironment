@@ -4767,7 +4767,7 @@ a.read-more {
 }
 .final-step3 .form-group input:checked + label:after{top: 1px;border-width: 0 4px 4px 0;left: 9px;}
 .final-step3 .form-group label:before {
-  border: 3px solid #E6E6E6;
+  border: 3px solid #bbb;
   box-shadow: none;
   width: 28px;
   height: 28px;
