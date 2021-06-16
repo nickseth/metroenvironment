@@ -220,7 +220,7 @@ font-family: "Verdana";
 	display: flex;    flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;    margin-left: -70px;
-	padding: 15px 0 0;    
+	padding: 30px 0 0;    
 	}
 	.row2{margin-bottom: -20px;}
 	.grid-list{width:20%; padding: 0 0px 10px 70px;}
@@ -560,7 +560,7 @@ border-right: 40px solid transparent;
 .mid-drag-wrap {
     background: linear-gradient(to right, #fc0602, #8fc03d);
     border-radius: 30px;
-	margin:  0;    padding: 7px;
+	margin:25px 0 0 0;    padding: 7px;
 }
 .mid-drag {
     background: #f2f2f2;
