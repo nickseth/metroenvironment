@@ -207,6 +207,24 @@ headers: {
 			window.location.href = $('html').attr('data-base-path');
 		}
 	}
+	if($('body').hasClass('badge-calculation-screen')){
+		var badge_score = parseInt(Cookies.get('badge_score'));
+		if(badge_score <= 24 ){
+			$('.badge-grid').not($('.bronze-badge')).remove();
+			$('.bronze-badge').removeClass('hide');
+		}
+		else if(badge_score > 24 && badge_score <= 39){
+			$('.badge-grid').not($('.silver-badge')).remove();
+			$('.silver-badge').removeClass('hide');
+		}
+		else if(badge_score > 39 && badge_score <= 55 ){
+			$('.badge-grid').not($('.silver-badge')).remove();
+			$('.gold-badge').removeClass('hide');
+		}
+		else{
+			window.locatio.href = $('html').attr('data-base-path');
+		}
+	}
 	$('#allsame').click(function(){
 		setTimeout(function(){
 			if($('#allsame').is(':checked')){
@@ -497,7 +515,7 @@ function dataSubmission(data,url,redirect){
             window.location.href = redirect;
           },
 		  error:function(err){
-			alert('Something went wrong.');
+			//alert('Something went wrong.');
 			window.location.href = redirect;
 		  }
          });
