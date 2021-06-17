@@ -25,9 +25,10 @@
 						<div class="sec1-box-center text-center mt-5">
 							<div class="box-top">
 
-								<div class="animate__animated animate__fadeIn green-text badge-text">Congratulations! you have won the</div>
+								<div class="animate__animated animate__fadeIn green-text badge-text">CONGRATULATIONS! YOU HAVE WON A
+</div>
 							</div>
-							<p class="animate__animated animate__fadeIn  badge-owner">Badge of honor</p>
+							<p class="animate__animated animate__fadeIn  badge-owner">BADGE OF HONOUR</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
