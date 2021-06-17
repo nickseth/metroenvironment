@@ -242,6 +242,11 @@ headers: {
 			}
 		},100)
 	})
+	$('.age-field').on('blur', function(){
+		if($(this).val() < $(this).attr('min') &&  $(this).val() != ''){
+			$(this).val($(this).attr('min'))
+		}
+	})
 	$('.bio-options-wrapper input,.organic-options-wrapper input').click(function(){
 		var elem = $(this)
 		setTimeout(function(){
