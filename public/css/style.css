@@ -1065,37 +1065,6 @@ height:0!important;opacity:0!important;
   transform: translate(0%, -10%) scale(1.3);
 }
 
-.drop{
-  background-color: white;
-  width: 3px;
-  height: 100px;
-  position: absolute;
-  top: calc(50% - 100px); 
-  left: calc(50% - 1.5px);
-  animation-name: fall;
-  animation-duration: var(--duration);
-  animation-delay: var(--delay);
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-fill-mode: backwards;
-}
-
-@keyframes fall{
-  0%{
-    transform: translateY(-120vh);
-  }
-  45%{
-    transform: translateY(0%);
-    opacity: 1;
-  }
-  46%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
 .waves > div{
   position: absolute;
   top:0px;
@@ -1991,4 +1960,35 @@ input.highlight {animation: mymove 1s infinite;}
     background: #fff;
     cursor: pointer;
     border: 3px solid #4c9f38 !important;
+}
+
+.drop{
+  background-color: white;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+  top: calc(50% - 100px); 
+  left: calc(50% - 1.5px);
+  animation-name: fall;
+  animation-duration: var(--duration);
+  animation-delay: var(--delay);
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fall{
+  0%{
+    transform: translateY(-120vh);
+  }
+  45%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  46%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
 }
