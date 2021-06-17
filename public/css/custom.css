@@ -739,6 +739,11 @@ blade-wrapper::after {
     right: 25%;
     bottom: 28px;
 }
+.popup-ques-container .support-text{
+	font-size: 11px;
+    font-style: italic;
+    margin-top: 5px;
+}
 .box1 .pole{height: 120px;}
 .box1 .blade::after {  height: 58px;}
 .download-zip-btn{
