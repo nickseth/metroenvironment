@@ -344,8 +344,8 @@ svg #fish6{
 
 @-moz-keyframes bounce1 {
   0%, 50%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
+    -moz-transform: translateX(0)  translateY(0);
+    transform: translateX(0) translateY(0);
   }
   25% {
     -moz-transform: translateY(-5px);

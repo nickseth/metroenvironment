@@ -499,7 +499,7 @@ border-right: 40px solid transparent;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0px);
-    top: -20px; opacity: 0;
+    top: -20px; opacity: 0; display: none;
 }
 .foods-range  .range input::-webkit-slider-runnable-track{_background: linear-gradient(to right,  #e6e6e6 0%, #e6e6e6 100%);}
 .foods-range  .range input::-moz-range-track {
