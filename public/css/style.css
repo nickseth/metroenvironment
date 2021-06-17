@@ -1966,14 +1966,29 @@ input.highlight {animation: mymove 1s infinite;}
     text-align: left;
     padding: 0 15px;
 }
-
+#hand-left { animation: myhand-left 5s infinite;
+  transform-origin: 50% 50%;}
 #water-jug {
  
   animation: mymove 5s infinite;
+  transform-origin: 50% 50%;
 }
 
 @keyframes mymove {
-  50% {transform: rotate(-25deg);}
+  50% {transform: rotate(-5deg);}
+}
+@keyframes myhand-left {
+  50% {transform: rotate(-3deg);}
 }
 
-
+.clmn-grid-slider .range input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    _opacity: 0;
+    height: 20px;
+    margin: -8px 0 0;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    border: 3px solid #4c9f38 !important;
+}
