@@ -1916,6 +1916,9 @@ input.highlight {animation: mymove 1s infinite;}
     -moz-box-shadow: 0px 0px 10px 0px rgba(76, 159, 56, 0.95);
     box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%);
 }
+.answers-wrapper, .question-wrapper {
+    margin-top: 20px;
+}
 .question-wrapper{transition: width 2s;}
 .final-step3 .sec1-box-right svg {
     max-width: 400px;

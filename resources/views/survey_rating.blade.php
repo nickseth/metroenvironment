@@ -52,7 +52,7 @@
 							<input type="hidden" class="hidden-survey-rating" value="" name="survey_rating"/>
 							</div>
 							</div>
-							<div class=" text-center">Please rank your experience of taking this survey by clicking one of the stars.</div>
+							<div class=" text-center gray-text">Please rank your experience of taking this survey by clicking one of the stars.</div>
 							<div class="center-btn text-center"><a href="{{url('/final-level-last')}}" class="btn-flip next-btn get-survey-details submit-details" data-back="Submit" data-front="Submit"></a></div>
 						</div>
 					
