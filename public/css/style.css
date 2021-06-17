@@ -1957,6 +1957,10 @@ input.highlight {animation: mymove 1s infinite;}
    
 }
 .personal-level-start  .btn-flip:before, .personal-level-start  .btn-flip:after {line-height:40px; border-radius: 21px;}
+.messages.msg_sent1 p {
+    text-align: left;
+    padding: 0 15px;
+}
 
 
 

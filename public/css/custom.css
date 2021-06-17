@@ -283,7 +283,7 @@ height: auto;}
 			.messages {display: inline-block;
 				position: relative;
 				height: auto; font-size: 14px; color: #fff;;
-				background-color: #e8505b;padding: 10px;
+				background-color: #e8505b;padding:15px 10px;
 				border-radius: 15px 15px 15px 0;}
 			.msg_receive:after {
 				content: ' ';
@@ -746,4 +746,8 @@ blade-wrapper::after {
 }
 .disabled{
 	pointer-events:none;
+}
+.messages.msg_sent1 p {
+    text-align: left;
+    padding: 0 15px;
 }
