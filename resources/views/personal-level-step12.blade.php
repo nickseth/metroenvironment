@@ -58,7 +58,8 @@
  <form class="survey-form hide">
 				<input type="hidden" name="personal_level_step12" value="" class="drag-input-details"/>
 			</form>
-<div class="button-wrapper bottom-button">
+<div class="button-wrapper bottom-button link-np">
+<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
 <a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip get-veg-input-details" data-back="Next" data-front="Next" ></a>
 </div>
  </div>

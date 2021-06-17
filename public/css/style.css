@@ -845,7 +845,7 @@ height:0!important;opacity:0!important;
 .sec1-box-left {
     margin-top: 30px;
 }
-.bottom-button{margin:0 0 20px}
+
 .bg-anim {width:284px; height:275px}
 .bg-anim {background:url(../images/bitcoin.svg) no-repeat; background-size:cover}
 .bg-anim:hover{background:url(../images/bitcoin-over.svg) no-repeat; background-size:cover}
@@ -1523,7 +1523,7 @@ background-size:90%
 }
 .gbb-item-1 img {width:75px; height:auto; }
 .gbb-item-2 img {width:214px; height:auto}
-.gbb-head{font-size:16px; font-weight:bold; margin:0 0 15px 27px;}
+.gbb-head{font-size:16px; font-weight:bold; margin:0 0 15px 0; text-align:center}
 .gbb-wrap .green-brdr-box .form-group label {font-weight:normal; color:#000}
 .gbb-wrap .form-group input:checked + label:before {background: #10cfbd;
     border-color: #10cfbd;}
@@ -1574,27 +1574,27 @@ background-size:90%
 .personal-level-step20 .box-top .box-icon, .final-level-step11 .box-top .box-icon {margin-top:-7px}
 
 .personal-level-step20 .circular-range-slider .rs-bg-color {
-	background: #ffffff url(../images/dollor-circle-0.svg) no-repeat center center;
+	background: #ffffff url(../images/dollor-circle-0.png) no-repeat center center;
 	
 }
 .personal-level-step20 .circular-range-slider.current-step-1 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-1.svg) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-1.png) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-2 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-2.svg) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-2.png) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-3 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-3.svg) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-3.png) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-4 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-4.svg) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-4.png) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-5 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-5.svg) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-5.png) no-repeat center center;
    
 }
 .personal-level-step .button-wrapper {height:auto}
@@ -1795,19 +1795,19 @@ input.highlight {animation: mymove 1s infinite;}
     left: 5%;
     
     top: 48%;
-    padding: 30px; transform:translateY(-50%);max-width:34%;
+    padding: 30px; transform:translateY(-50%);max-width:45%;
 	-webkit-transition: all 1.8s;
     -moz-transition: all 1.8s;
     -o-transition: all 1.8s;
     transition: all 1.8s; opacity:0
 }
-.caption-sec2 p{color:#4c9f38; font-size:25px;}
+.caption-sec2 p{color:#4c9f38; font-size:30px;}
 .zoom-backrgound-new .caption-sec2 {opacity:1;}
 @media(min-width:1600px) {
 	.caption-sec2 { left: 2.5%;
     max-width:30%;
     top: 36%;}
-	.caption-sec2 p{ font-size:30px;}
+	.caption-sec2 p{ font-size:35px;}
 }
 .plate-item{  margin: 0 auto 10px auto;}
 .plate-item-3 {
@@ -1939,3 +1939,29 @@ input.highlight {animation: mymove 1s infinite;}
 .clmn-grid-icon img {
     max-width: 100px;
 }
+.link-np {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; margin-top:30px;
+	    
+}
+.link-np a {
+    margin: 0 15px;
+}
+.back-navigate-btn.btn-flip:before {background:#003C7F}
+.back-navigate-btn.btn-flip:after {background:#003C7F}
+.personal-level-start .btn-flip {
+    min-width: 150px;
+   
+    font-size: 20px;
+   
+}
+.personal-level-start  .btn-flip:before, .personal-level-start  .btn-flip:after {line-height:40px; border-radius: 21px;}
+.messages.msg_sent1 p {
+    text-align: left;
+    padding: 0 15px;
+}
+
+
+
+

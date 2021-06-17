@@ -22938,7 +22938,8 @@
 					</div>
 				</div>
 				<input type="hidden" class="multiple-checkbox-hidden" name="personal_level_step21"/>
-				<div class="button-wrapper bottom-button">
+				<div class="button-wrapper bottom-button link-np">
+<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
 <a href="{{url('/final-level-start')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 				</div>
 			</div>
