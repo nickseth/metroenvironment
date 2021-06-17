@@ -30,7 +30,7 @@ form *{display:block; width:100%}
 <form class="survey-form">
 <div class="col-sm-3 mt-5">
 <div class="form-row">
-<label><img src="images/age-icon.svg" /></label><input type="number" class="required-field" name="age" min="12" placeholder="Your Age">
+<label><img src="images/age-icon.svg" /></label><input type="number" class="required-field age-field" name="age" min="12" placeholder="Your Age">
 </div>
 </div> <div class="col-sm-6 mt-5">
 <div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Where is your office located?" name="office_located"><span class="search-clear">X</span></div></div>
