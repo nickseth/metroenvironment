@@ -1942,7 +1942,7 @@ input.highlight {animation: mymove 1s infinite;}
 .link-np {
     display: flex;
     align-items: flex-end;
-    justify-content: center; margin-top:30px;
+    justify-content: center; margin-top:30px; margin-bottom:10px;
 	    
 }
 .link-np a {
