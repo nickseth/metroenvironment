@@ -360,7 +360,7 @@ border-right: 40px solid transparent;
 	
 	.range input::-webkit-slider-thumb {
 	  -webkit-appearance: none; 
-	  width: 22px;    opacity: 0;
+	  width: 22px;    _opacity: 0;
 	height: 22px;
 	margin: -8px 0  0;
 	border-radius: 50%;
@@ -499,7 +499,7 @@ border-right: 40px solid transparent;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0px);
-    top: -20px;
+    top: -20px; opacity: 0;
 }
 .foods-range  .range input::-webkit-slider-runnable-track{_background: linear-gradient(to right,  #e6e6e6 0%, #e6e6e6 100%);}
 .foods-range  .range input::-moz-range-track {
@@ -591,12 +591,12 @@ border-right: 40px solid transparent;
 }
 .page11 ~ .button-wrapper{height: 60px;}
 .custom-slider-div {
-    background: #6c353b;
+    /* background: #6c353b;
     position: absolute;
     pointer-events: none;
     top: -2px;
     left: 0;    border-radius: 11px;
-    height: 8px;
+    height: 8px; */
 }
 .page13 .custom-slider-div,.page14 .custom-slider-div,.page15 .custom-slider-div,.page16 .custom-slider-div,
 .page17 .custom-slider-div{background: #000;}
