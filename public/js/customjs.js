@@ -330,10 +330,12 @@ headers: {
 		},100)
 		
 	})
-	$('.back-navigate-btn').click(function(){
+	$('.back-navigate-btn').click(function(e){
+		e.preventDefault();
 		window.history.back();
 	})
-	$('.reset-btn').click(function(){
+	$('.reset-btn').click(function(e){
+		e.preventDefault();
 		location.reload();
 	})
 	// storing form data in cookie //

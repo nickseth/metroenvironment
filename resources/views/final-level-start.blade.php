@@ -37991,7 +37991,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
       <div class="wrper-cstm-width">
         <div class="welcome">
           <h3>
-            <span class="clr-green">SUSTAINABILITY</br> AND<span>
+            <span class="clr-green">SUSTAINABILITY AND</br><span>
             <span class="clr-blue">YOU@METRO<span>
           </h3>
         </div>
