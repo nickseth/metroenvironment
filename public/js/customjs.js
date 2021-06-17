@@ -527,16 +527,30 @@ var getTrackStyle = function (el,elem) {
   curLabel.prevAll().addClass('selected');
   
   // Change background gradient
-  for (var i = 0; i < prefs.length; i++) {
-    style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
-    style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+  if($('.clmn-grid-slider').length > 0 ){
+	  var target_id = elem.parent().parent().attr('id');
+	  console.log(target_id)
+	  if($('#'+target_id).hasClass('orange')){
+		  class_name = 'green';
+			  color_code = '#4c9f38';
+	  } 
+		  for (var i = 0; i < prefs.length; i++) {
+			style += '#'+target_id +' .range {background: linear-gradient(to right, '+color_code+' 0%, '+color_code+' ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+			style += '#'+target_id +' .range input::-' + prefs[i] + '{background: linear-gradient(to right, '+color_code+' 0%, '+color_code+' ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+			}
   }
-
+  else{
+	  for (var i = 0; i < prefs.length; i++) {
+		style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+		style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+	  }
+  }
   return style;
 }
 
 $rangeInput.on('input', function () {
-  sheet.textContent = getTrackStyle(this,$(this));
+  //sheet.textContent = getTrackStyle(this,$(this));
+  $('body').append('<style>'+getTrackStyle(this,$(this))+'</style>')
 });
 
 // Change input value on label click
