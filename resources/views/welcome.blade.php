@@ -38053,6 +38053,7 @@ benefit the world around us. We promise it won't take long.</p></div>
 	<div class="boat x4"><img src="images/boat-ani.gif" /></div>
     <!-- <div class="tractor-moving"><img src="images/truck.png" /></div> -->
 <div class="fish-tank">
+<div class="ripples"></div>
 <img src="images/tank2.png" />
 <div class="tank-right1"></div>
 <div class="tank-right2"></div>
