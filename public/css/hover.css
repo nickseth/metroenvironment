@@ -4607,6 +4607,7 @@
   justify-content:space-between;
   -webkit-justify-content:space-between;
   -moz-justify-content:space-between;
+  flex-direction: row-reverse;
 }
 
 .emoji-cover-item{
@@ -4736,6 +4737,17 @@ a.read-more {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;    -webkit-animation-name: zoomIn;
   animation-name: zoomIn;}
+  
+ #food-waste.blinking-text g g rect, #food-waste.blinking-text g g path,  #organic.blinking-text g g rect, #organic.blinking-text g g path,  #conscious-proteins.blinking-text g g rect, #conscious-proteins.blinking-text g g path {animation:blinkingTextDark 1s infinite;}
+
+ @keyframes blinkingTextDark{
+	0%{	fill: #f6a728;	}
+	49%{	fill: transparent;	}
+	50%{	fill: transparent;	}
+	99%{	fill:transparent;	}
+	100%{	fill: #f6a728;	}
+}
+ 
 .blinkingtext{
 	animation:blinkingText 0.8s infinite;
 }
@@ -4777,8 +4789,9 @@ a.read-more {
 .final-step3 > .row{ display: flex;align-items: center;}
 .grid-list .grid-icons.usedDraggable {
   opacity: .5;
-  pointer-events: none;
+  pointer-events: none;filter:grayscale(100%);
 }
+.grid-list .grid-icons.usedDraggable svg{    animation-name: none!important;}
 .grid-list .grid-icons.usedDraggable  ~ .light-text{opacity: .5;
   pointer-events: none;}
   @-webkit-keyframes spinAround {

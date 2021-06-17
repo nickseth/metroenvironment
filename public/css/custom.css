@@ -220,7 +220,7 @@ font-family: "Verdana";
 	display: flex;    flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;    margin-left: -70px;
-	padding: 15px 0 0;    
+	padding: 30px 0 0;    
 	}
 	.row2{margin-bottom: -20px;}
 	.grid-list{width:20%; padding: 0 0px 10px 70px;}
@@ -246,16 +246,13 @@ font-family: "Verdana";
 	font-family: "Verdana";
 	text-align: center;}
 
-	.grid-list .form-group label:before{padding: 7px;width: 15px;height: 15px;    margin: 0;}
+	
 	.grid-list .form-group input:checked + label:before {
 		background: #10cfbd;
 		border-color: #10cfbd;
 	}
 	.grid-list .form-group {    margin-top: 15px;    margin-bottom: 0;text-align: center;}
-	.grid-list .form-group input:checked + label:after{top: 6px;
-		left: 6px;
-		width: 7px;
-		height: 12px; border-width: 0 3px 3px 0;}
+
 		.grid-icons svg{    width: 65px;
 			height: 65px;
 			margin:  0;}
@@ -281,7 +278,7 @@ height: auto;}
 
 			.chat-window {
 				margin: 0 auto;
-				max-width: 700px;
+				max-width: 980px;
 			}
 			.messages {display: inline-block;
 				position: relative;
@@ -343,12 +340,15 @@ border-right: 40px solid transparent;
     margin-top: 10px;
 }
 .foods-list svg{width: 85px; transition: all .3s;}
-.image-range-slider svg{max-width: 280px;margin: 10px auto;display: block;}
+.image-range-slider svg{max-width: 280px;margin: 30px auto 15px auto;display: block;}
   .range {
 	position: relative;margin-bottom: 7px;
 	width: 80%;
   }
-  
+  .page15 .image-range-slider svg, .page16 .image-range-slider svg {
+    max-width: 230px;
+    height: auto;
+}
   .range input {
 	width: 100%;
 	position: absolute;
@@ -469,7 +469,7 @@ border-right: 40px solid transparent;
 	.page17 .box-icon{    top: -14px;
 		position: relative;}
 
-.page14	.image-range-slider svg {	max-width: 360px;}
+
 .page13  .sec1-box-right img{    max-width: 250px;}
 .page13.survey-form, .page14.survey-form, .page16.survey-form{padding-bottom:0;}
 .rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}
@@ -547,10 +547,10 @@ border-right: 40px solid transparent;
 .page7 p.light-text{    min-height: inherit;padding: 0;}
 .page9 .foods-list .grid-list { width: auto;}
 
-.page9 .foods-list svg {
+.page9 .foods-list img {
     width: 90px;
-    height: 90px;
-    margin: 0 0 -20px;
+    height: auto;
+    
 }
 .page10 .foods-list svg {
     width: 85px;
@@ -563,7 +563,7 @@ border-right: 40px solid transparent;
 .mid-drag-wrap {
     background: linear-gradient(to right, #fc0602, #8fc03d);
     border-radius: 30px;
-	margin:  0;    padding: 7px;
+	margin:25px 0 0 0;    padding: 7px;
 }
 .mid-drag {
     background: #f2f2f2;
@@ -600,7 +600,7 @@ border-right: 40px solid transparent;
 }
 .page13 .custom-slider-div,.page14 .custom-slider-div,.page15 .custom-slider-div,.page16 .custom-slider-div,
 .page17 .custom-slider-div{background: #000;}
- .grid-item:hover .grid-icons svg{    -webkit-animation-duration: 1s;   animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;animation-name: bounceIn;}
+ .grid-item:hover .grid-icons svg, .grid-item:hover .grid-icons img{    -webkit-animation-duration: 1s;   animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;animation-name: bounceIn;}
 
  .page13 .sec1-box-right img{    margin: 0 auto;    padding-top: 30px;
     display: block;}
@@ -743,4 +743,7 @@ blade-wrapper::after {
 .box1 .blade::after {  height: 58px;}
 .download-zip-btn{
 	margin-top:20px;
+}
+.disabled{
+	pointer-events:none;
 }

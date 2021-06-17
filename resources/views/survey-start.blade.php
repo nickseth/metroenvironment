@@ -30,17 +30,17 @@ form *{display:block; width:100%}
 <form class="survey-form">
 <div class="col-sm-3 mt-5">
 <div class="form-row">
-<label><img src="images/age-icon.svg" /></label><input type="text" name="age" placeholder="Your Age">
+<label><img src="images/age-icon.svg" /></label><input type="number" class="required-field" name="age" min="12" placeholder="Your Age">
 </div>
 </div> <div class="col-sm-6 mt-5">
-<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search" placeholder="Where is your office located?" name="office_located"><span class="search-clear">X</span></div></div>
+<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Where is your office located?" name="office_located"><span class="search-clear">X</span></div></div>
 
 </div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
 <div class="cont_select_center">
 
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
-<select name="gender" onchange="" onclick="return false;" id="">
+<select name="gender" onchange="" class="required-field" onclick="return false;" id="">
 <option value="" disabled selected >Gender</option>
 <option value="Male">Male</option>
 <option value="Female" >Female</option>
@@ -63,7 +63,7 @@ form *{display:block; width:100%}
 
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
-<select name="joining_years" onchange="" onclick="return false;" id="">
+<select name="joining_years" onchange="" class="required-field" onclick="return false;" id="">
 <option value="" disabled selected>How long have you been a part of the METRO family</option>
 <option value="5 Years">5 Years</option>
 <option value="10 Years" >10 Years</option>
@@ -90,7 +90,7 @@ form *{display:block; width:100%}
 
   <!-- Custom select structure --> 
 <div class="select_mate department-options" data-mate-select="active" >
-<select name="department_size" class="" onchange="" onclick="return false;" id="">
+<select name="department_size" class="required-field" onchange="" onclick="return false;" id="">
 <option value="" disabled selected>What is the size of your department at METRO?</option>
 <option value="5">0-5</option>
 <option value="10" >5-10</option>

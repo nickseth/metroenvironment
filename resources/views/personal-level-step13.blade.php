@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#">
+					<a class="navbar-brand" href="{{URL::to('/')}}">
 						<img src="images/metro-logo.svg" />
 					</a>
 				</div>

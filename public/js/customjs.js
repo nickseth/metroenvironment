@@ -220,7 +220,7 @@ headers: {
 			$('.silver-badge').removeClass('hide');
 		}
 		else if(badge_score > 39 && badge_score <= 55 ){
-			$('.badge-grid').not($('.silver-badge')).remove();
+			$('.badge-grid').not($('.gold-badge')).remove();
 			$('.gold-badge').removeClass('hide');
 		}
 		else{
@@ -280,8 +280,31 @@ headers: {
 			$('.popup-ques-container.active-popover .emoji-option-js').not($(this)).removeClass('active-option');
 			$(this).addClass('active-option');
 			$('.popup-ques-container.active-popover input').val($(this).attr('data-value'));
-			$('#'+target).addClass('next-to-active');
-			$('.popup-ques-container').removeClass('active-popover');
+			//$('.popup-ques-container').removeClass('active-popover');
+	})
+	$('.popover-btn').click(function(){
+		var target_popover = $(this).attr('data-target');
+		if($('.'+target_popover).find('.active-option').length == 0){
+			return false;
+		}
+		$('#'+target_popover).addClass('next-to-active');
+		$('#'+target_popover).removeClass('blinking-text');
+		if(!$('#'+target_popover).next().hasClass('next-to-active') && $('#sust1-group .sust-item').length != $('#sust1-group .next-to-active').length){
+			$('#'+target_popover).next().addClass('blinking-text');
+		}
+		else{
+			if(!$('#sust2-svg .sust-item').eq(0).hasClass('next-to-active')){
+				$('#sust2-svg .sust-item').eq(0).addClass('blinking-text');
+			}
+			if(!$('#sust2-svg #'+target_popover).next().hasClass('next-to-active')){
+				$('#sust2-svg #'+target_popover).next().addClass('blinking-text')
+			}
+		}
+		if($('.next-to-active').length == 8 ){
+			$('.question-wrapper').removeClass('col-sm-6').addClass('col-sm-12');
+			$('.answers-wrapper').addClass('hide');
+		}
+		$('.popup-ques-container').removeClass('active-popover');
 	})
 	$('.user-rating li').click(function(){
 		$('.user-rating li').not($(this)).removeClass('active-icon');
@@ -289,10 +312,55 @@ headers: {
 		var rating = $(this).attr('data-value');
 		$('.hidden-survey-rating').val(rating);
 	})
-	console.log(Cookies.get('formdetails'))
+	$('.never-selection-checkbox').click(function(){
+		var elem = $(this);
+		setTimeout(function(){
+		if(elem.is(':checked')){
+			$('.range-labels li').eq(0).click();
+			$('.rangle-slider').addClass('disabled');
+		}
+		else{
+			$('.rangle-slider').removeClass('disabled');
+		}
+		},100)
+		
+	})
+	$('.back-navigate-btn').click(function(){
+		window.history.back();
+	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
+		// form validation //
+		if($('.required-field').length > 0 ){
+			$('.select_mate ').removeClass('field-is-required')
+			$('.required-field').removeClass('field-is-required')
+			try{
+			$('.required-field').each(function(){
+				if($(this).val()!= undefined && $(this).val() != '' ){
+					$(this).addClass('validated');
+				}
+			})
+			var required_class_added = false;
+			$('.required-field').each(function(){
+				if(!$(this).hasClass('validated') && required_class_added == false){
+					if($(this).find('option').length != 0){
+						$(this).parent().addClass('field-is-required');
+					}
+					else{
+					$(this).addClass('field-is-required');
+					}
+					required_class_added = true;
+				}
+			})
+			if($('.required-field').length != $('.validated').length){
+				return false;
+			}
+			}
+			catch(err){}
+		}
+		// form validation //
+		
 		// storing multiple checkbox data into single field //
 		var checkbox_all_data = '';
 		$('.multiple-checkbox-data:checked').each(function(i){
@@ -479,7 +547,8 @@ $('.draggable').draggable({
   start:handleDragStart,
   revert: "invalid",
   stack: ".draggable",
-  helper: 'clone'
+  helper: 'clone',
+    cursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
   accept: ".draggable",
@@ -498,13 +567,12 @@ $('.mid-drag ul li').droppable({
     draggable.addClass('usedDraggable');
   }
 });
-
-
 $('.vegi-group .plate-item').draggable({
   start:handleDragStartvegi,
   revert: "invalid",
   stack: ".draggable",
-  helper: 'clone'
+  helper: 'clone',
+  cursorAt: {left: 50}
 });
 $('.empty-plate').droppable({
   accept: ".plate-item",
