@@ -756,3 +756,8 @@ blade-wrapper::after {
     text-align: left;
     padding: 0 15px;
 }
+.footer-text p{
+	font-size: 9px;
+    max-width: 1024px;
+    margin: auto;
+}

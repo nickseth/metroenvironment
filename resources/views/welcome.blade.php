@@ -43647,7 +43647,7 @@ benefit the world around us. We promise it won't take long.</p></div>
 <a href="{{url('/survey-start')}}" class="btn-flip agree-btn index-btn" data-back="Agree" data-front="Agree"></a>
     <div class="footer-text">
     <h4>Disclaimer & Consent:</h4>
-<p>Your participation in this survey is voluntary. By participating in this survey….. <a href="#">Read more</a></p>
+<p>Your participation in this survey is voluntary. By participating in this survey, you consent to the transfer of the information you submit to the METRO AG – Corporate Responsibility Team. Please be assured that the information collected is for internal research purposes only and will not be publicly associated with your account. We do not collect identifying information such as your name, email address, or IP address. Therefore, your responses will remain anonymous. No one will be able to identify you or your answers, and no one will know whether or not you participated in the survey.</p>
 
     </div>
 	
