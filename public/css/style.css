@@ -1983,6 +1983,9 @@ input.highlight {animation: mymove 1s infinite;}
     left: calc(100% - 150px);
   }
 }
+.right-header strong{
+	width:100%;
+}
 @keyframes slide-slow-img {
   0% {
     transform: scaleX(1);
@@ -1999,4 +2002,7 @@ input.highlight {animation: mymove 1s infinite;}
   100% {
     transform: scaleX(1);
   }
+}
+.index-btn{
+	margin-bottom:60px;
 }

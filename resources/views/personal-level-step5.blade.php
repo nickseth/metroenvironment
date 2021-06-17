@@ -11,7 +11,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
+					<h1>#<span>M</span>vironment</h1><strong>Sustainability & YOU</strong>
 				</div>
 			</div>
 		</div>
@@ -2941,7 +2941,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">lamb</p>
+											<p class="light-text">Lamb</p>
 										</div>
 									</div>
 									<div class="grid-list">

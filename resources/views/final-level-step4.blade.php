@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
-      <h1>#<span>M</span>vironment</h1><strong>Professional level</strong>
+      <h1>#<span>M</span>vironment</h1><strong>Sustainability & WORK</strong>
     </div></div>
   </div>
 </nav>
@@ -25,9 +25,9 @@
  <div class="sec1-box-center text-center">
  <div class="box-top">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
- <div class="animate__animated animate__fadeIn green-text">I believe, sustainability & social factors have a direct influence on METRO’s overall success,<br>today and in the future</div>
+ <div class="animate__animated animate__fadeIn green-text">I believe, sustainability & social factors have a direct influence on METRO’s overall success, <br>today and in the future</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 0 to 5 to submit your response, where 0 = least likely and 5 = most likely</p>
+ <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5, where 1 = Strongly Disagree and 5 = Strongly agree</p>
 
 </div>
  

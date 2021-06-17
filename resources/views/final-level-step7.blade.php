@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
-      <h1>#<span>M</span>vironment</h1><strong>Professional level</strong>
+      <h1>#<span>M</span>vironment</h1><strong>Sustainability & WORK</strong>
     </div></div>
   </div>
 </nav>
@@ -193,7 +193,7 @@
   <div class="row">
    <div class="col-sm-12">
   <div class="two-clmn-flex">
- <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-7.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Customer request</div></div> <div class="col-sm-6"><div class="clmn-grid-slider green" id="range-slider-7">
+ <div class="row"> <div class="col-sm-2"><div class="clmn-grid-icon"><img src="images/sec-3-img-7.svg" /></div></div><div class="col-sm-4"><div class="clmn-grid-text blue-text">Customer requests</div></div> <div class="col-sm-6"><div class="clmn-grid-slider green" id="range-slider-7">
  <div class="range ">
  <input type="range" min="1" max="5" name="final_level_step7_7" steps="1" value="1"></div>
  <ul class="range-labels">

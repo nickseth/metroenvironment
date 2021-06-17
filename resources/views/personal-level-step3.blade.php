@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
-      <h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
+      <h1>#<span>M</span>vironment</h1><strong>Sustainability & YOU</strong>
     </div></div>
   </div>
 </nav>
@@ -27,7 +27,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Organic food forms a large part of my diet</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 0 to 5 to submit your response, where 0 = least likely and 5 = most likely</p>
+ <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5 to submit your response, where 1 = least likely and 5 = most likely</p>
 
 </div>
  
