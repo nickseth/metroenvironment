@@ -649,6 +649,7 @@
 						
 						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
+										<p>Click Submit to move on to the next question</p>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="1">
 												<img src="images/sec-3-01.svg" alt="Emoji">
@@ -682,6 +683,7 @@
 									</div>
 									<div class="popup-ques-container packaging-plastic">
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic Initative</h2>
+								<p>Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -723,6 +725,7 @@ laoreet dolore</p>
 							</div>
 							<div class="popup-ques-container climate-action">
 								<h2 class="clr-blue">“My Sustainable Restaurant” ToolboxDo you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
+								<p>Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -761,6 +764,7 @@ laoreet dolore</p>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
 								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
+								<p>Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -799,6 +803,7 @@ laoreet dolore</p>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
 								<h2 class="clr-blue">METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?</h2>
+								<p>Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -836,7 +841,8 @@ laoreet dolore</p>
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy?</h2> 
+								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy?</h2>
+<p>Click Submit to move on to the next question</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -878,6 +884,7 @@ laoreet dolore</p>
 							</div>
 							<div class="popup-ques-container organic">
 								<h2 class="clr-blue">Are you aware that a Social Standard Management tool exists?</h2>
+								<p>Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -917,6 +924,7 @@ laoreet dolore</p>
 							</div>
 							<div class="popup-ques-container conscious-proteins">
 								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
+								<p>Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">

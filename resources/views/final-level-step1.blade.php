@@ -38,13 +38,14 @@
 						<div class="sec1-box-right animate__animated animate__fadeInUp ">
 							<div class="popup-type-container">
 								<h2 class="clr-blue">The METRO’s sustainability strategy and the 8 focus areas</h2>
+								<p>Click on the Next button to begin</p>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="2">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
@@ -54,12 +55,12 @@
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="4">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="5">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is new to me</div>
 									</div>

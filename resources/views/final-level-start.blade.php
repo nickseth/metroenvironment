@@ -37996,12 +37996,10 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
           </h3>
         </div>
         <div class="home-content clr-blue mt-3">
-          <p>Hello and welcome! Thanks for taking out the time to take this interactive
-        survey. Your responses will enable us to create impactful strategies that
-        benefit the world around us. We promise it won't take long.</p>
+          <p> We now begin with section 3 of the survey. This section of the survey focuses on the role that sustainability plays in shaping your professional outlook towards responsible practices. </p>
         </div>
         <div class="mt-7 btn-cover">
-          <a href="{{url('/final-level-step1')}}" class="btn-flip" data-back="Agree" data-front="Agree"></a>
+          <a href="{{url('/final-level-step1')}}" class="btn-flip" data-back="Next" data-front="Next"></a>
         </div>
       </div>
     </main>
