@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
-      <h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
+      <h1>#<span>M</span>vironment</h1><strong>Sustainability & YOU</strong>
     </div></div>
   </div>
 </nav>

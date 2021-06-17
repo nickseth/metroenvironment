@@ -11,7 +11,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1><strong>Professional level</strong>
+					<h1>#<span>M</span>vironment</h1><strong>Sustainability & WORK</strong>
 				</div>
 			</div>
 		</div>

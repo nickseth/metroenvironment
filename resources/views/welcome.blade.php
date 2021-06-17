@@ -38029,7 +38029,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
   </div>
 </nav>
 <main class="mid-content">
-<div class="welcome"><h3>WELCOME TO THE SUSTAINABILITY SURVEY!</h3></div>
+<div class="welcome"><h3>WELCOME TO THE #MVIRONMENT SURVEY!</h3></div>
 <div class="home-content"><p>Hello and welcome! Thanks for taking out the time to take this interactive
 survey. Your responses will enable us to create impactful strategies that
 benefit the world around us. We promise it won't take long.</p></div>
@@ -43644,12 +43644,13 @@ benefit the world around us. We promise it won't take long.</p></div>
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
 <div class="home-footer">
+<a href="{{url('/survey-start')}}" class="btn-flip agree-btn index-btn" data-back="Agree" data-front="Agree"></a>
     <div class="footer-text">
     <h4>Disclaimer & Consent:</h4>
 <p>Your participation in this survey is voluntary. By participating in this survey….. <a href="#">Read more</a></p>
 
     </div>
-	<a href="{{url('/survey-start')}}" class="btn-flip agree-btn" data-back="Agree" data-front="Agree"></a>
+	
 
 </div>
 </footer>

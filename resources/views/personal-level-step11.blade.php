@@ -11,7 +11,7 @@
 				</a>
 			</div>
 			<div class=" navbar-collapse right-header text-right" id="myNavbar">
-				<h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
+				<h1>#<span>M</span>vironment</h1><strong>Sustainability & YOU</strong>
 			</div>
 		</div>
 	</div>
@@ -26,7 +26,7 @@
 							<div class="box-icon animate__animated animate__fadeInLeft">
 								<img src="images/leaves.svg">
 							</div>
-							<div class="animate__animated animate__fadeIn green-text">Sort the following foods according to the amount of water required to produce 1 kg of their quantity. The ingredients that have already been used are to be made in grey.</div>
+							<div class="animate__animated animate__fadeIn green-text">Sort the following foods according to the amount of water required to produce 1 kg of their quantity.</div>
 							
 						</div>
 						<p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items into the red boxes, according to the highest amount of water required to produce them.</p>

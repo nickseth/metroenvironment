@@ -11,7 +11,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1><strong>Personal level</strong>
+					<h1>#<span>M</span>vironment</h1><strong>Sustainability & YOU</strong>
 				</div>
 			</div>
 		</div>
@@ -39,7 +39,7 @@ the factors that affect purchase decision?</div>
 
 <div class="rangle-slider">
 <p class="animate__animated animate__fadeIn dark-text">Companies that are not related to human rights violations
-(exploitation, child labor)</p>
+(exploitation, child labour)</p>
 <div class="range">
   <input type="range" min="1" max="5" name="personal_level_step13" steps="1" value="1">
 </div>

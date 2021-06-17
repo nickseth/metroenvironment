@@ -1983,6 +1983,9 @@ transform: scale(1.4); opacity:1}
     left: calc(100% - 150px);
   }
 }
+.right-header strong{
+	width:100%;
+}
 @keyframes slide-slow-img {
   0% {
     transform: scaleX(1);
@@ -1999,4 +2002,7 @@ transform: scale(1.4); opacity:1}
   100% {
     transform: scaleX(1);
   }
+}
+.index-btn{
+	margin-bottom:60px;
 }
