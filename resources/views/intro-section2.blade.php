@@ -51,8 +51,9 @@
  </div><div class="col-sm-3">
  <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="images/straw.svg" class="jump-anim"/></div>
  </div></div>
-<div class="button-wrapper bottom-button">
-<a href="{{url('/intro-section3')}}" class="link-btn hvr-forward get-survey-details"><i class="fa fa-arrow-right fa-3x"></i></a>
+<div class="button-wrapper bottom-button link-np">
+<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
+<a href="{{url('/intro-section3')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
  </div></div>

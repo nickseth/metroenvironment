@@ -198,7 +198,7 @@ margin-top:10%;
 align-items: center;
 }
 .text-center .box-top{justify-content: center;text-align: center;}
-.text-center .gray-text{justify-content: center;text-align: center;}
+.text-center .gray-text{justify-content: center;text-align: center; line-height:1.5}
 .text-left .box-top{justify-content: left;text-align: left;}
 .text-left .gray-text{justify-content: left;padding-left: 45px;text-align: left;}
 .green-text{font-size: 19px;

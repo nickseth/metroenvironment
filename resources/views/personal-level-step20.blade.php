@@ -27,7 +27,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">I am willing to pay a higher price for products that cause less<br>environmental pollution, and are fairly traded</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 4 to submit your response, where 1 = least likely and 4 = most likely.</p>
+ <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5 to submit your response, where 1 = least likely and 5 = most likely.</p>
 
 </div>
  
@@ -38,7 +38,8 @@
 </form>
 <div class="circular-range-slider"></div>
  </div></div>
-<div class="button-wrapper bottom-button">
+<div class="button-wrapper bottom-button link-np">
+<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
 <a href="{{url('/personal-level-step21')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
