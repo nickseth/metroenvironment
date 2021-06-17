@@ -536,12 +536,8 @@ svg #fish6{
     0%{
      transform: rotate(0deg);
     }
-    35% {
-      transform: rotate(-500deg);
-    }
-    
     100%{
-      transform: rotate(-1000deg); animation-play-state: paused;animation-timing-function: ease-out; animation-play-state: paused, running;
+      transform: rotate(-1000deg); animation-play-state: paused;animation-timing-function:linear; animation-play-state: paused, running;
     }
   }
   
@@ -550,10 +546,8 @@ svg #fish6{
       right: 120px;animation-play-state: running;
       animation-timing-function: ease-out; 
     }
-    99% {
-      right: 65%;  animation-play-state: running;
-    }
-    100% {
+    
+    90% {
       right: 65%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
   }
@@ -567,7 +561,7 @@ svg #fish6{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute; right: 65%;
+    position: absolute; right: 60%;
     width: 160px;
     height:90px;     bottom: calc(100% - 21px);
     overflow:hidden;
@@ -1274,9 +1268,7 @@ height:0!important;opacity:0!important;
       right: 120px;animation-play-state: running;
       animation-timing-function: ease-out; 
     }
-    99% {
-      right: 70%;  animation-play-state: running;
-    }
+  
     100% {
       right: 70%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
@@ -1296,14 +1288,12 @@ height:0!important;opacity:0!important;
       right: 120px;animation-play-state: running;
       animation-timing-function: ease-out; 
     }
-    99% {
-      right: 60%;  animation-play-state: running;
-    }
-    100% {
-      right: 60%;  animation-timing-function: ease-in;animation-play-state: paused;
+   
+    90% {
+      right: 70%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
   }
-  .car {    right: 60%;}
+  .car {    right: 70%;}
 
 }
 
