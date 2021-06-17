@@ -37,7 +37,7 @@
 					<div class="col-sm-12">
 						<div class="sec1-box-right animate__animated animate__fadeInUp ">
 							<div class="popup-type-container">
-								<h2 class="clr-blue">The METRO’s sustainability strategy and the 8 focus areas</h2>
+								<h2 class="clr-blue">How aware are you about METRO's Sustainability Strategy and its 8 focus areas?</h2>
 								<p>Click on the Next button to begin</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
