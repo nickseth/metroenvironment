@@ -476,16 +476,16 @@ svg #fish6{
     z-index: -1;
     pointer-events: none;}
 .fish-tank{height: 90px;
-    width: 100%;
+    width: 100%;overflow: hidden;
     background-size: contain;max-width: 250px;    z-index: 1; text-align: center;
     background-position: center bottom; position: absolute; top:16%; left:0;}
-    .fish-tank svg.fish{width: 176px;    left: 50%;
-        top: 50%;height: auto;
+    .fish-tank svg.fish{width: 176px;    left: 50%;animation: slide-slowsmall 10s infinite, slide-slow-img 10s infinite;
+        top: 22%;height: auto;
         z-index: -1;
         display: inline-block;
         position: absolute;
         margin: -6px auto;
-        right: auto;transform: translateY(-50%) translateX(-50%);}
+        right: auto;}
         .fish-tank img{max-width: 100%;}
         .fish-tank.fish-tank2 {
             left: auto; height: 120px;
@@ -495,7 +495,7 @@ svg #fish6{
             height: auto;
         }
         
-        .fish-tank.fish-tank2 svg.fish{    width: 256px;margin: 8px auto;}
+        .fish-tank.fish-tank2 svg.fish{    width: 256px;margin: 8px auto;animation: slide-slow 15s infinite, slide-slow-img 15s infinite;}
         .fish-tank.fish-tank2  .tank-right2{    height: 80px;
             background-size: contain;
             bottom: -4px;
@@ -510,7 +510,7 @@ svg #fish6{
       }
       .cow.cow2 img{height: 25px;;}
       .hut1{    max-width: 90px;
-        margin-left: 14%;
+        margin-left: 12%;
         top: -16px;
         position: relative;}
         .hut2{max-width: 90px;
@@ -543,12 +543,12 @@ svg #fish6{
   
   @keyframes moving {
     0% {
-      right: 120px;animation-play-state: running;
+      right: 10%;animation-play-state: running;
       animation-timing-function: ease-out; 
     }
     
-    90% {
-      right: 65%;  animation-timing-function: ease-in;animation-play-state: paused;
+    100% {
+      right: 40%;  animation-timing-function: ease-in;animation-play-state: paused; margin-right: 0;
     }
   }
   
@@ -557,15 +557,19 @@ svg #fish6{
     to {transform: translateY(-.0em);}
   }
   
+  @keyframes movetractor {
+    0% {margin-right: 0px;    }
+    90% {margin-right: 58%; }
+    }
   .car{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    position: absolute; right: 60%;
-    width: 160px;
+    position: absolute; right: 120px;
+    width: 160px;  
     height:90px;     bottom: calc(100% - 21px);
-    overflow:hidden;
-    animation:  moving 40s linear  1;
+    overflow:hidden;    margin-right: 58%;
+    animation:  movetractor 42s linear  1;
   }
   
   .carbody{
@@ -845,7 +849,7 @@ height:0!important;opacity:0!important;
 .sec1-box-left {
     margin-top: 30px;
 }
-
+.bottom-button{margin:0 0 20px}
 .bg-anim {width:284px; height:275px}
 .bg-anim {background:url(../images/bitcoin.svg) no-repeat; background-size:cover}
 .bg-anim:hover{background:url(../images/bitcoin-over.svg) no-repeat; background-size:cover}
@@ -1065,6 +1069,37 @@ height:0!important;opacity:0!important;
   transform: translate(0%, -10%) scale(1.3);
 }
 
+.drop{
+  background-color: white;
+  width: 3px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 100px); 
+  left: calc(50% - 1.5px);
+  animation-name: fall;
+  animation-duration: var(--duration);
+  animation-delay: var(--delay);
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fall{
+  0%{
+    transform: translateY(-120vh);
+  }
+  45%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  46%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
 .waves > div{
   position: absolute;
   top:0px;
@@ -1238,11 +1273,11 @@ height:0!important;opacity:0!important;
       animation-timing-function: ease-out; 
     }
   
-    100% {
-      right: 70%;  animation-timing-function: ease-in;animation-play-state: paused;
+    60% {
+      right: 50%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
   }
-  .car {height: 85px;right: 70%;}
+  .car {height: 85px;right: 60%;}
  
 
 }
@@ -1252,17 +1287,17 @@ height:0!important;opacity:0!important;
   .hut1 {    top: -17px;}
   .hut2 {    top: -16px;}
   .fish-tank.fish-tank2{top: 24%;;}
-  @keyframes moving {
+  /* @keyframes moving {
     0% {
       right: 120px;animation-play-state: running;
       animation-timing-function: ease-out; 
     }
    
-    90% {
-      right: 70%;  animation-timing-function: ease-in;animation-play-state: paused;
+    60% {
+      right: 50%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
-  }
-  .car {    right: 70%;}
+  } */
+  .car {    right: 50%;}
 
 }
 
@@ -1492,7 +1527,7 @@ background-size:90%
 }
 .gbb-item-1 img {width:75px; height:auto; }
 .gbb-item-2 img {width:214px; height:auto}
-.gbb-head{font-size:16px; font-weight:bold; margin:0 0 15px 0; text-align:center}
+.gbb-head{font-size:16px; font-weight:bold; margin:0 0 15px 27px;}
 .gbb-wrap .green-brdr-box .form-group label {font-weight:normal; color:#000}
 .gbb-wrap .form-group input:checked + label:before {background: #10cfbd;
     border-color: #10cfbd;}
@@ -1543,27 +1578,27 @@ background-size:90%
 .personal-level-step20 .box-top .box-icon, .final-level-step11 .box-top .box-icon {margin-top:-7px}
 
 .personal-level-step20 .circular-range-slider .rs-bg-color {
-	background: #ffffff url(../images/dollor-circle-0.png) no-repeat center center;
+	background: #ffffff url(../images/dollor-circle-0.svg) no-repeat center center;
 	
 }
 .personal-level-step20 .circular-range-slider.current-step-1 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-1.png) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-1.svg) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-2 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-2.png) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-2.svg) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-3 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-3.png) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-3.svg) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-4 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-4.png) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-4.svg) no-repeat center center;
    
 }
 .personal-level-step20 .circular-range-slider.current-step-5 .rs-bg-color {
-    background: #ffffff url(../images/dollor-circle-5.png) no-repeat center center;
+    background: #ffffff url(../images/dollor-circle-5.svg) no-repeat center center;
    
 }
 .personal-level-step .button-wrapper {height:auto}
@@ -1764,19 +1799,19 @@ input.highlight {animation: mymove 1s infinite;}
     left: 5%;
     
     top: 48%;
-    padding: 30px; transform:translateY(-50%);max-width:45%;
+    padding: 30px; transform:translateY(-50%);max-width:34%;
 	-webkit-transition: all 1.8s;
     -moz-transition: all 1.8s;
     -o-transition: all 1.8s;
     transition: all 1.8s; opacity:0
 }
-.caption-sec2 p{color:#4c9f38; font-size:30px;}
+.caption-sec2 p{color:#4c9f38; font-size:25px;}
 .zoom-backrgound-new .caption-sec2 {opacity:1;}
 @media(min-width:1600px) {
 	.caption-sec2 { left: 2.5%;
     max-width:30%;
     top: 36%;}
-	.caption-sec2 p{ font-size:35px;}
+	.caption-sec2 p{ font-size:30px;}
 }
 .plate-item{  margin: 0 auto 10px auto;}
 .plate-item-3 {
@@ -1853,13 +1888,13 @@ input.highlight {animation: mymove 1s infinite;}
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50px);
+    transform: translateX(-100px);
   }
 }
 	.move-cloud-small{
   display: inline-block;
-  animation: movecloud-small 40s infinite;
-  transform: translateX(50px);
+  animation: movecloud-small 60s infinite;
+  transform: translateX(100px);
   animation-direction: alternate;
      
 }
@@ -1869,13 +1904,13 @@ input.highlight {animation: mymove 1s infinite;}
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-445px);
+    transform: translateX(-492px);
   }
 }
 	.move-cloud{
   display: inline-block;
-  animation: movecloud 40s infinite;
-  transform: translateX(445px);
+  animation: movecloud 45s infinite;
+  transform: translateX(492px);
   animation-direction: alternate; 
      
 }
@@ -1884,9 +1919,6 @@ input.highlight {animation: mymove 1s infinite;}
     -webkit-box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%);
     -moz-box-shadow: 0px 0px 10px 0px rgba(76, 159, 56, 0.95);
     box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%);
-}
-.answers-wrapper, .question-wrapper {
-    margin-top: 20px;
 }
 .question-wrapper{transition: width 2s;}
 .final-step3 .sec1-box-right svg {
@@ -1911,84 +1943,60 @@ input.highlight {animation: mymove 1s infinite;}
 .clmn-grid-icon img {
     max-width: 100px;
 }
-.link-np {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center; margin-top:30px; margin-bottom:10px;
-	    
-}
-.link-np a {
-    margin: 0 15px;
-}
-.back-navigate-btn.btn-flip:before {background:#003C7F}
-.back-navigate-btn.btn-flip:after {background:#003C7F}
-.reset-btn.btn-flip:before {background:#FAA31C}
-.reset-btn.btn-flip:after {background:#FAA31C}
-.personal-level-start .btn-flip {
-    min-width: 150px;
-   
-    font-size: 20px;
-   
-}
-.personal-level-start  .btn-flip:before, .personal-level-start  .btn-flip:after {line-height:40px; border-radius: 21px;}
-.messages.msg_sent1 p {
-    text-align: left;
-    padding: 0 15px;
-}
-#hand-left { animation: myhand-left 5s infinite;
-  transform-origin: 50% 50%;}
-#water-jug {
- 
-  animation: mymove 5s infinite;
-  transform-origin: 50% 50%;
-}
 
-@keyframes mymove {
-  50% {transform: rotate(-5deg);}
-}
-@keyframes myhand-left {
-  50% {transform: rotate(-3deg);}
-}
-
-.clmn-grid-slider .range input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 20px;
-    _opacity: 0;
-    height: 20px;
-    margin: -8px 0 0;
-    border-radius: 50%;
-    background: #fff;
-    cursor: pointer;
-    border: 3px solid #4c9f38 !important;
-}
-
-.drop{
-  background-color: white;
-  width: 2px;
-  height: 5px;
-  position: absolute;
-  top: calc(50% - 100px); 
-  left: calc(50% - 1.5px);
-  animation-name: fall;
-  animation-duration: var(--duration);
-  animation-delay: var(--delay);
+.slide-slow img {
+  position: relative;
+  animation: slide-slow 6s, slide-slow-img 6s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-fill-mode: backwards;
 }
-
-@keyframes fall{
-  0%{
-    transform: translateY(-120vh);
+@keyframes slide-slow {
+  0% {
+    left: calc(100% - 200px);
   }
-  45%{
-    transform: translateY(0%);
-    opacity: 1;
+  49.99% {
+    left: 0%;
   }
-  46%{
-    opacity: 0;
+  50% {
+    left: 0%;
   }
-  100%{
-    opacity: 0;
+  99.99% {
+    left: calc(100% - 250px);
+  }
+  100% {
+    left: calc(100% - 250px);
+  }
+}
+@keyframes slide-slowsmall {
+  0% {
+    left: calc(100% - 150px);
+  }
+  49.99% {
+    left: 0%;
+  }
+  50% {
+    left: 0%;
+  }
+  99.99% {
+    left: calc(100% - 150px);
+  }
+  100% {
+    left: calc(100% - 150px);
+  }
+}
+@keyframes slide-slow-img {
+  0% {
+    transform: scaleX(1);
+  }
+  48% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+  98% {
+    transform: scaleX(-1);
+  }
+  100% {
+    transform: scaleX(1);
   }
 }
