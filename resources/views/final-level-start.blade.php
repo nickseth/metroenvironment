@@ -38000,6 +38000,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
           <p> We now begin with section 3 of the survey. This section of the survey focuses on the role that sustainability plays in shaping your professional outlook towards responsible practices. </p>
         </div>
         <div class="mt-7 btn-cover">
+		<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back"></a>
           <a href="{{url('/final-level-step1')}}" class="btn-flip" data-back="Next" data-front="Next"></a>
         </div>
       </div>
