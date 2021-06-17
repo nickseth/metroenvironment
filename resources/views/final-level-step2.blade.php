@@ -651,11 +651,11 @@
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
 										<p class="support-text">Click Submit to move on to the next question</p>
 										<div class="emoji-cover">
-											<div class="emoji-cover-item emoji-option-js active" data-value="1">
+											<div class="emoji-cover-item emoji-option-js active" data-value="5">
 												<img src="images/sec-3-01.svg" alt="Emoji">
 												<div class="emoji-title">Actively Involved</div>
 											</div>
-											<div class="emoji-cover-item emoji-option-js" data-value="2">
+											<div class="emoji-cover-item emoji-option-js" data-value="4">
 												<img src="images/sec-3-02.svg" alt="Emoji">
 												<div class="emoji-title">Indirectly Involved</div>
 											</div>
@@ -663,11 +663,11 @@
 												<img src="images/sec-3-03.svg" alt="Emoji">
 												<div class="emoji-title">Yes, I am aware</div>
 											</div>
-											<div class="emoji-cover-item emoji-option-js" data-value="4">
+											<div class="emoji-cover-item emoji-option-js" data-value="2">
 												<img src="images/sec-3-04.svg" alt="Emoji">
 												<div class="emoji-title">Not fully Aware</div>
 											</div>
-											<div class="emoji-cover-item emoji-option-js" data-value="5">
+											<div class="emoji-cover-item emoji-option-js" data-value="1">
 												<img src="images/sec-3-05.svg" alt="Emoji">
 												<div class="emoji-title">This is new to me</div>
 											</div>
@@ -685,12 +685,12 @@
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic Initative</h2>
 								<p class="support-text">Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="2">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
@@ -700,12 +700,12 @@
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="4">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="5">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is new to me</div>
 									</div>
@@ -727,12 +727,12 @@ laoreet dolore</p>
 								<h2 class="clr-blue">“My Sustainable Restaurant” ToolboxDo you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
 								<p class="support-text">Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="2">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
@@ -742,12 +742,12 @@ laoreet dolore</p>
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="4">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="5">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is new to me</div>
 									</div>
@@ -766,12 +766,12 @@ laoreet dolore</p>
 								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
 								<p class="support-text">Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="2">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
@@ -781,12 +781,12 @@ laoreet dolore</p>
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="4">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="5">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is new to me</div>
 									</div>
@@ -805,12 +805,12 @@ laoreet dolore</p>
 								<h2 class="clr-blue">METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?</h2>
 								<p class="support-text">Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="2">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
@@ -820,12 +820,12 @@ laoreet dolore</p>
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="4">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="5">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is new to me</div>
 									</div>
@@ -926,12 +926,12 @@ laoreet dolore</p>
 								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
 								<p class="support-text">Click Submit to move on to the next question</p>
 								<div class="emoji-cover">
-									<div class="emoji-cover-item emoji-option-js active" data-value="1">
+									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="2">
+									<div class="emoji-cover-item emoji-option-js" data-value="4">
 										<img src="images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
@@ -941,12 +941,12 @@ laoreet dolore</p>
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="4">
+									<div class="emoji-cover-item emoji-option-js" data-value="2">
 										<img src="images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
-									<div class="emoji-cover-item emoji-option-js" data-value="5">
+									<div class="emoji-cover-item emoji-option-js" data-value="1">
 										<img src="images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
