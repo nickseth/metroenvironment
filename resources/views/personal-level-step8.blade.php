@@ -14316,7 +14316,7 @@
 										<input type="range" name="personal_level_step8" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>No change in diet</li>
+										<li>No change<br/> in diet</li>
 										<li>Planning to reduce consumption</li>
 										<li>Reduced consumption</li>
 										<li>Avoiding consumption</li>
