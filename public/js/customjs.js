@@ -492,7 +492,7 @@ headers: {
   prefs = ['webkit-slider-runnable-track', 'moz-range-track', 'ms-track'];
 
 document.body.appendChild(sheet);
-$('.range').append('<div class="custom-slider-div"></div>')
+//$('.range').append('<div class="custom-slider-div"></div>')
 var getTrackStyle = function (el,elem) {  
   var curVal = el.value,
       val = (curVal-1) * 25,
@@ -512,7 +512,7 @@ var getTrackStyle = function (el,elem) {
   if(curVal == 5){
 	  val = 100;
   }
-  elem.next().css('width',val+'%');
+  //elem.next().css('width',val+'%');
   // Set active label
   elem.parent().next().find('li').removeClass('active selected');
   
@@ -522,10 +522,10 @@ var getTrackStyle = function (el,elem) {
   curLabel.prevAll().addClass('selected');
   
   // Change background gradient
-  // for (var i = 0; i < prefs.length; i++) {
-    // style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
-    // style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
-  // }
+  for (var i = 0; i < prefs.length; i++) {
+    style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+    style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+  }
 
   return style;
 }
