@@ -333,6 +333,9 @@ headers: {
 	$('.back-navigate-btn').click(function(){
 		window.history.back();
 	})
+	$('.reset-btn').click(function(){
+		location.reload();
+	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
@@ -541,8 +544,8 @@ var getTrackStyle = function (el,elem) {
   }
   else{
 	  for (var i = 0; i < prefs.length; i++) {
-		style += '.foods-range .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
-		style += '.foods-range .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
+		style += '.rangle-slider .range {background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%, #E6E6E6 100%)}';
+		style += '.rangle-slider .range input::-' + prefs[i] + '{background: linear-gradient(to right, #6C353B 0%, #6C353B ' + val + '%, #E6E6E6 ' + val + '%,#E6E6E6 100%)}';
 	  }
   }
   return style;
