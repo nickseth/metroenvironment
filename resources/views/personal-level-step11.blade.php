@@ -29,7 +29,7 @@
 							<div class="animate__animated animate__fadeIn green-text">Sort the following foods according to the amount of water required to produce 1 kg of their quantity. The ingredients that have already been used are to be made in grey.</div>
 							
 						</div>
-						<p class="animate__animated animate__fadeIn">Drag and drop the food items into the red boxes, according to the highest amount of water required to produce them.</p>
+						<p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items into the red boxes, according to the highest amount of water required to produce them.</p>
 						
 					</div>
 				</div>
@@ -51302,6 +51302,7 @@
 			</form>
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
+<a href="#" class="link-btn reset-btn btn-flip" data-back="Reset" data-front="Reset" ></a>
 <a href="{{url('/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>

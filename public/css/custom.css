@@ -466,10 +466,10 @@ border-right: 40px solid transparent;
 	}
 	.page14 .box-icon,
 	.page15 .box-icon, .page16 .box-icon,.page18 .box-icon,
-	.page17 .box-icon{    top: -14px;
+	.page17 .box-icon{    top: 0;
 		position: relative;}
 
-
+.page11 .box-icon   {margin-top: -30px;}  
 .page13  .sec1-box-right img{    max-width: 250px;}
 .page13.survey-form, .page14.survey-form, .page16.survey-form{padding-bottom:0;}
 .rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}
