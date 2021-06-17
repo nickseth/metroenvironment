@@ -2006,3 +2006,11 @@ transform: scale(1.4); opacity:1}
 .index-btn{
 	margin-bottom:60px;
 }
+
+.link-np{justify-content:center; margin:30px auto 15px auto}
+.link-np > a {margin:0 10px}
+.back-navigate-btn:after{background:#23527c}
+.back-navigate-btn:before{background:#23527c}
+
+.reset-btn:before{background:#FAA31C}
+.reset-btn:after{background:#FAA31C}

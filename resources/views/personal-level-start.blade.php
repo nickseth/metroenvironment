@@ -19,7 +19,8 @@
 	
 	 <div class="caption-sec2">
 	<p> Tell us a bit more about your personal consumption patterns</p>
-	<div class=" text-left">
+	<div class="button-wrapper bottom-button link-np">
+<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back"></a>
 <a href="{{url('/personal-level-step1')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
 	 </div>
