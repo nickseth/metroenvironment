@@ -30,7 +30,7 @@
 								</div>
 								<div class="message-section animate__animated animate__bounceIn">
 									<div class="messages msg_receive">
-										<p>I believe that that sustainable <br>
+										<p>I believe that sustainable <br>
 										purchasing is more expensive<br>
 										than conventional purchasing.
 										</p>
@@ -58,9 +58,7 @@
 								<div class="message-section">
 									<div class="messages msg_receive">
 										<p>I don’t think so. Conventional products enjoy economies of
-scale, thus brining prices down. While sustainable brands often
-try to reduce their waste and only produce small-batch runs,
-thus pushing prices up.
+scale, thus bringing prices down.
 										</p>
 										
 									</div>
