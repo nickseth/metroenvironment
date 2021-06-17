@@ -344,50 +344,50 @@ svg #fish6{
 
 @-moz-keyframes bounce1 {
   0%, 50%, 100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
+    -moz-transform: translateX(0)  translateY(0);
+    transform: translateX(0) translateY(0);
   }
   25% {
-    -moz-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -moz-transform: translateX(5px)  translateY(-5px);
+    transform: translateX(5px) translateY(-5px);
   }
   75% {
-    -moz-transform: translateY(-3px);
-    transform: translateY(-3px);
+    -moz-transform: translateX(-5px) translateY(-3px);
+    transform:translateX(-5px)  translateY(-3px);
   }
 }
 @-webkit-keyframes bounce1 {
   0%, 50%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -webkit-transform:  translateX(0) translateY(0);
+    transform:  translateX(0) translateY(0);
   }
   25% {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform:  translateX(5px) translateY(-5px);
+    transform:  translateX(5px) translateY(-5px);
   }
   75% {
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
+    -webkit-transform:  translateX(-5px)  translateY(-3px);
+    transform:  translateX(-5px)  translateY(-3px);
   }
 }
 @keyframes bounce1 {
   0%, 50%, 100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -moz-transform:translateX(0) translateY(0);
+    -ms-transform: translateX(0) translateY(0);
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
   }
   25% {
-    -moz-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -moz-transform: translateX(5px) translateY(-5px);
+    -ms-transform: translateX(5px) translateY(-5px);
+    -webkit-transform: translateX(5px) translateY(-5px);
+    transform: translateX(5px) translateY(-5px);
   }
   75% {
-    -moz-transform: translateY(-3px);
-    -ms-transform: translateY(-3px);
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
+    -moz-transform: translateX(-5px) translateY(-3px);
+    -ms-transform: translateX(-5px) translateY(-3px);
+    -webkit-transform: translateX(-5px) translateY(-3px);
+    transform:translateX(-5px) translateY(-3px);
   }
 }
 @-moz-keyframes bounce2 {
