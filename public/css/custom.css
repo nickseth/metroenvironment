@@ -469,7 +469,7 @@ border-right: 40px solid transparent;
 	.page17 .box-icon{    top: 0;
 		position: relative;}
 
-.page11 .box-icon   {margin-top: -30px;}  
+/*.page11 .box-icon   {margin-top: -30px;} */ 
 .page13  .sec1-box-right img{    max-width: 250px;}
 .page13.survey-form, .page14.survey-form, .page16.survey-form{padding-bottom:0;}
 .rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}
@@ -760,4 +760,16 @@ blade-wrapper::after {
 	font-size: 9px;
     max-width: 1024px;
     margin: auto;
+}
+ .personal-level-start.zoom-backrgound  .button-wrapper{
+	left: 20px!important;
+    top: 70%!important;
+}
+form .form-group label{
+	font-size:11px;
+}
+.gbb-head{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }

@@ -1904,13 +1904,13 @@ transform: scale(1.4); opacity:1}
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-492px);
+    transform: translateX(-445px);
   }
 }
 	.move-cloud{
   display: inline-block;
   animation: movecloud 45s infinite;
-  transform: translateX(492px);
+  transform: translateX(445px);
   animation-direction: alternate; 
      
 }
