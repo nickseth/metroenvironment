@@ -28,7 +28,7 @@
  
 
 
-  <form class="survey-form"><div class="checkbox-group">
+  <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
     <div class="form-group">
       <input type="radio" id="html" name="intro_section_question1" value="My generation">
       <label for="html">My generation</label>

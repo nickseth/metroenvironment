@@ -18,7 +18,7 @@ window.onload = function(){
   crear_select();
   $('.department-options li').click(function(){
 	
-	if(parseInt($('.department-options select').val()) > 10){
+	if($('.department-options select').val() == '20 and above'){
 		$('.organization-team-input').removeAttr('disabled');
 		$('.organization-team-input').addClass('highlight');
 	}
@@ -425,6 +425,38 @@ headers: {
 			 $('.drag-input-details').val(dragged_elements_order);
 		 }
 		 // getting dragged elements order //
+		 
+		 // disable submit button if user did not choosed any option //
+		 if($('.survey-form').hasClass('required-validation')){
+			if($('.survey-form').attr('data-validation-type') == 'radio' ){
+				if($('.survey-form input:checked').length == 0){
+					return false;
+				}
+			}
+			else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
+				if($('.survey-form .hidden-circular-slider-input').val() == 0){
+					return false;
+				}
+			}
+			else if($('.survey-form').attr('data-validation-type') == 'single-input-field' ){
+				if($('.survey-form input').val() == ''){
+					return false;
+				}
+			}
+			else if($('.survey-form').attr('data-validation-type') == 'multiple-inputs' ){
+				var input_numbers = $('.survey-form input').length;
+				var filled_inputs = 0;
+				$('.survey-form input').each(function(){
+					if($(this).val() != ''){
+						filled_inputs +=1; 
+					}
+				})
+				if(filled_inputs != input_numbers){
+					return false;
+				}
+			}
+		}
+		 // disable submit button if user did not choosed any option //
 		 
 		var $form = $(".survey-form");
 		var all_forms_data = '';

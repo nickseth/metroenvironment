@@ -30,7 +30,7 @@
 					<div class="col-sm-12">
 						<div class="sec3-box-center animate__animated animate__fadeInUp ">
 							<div class="fieldset-box">
-							<div class="legend-title"><span>Rate your Surve Experience</span></div>
+							<div class="legend-title"><span>Rate your Survey Experience</span></div>
 							<ul class="d-flex user-rating">
 							<li data-value="1"><img src="images/rate-0.svg"/>
 							<span class="rate-title">Very unsatisfied</span>

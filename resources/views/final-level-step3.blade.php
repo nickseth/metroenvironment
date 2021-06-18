@@ -17,7 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
-	<form class="survey-form">
+	<form class="survey-form required-validation" data-validation-type="radio">
 		<div class="relative">
 			<div class="page-width mt-3 final-step3">
 				<div class="row">

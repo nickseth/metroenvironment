@@ -55,7 +55,7 @@
 
 </div>
  </div></div>
- <form class="survey-form hide">
+ <form class="survey-form hide required-validation" data-validation-type="single-input-field">
 				<input type="hidden" name="personal_level_step12" value="" class="drag-input-details"/>
 			</form>
 <div class="button-wrapper bottom-button link-np">

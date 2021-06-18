@@ -33,7 +33,7 @@
  
  </div>
  <div class="col-sm-12">
-<form class="survey-form hide">
+<form class="survey-form hide required-validation" data-validation-type="circular-slider">
 <input type="hidden" class="hidden-circular-slider-input" value="0" name="personal_level_step3"/>
 </form>
 <div class="circular-range-slider"></div>

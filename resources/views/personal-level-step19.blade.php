@@ -17,7 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
-	<form class="survey-form">
+	
 		<div class="relative">
 			<div class="page-width mt-7 page19">
 				<div class="row">
@@ -31,7 +31,7 @@
 									<br/>more expensive than conventional purchasing?</div>
 							</div>
 							<p class="animate__animated animate__fadeIn gray-text">Select the box that seems most relevant to you.</p>
-							<form class="survey-form">
+							<form class="survey-form required-validation" data-validation-type="radio">
 								<div class="checkbox-group">
 									<div class="form-group">
 										<input type="radio" id="html" name="personal_level_step19" value="Yes">
@@ -185,7 +185,6 @@
 <a href="{{url('/personal-level-step20')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>
-	</form>
 	</div>
 	</div>
 </body>

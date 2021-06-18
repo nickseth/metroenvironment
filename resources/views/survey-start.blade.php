@@ -54,7 +54,7 @@ form *{display:block; width:100%}
 </div>
 </div>
 </div> <div class="col-sm-6 mt-5">
-<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Country?" name="office_located"><span class="search-clear">X</span></div></div>
+<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Enter your Office’s Country" name="office_located"><span class="search-clear">X</span></div></div>
 
 </div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
 <div class="cont_select_center">
@@ -117,6 +117,7 @@ form *{display:block; width:100%}
 <option value="10" >5-10</option>
 <option value="15">10-15</option>
 <option value="20">15-20</option>
+<option value="20 and above">20 and above</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />
@@ -133,7 +134,7 @@ form *{display:block; width:100%}
 </div>
 </div>
 <div class="col-sm-9 mt-5"><div class="form-row"><label></label>
-<input type="text" name="metro_organization_team" disabled="disabled" class="gray-out organization-team-input" placeholder="Please enter your Metro Organization, Team - ex: Metro AG, Corporate Responsibility">
+<input type="text" name="metro_organization_team" disabled="disabled" class="gray-out organization-team-input" placeholder="Please enter your METRO Organisation (example, METRO AG) and Department Name (example, CSR)">
 
 </div>
 </div>

@@ -17,7 +17,7 @@
 		</div>
 	</nav>
 	<div class="container ">
-	<form class="final-steps step1-page">
+	<form class="final-steps survey-form step1-page required-validation" data-validation-type="single-input-field">
 		<div class="relative">
 			<div class="page-width mt-1">
 				<div class="row">
