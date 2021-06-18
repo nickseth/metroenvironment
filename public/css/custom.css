@@ -456,7 +456,7 @@ border-right: 40px solid transparent;
 		max-width: 700px;
 		margin: 10px auto 0;text-align: center;
 		background: #97d3d3;
-		padding: 20px 30px;
+		padding: 15px 30px;
 		border-radius: 15px;
 	}
 	.dark-text {
@@ -548,7 +548,7 @@ border-right: 40px solid transparent;
 .page9 .foods-list .grid-list { width: auto;}
 
 .page9 .foods-list img {
-    width: 90px;
+    width: 50px;
     height: auto;
     
 }
