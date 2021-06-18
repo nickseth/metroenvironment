@@ -1842,7 +1842,7 @@ transform: scale(1.4); opacity:1}
     margin-bottom: 15px;
 }
 
-.vegi-group > .row:last-child > .col-sm-3 {margin-top:90px}
+.vegi-group > .row:last-child > .col-sm-3 {margin-top:65px}
 .sust-item { filter: grayscale(100%); pointer-events:none;}
 .sust-item path{pointer-events:none!important;}
 .next-to-active.sust-item { filter: none;}
