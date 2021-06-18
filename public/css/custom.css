@@ -456,7 +456,7 @@ border-right: 40px solid transparent;
 		max-width: 700px;
 		margin: 10px auto 0;text-align: center;
 		background: #97d3d3;
-		padding: 20px 30px;
+		padding: 15px 30px;
 		border-radius: 15px;
 	}
 	.dark-text {
@@ -470,7 +470,7 @@ border-right: 40px solid transparent;
 		position: relative;}
 
 /*.page11 .box-icon   {margin-top: -30px;} */ 
-.page13  .sec1-box-right img{    max-width: 250px;}
+.page13  .sec1-box-right img{    max-width: 240px;}
 .page13.survey-form, .page14.survey-form, .page16.survey-form{padding-bottom:0;}
 .rangle-slider.orange-range{background: #f15a24;margin: 10px auto 0;}
 .rangle-slider.yellow-range{background: #fbaf30;margin: 10px auto 0;}
@@ -548,7 +548,7 @@ border-right: 40px solid transparent;
 .page9 .foods-list .grid-list { width: auto;}
 
 .page9 .foods-list img {
-    width: 90px;
+    width: 50px;
     height: auto;
     
 }
@@ -602,7 +602,7 @@ border-right: 40px solid transparent;
 .page17 .custom-slider-div{background: #000;}
  .grid-item:hover .grid-icons svg, .grid-item:hover .grid-icons img{    -webkit-animation-duration: 1s;   animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;animation-name: bounceIn;}
 
- .page13 .sec1-box-right img{    margin: 0 auto;    padding-top: 30px;
+ .page13 .sec1-box-right img{    margin: 0 auto;    padding-top: 25px;
     display: block;}
 	.selecionado_opcion,.cont_select_int > li,
 form.survey-form input, form.survey-form  select{font-size: 16px;}
