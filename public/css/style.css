@@ -480,7 +480,7 @@ svg #fish6{
     background-size: contain;max-width: 250px;    z-index: 1; text-align: center;
     background-position: center bottom; position: absolute; top:16%; left:0;}
     .fish-tank svg.fish{width: 176px;    left: 50%;animation: slide-slowsmall 10s infinite, slide-slow-img 10s infinite;
-        top: 22%;height: auto;
+        top: 31%;height: auto;
         z-index: -1;
         display: inline-block;
         position: absolute;
@@ -495,7 +495,7 @@ svg #fish6{
             height: auto;
         }
         
-        .fish-tank.fish-tank2 svg.fish{    width: 256px;margin: 8px auto;animation: slide-slow 15s infinite, slide-slow-img 15s infinite;}
+        .fish-tank.fish-tank2 svg.fish{   top: 22%;   width: 256px;margin: 8px auto;animation: slide-slow 15s infinite, slide-slow-img 15s infinite;}
         .fish-tank.fish-tank2  .tank-right2{    height: 80px;
             background-size: contain;
             bottom: -4px;
@@ -1968,7 +1968,7 @@ transform: scale(1.4); opacity:1}
 }
 @keyframes slide-slowsmall {
   0% {
-    left: calc(100% - 150px);
+    left: calc(100% - 180px);
   }
   49.99% {
     left: 0%;
@@ -1977,10 +1977,10 @@ transform: scale(1.4); opacity:1}
     left: 0%;
   }
   99.99% {
-    left: calc(100% - 150px);
+    left: calc(100% - 180px);
   }
   100% {
-    left: calc(100% - 150px);
+    left: calc(100% - 180px);
   }
 }
 .right-header strong{
