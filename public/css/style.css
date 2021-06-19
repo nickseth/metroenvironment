@@ -1273,11 +1273,11 @@ height:0!important;opacity:0!important;
       animation-timing-function: ease-out; 
     }
   
-    60% {
-      right: 50%;  animation-timing-function: ease-in;animation-play-state: paused;
+    70% {
+      right: 70%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
   }
-  .car {height: 85px;right: 60%;}
+  .car {height: 85px;margin-right: 58%;}
  
 
 }
@@ -1287,7 +1287,7 @@ height:0!important;opacity:0!important;
   .hut1 {    top: -17px;}
   .hut2 {    top: -16px;}
   .fish-tank.fish-tank2{top: 24%;;}
-  /* @keyframes moving {
+  @keyframes moving {
     0% {
       right: 120px;animation-play-state: running;
       animation-timing-function: ease-out; 
@@ -1296,8 +1296,8 @@ height:0!important;opacity:0!important;
     60% {
       right: 50%;  animation-timing-function: ease-in;animation-play-state: paused;
     }
-  } */
-  .car {    right: 50%;}
+  }
+  .car { margin-right: 58%;;}
 
 }
 

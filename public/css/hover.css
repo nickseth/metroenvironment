@@ -4438,10 +4438,10 @@
   top: -40%;
   left: 21%;
   z-index: 99;    height: 120px;
-  right: 0;    -webkit-animation: balloonmove 20s 1 linear;
-  -moz-animation: balloonmove 20s 1 linear;
-  -ms-animation: balloonmove 20s 1 linear;
-  animation: balloonmove 20s 1 linear;
+  right: 0;    -webkit-animation: balloonmove 25s 1 linear;
+  -moz-animation: balloonmove 25s 1 linear;
+  -ms-animation: balloonmove 25s 1 linear;
+  animation: balloonmove 25s 1 linear;
   max-width: 40px;
 }
 
