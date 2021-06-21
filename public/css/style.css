@@ -1313,8 +1313,9 @@ height:0!important;opacity:0!important;
     position: relative;
     float: left;
     display: inline-block;
-  cursor: pointer;
+
 }
+#FED_Start, #Inner_Circle {cursor:auto}
 
 .child-bg {
     height: 100%;
