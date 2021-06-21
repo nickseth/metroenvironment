@@ -2045,3 +2045,18 @@ padding-left: 45px;
     line-height: 1.3;
 }
 }
+
+body.german .home-content {
+       max-width: 740px;
+}
+@media(max-width:1300px) {
+	.bg-one {
+  
+    background-position: 90px -70px;
+}
+	.caption-sec2 {
+   
+    left: 0%;
+    top: 38%;
+    max-width: 44%;}
+}
