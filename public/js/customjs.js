@@ -437,9 +437,7 @@ headers: {
 			}
 			else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
 				if($('.survey-form .hidden-circular-slider-input').val() == 0){
-					$('.error-message').remove();
-					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
-
+					
 					return false;
 				}
 			}
