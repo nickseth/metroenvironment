@@ -430,16 +430,24 @@ headers: {
 		 if($('.survey-form').hasClass('required-validation')){
 			if($('.survey-form').attr('data-validation-type') == 'radio' ){
 				if($('.survey-form input:checked').length == 0){
+					$('.error-message').remove();
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
 					return false;
 				}
 			}
 			else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
 				if($('.survey-form .hidden-circular-slider-input').val() == 0){
+					$('.error-message').remove();
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
+
 					return false;
 				}
 			}
 			else if($('.survey-form').attr('data-validation-type') == 'single-input-field' ){
 				if($('.survey-form input').val() == ''){
+					$('.error-message').remove();
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
+
 					return false;
 				}
 			}
@@ -452,6 +460,9 @@ headers: {
 					}
 				})
 				if(filled_inputs != input_numbers){
+					$('.error-message').remove();
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
+
 					return false;
 				}
 			}
