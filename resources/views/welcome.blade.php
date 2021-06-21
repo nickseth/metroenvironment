@@ -38029,7 +38029,11 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
   </div>
 </nav>
 <main class="mid-content">
-<div class="welcome"><h3>WELCOME TO THE #MVIRONMENT SURVEY!</h3></div>
+<div class="welcome"><h3>WELCOME TO THE #MVIRONMENT SURVEY!</h3>
+<div class="lang-btn text-center"><a href="https://bdevtestserver.com/metro/public/" class="btn-flip agree-btn index-btn" data-back="English" data-front="English"></a>
+<a href="https://bdevtestserver.com/metro/german/public/" class="btn-flip agree-btn index-btn" data-back="GERMAN" data-front="GERMAN"></a>
+</div>
+</div>
 <div class="home-content"><p>Hello and welcome! Thanks for taking out the time to take this interactive
 survey. Your responses will enable us to create impactful strategies that
 benefit the world around us. We promise it won't take long.</p></div>
