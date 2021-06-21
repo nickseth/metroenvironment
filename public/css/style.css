@@ -2017,3 +2017,31 @@ transform: scale(1.4); opacity:1}
 .survey-oath .form-row {
     max-width: 360px;
 }
+
+.lang-btn {
+    margin: 15px auto;
+}
+.lang-btn a{margin:0 10px}
+
+.index-btn {margin-bottom:20px}
+.button-wrapper {
+ position: relative;
+}
+
+.error-message {
+position: absolute;
+ left: 0;
+ margin: 0;
+padding-left: 45px;
+}
+@media(max-width:1440px) {
+	body.index-page .d-flex.align-center.space-between {
+		margin: 10px 0 5px 0;
+		
+	}
+	.index-page .home-content{padding-top:0}
+	.index-page .navbar-brand {padding: 10px 15px;}
+	.home-content p {
+    line-height: 1.3;
+}
+}
