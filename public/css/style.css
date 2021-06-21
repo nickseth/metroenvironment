@@ -2069,3 +2069,11 @@ body.german .home-content {
     font-size: 20px;
 }
 .agree-btn:before, .agree-btn:after{    padding: 8px 25px; border-radius:25px;}
+.caption-sec2 h5 {
+    font-weight: bold;
+}
+.caption-sec2 p.caption-paragraph {
+    font-size: 16px; color:#333;
+}
+.caption-sec2 .button-wrapper {position:static!important; margin:5px 0 0 0}
+.caption-sec2 .button-wrapper a:first-child{margin:0}
