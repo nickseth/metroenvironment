@@ -1315,6 +1315,7 @@ height:0!important;opacity:0!important;
     display: inline-block;
 
 }
+#FED_Start, #Inner_Circle {cursor:auto}
 
 .child-bg {
     height: 100%;
