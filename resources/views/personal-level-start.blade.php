@@ -18,6 +18,9 @@
     </div>
 	
 	 <div class="caption-sec2">
+    <h5>SUSTAINABILITY AND YOU</h5>
+    <p class="caption-paragraph">We now begin with section 2 of the survey. This section of the survey focuses on the role that sustainability plays in shaping your personal life 
+    </p>
 	<p> Tell us a bit more about your personal consumption patterns</p>
 	<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back"></a>
