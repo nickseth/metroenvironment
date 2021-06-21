@@ -1315,7 +1315,7 @@ height:0!important;opacity:0!important;
     display: inline-block;
 
 }
-#FED_Start, #Inner_Circle {cursor:auto}
+#FED_Start, #Inner_Circle {cursor:auto!important}
 
 .child-bg {
     height: 100%;
@@ -2004,9 +2004,7 @@ transform: scale(1.4); opacity:1}
     transform: scaleX(1);
   }
 }
-.index-btn{
-	margin-bottom:60px;
-}
+
 
 .link-np{justify-content:center; margin:30px auto 15px auto}
 .link-np > a {margin:0 10px}
@@ -2015,3 +2013,7 @@ transform: scale(1.4); opacity:1}
 
 .reset-btn:before{background:#FAA31C}
 .reset-btn:after{background:#FAA31C}
+
+.survey-oath .form-row {
+    max-width: 360px;
+}

@@ -142,7 +142,7 @@ form *{display:block; width:100%}
 </div>
 </div>
 
-<div class="col-sm-4 mt-5"><div class="form-row"><label></label>
+<div class="col-sm-4 mt-5 survey-oath"><div class="form-row"><label></label>
 <div class="form-info"><img src="images/lock.svg" /><span>Your personal information<br>is kept safe and secure.</span></div>
 </div>
 </div>
