@@ -1,5 +1,8 @@
 *{margin:0; padding:0}
-
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 body.index-page .navbar .right-header {
     display: none;
 }
@@ -1332,7 +1335,7 @@ height:0!important;opacity:0!important;
 
 /* Several different images */
 .bg-one {background-image: url(../images/sec-2-home-bg.svg);
-background-position: 140px -80px;
+background-position: 120px -80px;
 }
 
 
@@ -1797,7 +1800,7 @@ transform: scale(1.4); opacity:1}
 
 .caption-sec2 {
     position: absolute;
-    left: 5%;
+    left: 0;
     
     top: 48%;
     padding: 30px; transform:translateY(-50%);max-width:34%;
@@ -2060,3 +2063,9 @@ body.german .home-content {
     top: 38%;
     max-width: 44%;}
 }
+.index-page .navbar .navbar-brand {cursor:auto}
+.green {color: #4c9f38;}
+.agree-btn {
+    font-size: 20px;
+}
+.agree-btn:before, .agree-btn:after{    padding: 8px 25px; border-radius:25px;}
