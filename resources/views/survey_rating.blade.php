@@ -33,7 +33,7 @@
 							<div class="legend-title"><span>Rate your Survey Experience</span></div>
 							<ul class="d-flex user-rating">
 							<li data-value="1"><img src="images/rate-0.svg"/>
-							<span class="rate-title">Very unsatisfied</span>
+							<span class="rate-title">Very Unsatisfied</span>
 							</li>
 							<li data-value="2"><img src="images/rate-1.svg"/>
 							<span class="rate-title">Unsatisfied</span>

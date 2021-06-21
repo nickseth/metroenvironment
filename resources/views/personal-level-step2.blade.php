@@ -51,7 +51,7 @@
     </div>
 	<div class="form-group">
      <input type="radio" id="pesticites_bio" name="personal_level_step2_bio" value="Bio products are generally genetically modified">
-      <label for="pesticites_bio">Food producers do not use chemicals or pesticites</label>
+      <label for="pesticites_bio">Food producers do not use chemicals or pesticides</label>
 	 
     </div>
  </div> </div>
