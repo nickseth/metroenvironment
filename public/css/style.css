@@ -6,7 +6,9 @@
 body.index-page .navbar .right-header {
     display: none;
 }
-
+.box-icon.animate__fadeInLeft {
+    animation-duration: 2.5s;
+}
 body.index-page .d-flex.align-center.space-between {
     justify-content: center; margin:15px 0;
 }

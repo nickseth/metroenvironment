@@ -25,9 +25,9 @@
  <div class="sec1-box-center text-center">
  <div class="box-top">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
- <div class="animate__animated animate__fadeIn green-text">What is the difference between Bio products and Organic Products?</div>
+ <div class="animate__animated animate__fadeIn green-text">What is the difference between Bio Products and Organic Products?</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Select the boxes with the statements that seem most relevant to you</p>
+ <p class="animate__animated animate__fadeIn gray-text">Select the main point of difference between the two types of products</p>
 
 </div>
  
@@ -37,7 +37,7 @@
 <form class="survey-form required-validation" data-validation-type="radio">
  <div class="col-sm-6">
 <div class="gbb-wrap">
-<div class="gbb-item gbb-item-1"><img src="images/pls2-item-1.svg"/></div>
+<div class="gbb-item gbb-item-1 animate__animated animate__bounceInDown"><img  src="images/pls2-item-1.svg"/></div>
  <div class="green-brdr-box bio-options-wrapper"><div class="gbb-head">Bio:</div>
  <div class="form-group">
      <input type="radio" id="nutritional_bio" name="personal_level_step2_bio" value="Bio products have less nutritional value">
@@ -58,7 +58,7 @@
  </div>
   <div class="col-sm-6">
  <div class="gbb-wrap"> 
- <div class="gbb-item gbb-item-2"><img src="images/pls2-item-2.svg"/></div>
+ <div class="gbb-item gbb-item-2 animate__animated animate__flip"><img src="images/pls2-item-2.svg"/></div>
  <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic:</div>
  <div class="form-group">
      <input type="radio" id="nutritional_organic" name="personal_level_step2_organic" value="Organic food contributes to an increase in CO2 emissions">
