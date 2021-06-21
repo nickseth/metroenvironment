@@ -721,7 +721,10 @@
 							</div>
 							</div>
 							<div class="popup-ques-container climate-action">
-								<h2 class="clr-blue">“My Sustainable Restaurant” ToolboxDo you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
+								<h2 class="clr-blue">Do you know about METRO reduced
+emissions by electric cars,
+electricity saving etc.?
+</h2>
 								<p class="support-text">Click Submit to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -752,9 +755,10 @@
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>With more than 48 solar panel equipped stores in Germany, METRO produces 21,000,000 kWh of solar energy per year.</p>
+								<p>With more than 48 solar panel equipped stores in Germany, METRO produces 21,000,000 kWh of solar energy per year.
+</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
-					        <a href="#" class="read-more">Read More</a>
+					        <!-- <a href="#" class="read-more">Read More</a> -->
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="climate-action" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -838,7 +842,10 @@
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy?</h2>
+								<h2 class="clr-blue">Did you know about METRO’s efforts to reduce food waste
+with partnerships such as our  cooperation with
+“Too Good To Go”?
+</h2>
 <p class="support-text">Click Submit to move on to the next question.</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -869,10 +876,8 @@
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-laoreet dolore</p>
+								<p>METRO cooperates with even more partners to reduce food waste such as: Surplus, Whole surplus, World Food Program.
+</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more">Read More</a>
 							<div class="submit-btn">
@@ -880,7 +885,7 @@ laoreet dolore</p>
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">Are you aware that a Social Standard Management tool exists?</h2>
+								<h2 class="clr-blue">“My Sustainable Restaurant” Toolbox</h2>
 								<p class="support-text">Click Submit to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
