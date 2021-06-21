@@ -77,13 +77,14 @@
     </div>
  
  </div>
- <div class="outer-input"><div class="form-group">
+ 
+ </div>
+  </div>
+  <div class="col-sm-12"><div class="outer-input text-center"><div class="form-group">
      <input type="checkbox" id="allsame" name="personal_level_step2_allsame" value="true">
       <label for="allsame">They are the same</label>
 	 
-    </div></div>
- </div>
-  </div>
+    </div></div></div>
   </form>
 </div>
  </div></div>

@@ -4738,7 +4738,7 @@ a.read-more {
   animation-fill-mode: both;    -webkit-animation-name: zoomIn;
   animation-name: zoomIn;}
   
- #food-waste.blinking-text g g rect, #food-waste.blinking-text g g path,  #organic.blinking-text g g rect, #organic.blinking-text g g path,  #conscious-proteins.blinking-text g g rect, #conscious-proteins.blinking-text g g path {animation:blinkingTextDark 1s infinite;}
+ #food-waste.blinking-text g g rect, #food-waste.blinking-text g g path,  #organic.blinking-text g g rect, #organic.blinking-text g.sust-item--text-inside  g path,#organic.blinking-text g path.cls-6,  #conscious-proteins.blinking-text g g rect, #conscious-proteins.blinking-text g path.cls-6, #conscious-proteins.blinking-text g g path, #climate-action.blinking-text g path {animation:blinkingTextDark 1s infinite;}
 
  @keyframes blinkingTextDark{
 	0%{	fill: #f6a728;	}
@@ -5048,3 +5048,6 @@ a.read-more {
 .herooo{    height: 100vh;}        
 .sec3-home-bg .top-section{    z-index: 1;}
 .sec3-home-bg .bottom-section{    z-index: 11;}
+.user-rating li > * {
+    cursor: pointer;
+}
