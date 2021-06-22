@@ -1544,8 +1544,8 @@ background-size:90%
     margin: 0 10px 0 0;
 }
 .gbb-wrap .form-group input:checked + label:after {
-    top: 4px;
-    left: 6px;
+    top: 3px;
+    left: 7px;
     width: 7px;
     height: 12px;
     border-width: 0 3px 3px 0;
@@ -1940,8 +1940,8 @@ transform: scale(1.4); opacity:1}
     margin: 0;
 }
 .grid-list .form-group input:checked + label:after {
-    top: 6px;
-    left: 6px;
+    top: 3px;
+    left: 7px;
     width: 7px;
     height: 12px;
     border-width: 0 3px 3px 0;

@@ -1,5 +1,6 @@
 @include('header')
 <body class="survey-start-page">
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <style>
 form *{display:block; width:100%}
 </style>
