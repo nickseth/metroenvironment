@@ -338,6 +338,19 @@ headers: {
 		e.preventDefault();
 		location.reload();
 	})
+	$('#none_of_these').click(function(){
+		var elem = $(this);
+		setTimeout(function(){
+			if(elem.is(':checked')){
+				$('.drag-input-details').val(elem.val())
+			}
+			else{
+				$('.drag-input-details').val('');
+				$('.reset-btn').click();
+			}
+		},150)
+		
+	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();
@@ -437,7 +450,7 @@ headers: {
 			}
 			else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
 				if($('.survey-form .hidden-circular-slider-input').val() == 0){
-					
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
 					return false;
 				}
 			}

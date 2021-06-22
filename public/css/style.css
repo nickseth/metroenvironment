@@ -2079,3 +2079,6 @@ body.german .home-content {
 }
 .caption-sec2 .button-wrapper {position:static!important; margin:5px 0 0 0}
 .caption-sec2 .button-wrapper a:first-child{margin:0}
+.foods-check .form-group{
+	text-align:center;
+}

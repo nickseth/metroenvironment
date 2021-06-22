@@ -55,9 +55,14 @@
 
 </div>
  </div></div>
+ <div class="form-group text-center">
+										<input type="checkbox" id="none_of_these" value="None of these" class="never-selection-checkbox">
+										<label for="none_of_these">None of these</label>
+									</div>
  <form class="survey-form hide required-validation" data-validation-type="single-input-field">
 				<input type="hidden" name="personal_level_step12" value="" class="drag-input-details"/>
 			</form>
+			
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
 <a href="#" class="link-btn reset-btn btn-flip" data-back="Reset" data-front="Reset" ></a>
