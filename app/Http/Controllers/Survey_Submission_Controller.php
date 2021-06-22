@@ -131,6 +131,7 @@ class Survey_Submission_Controller extends BaseController
                 'final_level_step7_6' => $final_level_step7_6,
                 'final_level_step7_7' => $final_level_step7_7,
                 'survey_rating' => $survey_rating,
+				'language' => 'en',
 				'total_badge_score' => $total_badge_score
                 );
                $execution = DB::table('survey_data')->insert($country_data);
