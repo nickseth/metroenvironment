@@ -30,7 +30,7 @@ form *{display:block; width:100%}
 <form class="survey-form">
 <div class="col-sm-3 mt-5">
 <div class="form-row">
-<label><img src="images/age-icon.svg" /></label>
+<label><img src="../german_assets/images/age-icon.svg" /></label>
 <div class="cont_select_center">
 
   <!-- Custom select structure --> 
@@ -42,7 +42,7 @@ form *{display:block; width:100%}
 <option value="41+">41+</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
-<img src="images/select-arrow.svg" />
+<img src="../german_assets/images/select-arrow.svg" />
 </span>
 <div class="cont_list_select_mate">
   <ul class="cont_select_int">  </ul> 
@@ -54,9 +54,9 @@ form *{display:block; width:100%}
 </div>
 </div>
 </div> <div class="col-sm-6 mt-5">
-<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Geben Sie das Land Ihres Büros ein" name="office_located"><span class="search-clear">X</span></div></div>
+<div class="form-row"><label><img src="../german_assets/images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Geben Sie das Land Ihres Büros ein" name="office_located"><span class="search-clear">X</span></div></div>
 
-</div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
+</div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="../german_assets/images/gender-icon.svg" /></label>
 <div class="cont_select_center">
 
   <!-- Custom select structure --> 
@@ -68,7 +68,7 @@ form *{display:block; width:100%}
 <option value="Other">Andere</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
-<img src="images/select-arrow.svg" />
+<img src="../german_assets/images/select-arrow.svg" />
 </span>
 <div class="cont_list_select_mate">
   <ul class="cont_select_int">  </ul> 
@@ -78,7 +78,7 @@ form *{display:block; width:100%}
 
 
 </div></div></div>
-<div class="col-sm-9 mt-5"><div class="form-row"><label><img src="images/calender-icon.svg" /></label>
+<div class="col-sm-9 mt-5"><div class="form-row"><label><img src="../german_assets/images/calender-icon.svg" /></label>
 
 <div class="cont_select_center">
 
@@ -91,7 +91,7 @@ form *{display:block; width:100%}
 <option value="15 Years">15 Jahre</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
-<img src="images/select-arrow.svg" />
+<img src="../german_assets/images/select-arrow.svg" />
 </span>
 <div class="cont_list_select_mate">
   <ul class="cont_select_int">  </ul> 
@@ -105,7 +105,7 @@ form *{display:block; width:100%}
 
 </div>
 </div>
-<div class="col-sm-9 mt-5"><div class="form-row"><label><img src="images/family-icon.svg" /></label>
+<div class="col-sm-9 mt-5"><div class="form-row"><label><img src="../german_assets/images/family-icon.svg" /></label>
 
 <div class="cont_select_center">
 
@@ -120,7 +120,7 @@ form *{display:block; width:100%}
 <option value="20 and above">20 und über</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
-<img src="images/select-arrow.svg" />
+<img src="../german_assets/images/select-arrow.svg" />
 </span>
 <div class="cont_list_select_mate">
   <ul class="cont_select_int">  </ul> 
@@ -140,7 +140,7 @@ form *{display:block; width:100%}
 </div>
 
 <div class="col-sm-4 mt-5 survey-oath"><div class="form-row"><label></label>
-<div class="form-info"><img src="images/lock.svg" /><span>Ihre Angaben werden sicher und geschützt aufbewahrt.</span></div>
+<div class="form-info"><img src="../german_assets/images/lock.svg" /><span>Ihre Angaben werden sicher und geschützt aufbewahrt.</span></div>
 </div>
 </div>
 

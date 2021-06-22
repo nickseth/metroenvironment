@@ -38030,8 +38030,8 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
 </nav>
 <main class="mid-content">
 <div class="welcome"><h3>WELCOME TO #<span class="green">M</span>VIRONMENT</h3>
-<div class="lang-btn text-center"><a href="https://bdevtestserver.com/metro/public/" class="btn-flip index-btn" data-back="English" data-front="English"></a>
-<a href="https://bdevtestserver.com/metro/german/public/" class="btn-flip index-btn" data-back="GERMAN" data-front="GERMAN"></a>
+<div class="lang-btn text-center"><a href="{{url('/')}}" class="btn-flip index-btn" data-back="English" data-front="English"></a>
+<a href="{{url('/german')}}" class="btn-flip index-btn" data-back="GERMAN" data-front="GERMAN"></a>
 </div>
 </div>
 <div class="home-content"><p>Hello!
