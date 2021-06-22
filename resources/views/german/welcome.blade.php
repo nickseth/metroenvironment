@@ -38030,8 +38030,8 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
 </nav>
 <main class="mid-content">
 <div class="welcome"><h3>WILLKOMMEN ZUR NACHHALTIGKEITSUMFRAGE!</h3>
-<div class="lang-btn text-center"><a href="https://bdevtestserver.com/metro/public/" class="btn-flip agree-btn index-btn" data-back="English" data-front="English"></a>
-<a href="https://bdevtestserver.com/metro/german/public/" class="btn-flip agree-btn index-btn" data-back="GERMAN" data-front="GERMAN"></a>
+<div class="lang-btn text-center"><a href="{{URL::to('/')}}" class="btn-flip agree-btn index-btn" data-back="English" data-front="English"></a>
+<a href="{{URL::to('/german')}}" class="btn-flip agree-btn index-btn" data-back="GERMAN" data-front="GERMAN"></a>
 </div>
 </div>
 <div class="home-content"><p>Hallo und willkommen! Vielen Dank, dass Sie sich die Zeit nehmen, an dieser interaktiven Umfrage teilzunehmen. Ihre Antworten werden es uns ermöglichen, wirkungsvolle Strategien zu entwickeln, von denen die Welt um uns herum profitiert. Wir versprechen, dass es nicht lange dauern wird.</p></div>
@@ -43646,7 +43646,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
 <div class="home-footer">
-<a href="{{url('/survey-start')}}" class="btn-flip agree-btn index-btn" data-back="ZUSTIMMEN" data-front="ZUSTIMMEN"></a>
+<a href="{{url('/german/survey-start')}}" class="btn-flip agree-btn index-btn" data-back="ZUSTIMMEN" data-front="ZUSTIMMEN"></a>
     <div class="footer-text">
     <h4>Haftungsausschluss & Einwilligung:</h4>
 <p>Ihre Teilnahme an dieser Umfrage ist freiwillig. Durch die Teilnahme an dieser Umfrage stimmen Sie der Weitergabe der von Ihnen übermittelten Informationen an das METRO AG – Corporate Responsibility Team zu. Bitte seien Sie versichert, dass die gesammelten Informationen nur zu internen Forschungszwecken dienen.. Wir verarbeiten im Zusammenhang mit der Umfrage keine personenbezogenen Daten, wie etwa Ihren Namen, Ihre E-Mail-Adresse oder IP-Adresse. Daher bleiben Ihre Antworten anonym. Niemand kann Sie oder Ihre Antworten identifizieren und niemand wird wissen, ob Sie an der Umfrage teilgenommen haben oder nicht.</p>

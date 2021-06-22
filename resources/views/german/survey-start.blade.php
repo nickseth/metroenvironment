@@ -1,4 +1,4 @@
-@include('header')
+@include('/german/header')
 <body class="survey-start-page">
 <style>
 form *{display:block; width:100%}
@@ -148,7 +148,7 @@ form *{display:block; width:100%}
 
 <div class="col-sm-8 mt-5">
 <div class="button-wrapper">
-<a href="{{url('/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="FANGEN WIR MIT DER UMFRAGE AN" data-front="FANGEN WIR MIT DER UMFRAGE AN"></a>
+<a href="{{url('/german/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="FANGEN WIR MIT DER UMFRAGE AN" data-front="FANGEN WIR MIT DER UMFRAGE AN"></a>
 </div>
 </div>
 </div>
