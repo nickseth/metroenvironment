@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 /*-------Basic page routes ------------*/
-
+Route::get('/landing', function () {
+    return view('landing');
+});
 Route::get('/', function () {
     return view('welcome');
 });
