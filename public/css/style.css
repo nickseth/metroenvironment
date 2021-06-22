@@ -2082,3 +2082,9 @@ body.german .home-content {
 .foods-check .form-group{
 	text-align:center;
 }
+.landing{background:url(../images/sec-2bg.jpg) no-repeat; background-size:cover; display:flex; height:100vh; align-items:center; }
+.landing-box {max-width:760px; margin:0 auto; background:rgba(255, 255, 255,.4); padding:25px; -webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75); border-radius:25px;}
+.landing-box h2{font-size: 25px;
+    font-family: 'SandwichMarkerPro';}
