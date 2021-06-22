@@ -38030,9 +38030,6 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
 </nav>
 <main class="mid-content">
 <div class="welcome"><h3>WILLKOMMEN ZUR NACHHALTIGKEITSUMFRAGE!</h3>
-<div class="lang-btn text-center"><a href="{{URL::to('/')}}" class="btn-flip  index-btn" data-back="English" data-front="English"></a>
-<a href="{{URL::to('/german')}}" class="btn-flip index-btn" data-back="GERMAN" data-front="GERMAN"></a>
-</div>
 </div>
 <div class="home-content"><p>Hallo und willkommen! Vielen Dank, dass Sie sich die Zeit nehmen, an dieser interaktiven Umfrage teilzunehmen. Ihre Antworten werden es uns ermöglichen, wirkungsvolle Strategien zu entwickeln, von denen die Welt um uns herum profitiert. Wir versprechen, dass es nicht lange dauern wird.</p></div>
 <!-- First Container -->

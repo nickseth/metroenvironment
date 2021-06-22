@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 /*-------Basic page routes ------------*/
-Route::get('/landing', function () {
+Route::get('/language', function () {
     return view('landing');
 });
 Route::get('/', function () {
@@ -161,146 +161,146 @@ Route::get('/personal-level-step12-backup', function () {
 /*-------Basic page routes ------------*/
 
 /*-------German page routes ------------*/
-Route::get('/german', function () {
+Route::get('/de', function () {
     return view('/german/welcome');
 });
-Route::get('/german/survey-start', function () {
+Route::get('/de/survey-start', function () {
     return view('/german/survey-start');
 });
-Route::get('/german/intro-section', function () {
+Route::get('/de/intro-section', function () {
     return view('/german/intro-section');
 });
-Route::get('/german/intro-section2', function () {
+Route::get('/de/intro-section2', function () {
     return view('/german/intro-section2');
 });
-Route::get('/german/intro-section3', function () {
+Route::get('/de/intro-section3', function () {
     return view('/german/intro-section3');
 });
-Route::get('/german/personal-level-start', function () {
+Route::get('/de/personal-level-start', function () {
     return view('/german/personal-level-start');
 });
-Route::get('/german/personal-level-step1', function () {
+Route::get('/de/personal-level-step1', function () {
     return view('/german/personal-level-step1');
 });
 
-Route::get('/german/personal-level-step2', function () {
+Route::get('/de/personal-level-step2', function () {
     return view('/german/personal-level-step2');
 });
 
-Route::get('/german/personal-level-step3', function () {
+Route::get('/de/personal-level-step3', function () {
     return view('/german/personal-level-step3');
 });
-Route::get('/german/personal-level-step21', function () {
+Route::get('/de/personal-level-step21', function () {
     return view('/german/personal-level-step21');
 });
 
-Route::get('/german/personal-level-step4', function () {
+Route::get('/de/personal-level-step4', function () {
     return view('/german/personal-level-step4');
 });
 
-Route::get('/german/personal-level-step5', function () {
+Route::get('/de/personal-level-step5', function () {
     return view('/german/personal-level-step5');
 });
 
-Route::get('/german/personal-level-step6', function () {
+Route::get('/de/personal-level-step6', function () {
     return view('/german/personal-level-step6');
 });
 
-Route::get('/german/personal-level-step7', function () {
+Route::get('/de/personal-level-step7', function () {
     return view('/german/personal-level-step7');
 });
 
-Route::get('/german/personal-level-step8', function () {
+Route::get('/de/personal-level-step8', function () {
     return view('/german/personal-level-step8');
 });
 
-Route::get('/german/personal-level-step9', function () {
+Route::get('/de/personal-level-step9', function () {
     return view('/german/personal-level-step9');
 });
 
-Route::get('/german/personal-level-step10', function () {
+Route::get('/de/personal-level-step10', function () {
     return view('/german/personal-level-step10');
 });
 
 
-Route::get('/german/personal-level-step11', function () {
+Route::get('/de/personal-level-step11', function () {
     return view('/german/personal-level-step11');
 });
 
-Route::get('/german/personal-level-step12', function () {
+Route::get('/de/personal-level-step12', function () {
     return view('/german/personal-level-step12');
 });
 
-Route::get('/german/personal-level-step13', function () {
+Route::get('/de/personal-level-step13', function () {
     return view('/german/personal-level-step13');
 });
 
-Route::get('/german/personal-level-step14', function () {
+Route::get('/de/personal-level-step14', function () {
     return view('/german/personal-level-step14');
 });
 
-Route::get('/german/personal-level-step15', function () {
+Route::get('/de/personal-level-step15', function () {
     return view('/german/personal-level-step15');
 });
 
-Route::get('/german/personal-level-step16', function () {
+Route::get('/de/personal-level-step16', function () {
     return view('/german/personal-level-step16');
 });
 
-Route::get('/german/personal-level-step17', function () {
+Route::get('/de/personal-level-step17', function () {
     return view('/german/personal-level-step17');
 });
 
-Route::get('/german/personal-level-step18', function () {
+Route::get('/de/personal-level-step18', function () {
     return view('/german/personal-level-step18');
 });
 
-Route::get('/german/personal-level-step19', function () {
+Route::get('/de/personal-level-step19', function () {
     return view('/german/personal-level-step19');
 });
 
-Route::get('/german/personal-level-step20', function () {
+Route::get('/de/personal-level-step20', function () {
     return view('/german/personal-level-step20');
 });
 
-Route::get('/german/personal-level-step21', function () {
+Route::get('/de/personal-level-step21', function () {
     return view('/german/personal-level-step21');
 });
 
-Route::get('/german/final-level-start', function () {
+Route::get('/de/final-level-start', function () {
     return view('/german/final-level-start');
 });
 
-Route::get('/german/final-level-step1', function () {
+Route::get('/de/final-level-step1', function () {
     return view('/german/final-level-step1');
 });
-Route::get('/german/final-level-step2', function () {
+Route::get('/de/final-level-step2', function () {
     return view('/german/final-level-step2');
 });
 
-Route::get('/german/final-level-step3', function () {
+Route::get('/de/final-level-step3', function () {
     return view('/german/final-level-step3');
 });
-Route::get('/german/final-level-step4', function () {
+Route::get('/de/final-level-step4', function () {
     return view('/german/final-level-step4');
 });
-Route::get('/german/final-level-step5', function () {
+Route::get('/de/final-level-step5', function () {
     return view('/german/final-level-step5');
 });
-Route::get('/german/final-level-step6', function () {
+Route::get('/de/final-level-step6', function () {
     return view('/german/final-level-step6');
 });
-Route::get('/german/final-level-step7', function () {
+Route::get('/de/final-level-step7', function () {
     return view('/german/final-level-step7');
 });
-Route::get('/german/survey_rating', function () {
+Route::get('/de/survey_rating', function () {
     return view('/german/survey_rating');
 });
 
-Route::get('/german/final-level-last', function () {
+Route::get('/de/final-level-last', function () {
     return view('/german/final-level-last');
 });
-Route::get('/german/personal-level-step12-backup', function () {
+Route::get('/de/personal-level-step12-backup', function () {
     return view('/german/personal-level-step12-backup');
 });
 

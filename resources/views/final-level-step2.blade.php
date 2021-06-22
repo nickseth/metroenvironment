@@ -715,7 +715,7 @@
 								<h5>Did you know?</h5>
 								<p>The METRO Water Initiative in Bihar, India aims to provide sustainable access to water and sanitation to half a million people.</p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
-					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india " class="read-more">Read More</a>
+					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india " class="read-more" target="_blank">Read More</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Submit" data-front="Submit" ></a>
 							</div>

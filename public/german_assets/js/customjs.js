@@ -185,7 +185,16 @@ headers: {
 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 }
 });
-
+if(!$('body').hasClass('language-page')){
+	if(Cookies.get('language_selected') == undefined || Cookies.get('language_selected') == ''){
+				window.location.href = $('html').attr('data-base-path')+'/language';
+		}
+}
+	$('.translate-btn').click(function(e){
+		e.preventDefault();
+		Cookies.set('language_selected',$(this).attr('data-language'), { expires: 1 });
+		window.location.href = $(this).attr('href');
+	})
 	$('.select_mate').click(function(){
 		$(this).toggleClass('active-dropdown');
 	})
@@ -203,8 +212,19 @@ headers: {
 		Cookies.set('surveyAgree','');
 	}
 	else{
-		if(Cookies.get('surveyAgree') == undefined || Cookies.get('surveyAgree') == ''){
-			window.location.href = $('html').attr('data-base-path');
+		if(!$('body').hasClass('language-page')){
+			if(Cookies.get('language_selected') != undefined && Cookies.get('language_selected') != ''){
+				if(Cookies.get('surveyAgree') == undefined || Cookies.get('surveyAgree') == ''){
+					if(Cookies.get('language_selected') == 'de'){
+						window.location.href = $('html').attr('data-base-path')+'/de';
+					}else{
+					window.location.href = $('html').attr('data-base-path');
+					}
+				}
+			}
+			else{
+				window.location.href = $('html').attr('data-base-path')+'/language'
+			}
 		}
 	}
 	if($('body').hasClass('badge-calculation-screen')){
