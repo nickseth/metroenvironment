@@ -27,10 +27,10 @@
 							<div class="box-icon animate__animated animate__fadeInLeft">
 								<img src="../german_assets/images/leaves.svg">
 							</div>
-							<div class="animate__animated animate__fadeIn green-text">Sortieren Sie die folgenden Produkte nach der Wassermenge, die zur Herstellung von 1 kg dieses Lebensmittels verwendet wurde.</div>
+							<div class="animate__animated animate__fadeIn green-text">Sortieren Sie die folgenden Produkte nach der Wassermenge, die zur Herstellung von 1 kg dieses Lebensmittels notwenig waren.</div>
 							
 						</div>
-						<p class="animate__animated animate__fadeIn gray-text">Ziehen Sie die Lebensmittel per Drag & Drop in die Kisten, beginnend mit der linken Seite für die höchste Wassermenge und der rechten Seite für die geringste Wassermenge.</p>
+						<p class="animate__animated animate__fadeIn gray-text">Ziehen Sie die Lebensmittel per Drag & Drop in die Kästchen, beginnend mit der linken Seite für die höchste Wassermenge und der rechten Seite für die geringste Wassermenge.</p>
 						
 					</div>
 				</div>

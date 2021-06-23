@@ -42,7 +42,7 @@
 											<div class="grid-icons">
 											<img src="../german_assets/images/chicken-egg.png" />
 											</div>
-											<p class="light-text">Hühnern</p>
+											<p class="light-text">Hühner</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -50,7 +50,7 @@
 											<div class="grid-icons">
 											<img src="../german_assets/images/quails-egg.png" />
 											</div>
-											<p class="light-text">Wachteln</p>
+											<p class="light-text">Wachtel</p>
 										</div>
 									</div>
 									<div class="grid-list">
