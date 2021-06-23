@@ -2117,3 +2117,14 @@ input.highlight {
   transition: background 2s ease-out;}
 
 .error-message {color:#f00!important; font-weight:bold; letter-spacing:1px}
+.top-prompt-wrap {
+    position: relative;
+}
+.top-prompt {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    text-align: center;  animation:  .3s linear infinite;
+}
+
+.top-prompt span{display:block}
