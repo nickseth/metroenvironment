@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Have you changed your consumption patterns for the following foods in the past few years?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you. Tick the box if the statement is true for you</p>
+							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you. Tick the box if the statement is true for you.</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
@@ -14327,7 +14327,7 @@
 								<div class="outer-input foods-check">
 									<div class="form-group">
 										<input type="checkbox" id="allsame_personal_step_8" name="personal_level_step8_never" value="I have never eaten Dairy" class="never-selection-checkbox">
-										<label for="allsame_personal_step_8">I have never eaten Dairy</label>
+										<label for="allsame_personal_step_8">I have never eaten Dairy products.</label>
 									</div>
 								</div>
 							</div>
