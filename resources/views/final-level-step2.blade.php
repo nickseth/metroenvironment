@@ -844,9 +844,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">Did you know about METRO’s efforts to reduce food waste
-with partnerships such as our  cooperation with
-“Too Good To Go”?
+								<h2 class="clr-blue">Do you know about METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?
 </h2>
 <p class="support-text">Submit your response to move to the next question.</p>								
 								<div class="emoji-cover">

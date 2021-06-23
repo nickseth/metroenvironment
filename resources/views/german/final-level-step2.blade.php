@@ -630,7 +630,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>Jedes Jahr werden 130.000 Quadratkilometer Wald abgeholzt oder verbrannt. Die Rohstoffbeschaffungsinitiative von METRO zielt darauf ab, Palmöl in Produkten wie Backwaren, Milchprodukten, tiefgekühlten Lebensmitteln, verarbeitetem Fleisch, Obst und Gemüse sowie Haushaltspflegeprodukten zu reduzieren.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
-					        <a href="#" class="read-more">Weiterlesen</a>
+					        <a href="#" class="read-more"></a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -675,7 +675,8 @@
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">METRO bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit "Too Good To Go"?</h2>
+								<h2 class="clr-blue">Kennen Sie die Bemühungen von METRO, Lebensmittelverschwendung mit Partnerschaften wie unserer Kooperation mit „Too good to go“ zu reduzieren?
+</h2>
 <p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -706,7 +707,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: Sirplus, Whole surplus, World Food Program.</p>
+								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie zum Beispiel: Surplus, Whole Surplus, World Food Program.</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/mein-nachhaltiges-restaurant.html" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
