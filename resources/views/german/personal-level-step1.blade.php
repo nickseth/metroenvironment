@@ -1,5 +1,13 @@
 @include('/german/header')
 <body class="personal-level-step1 personal-level-step">
+<div style="display:none;">
+<img src="images/circle-cart.svg" />
+<img src="images/circle-cart-1.svg" />
+<img src="images/circle-cart-2.svg" />
+<img src="images/circle-cart-3.svg" />
+<img src="images/circle-cart-4.svg" />
+<img src="images/circle-cart-5.svg" />
+</div>
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">

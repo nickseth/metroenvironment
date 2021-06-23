@@ -1,5 +1,13 @@
 @include('/german/header')
 <body class="final-level-step13 personal-level-step">
+<div style="display:none;">
+<img src="images/fls-13-img0.svg" />
+<img src="images/fls-13-img1.svg" />
+<img src="images/fls-13-img2.svg" />
+<img src="images/fls-13-img3.svg" />
+<img src="images/fls-13-img4.svg" />
+<img src="images/fls-13-img5.svg" />
+</div>
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">

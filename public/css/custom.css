@@ -280,6 +280,15 @@ height: auto;}
     top: 6px!important;
     bottom: auto;
 }
+
+.gbb-wrap  .form-group input[type="radio"]:checked + label:after{
+       width: 12px!important;
+    height: 12px!important;
+ 
+    left: 4px!important;
+    right: auto;
+    top: 4px!important;
+}
 		.page19 .checkbox-group label{font-size: 18px;color: #000;}
 		.page19 .checkbox-group > div {
 			flex: 33.333%;
