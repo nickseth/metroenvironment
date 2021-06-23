@@ -1,7 +1,7 @@
 @include('/german/header')
 
 <body class="sec2-bg2 hide-loader" style="">
-	<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
 	<div class="container">
