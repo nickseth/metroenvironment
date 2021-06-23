@@ -15,7 +15,7 @@
 </head>
 
 <body class="landing language-page"><div class="landing-box">
-<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
+<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
  <h2 class="text-center" style="text-transform:uppercase">This website is available in the following languages:</h2>
  <div class="lang-btn text-center"><a href="{{URL::to('/')}}" class="btn-flip translate-btn index-btn" data-language="en" data-back="English" data-front="English"></a>
 <a href="{{URL::to('/de')}}" class="btn-flip index-btn translate-btn" data-back="GERMAN " data-language="de" data-front="GERMAN"></a>

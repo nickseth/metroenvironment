@@ -453,7 +453,7 @@ border-right: 40px solid transparent;
 		justify-content: center;
 		flex-direction: column;
 		margin-top: 30px;
-		max-width: 700px;
+		max-width: 840px;
 		margin: 10px auto 0;text-align: center;
 		background: #97d3d3;
 		padding: 15px 30px;
@@ -511,7 +511,7 @@ border-right: 40px solid transparent;
 }
 .foods-check.outer-input {
     margin: 15px auto 10px;
-    max-width: 700px;
+    max-width: 840px;
 }
 .foods-check .form-group label{font-size: 18px;
     color: #000;}
@@ -525,7 +525,7 @@ border-right: 40px solid transparent;
 			width: 10px;
 			height: 17px;border-width: 0 4px 4px 0;}
 .foods-list {
-				max-width: 700px;    padding: 0 22px;
+				max-width: 840px;    padding: 0 22px;
 				margin:20px auto 0;
 				border-radius: 15px;
 				background: url(../images/slide-6bg.jpg) no-repeat center;

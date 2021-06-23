@@ -1,6 +1,6 @@
 @include('header')
 <body class="sec1-bg">
-<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
+<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
@@ -44,7 +44,7 @@
     </div>
 	 <div class="form-group">
       <input type="radio" id="java" name="intro_section_question1" value="This not a serious threat">
-      <label for="java">This not a serious threat</label>
+      <label for="java">This is not a serious threat</label>
     </div></div>
   </form>
 
