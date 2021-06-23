@@ -1,14 +1,14 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="{{url('/')}}">
-						<img src="images/metro-logo.svg" />
+					<a class="navbar-brand" href="{{url('/de/')}}">
+						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -26,7 +26,7 @@
 						<div class="sec1-box-center text-center">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
-									<img src="images/leaves.svg" />
+									<img src="../german_assets/images/leaves.svg" />
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Haben Sie in den letzten Jahren Ihr Konsumverhalten bei den folgenden Lebensmitteln geändert?</div>
 							</div>
@@ -40,7 +40,7 @@
 									<div class="grid-list">
 										<div class="grid-item">
 											<div class="grid-icons">
-											<img src="images/chicken-egg.png" />
+											<img src="../german_assets/images/chicken-egg.png" />
 											</div>
 											<p class="light-text">Hühnern</p>
 										</div>
@@ -48,7 +48,7 @@
 									<div class="grid-list">
 										<div class="grid-item">
 											<div class="grid-icons">
-											<img src="images/quails-egg.png" />
+											<img src="../german_assets/images/quails-egg.png" />
 											</div>
 											<p class="light-text">Wachteln</p>
 										</div>
@@ -56,7 +56,7 @@
 									<div class="grid-list">
 										<div class="grid-item">
 											<div class="grid-icons">
-												<img src="images/ostrich-egg.png" />
+												<img src="../german_assets/images/ostrich-egg.png" />
 											</div>
 											<p class="light-text">Straußen</p>
 										</div>
@@ -89,7 +89,7 @@
 			</div>
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
-<a href="{{url('/personal-level-step10')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step10')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
 	</form>

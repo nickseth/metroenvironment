@@ -1,14 +1,14 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec3-green-bg badge-calculation-screen">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="{{url('/')}}">
-						<img src="images/metro-logo.svg" />
+					<a class="navbar-brand" href="{{url('/de')}}">
+						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -36,16 +36,16 @@
 						<div class="sec1-box-right animate__animated animate__fadeInUp ">
 							<div class="badges">
 								<div class="badge-1 badge-grid gold-badge hide">
-								<img src="images/gold_new.png" />
-								<div class="center-btn text-center"><a href="download/gold.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
+								<img src="../german_assets/images/gold_new.png" />
+								<div class="center-btn text-center"><a href="../german_assets/download/gold.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
 								</div>
 								<div class="badge-2 badge-grid silver-badge hide">
-								<img src="images/silver_new.png" />
-								<div class="center-btn text-center"><a href="download/silver.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
+								<img src="../german_assets/images/silver_new.png" />
+								<div class="center-btn text-center"><a href="../german_assets/download/silver.zip" download class="btn-flip next-btn download-zip-btn" data-back="Download" data-front="Download"></a></div>
 								</div>
 								<div class="badge-3 badge-grid bronze-badge hide">
-								<img src="images/bronze.png" />
-								<div class="center-btn text-center"><a href="download/bronze.zip" download class="btn-flip next-btn download-zip-btn" data-back="HERUNTERLADEN" data-front="HERUNTERLADEN"></a></div>
+								<img src="../german_assets/images/bronze.png" />
+								<div class="center-btn text-center"><a href="../german_assets/download/bronze.zip" download class="btn-flip next-btn download-zip-btn" data-back="HERUNTERLADEN" data-front="HERUNTERLADEN"></a></div>
 								</div>
 							</div>
 							</div>

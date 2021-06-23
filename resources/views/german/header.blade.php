@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de" data-base-path="{{URL::to('/german')}}">
+<html lang="de" data-base-path="{{URL::to('/de')}}" data-original-path="{{URL::to('/')}}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -1,12 +1,12 @@
-@include('header')
+@include('/german/header')
 <body class="sec1-bg">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/de')}}"><img src="../german_assets/images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1>
@@ -24,7 +24,7 @@
  <div class="sec1-box-left">
  <p class="animate__animated animate__fadeIn">Online-Prozesse benötigen auch erhebliche Mengen an nicht erneuerbarer Energie, um zu funktionieren.<br>Wählen Sie die Option, die Ihrer Meinung nach der tatsächlichen Energiemenge, die beim Generieren von Kryptowährungen verwendet wird, am nächsten kommt.</p>
  <div class="box-head">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Wie viele Energieeinheiten werden benötigt, um 1 Bitcoin zu generieren?</h4>
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Wie viele Energieeinheiten werden benötigt, um 1 Bitcoin zu generieren?</h4>
  </div>
  
 
@@ -51,11 +51,11 @@
 </div>
  
  </div><div class="col-sm-3">
- <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="images/bitcoin-anim.gif" /> </div>
+ <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="../german_assets/images/bitcoin-anim.gif" /> </div>
  </div></div>
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
-<a href="{{url('/personal-level-start')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-start')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
  </div></div>

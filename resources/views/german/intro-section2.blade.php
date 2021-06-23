@@ -1,12 +1,12 @@
-@include('header')
+@include('/german/header')
 <body class="sec1-bg">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/de')}}"><img src="../german_assets/images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1>
@@ -24,7 +24,7 @@
  <div class="sec1-box-left">
  <p class="animate__animated animate__fadeIn">Die Materialien, aus denen diese Strohhalme hergestellt werden, unterscheiden sich alle voneinander.<br>Wählen Sie das Material, das Ihrer Meinung nach am umweltfreundlichsten ist.</p>
  <div class="box-head">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Welcher Strohhalm ist Ihrer Meinung nach der nachhaltigste?</h4>
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Welcher Strohhalm ist Ihrer Meinung nach der nachhaltigste?</h4>
  </div>
  
 
@@ -50,11 +50,11 @@
 
 </div>
  </div><div class="col-sm-3">
- <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="images/straw.svg" class="jump-anim"/></div>
+ <div class="sec1-box-right  animate__animated animate__fadeInRight"><img src="../german_assets/images/straw.svg" class="jump-anim"/></div>
  </div></div>
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
-<a href="{{url('/intro-section3')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/intro-section3')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
  </div></div>

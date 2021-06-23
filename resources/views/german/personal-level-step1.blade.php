@@ -1,11 +1,11 @@
-@include('header')
+@include('/german/header')
 <body class="personal-level-step1 personal-level-step">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/de')}}"><img src="../german_assets/images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1><strong>NACHHALTIGKEIT & DU</strong>
@@ -25,7 +25,7 @@
 
  <div class="sec1-box-center text-center">
  <div class="box-top">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Ich kaufe Obst und Gemüse aus lokalem Anbau.</div>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 1 bis 5, um Ihre Antwort einzureichen, wobei 1 = am wenigsten</p>
@@ -42,7 +42,7 @@
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
 
-<a href="{{url('/personal-level-step2')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step2')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
  </div></div>

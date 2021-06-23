@@ -1,6 +1,6 @@
 @include('/german/header')
 <body class="survey-start-page">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <style>
 form *{display:block; width:100%}
 </style>
@@ -9,7 +9,7 @@ form *{display:block; width:100%}
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="{{URL::to('/german')}}"><img src="../german_assets/images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/de')}}"><img src="../german_assets/images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1>
@@ -29,6 +29,7 @@ form *{display:block; width:100%}
 <div class="row" >
 
 <form class="survey-form">
+  <input type="hidden" name="language" value="" class="selected_language"/>
 <div class="col-sm-3 mt-5">
 <div class="form-row">
 <label><img src="../german_assets/images/age-icon.svg" /></label>
@@ -149,7 +150,7 @@ form *{display:block; width:100%}
 
 <div class="col-sm-8 mt-5">
 <div class="button-wrapper">
-<a href="{{url('/german/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="FANGEN WIR MIT DER UMFRAGE AN" data-front="FANGEN WIR MIT DER UMFRAGE AN"></a>
+<a href="{{url('/de/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="FANGEN WIR MIT DER UMFRAGE AN" data-front="FANGEN WIR MIT DER UMFRAGE AN"></a>
 </div>
 </div>
 </div>

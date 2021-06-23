@@ -1,6 +1,6 @@
 @include('header')
 <body class="survey-start-page">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <style>
 form *{display:block; width:100%}
 </style>
@@ -29,6 +29,7 @@ form *{display:block; width:100%}
 <div class="row" >
 
 <form class="survey-form">
+<input type="hidden" name="language" value="" class="selected_language"/>
 <div class="col-sm-3 mt-5">
 <div class="form-row">
 <label><img src="images/age-icon.svg" /></label>
@@ -37,7 +38,7 @@ form *{display:block; width:100%}
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
 <select name="age" onchange="" class="required-field" onclick="return false;" id="">
-<option value="" disabled selected >Your Age</option>
+<option value="" disabled selected >Select your age range</option>
 <option value="20-30">20-30</option>
 <option value="31-40" >31-40</option>
 <option value="41+">41+</option>
@@ -55,7 +56,7 @@ form *{display:block; width:100%}
 </div>
 </div>
 </div> <div class="col-sm-6 mt-5">
-<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Enter your Office’s Country" name="office_located"><span class="search-clear">X</span></div></div>
+<div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Enter your country" name="office_located"><span class="search-clear">X</span></div></div>
 
 </div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
 <div class="cont_select_center">
@@ -63,7 +64,7 @@ form *{display:block; width:100%}
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
 <select name="gender" onchange=""  onclick="return false;" id="">
-<option value="" disabled selected >Gender</option>
+<option value="" disabled selected >Select your gender</option>
 <option value="Male">Male</option>
 <option value="Female" >Female</option>
 <option value="Other">Other</option>
@@ -86,13 +87,11 @@ form *{display:block; width:100%}
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
 <select name="joining_years" onchange=""  onclick="return false;" id="">
-<option value="" disabled selected>How long have you been a part of the METRO family</option>
-<option value="Less than 2 years">Less than 2 years</option>
-<option value="2-5 Years">2-5 Years</option>
-<option value="5-10 Years" >5-10 Years</option>
+<option value="" disabled selected>Select your tenure range at METRO </option>
+<option value="1-5 years">1-5 years</option>
+<option value="5-10 Years">5-10 Years</option>
 <option value="10-15 Years">10-15 Years</option>
-<option value="15-20 Years">15-20 Years</option>
-<option value="20+ Years">20+ Years</option>
+<option value="15+ Years">15+ Years</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />
@@ -116,12 +115,11 @@ form *{display:block; width:100%}
   <!-- Custom select structure --> 
 <div class="select_mate department-options" data-mate-select="active" >
 <select name="department_size"  onchange="" onclick="return false;" id="">
-<option value="" disabled selected>What is the size of your department at METRO?</option>
-<option value="5">0-5</option>
-<option value="10" >5-10</option>
-<option value="15">10-15</option>
-<option value="20">15-20</option>
-<option value="20 and above">20-50</option>
+<option value="" disabled selected>Select your department size range</option>
+<option value="Less than 10">Less than 10</option>
+<option value="10-20" >10-20</option>
+<option value="21-30">21-30</option>
+<option value="31 and above">31 and above</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />

@@ -1,11 +1,11 @@
-@include('header')
+@include('/german/header')
 <body class="sec3-home-bg">
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <div class="herooo">
 
   <div class="top-section">
     <div class="baloon">
-      <img src="images/sec3-balloon.svg" alt="Baloon">
+      <img src="../german_assets/images/sec3-balloon.svg" alt="Baloon">
     </div>   
     <div class="clouds">
       <svg class="cloud super-slow" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" -->
@@ -37957,7 +37957,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
       <div class="container"><div class="d-flex align-center space-between">
         <div class="navbar-header">
 
-          <a class="navbar-brand" href="#"><img src="images/metro-logo.svg" /></a>
+          <a class="navbar-brand" href="#"><img src="../german_assets/images/metro-logo.svg" /></a>
         </div>
         <div class=" navbar-collapse right-header text-right" id="myNavbar">
           <h1>#<span>M</span>vironment</h1>
@@ -38001,7 +38001,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
         </div>
         <div class="mt-7 btn-cover">
 		<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK"></a>
-          <a href="{{url('/final-level-step1')}}" class="btn-flip" data-back="WEITER" data-front="WEITER"></a>
+          <a href="{{url('/de/final-level-step1')}}" class="btn-flip" data-back="WEITER" data-front="WEITER"></a>
         </div>
       </div>
     </main>

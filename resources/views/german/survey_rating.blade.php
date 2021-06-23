@@ -1,14 +1,14 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2 final-level-step15">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="{{URL::to('/')}}">
-						<img src="images/metro-logo.svg" />
+					<a class="navbar-brand" href="{{URL::to('/de')}}">
+						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -33,19 +33,19 @@
 							<div class="fieldset-box">
 							<div class="legend-title"><span>Bewerten Sie Ihre Umfrageerfahrung</span></div>
 							<ul class="d-flex user-rating">
-							<li data-value="1"><img src="images/rate-0.svg"/>
+							<li data-value="1"><img src="../german_assets/images/rate-0.svg"/>
 							<span class="rate-title">Sehr unzufrieden</span>
 							</li>
-							<li data-value="2"><img src="images/rate-1.svg"/>
+							<li data-value="2"><img src="../german_assets/images/rate-1.svg"/>
 							<span class="rate-title">Unzufrieden</span>
 							</li>
-							<li data-value="3"><img src="images/rate-2.svg"/>
+							<li data-value="3"><img src="../german_assets/images/rate-2.svg"/>
 							<span class="rate-title">Neutral</span>
 							</li>
-							<li data-value="4"><img src="images/rate-3.svg"/>
+							<li data-value="4"><img src="../german_assets/images/rate-3.svg"/>
 							<span class="rate-title">Zufrieden</span>
 							</li>
-							<li data-value="5"><img src="images/rate-4.svg"/>
+							<li data-value="5"><img src="../german_assets/images/rate-4.svg"/>
 							<span class="rate-title">Sehr zufrieden</span>
 							</li>
 							
@@ -54,7 +54,7 @@
 							</div>
 							</div>
 							<div class=" text-center gray-text">Bitte bewerten Sie Ihre Erfahrungen mit der Teilnahme an dieser Umfrage, indem Sie auf einen der Sterne klicken.</div>
-							<div class="center-btn text-center"><a href="{{url('/final-level-last')}}" class="btn-flip next-btn get-survey-details submit-details" data-back="einreichen" data-front="einreichen"></a></div>
+							<div class="center-btn text-center"><a href="{{url('/de/final-level-last')}}" class="btn-flip next-btn get-survey-details submit-details" data-back="einreichen" data-front="einreichen"></a></div>
 						</div>
 					
 				</div>
