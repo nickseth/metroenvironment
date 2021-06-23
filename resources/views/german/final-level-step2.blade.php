@@ -706,7 +706,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: Surplus, Whole surplus, World Food Program à Link zu Seiten:</p>
+								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: Sirplus, Whole surplus, World Food Program à Link zu Seiten:</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
