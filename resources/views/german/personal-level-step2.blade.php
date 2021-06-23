@@ -35,7 +35,7 @@
  </div>
  <div class="col-sm-12">
 <div class="row">
-<form class="survey-form required-validation" data-validation-type="radio">
+<form class="survey-form required-validation" data-validation-type="custom">
  <div class="col-sm-6">
 <div class="gbb-wrap">
 <div class="gbb-item gbb-item-1"><img src="../german_assets/images/pls2-item-1.svg"/></div>
