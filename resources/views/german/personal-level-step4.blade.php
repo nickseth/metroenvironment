@@ -31,6 +31,7 @@
 						<div class="animate__animated animate__fadeIn green-text">Woher wissen Sie, ob Ihr Essen biologisch ist oder nicht?</div>
 					</div>
 					<p class="animate__animated animate__fadeIn gray-text">Kreuzen Sie die Kästchen an, die für Sie am relevantesten sind</p>
+					<p class="animate__animated animate__fadeIn gray-text">Mehrere Antworten können asugewählt werden.</p>
 				</div>
 			</div>
 			<div class="col-sm-12">
