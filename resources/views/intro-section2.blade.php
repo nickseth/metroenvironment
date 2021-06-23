@@ -31,21 +31,22 @@
 
   <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section_question2" value="1">
+      <input type="checkbox" id="html" class="multiple-checkbox-data" value="1">
       <label for="html">Wooden</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_question2" value="2">
+      <input type="checkbox" id="css" class="multiple-checkbox-data" value="2">
       <label for="css">Paper</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section_question2" value="3">
+      <input type="checkbox" id="javascript" class="multiple-checkbox-data" value="3">
       <label for="javascript">Plastic</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="intro_section_question2" value="4">
+      <input type="checkbox" id="java" class="multiple-checkbox-data" value="4">
       <label for="java">Steel</label>
     </div></div>
+	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question2"/>
   </form>
 
 </div>
