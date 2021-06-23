@@ -511,9 +511,9 @@
 										</div>
 										<hr>
 										<h5>Wusstest du schon?</h5>
-										<p>Das SSM-Tool von METRO gewährleistet auf einen Blick die neuesten Auditinformationen, die System-zu-System-Interphase mit führendem Social-Compliance- und Social-Compliance-Status.</p>
+										<p>Das SSM-Tool von METRO gewährleistet auf einen Blick die neuesten Auditinformationen, die System-zu-System-Interphase mit führendem Social-Compliance-Status.</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
-										 <a href="#" class="read-more">Weiterlesen</a>
+										 <a href="#" class="read-more"></a>
 										 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -675,7 +675,7 @@
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">METRO‘s bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit "Too Good To Go"?</h2>
+								<h2 class="clr-blue">METRO bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit "Too Good To Go"?</h2>
 <p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -706,15 +706,15 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: Sirplus, Whole surplus, World Food Program à Link zu Seiten:</p>
+								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: Sirplus, Whole surplus, World Food Program.</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
-					        <a href="#" class="read-more">Weiterlesen</a>
+					        <a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/mein-nachhaltiges-restaurant.html" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">Mein Werkzeugkasten für nachhaltige Restaurants</h2>
+								<h2 class="clr-blue">Kennen sie: "Mein nachhaltiges Restaurant</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -785,7 +785,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Mit pflanzlichen Fleischalternativen wie Burger, Streifen und Hackfleisch ist das METRO Chef Veggie-Sortiment in 15 Metro-Ländern erhältlich. Es ist ein hervorragendes Beispiel für METROs Bewusstseinswandel hin zu sich ändernden globalen Mustern.</p>
+								<p>Mit pflanzlichen Fleischalternativen wie Burger, Streifen- und Hackfleisch ist das METRO Chef Veggie-Sortiment in 15 Metro-Ländern erhältlich. Es ist ein hervorragendes Beispiel für METROs Bewusstseinswandel hin zu sich ändernden globalen Mustern.</p>
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
 					             <a href="https://responsibility.metroag.de/focus-areas/conscious-proteins" target="_blank" class="read-more">Weiterlesen</a>
 								 <div class="submit-btn">
