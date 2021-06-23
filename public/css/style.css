@@ -842,7 +842,7 @@ height:0!important;opacity:0!important;
     display: block;
     position: absolute;
     top: 2px;
-    left: 11px;
+    left: 9px;
     width: 11px;
     height: 21px;
     border: solid #ffffff;
@@ -2040,17 +2040,7 @@ position: absolute;
  margin: 0;
 padding-left: 45px;
 }
-@media(max-width:1440px) {
-	body.index-page .d-flex.align-center.space-between {
-		margin: 10px 0 5px 0;
-		
-	}
-	.index-page .home-content{padding-top:0}
-	.index-page .navbar-brand {padding: 10px 15px;}
-	.home-content p {
-    line-height: 1.3;
-}
-}
+
 
 body.german .home-content {
        max-width: 740px;
@@ -2129,3 +2119,7 @@ input.highlight {
 
 .top-prompt span{display:block}
 .top-prompt.element-dropped {display:none;}
+.page4 .grid-container {
+    padding-top: 5px;
+}
+.page4 .grid-container .grid-list .form-group {margin-top: 5px;}
