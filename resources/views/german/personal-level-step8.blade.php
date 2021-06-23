@@ -8,7 +8,7 @@
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="{{url('/de/de')}}">
-						<img src="images/metro-logo.svg" />
+						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -26,7 +26,7 @@
 						<div class="sec1-box-center text-center">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
-									<img src="images/leaves.svg" />
+									<img src="../german_assets/images/leaves.svg" />
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Haben Sie in den letzten Jahren Ihr Konsumverhalten bei den folgenden Lebensmitteln geändert?</div>
 							</div>
@@ -14317,7 +14317,7 @@
 										<input type="range" name="personal_level_step8" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>Keine<br/>Ernährungsumstellung</li>
+										<li>Keine<br/>Umstellung</li>
 										<li>Reduzierung im Konsum geplant</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>

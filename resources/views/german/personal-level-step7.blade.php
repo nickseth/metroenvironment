@@ -8818,7 +8818,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">Jakobsmuscheln</p>
+											<p class="light-text">Muschel</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -17609,7 +17609,7 @@
 										<input type="range" name="personal_level_step7" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>Keine<br/>Ernährungsumstellung</li>
+										<li>Keine<br/>Umstellung</li>
 										<li>Reduzierung im Konsum geplant</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>
