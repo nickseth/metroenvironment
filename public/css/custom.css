@@ -247,7 +247,7 @@ font-family: "Verdana";
 	text-align: center;}
 
 	
-	.grid-list .form-group input:checked + label:before {
+	.grid-list .form-group input:checked + label:before,.outer-input .form-group input:checked + label:before {
 		background: #10cfbd;
 		border-color: #10cfbd;
 	}
