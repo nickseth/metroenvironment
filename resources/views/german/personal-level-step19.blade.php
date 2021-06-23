@@ -22,7 +22,7 @@
 		<div class="relative">
 			<div class="page-width mt-7 page19">
 				<div class="row">
-					<div class="col-sm-7">
+					<div class="col-sm-8">
 						<div class="sec1-box-center text-left mt-7">
 							<div class="box-top">
 								<div class="box-icon animate__animated animate__fadeInLeft">
@@ -50,7 +50,7 @@
 							</form>
 						</div>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-4">
 						<div class="sec1-box-right animate__animated animate__fadeInRight">
 							<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 349 280" width="349" height="280" style="&#10;">
 								<title>New Project</title>
