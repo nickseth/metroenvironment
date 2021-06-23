@@ -8818,7 +8818,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">Scallops</p>
+											<p class="light-text">Mussel</p>
 										</div>
 									</div>
 									<div class="grid-list">

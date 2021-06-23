@@ -88,11 +88,10 @@ form *{display:block; width:100%}
 <div class="select_mate" data-mate-select="active" >
 <select name="joining_years" onchange=""  onclick="return false;" id="">
 <option value="" disabled selected>Wie lange sind Sie schon Teil der METRO Familie?</option>
-<option value="5 Years">5 Jahre</option>
-<option value="10 Years" >10 Jahre</option>
-<option value="15 Years">15 Jahre</option>
-<option value="15 Years">20 Jahre</option>
-<option value="15 Years">20+ Jahre</option>
+<option value="Less than 10">Less than 10</option>
+<option value="10-20" >10-20</option>
+<option value="21-30">21-30</option>
+<option value="31 and above">31 and above</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="../german_assets/images/select-arrow.svg" />

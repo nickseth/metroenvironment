@@ -42,7 +42,7 @@
 											<div class="grid-icons">
 											<img src="../german_assets/images/chicken-egg.png" />
 											</div>
-											<p class="light-text">Hühnern</p>
+											<p class="light-text">Hühner</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -50,7 +50,7 @@
 											<div class="grid-icons">
 											<img src="../german_assets/images/quails-egg.png" />
 											</div>
-											<p class="light-text">Wachteln</p>
+											<p class="light-text">Wachtel</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -69,7 +69,7 @@
 										<input type="range"  name="personal_level_step9"  min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>Keine<br/>Ernährungsumstellung</li>
+										<li>Keine<br/>Umstellung</li>
 										<li>Reduzierung im Konsum geplant</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>

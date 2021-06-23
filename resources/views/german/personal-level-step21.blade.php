@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Welche der folgenden Schritte haben Sie bereits in Ihrem Alltag übernommen?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Wählen Sie die Kästchen für die Initiativen aus, die Sie in Ihrer täglichen Routine angenommen haben.</p>
+							<p class="animate__animated animate__fadeIn gray-text">Wählen Sie die Kästchen für die Initiativen aus, die Sie in Ihre tägliche Routine aufgenommen haben.</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
@@ -22924,8 +22924,8 @@
 </g>
 </svg>
 										</div>
-										<p class="light-text">Lebensmittelverschwendung minimieren</p>
-										
+										<p class="light-text">Lebensmittelverschwen<br/>dung</p>
+									
 									</div>
                   <div class="form-group">
 											<input type="checkbox" id="checkbox7" class="multiple-checkbox-data" value="Minimising food waste">

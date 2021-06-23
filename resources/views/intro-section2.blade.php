@@ -35,7 +35,7 @@
       <label for="html">Wooden</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_question2" value="2">
+            <input type="radio" id="css" name="intro_section_question2" value="2">
       <label for="css">Paper</label>
     </div>
     <div class="form-group">
