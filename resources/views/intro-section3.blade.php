@@ -31,23 +31,22 @@
 
   <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
     <div class="form-group">
-      <input type="checkbox" id="html" class="multiple-checkbox-data" value="62 Terawatts">
+      <input type="radio" id="html" name="intro_section_question3" value="62 Terawatts">
       <label for="html">62 Terawatts</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="css" class="multiple-checkbox-data" value="72 Terawatts">
+      <input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
       <label for="css">72 Terawatts</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript" class="multiple-checkbox-data" value="10 Terawatts">
+      <input type="radio" id="javascript" name="intro_section_question3" value="10 Terawatts">
       <label for="javascript">10 Terawatts</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java" class="multiple-checkbox-data" value="28 Terawatts">
+      <input type="radio" id="java" name="intro_section_question3" value="28 Terawatts">
       <label for="java">28 Terawatts</label>
     </div></div>
-	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question3"/>
-  </form>
+	  </form>
 
 </div>
  
