@@ -2928,7 +2928,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">Hühnchenfleisch</p>
+											<p class="light-text">Hühnchen</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -5833,7 +5833,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">Gänsefleisch</p>
+											<p class="light-text">Gans</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -8803,7 +8803,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">Truthahnfleisch</p>
+											<p class="light-text">Truthahn</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -11742,7 +11742,7 @@
 </g>
 </svg>
 											</div>
-											<p class="light-text">Entenfleisch</p>
+											<p class="light-text">Ente</p>
 										</div>
 									</div>
 									<div class="grid-list">
@@ -14617,12 +14617,12 @@
 								</div>
 								</div>
 								<div class="rangle-slider yellow-range foods-range">
-									<p class="animate__animated animate__fadeIn dark-text">Geflügelfleisch</p>
+									<p class="animate__animated animate__fadeIn dark-text">Geflügel</p>
 									<div class="range">
 										<input type="range" name="personal_level_step6" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>Keine<br/>Ernährungsumstellung</li>
+										<li>Keine<br/>Umstellung</li>
 										<li>Reduzierung im Konsum geplant</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>
