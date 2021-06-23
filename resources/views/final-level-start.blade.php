@@ -37993,11 +37993,11 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
         <div class="welcome">
           <h3>
             <span class="clr-green">SUSTAINABILITY AND</br><span>
-            <span class="clr-blue">YOU@METRO<span>
+            <span class="clr-blue">WORK<span>
           </h3>
         </div>
         <div class="home-content clr-blue mt-3">
-          <p> We now begin with section 3 of the survey. This section of the survey focuses on the role that sustainability plays in shaping your professional outlook towards responsible practices. </p>
+          <p> We now begin with section 3 of the survey.<br/>This section of the survey focuses on the role that sustainability plays in shaping your professional outlook towards responsible practices. </p>
         </div>
         <div class="mt-7 btn-cover">
 		<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back"></a>
