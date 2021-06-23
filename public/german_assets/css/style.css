@@ -1936,8 +1936,8 @@ transform: scale(1.4); opacity:1}
     margin: 0;
 }
 .grid-list .form-group input:checked + label:after {
-    top: 6px;
-    left: 6px;
+       top: 3px;
+    left: 7px;
     width: 7px;
     height: 12px;
     border-width: 0 3px 3px 0;
