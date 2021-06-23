@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Have you changed your consumption patterns for the following foods in the past few years?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you. Tick the box if the statement is true for you</p>
+							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you. Tick the box if the statement is true for you.</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
