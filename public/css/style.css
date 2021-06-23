@@ -114,7 +114,8 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
 }
 .form-row label {
     margin-right: 30px;
-    width: 55px;
+	width:55px;
+    min-width: 55px;
     display: block;
     float: left;
     text-align: center;
