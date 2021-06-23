@@ -18,7 +18,7 @@
 	</div>
 </nav>
 <div class="container ">
-	<div class="relative">
+	<div class="relative" style="overflow:hidden">
 		<div class="page-width mt-4 page11">
 			<div class="row">
 				<div class="col-sm-12">

@@ -32,6 +32,7 @@
 						<div class="sec3-box-center animate__animated animate__fadeInUp ">
 							<div class="fieldset-box">
 							<div class="legend-title"><span>Bewerten Sie Ihre Umfrageerfahrung</span></div>
+							<div class=" text-center gray-text" style="margin-bottom:20px;">Bitte bewerten Sie Ihre Erfahrungen mit der Teilnahme an dieser Umfrage, indem Sie auf einen der Sterne klicken.</div>
 							<ul class="d-flex user-rating">
 							<li data-value="1"><img src="../german_assets/images/rate-0.svg"/>
 							<span class="rate-title">Sehr unzufrieden</span>
@@ -53,7 +54,7 @@
 							<input type="hidden" class="hidden-survey-rating" value="" name="survey_rating"/>
 							</div>
 							</div>
-							<div class=" text-center gray-text">Bitte bewerten Sie Ihre Erfahrungen mit der Teilnahme an dieser Umfrage, indem Sie auf einen der Sterne klicken.</div>
+							
 							<div class="center-btn text-center"><a href="{{url('/de/final-level-last')}}" class="btn-flip next-btn get-survey-details submit-details" data-back="einreichen" data-front="einreichen"></a></div>
 						</div>
 					

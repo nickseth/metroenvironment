@@ -20,7 +20,7 @@
       <meta name="csrf-token" content="{{ csrf_token() }}" />
        <script type="text/javascript">
 $(document).ready(function() {
-    $("body").css("display", "none");
+   // $("body").css("display", "none");
  
     $("body").fadeIn(2000);
 });

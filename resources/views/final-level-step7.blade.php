@@ -36,7 +36,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Why is it important for METRO to be more involved with sustainability? </div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you. Tick the box if the statement is true for you</p>
+							<p class="animate__animated animate__fadeIn gray-text">Move the slider on a scale of 1 to 5 to submit your response, where 1 = strongly disagree and 5 = strongly agree.</p>
 						</div>
   
   </div>  
