@@ -1,6 +1,6 @@
 @include('header')
 <body class="personal-level-step1 personal-level-step sec2-bg2">
-<<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
@@ -63,7 +63,7 @@
  <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic</div>
  <div class="form-group">
      <input type="radio" id="nutritional_organic" name="personal_level_step2_organic" value="Organic food contributes to an increase in CO2 emissions">
-      <label for="nutritional_organic">Organic food contributes to an increase in CO2 emissions</label>
+      <label for="nutritional_organic">Organic food contributes to an increase in CO<sub>2</sub> emissions</label>
 	 
     </div>
   <div class="form-group">

@@ -2119,3 +2119,7 @@ input.highlight {
 
 .top-prompt span{display:block}
 .top-prompt.element-dropped {display:none;}
+.page4 .grid-container {
+    padding-top: 5px;
+}
+.page4 .grid-container .grid-list .form-group {margin-top: 5px;}
