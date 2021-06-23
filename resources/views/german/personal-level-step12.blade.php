@@ -56,7 +56,7 @@
 
 </div>
  </div></div>
- <div class="form-group text-center">
+ <div class="form-group text-center margin-auto">
 										<input type="checkbox" id="none_of_these" value="
 Keine von diesen" class="never-selection-checkbox">
 										<label for="none_of_these">
