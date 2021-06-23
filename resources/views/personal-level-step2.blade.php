@@ -35,11 +35,11 @@
  </div>
  <div class="col-sm-12">
 <div class="row">
-<form class="survey-form required-validation" data-validation-type="radio">
+<form class="survey-form required-validation" data-validation-type="custom">
  <div class="col-sm-6">
 <div class="gbb-wrap">
 <div class="gbb-item gbb-item-1 animate__animated animate__bounceInDown"><img  src="images/pls2-item-1.svg"/></div>
- <div class="green-brdr-box bio-options-wrapper"><div class="gbb-head">Bio:</div>
+ <div class="green-brdr-box bio-options-wrapper"><div class="gbb-head">Bio</div>
  <div class="form-group">
      <input type="radio" id="nutritional_bio" name="personal_level_step2_bio" value="Bio products have less nutritional value">
       <label for="nutritional_bio">Bio products have less nutritional value</label>
@@ -60,7 +60,7 @@
   <div class="col-sm-6">
  <div class="gbb-wrap"> 
  <div class="gbb-item gbb-item-2 animate__animated animate__flip"><img src="images/pls2-item-2.svg"/></div>
- <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic:</div>
+ <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic</div>
  <div class="form-group">
      <input type="radio" id="nutritional_organic" name="personal_level_step2_organic" value="Organic food contributes to an increase in CO2 emissions">
       <label for="nutritional_organic">Organic food contributes to an increase in CO2 emissions</label>

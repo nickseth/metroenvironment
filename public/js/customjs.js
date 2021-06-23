@@ -488,6 +488,16 @@ $('.selected_language').val(Cookies.get('language_selected'))
 					return false;
 				}
 			}
+			else if($('.survey-form').attr('data-validation-type') == 'custom' ){
+				if(!$('#allsame').is(':checked')){
+					if($('.bio-options-wrapper input:checked').length == 0 || $('.organic-options-wrapper input:checked').length == 0){
+											$('.error-message').remove();
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
+
+						return false;
+					}
+				}
+			}
 			else if($('.survey-form').attr('data-validation-type') == 'multiple-inputs' ){
 				var input_numbers = $('.survey-form input').length;
 				var filled_inputs = 0;
