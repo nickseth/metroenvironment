@@ -4752,12 +4752,12 @@ a.read-more {
 	animation:blinkingText 0.8s infinite;
 }
 .blinking-text g g rect,
-.blinking-text g g path{	animation:blinkingText 1s infinite;}
+.blinking-text g g path{	animation:blinkingText 1.4s infinite;}
 @keyframes blinkingText{
 	0%{	fill: #003c7f;	}
 	49%{	fill: transparent;	}
-	50%{	fill: transparent;	}
-	99%{	fill:transparent;	}
+	50%{	fill: #003c7f;	}
+	99%{	fill:#003c7f;	}
 	100%{	fill: #003c7f;	}
 }
 .blinking{
