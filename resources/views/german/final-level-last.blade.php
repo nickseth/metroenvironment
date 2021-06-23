@@ -1,7 +1,7 @@
 @include('/german/header')
 
 <body class="sec3-green-bg badge-calculation-screen">
-<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
+<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">

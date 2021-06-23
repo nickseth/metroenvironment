@@ -59,7 +59,7 @@
  </div>
   <div class="col-sm-6">
  <div class="gbb-wrap"> 
- <div class="gbb-item gbb-item-2 animate__animated animate__flip"><img src="images/pls2-item-2.svg"/></div>
+ <div class="gbb-item gbb-item-2 animate__animated animate__flip"><img src="images/pls2-item-2.png"/></div>
  <div class="green-brdr-box organic-options-wrapper"><div class="gbb-head">Organic</div>
  <div class="form-group">
      <input type="radio" id="nutritional_organic" name="personal_level_step2_organic" value="Organic food contributes to an increase in CO2 emissions">
