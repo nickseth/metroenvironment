@@ -1,4 +1,4 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2">
 	<!-- Navbar -->
@@ -7,7 +7,7 @@
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#">
-						<img src="images/metro-logo.svg" />
+						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -25,7 +25,7 @@
 							<div class="sec1-box-center text-center mt-0">
 								<div class="box-top">
 									<div class="box-icon animate__animated animate__fadeInLeft">
-										<img src="images/leaves.svg">
+										<img src="../german_assets/images/leaves.svg">
 									</div>
 									<div class="animate__animated animate__fadeIn green-text">Mark your awareness level on the various Metro Sustainability initiatives</div>
 								</div>
@@ -643,23 +643,23 @@
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="1">
-												<img src="images/sec-3-01.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 												<div class="emoji-title">Actively Involved</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="2">
-												<img src="images/sec-3-02.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 												<div class="emoji-title">Indirectly Involved</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="3">
-												<img src="images/sec-3-03.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 												<div class="emoji-title">Yes, I am aware</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="4">
-												<img src="images/sec-3-04.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 												<div class="emoji-title">Not fully Aware</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="5">
-												<img src="images/sec-3-05.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 												<div class="emoji-title">This is news to me</div>
 											</div>
 										</div>
@@ -673,27 +673,27 @@
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic Initative</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -711,27 +711,27 @@ laoreet dolore</p>
 								<h2 class="clr-blue">“My Sustainable Restaurant” ToolboxDo you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -749,27 +749,27 @@ laoreet dolore</p>
 								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -787,27 +787,27 @@ laoreet dolore</p>
 								<h2 class="clr-blue">METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -825,27 +825,27 @@ laoreet dolore</p>
 								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy?</h2> 
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -863,27 +863,27 @@ laoreet dolore</p>
 								<h2 class="clr-blue">Are you aware that a Social Standard Management tool exists?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -898,27 +898,27 @@ laoreet dolore</p>
 								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Actively Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirectly Involved</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Yes, I am aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Not fully Aware</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">This is news to me</div>
 									</div>
 
@@ -936,7 +936,7 @@ laoreet dolore</p>
 					</div>
 				</div>
 				<div class="button-wrapper bottom-button bknxt"><a href="#" class="link-btn  btn-flip back-navigate-btn" data-back="Back" data-front="Back" ></a>
-<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/de/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 				</div>
 			</div>
 		</form>

@@ -1,14 +1,14 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2 hide-loader" style="">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+	<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
 	<div class="container">
 		<div class="d-flex align-center space-between">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="{{URL::to('/')}}">
-					<img src="images/metro-logo.svg">
+				<a class="navbar-brand" href="{{URL::to('/de')}}">
+					<img src="../german_assets/images/metro-logo.svg">
 				</a>
 			</div>
 			<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -25,7 +25,7 @@
 					<div class="sec1-box-center text-center">
 						<div class="box-top">
 							<div class="box-icon animate__animated animate__fadeInLeft">
-								<img src="images/leaves.svg">
+								<img src="../german_assets/images/leaves.svg">
 							</div>
 							<div class="animate__animated animate__fadeIn green-text">Sortieren Sie die folgenden Produkte nach der Wassermenge, die zur Herstellung von 1 kg dieses Lebensmittels verwendet wurde.</div>
 							
@@ -51304,7 +51304,7 @@
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
 <a href="#" class="link-btn reset-btn btn-flip" data-back="Zurücksetzen" data-front="Zurücksetzen" ></a>
-<a href="{{url('/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
 	</div>

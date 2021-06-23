@@ -13,6 +13,7 @@ class Survey_Submission_Controller extends BaseController
 {
 	public function index(Request $request)
 	{
+		$language = empty($request->language) ? null : $request->language;
 		$age = empty($request->age) ? null : $request->age;
 		$office_located = empty($request->office_located) ? null : $request->office_located;
 		$gender	 = empty($request->gender) ? null : $request->gender	;
@@ -131,7 +132,7 @@ class Survey_Submission_Controller extends BaseController
                 'final_level_step7_6' => $final_level_step7_6,
                 'final_level_step7_7' => $final_level_step7_7,
                 'survey_rating' => $survey_rating,
-				'language' => 'en',
+				'language' => $language,
 				'total_badge_score' => $total_badge_score
                 );
                $execution = DB::table('survey_data')->insert($country_data);

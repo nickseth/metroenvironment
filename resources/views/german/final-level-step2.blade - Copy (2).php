@@ -1,4 +1,4 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2">
 	<!-- Navbar -->
@@ -7,7 +7,7 @@
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#">
-						<img src="images/metro-logo.svg" />
+						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -25,7 +25,7 @@
 							<div class="sec1-box-center text-center mt-0">
 								<div class="box-top">
 									<div class="box-icon animate__animated animate__fadeInLeft">
-										<img src="images/leaves.svg">
+										<img src="../german_assets/images/leaves.svg">
 									</div>
 									<div class="animate__animated animate__fadeIn green-text">Markieren Sie Ihr Bewusstseinsniveau bei den verschiedenen METRO-Nachhaltigkeitsinitiativen</div>
 								</div>
@@ -653,23 +653,23 @@
 										<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="5">
-												<img src="images/sec-3-01.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 												<div class="emoji-title">Aktiv involviert</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="4">
-												<img src="images/sec-3-02.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 												<div class="emoji-title">Indirekt involviert</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="3">
-												<img src="images/sec-3-03.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 												<div class="emoji-title">Ja, ich bin mir bewusst</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="2">
-												<img src="images/sec-3-04.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 												<div class="emoji-title">Nicht vollständig bewusst</div>
 											</div>
 											<div class="emoji-cover-item emoji-option-js" data-value="1">
-												<img src="images/sec-3-05.svg" alt="Emoji">
+												<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 												<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 											</div>
 										</div>
@@ -687,27 +687,27 @@
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="1">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -729,27 +729,27 @@ laoreet dolore</p>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="1">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -768,27 +768,27 @@ laoreet dolore</p>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="1">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -807,27 +807,27 @@ laoreet dolore</p>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="1">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -846,27 +846,27 @@ laoreet dolore</p>
 <p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -888,27 +888,27 @@ laoreet dolore</p>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="5">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -928,27 +928,27 @@ laoreet dolore</p>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
-										<img src="images/sec-3-01.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-01.svg" alt="Emoji">
 										<div class="emoji-title">Aktiv involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="4">
-										<img src="images/sec-3-02.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-02.svg" alt="Emoji">
 										<div class="emoji-title">Indirekt involviert</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="3">
-										<img src="images/sec-3-03.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-03.svg" alt="Emoji">
 										<div class="emoji-title">Ja, ich bin mir bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="2">
-										<img src="images/sec-3-04.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-04.svg" alt="Emoji">
 										<div class="emoji-title">Nicht vollständig bewusst</div>
 									</div>
 
 									<div class="emoji-cover-item emoji-option-js" data-value="1">
-										<img src="images/sec-3-05.svg" alt="Emoji">
+										<img src="../german_assets/images/sec-3-05.svg" alt="Emoji">
 										<div class="emoji-title">Das sind Neuigkeiten für mich</div>
 									</div>
 
@@ -969,7 +969,7 @@ laoreet dolore</p>
 				</div>
 				<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
-<a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 				</div>
 			</div>
 		</form>

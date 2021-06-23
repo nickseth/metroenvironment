@@ -18,7 +18,7 @@ window.onload = function(){
   crear_select();
   $('.department-options li').click(function(){
 	
-	if($('.department-options select').val() == '20 and above'){
+	if($('.department-options select').val() == '21-30' || $('.department-options select').val() == '31 and above'){
 		$('.organization-team-input').removeAttr('disabled');
 		$('.organization-team-input').addClass('highlight');
 	}
@@ -190,6 +190,7 @@ if(!$('body').hasClass('language-page')){
 				window.location.href = $('html').attr('data-base-path')+'/language';
 		}
 }
+$('.selected_language').val(Cookies.get('language_selected'))
 	$('.translate-btn').click(function(e){
 		e.preventDefault();
 		Cookies.set('language_selected',$(this).attr('data-language'), { expires: 1 });
@@ -366,10 +367,13 @@ if(!$('body').hasClass('language-page')){
 			}
 			else{
 				$('.drag-input-details').val('');
-				$('.reset-btn').click();
+				//$('.reset-btn').click();
 			}
 		},150)
 		
+	})
+	$('.survey-form .grid-item').click(function(){
+		$(this).next().find('input').click();
 	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
@@ -455,7 +459,9 @@ if(!$('body').hasClass('language-page')){
 					 }
 				 }
 			 })
-			 $('.drag-input-details').val(dragged_elements_order);
+			 if(!$('#none_of_these').is(':checked')){
+				$('.drag-input-details').val(dragged_elements_order);
+			 }
 		 }
 		 // getting dragged elements order //
 		 
@@ -514,7 +520,7 @@ if(!$('body').hasClass('language-page')){
 		Cookies.set('formdetails', JSON.stringify(all_forms_data), { expires: 1 });
 		 $("body").fadeOut(500);
 		if($(this).hasClass('submit-details')){
-			dataSubmission(JSON.stringify(all_forms_data),$('html').attr('data-base-path')+'/survey_submission',$(this).attr('href'))
+			dataSubmission(JSON.stringify(all_forms_data),$('html').attr('data-original-path')+'/survey_submission',$(this).attr('href'))
 		}
 		else{
 			window.location.href = $(this).attr('href');
@@ -707,6 +713,7 @@ setTimeout(function(){
 
 
 function dataSubmission(data,url,redirect){
+	console.log(data)
 	  $.ajax({
           url: url,
           type:"POST",
@@ -718,11 +725,11 @@ function dataSubmission(data,url,redirect){
 				Cookies.set('badge_score', parsed_response.badge_score, { expires: 1 });
 			}
 			catch(err){}
-            window.location.href = redirect;
+           window.location.href = redirect;
           },
 		  error:function(err){
 			//alert('Something went wrong.');
-			window.location.href = redirect;
+		window.location.href = redirect;
 		  }
          });
 }

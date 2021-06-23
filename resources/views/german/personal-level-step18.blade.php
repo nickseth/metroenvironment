@@ -1,14 +1,14 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
 	<div class="container">
 		<div class="d-flex align-center space-between">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="{{URL::to('/')}}">
-					<img src="images/metro-logo.svg" />
+				<a class="navbar-brand" href="{{URL::to('/de')}}">
+					<img src="../german_assets/images/metro-logo.svg" />
 				</a>
 			</div>
 			<div class=" navbar-collapse right-header text-right" id="myNavbar">
@@ -26,8 +26,8 @@
 						<div class="panel-body msg_container_base">
 							<div class="row msg_container base_receive">
 								<div class="avatar">
-								<img src="images/chat-guy-1.svg" class="cg1" />
-								<img src="images/chat-guy-2.svg" class="cg2" />
+								<img src="../german_assets/images/chat-guy-1.svg" class="cg1" />
+								<img src="../german_assets/images/chat-guy-2.svg" class="cg2" />
 								</div>
 								<div class="message-section animate__animated animate__bounceIn">
 									<div class="messages msg_receive">
@@ -47,14 +47,14 @@
 									</div>
 								</div>
 								<div class="avatar">
-								<img src="images/chat-gal-1.svg" class="cg1" />
-								<img src="images/chat-gal-2.svg" class="cg2" />	
+								<img src="../german_assets/images/chat-gal-1.svg" class="cg1" />
+								<img src="../german_assets/images/chat-gal-2.svg" class="cg2" />	
 								</div>
 							</div>
 							<div class="row msg_container base_receive base_receive1">
 								<div class="avatar">
-									<img src="images/chat-guy-1.svg" class="cg1" />
-								<img src="images/chat-guy-2.svg" class="cg2" />
+									<img src="../german_assets/images/chat-guy-1.svg" class="cg1" />
+								<img src="../german_assets/images/chat-guy-2.svg" class="cg2" />
 								</div>
 								<div class="message-section">
 									<div class="messages msg_receive">
@@ -72,8 +72,8 @@
 									</div>
 								</div>
 								<div class="avatar">
-								<img src="images/chat-gal-1.svg" class="cg1" />
-								<img src="images/chat-gal-2.svg" class="cg2" />
+								<img src="../german_assets/images/chat-gal-1.svg" class="cg1" />
+								<img src="../german_assets/images/chat-gal-2.svg" class="cg2" />
 								</div>
 							</div>
 						</div>
@@ -83,7 +83,7 @@
 		</div>
 		<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
-<a href="{{url('/personal-level-step19')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step19')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 		</div>
 	</div>
 </div>

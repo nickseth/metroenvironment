@@ -1,11 +1,11 @@
-@include('header')
+@include('/german/header')
 <body class="personal-level-step12 personal-level-step sec2-bg2">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href="{{URL::to('/')}}"><img src="images/metro-logo.svg" /></a>
+      <a class="navbar-brand" href="{{URL::to('/de')}}"><img src="../german_assets/images/metro-logo.svg" /></a>
     </div>
     <div class=" navbar-collapse right-header text-right" id="myNavbar">
       <h1>#<span>M</span>vironment</h1><strong>NACHHALTIGKEIT & DU</strong>
@@ -38,19 +38,19 @@
 <div class="vegi-group">
  <div class="row"> <div class="col-sm-3">
  
- <div class="plate-item-3 plate-item "><img src="images/plate-item-3.svg" data-text="Tofu/soy products" /></div><p class="text-center"><strong>Tofu-/Sojaprodukte</strong>(Sojakoteletts, Seitan, Tempeh etc.)</p></div>
+ <div class="plate-item-3 plate-item "><img src="../german_assets/images/plate-item-3.svg" data-text="Tofu/soy products" /></div><p class="text-center"><strong>Tofu-/Sojaprodukte</strong>(Sojakoteletts, Seitan, Tempeh etc.)</p></div>
 <div class="col-sm-6">
  
 
  
- </div><div class="col-sm-3"><div class="plate-item-2 plate-item"><img src="images/plate-item-2.svg" data-text="Meat alternatives" /></div><p class="text-center"><strong>Fleischalternativen</strong>(Veggiewurst, Hackfleisch, Burger)</p></div></div>
+ </div><div class="col-sm-3"><div class="plate-item-2 plate-item"><img src="../german_assets/images/plate-item-2.svg" data-text="Meat alternatives" /></div><p class="text-center"><strong>Fleischalternativen</strong>(Veggiewurst, Hackfleisch, Burger)</p></div></div>
  <div class="row"><div class="col-sm-3 ">
- <div class="plate-item-1 plate-item"><img src="images/plate-item-1.svg" data-text="Legumes" /></div>
+ <div class="plate-item-1 plate-item"><img src="../german_assets/images/plate-item-1.svg" data-text="Legumes" /></div>
  <p class="text-center"><strong>Hülsenfrüchte</strong>(Linsen, Kichererbsen, Kidneybohnen, Erbsen etc.)</p></div><div class="col-sm-6 "><div class="vegi-plate">
 
 <div class="empty-plate">
 </div>
-</div></div><div class="col-sm-3 "> <div class="plate-item-4 plate-item"><img src="images/plate-item-4.svg" data-text="Nuts/seeds" /></div><p class="text-center"><strong>Nüsse/Samen</strong>(Kürbiskerne, Sonnenblumenkerne, Erdnüsse, Cashewnüsse etc.)</p></div></div>
+</div></div><div class="col-sm-3 "> <div class="plate-item-4 plate-item"><img src="../german_assets/images/plate-item-4.svg" data-text="Nuts/seeds" /></div><p class="text-center"><strong>Nüsse/Samen</strong>(Kürbiskerne, Sonnenblumenkerne, Erdnüsse, Cashewnüsse etc.)</p></div></div>
  </div>
 </div>
 
@@ -68,7 +68,7 @@ Keine von diesen</label>
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
 <a href="#" class="link-btn reset-btn btn-flip" data-back="Zurücksetzen" data-front="Zurücksetzen" ></a>
-<a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip get-veg-input-details" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step13')}}" class="link-btn get-survey-details btn-flip get-veg-input-details" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
  </div></div>

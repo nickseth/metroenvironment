@@ -1,13 +1,13 @@
-@include('header')
+@include('/german/header')
 
 <body class="sec2-bg2">
-<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 	<!-- Navbar -->
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="{{url('/')}}">
+					<a class="navbar-brand" href="{{url('/de/de')}}">
 						<img src="images/metro-logo.svg" />
 					</a>
 				</div>
@@ -14337,7 +14337,7 @@
 			</div>
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
-<a href="{{url('/personal-level-step9')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step9')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
 	</form>

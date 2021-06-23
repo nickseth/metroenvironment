@@ -18,7 +18,7 @@ window.onload = function(){
   crear_select();
   $('.department-options li').click(function(){
 	
-	if($('.department-options select').val() == '20 and above'){
+	if($('.department-options select').val() == '21-30' || $('.department-options select').val() == '31 and above'){
 		$('.organization-team-input').removeAttr('disabled');
 		$('.organization-team-input').addClass('highlight');
 	}
@@ -190,6 +190,7 @@ if(!$('body').hasClass('language-page')){
 				window.location.href = $('html').attr('data-base-path')+'/language';
 		}
 }
+$('.selected_language').val(Cookies.get('language_selected'))
 	$('.translate-btn').click(function(e){
 		e.preventDefault();
 		Cookies.set('language_selected',$(this).attr('data-language'), { expires: 1 });
@@ -244,7 +245,7 @@ if(!$('body').hasClass('language-page')){
 			$('.gold-badge').removeClass('hide');
 		}
 		else{
-			window.locatio.href = $('html').attr('data-base-path');
+			window.location.href = $('html').attr('data-base-path');
 		}
 	}
 	$('#allsame').click(function(){
@@ -366,10 +367,13 @@ if(!$('body').hasClass('language-page')){
 			}
 			else{
 				$('.drag-input-details').val('');
-				$('.reset-btn').click();
+				//$('.reset-btn').click();
 			}
 		},150)
 		
+	})
+	$('.survey-form .grid-item').click(function(){
+		$(this).next().find('input').click();
 	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
@@ -455,7 +459,9 @@ if(!$('body').hasClass('language-page')){
 					 }
 				 }
 			 })
-			 $('.drag-input-details').val(dragged_elements_order);
+			 if(!$('#none_of_these').is(':checked')){
+				$('.drag-input-details').val(dragged_elements_order);
+			 }
 		 }
 		 // getting dragged elements order //
 		 
