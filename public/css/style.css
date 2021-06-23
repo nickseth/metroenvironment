@@ -2128,3 +2128,4 @@ input.highlight {
 }
 
 .top-prompt span{display:block}
+.top-prompt.element-dropped {display:none;}
