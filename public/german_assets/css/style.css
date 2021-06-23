@@ -110,6 +110,7 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
 .form-row label {
     margin-right: 30px;
     width: 55px;
+	min-width:55px;
     display: block;
     float: left;
     text-align: center;
@@ -2062,3 +2063,4 @@ body.german .home-content {
 .foods-check .form-group{
 	text-align:center;
 }
+.navbar-header a.navbar-brand {pointer-events:none!important}

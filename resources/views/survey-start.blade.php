@@ -30,7 +30,7 @@ form *{display:block; width:100%}
 
 <form class="survey-form">
 <input type="hidden" name="language" value="" class="selected_language"/>
-<div class="col-sm-3 mt-5">
+<div class="col-sm-4 mt-5">
 <div class="form-row">
 <label><img src="images/age-icon.svg" /></label>
 <div class="cont_select_center">
@@ -55,10 +55,10 @@ form *{display:block; width:100%}
 
 </div>
 </div>
-</div> <div class="col-sm-6 mt-5">
+</div> <div class="col-sm-4 mt-5">
 <div class="form-row"><label><img src="images/pin-icon.svg" /></label><div class="autocomplete"><input type="text" id="search-input" class="search required-field" placeholder="Enter your country" name="office_located"><span class="search-clear">X</span></div></div>
 
-</div> <div class="col-sm-3 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
+</div> <div class="col-sm-4 mt-5"><div class="form-row"><label><img src="images/gender-icon.svg" /></label>
 <div class="cont_select_center">
 
   <!-- Custom select structure --> 

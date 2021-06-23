@@ -114,7 +114,8 @@ form select {background:url(../images/select-arrow.svg) no-repeat right center;
 }
 .form-row label {
     margin-right: 30px;
-    width: 55px;
+	width:55px;
+    min-width: 55px;
     display: block;
     float: left;
     text-align: center;
@@ -2088,3 +2089,4 @@ body.german .home-content {
 box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75); border-radius:25px;}
 .landing-box h2{font-size: 25px;
     font-family: 'SandwichMarkerPro';}
+.navbar-header a.navbar-brand {pointer-events:none!important}
