@@ -515,7 +515,7 @@
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
 										 <a href="#" class="read-more">Weiterlesen</a>
 										 <div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Senden" data-front="Senden" ></a>
 							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
@@ -550,11 +550,11 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Die METRO Water Initiative in Bihar, Indien, hat sich zum Ziel gesetzt, einer halben Million Menschen einen nachhaltigen Zugang zu Wasser und sanitären Einrichtungen zu ermöglichen. Weiterlesen: </p>
+								<p>Die METRO Water Initiative in Bihar, Indien, hat sich zum Ziel gesetzt, einer halben Million Menschen einen nachhaltigen Zugang zu Wasser und sanitären Einrichtungen zu ermöglichen. </p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
 					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" target="_blank" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container climate-action">
@@ -589,11 +589,11 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Mit mehr als 48 mit Solarpanels ausgestatteten Märkten in Deutschland produziert METRO 21.000.000 kWh Solarstrom pro Jahr.</p>
+								<p>Mit mehr als 48 Märkten in Deutschland, die mit Solaranlagen ausgestattet sind, produziert METRO 21.000.000 kWh Solarstrom pro Jahr.</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
-					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" target="_blank" class="read-more">Weiterlesen</a>
+					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" target="_blank" class="read-more"></a>
 							<div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="climate-action" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="climate-action" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
@@ -632,11 +632,11 @@
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
-								<h2 class="clr-blue">METRO‘s bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit “Zu gut zum Mitnehmen”?</h2>
+								<h2 class="clr-blue">METRO‘s bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit “Too Good To Go”?</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -667,15 +667,15 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO bewirbt Produkte mit nachhaltigeren Kunststoffverpackungen, um den Kunden fundiertere Entscheidungen zu ermöglichen. Bisher wurden über 65 Millionen Plastikflaschen entfernt.</p>
+								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: <a href="https://sirplus.de/" target="_blank">Sir Plus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program.</a></p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
 					        <a href="https://www.metro.de/unternehmen/nachhaltigkeit/plastikinitiative" class="read-more" target="_blank">Weiterlesen</a>
 							<div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">METRO‘s bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit "Zu gut zum Mitnehmen"?</h2>
+								<h2 class="clr-blue">METRO‘s bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit "Too Good To Go"?</h2>
 <p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -710,7 +710,7 @@
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
@@ -750,7 +750,7 @@
 					             <a href="https://www.metro.de/unternehmen/nachhaltigkeit/plastikinitiative
 " class="read-more" target="_blank">Weiterlesen</a>
 								 <div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container conscious-proteins">
@@ -789,7 +789,7 @@
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
 					             <a href="https://responsibility.metroag.de/focus-areas/conscious-proteins" target="_blank" class="read-more">Weiterlesen</a>
 								 <div class="submit-btn">
-							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="conscious-proteins" data-back="Submit" data-front="Submit" ></a>
+							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="conscious-proteins" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							
