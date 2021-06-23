@@ -650,7 +650,7 @@
 						
 						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
 										<h2 class="clr-blue">Do you already know that METRO	offers vegan/vegetarian alternatives to its customers?</h2>
-										<p class="support-text">Click Submit to move on to the next question.</p>
+										<p class="support-text">Submit your response to move to the next question.</p>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="5">
 												<img src="images/sec-3-01.svg" alt="Emoji">
@@ -677,14 +677,14 @@
 										<h5>Did you know?</h5>
 										<p>METRO’s SSM tool ensures latest audit information, System-to-system interphase with leading social compliance and social compliance status in one glance.</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
-										 <a href="#" class="read-more">Read More</a>
+										 <a href="#" class="read-more"></a>
 										 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Submit" data-front="Submit" ></a>
 							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic initiative</h2>
-								<p class="support-text">Click Submit to move on to the next question.</p>
+								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -726,7 +726,7 @@
 emissions by electric cars,
 electricity saving etc.?
 </h2>
-								<p class="support-text">Click Submit to move on to the next question.</p>
+								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -766,7 +766,7 @@ electricity saving etc.?
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
 								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
-								<p class="support-text">Click Submit to move on to the next question.</p>
+								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -798,14 +798,14 @@ electricity saving etc.?
 								<h5>Did you know?</h5>
 								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Initiative aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
-					        <a href="#" class="read-more">Read More</a>
+					        <a href="#" class="read-more"></a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
-								<h2 class="clr-blue">METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?</h2>
-								<p class="support-text">Click Submit to move on to the next question.</p>
+								<h2 class="clr-blue">Do you know about the METRO Diversity & Inclusion Days?</h2>
+								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -835,9 +835,10 @@ electricity saving etc.?
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>The METRO Water Initiative in Bihar, India aims to provide sustainable access to water and sanitation to half a million people. The METRO Plastic initiative enables better informed consumer choices through recyclable packaging.</p>
+								<p>
+Diversity & Inclusion is a lived reality for an international corporation. This is precisely why it is particularly important for METRO to address this topic at regualr intervals and to sensitise and engage its employees for this topic.</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
-					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" class="read-more" target="_blank">Read More</a>
+					        <a href="https://www.metroag.de/news/2019/02/18/diversity-and-inclusion-days" class="read-more" target="_blank">Read More</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -847,7 +848,7 @@ electricity saving etc.?
 with partnerships such as our  cooperation with
 “Too Good To Go”?
 </h2>
-<p class="support-text">Click Submit to move on to the next question.</p>								
+<p class="support-text">Submit your response to move to the next question.</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -880,14 +881,14 @@ with partnerships such as our  cooperation with
 								<p>METRO cooperates with even more partners to reduce food waste such as: Surplus, Whole surplus, World Food Program.
 </p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
-					        <a href="#" class="read-more">Read More</a>
+					        <a href="#" class="read-more"></a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Submit" data-front="Submit" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
 								<h2 class="clr-blue">“My Sustainable Restaurant” Toolbox</h2>
-								<p class="support-text">Click Submit to move on to the next question.</p>
+								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -927,7 +928,7 @@ with partnerships such as our  cooperation with
 							</div>
 							<div class="popup-ques-container conscious-proteins">
 								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
-								<p class="support-text">Click Submit to move on to the next question.</p>
+								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
