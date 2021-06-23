@@ -1,6 +1,7 @@
 @include('header')
 
 <body class="sec2-bg2 hide-loader" style="">
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
 	<div class="container">

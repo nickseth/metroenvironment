@@ -1,5 +1,6 @@
 @include('header')
 <body class="sec1-bg">
+<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
