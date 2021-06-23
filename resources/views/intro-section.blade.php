@@ -44,7 +44,7 @@
     </div>
 	 <div class="form-group">
       <input type="radio" id="java" name="intro_section_question1" value="This not a serious threat">
-      <label for="java">This not a serious threat</label>
+      <label for="java">This is not a serious threat</label>
     </div></div>
   </form>
 
