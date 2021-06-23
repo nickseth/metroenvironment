@@ -11625,7 +11625,7 @@
 										<input type="range" name="personal_level_step5" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>Keine<br/>Ernährungsumstellung</li>
+										<li>Keine<br/>Umstellung</li>
 										<li>Reduzierung im Konsum geplant</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>

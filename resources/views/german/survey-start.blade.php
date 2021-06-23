@@ -91,6 +91,8 @@ form *{display:block; width:100%}
 <option value="5 Years">5 Jahre</option>
 <option value="10 Years" >10 Jahre</option>
 <option value="15 Years">15 Jahre</option>
+<option value="15 Years">20 Jahre</option>
+<option value="15 Years">20+ Jahre</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="../german_assets/images/select-arrow.svg" />
@@ -150,7 +152,7 @@ form *{display:block; width:100%}
 
 <div class="col-sm-8 mt-5">
 <div class="button-wrapper">
-<a href="{{url('/de/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="FANGEN WIR MIT DER UMFRAGE AN" data-front="FANGEN WIR MIT DER UMFRAGE AN"></a>
+<a href="{{url('/de/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="Start der Umfrage" data-front="Start der Umfrage"></a>
 </div>
 </div>
 </div>
