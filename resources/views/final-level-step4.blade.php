@@ -1,5 +1,9 @@
 @include('header')
 <body class="final-level-step11 personal-level-step">
+<div style="display:none;">
+<img src="images/fls-11-img0.svg" />
+
+</div>
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
