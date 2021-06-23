@@ -1,5 +1,5 @@
 @include('/german/header')
-<body class="personal-level-step12 personal-level-step sec2-bg2">
+<body class="personal-level-step12 personal-level-step sec2-bg2 drag-slides">
 <div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
@@ -15,7 +15,7 @@
 
 
 
-<div class="container "><div class="relative">
+<div class="container "><div class="relative" style="overflow:hidden">
 
  
  <div class="page-width mt-7">

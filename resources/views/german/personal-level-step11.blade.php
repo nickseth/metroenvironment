@@ -1,6 +1,6 @@
 @include('/german/header')
 
-<body class="sec2-bg2 hide-loader" style="">
+<body class="sec2-bg2 hide-loader drag-slides" style="">
 	<div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
@@ -18,7 +18,7 @@
 	</div>
 </nav>
 <div class="container ">
-	<div class="relative">
+	<div class="relative" style="overflow:hidden">
 		<div class="page-width mt-4 page11">
 			<div class="row">
 				<div class="col-sm-12">

@@ -28,7 +28,7 @@
 								<div class="box-icon animate__animated animate__fadeInLeft">
 									<img src="images/leaves.svg" />
 								</div>
-								<div class="animate__animated animate__fadeIn green-text">I see a direct link between the work we do in our department and sustainability best practices</div>
+								<div class="animate__animated animate__fadeIn green-text">I see a direct link between the work we do in our department and sustainability best practices.</div>
 							</div>
 							<p class="animate__animated animate__fadeIn gray-text">Select the box that seems most relevant to you.</p>
 							<form class="survey-form">

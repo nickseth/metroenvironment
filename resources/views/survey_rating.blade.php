@@ -12,7 +12,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1><strong>Sustainability & WORK</strong>
+					<h1>#<span>M</span>vironment</h1>
 				</div>
 			</div>
 		</div>
@@ -32,6 +32,7 @@
 						<div class="sec3-box-center animate__animated animate__fadeInUp ">
 							<div class="fieldset-box">
 							<div class="legend-title"><span>Rate your Survey Experience</span></div>
+							<div class=" text-center gray-text" style="margin-bottom:20px;">Please rank your experience of taking this survey by clicking one of the stars.</div>
 							<ul class="d-flex user-rating">
 							<li data-value="1"><img src="images/rate-0.svg"/>
 							<span class="rate-title">Very Unsatisfied</span>
@@ -46,14 +47,14 @@
 							<span class="rate-title">Satisfied</span>
 							</li>
 							<li data-value="5"><img src="images/rate-4.svg"/>
-							<span class="rate-title">Very Satisfied</span>
+							<span class="rate-title">Very satisfied</span>
 							</li>
 							
 							</ul>
 							<input type="hidden" class="hidden-survey-rating" value="" name="survey_rating"/>
 							</div>
 							</div>
-							<div class=" text-center gray-text">Please rank your experience of taking this survey by clicking one of the stars.</div>
+							
 							<div class="center-btn text-center"><a href="{{url('/final-level-last')}}" class="btn-flip next-btn get-survey-details submit-details" data-back="Submit" data-front="Submit"></a></div>
 						</div>
 					

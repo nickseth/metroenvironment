@@ -12,7 +12,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1><strong>Sustainability & WORK</strong>
+					<h1>#<span>M</span>vironment</h1>
 				</div>
 			</div>
 		</div>
@@ -29,7 +29,7 @@
 								<div class="animate__animated animate__fadeIn green-text badge-text">CONGRATULATIONS! YOU HAVE WON A
 </div>
 							</div>
-							<p class="animate__animated animate__fadeIn  badge-owner">BADGE OF HONOUR</p>
+							<p class="animate__animated animate__fadeIn  badge-owner">MVIRONMENT BADGE</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
