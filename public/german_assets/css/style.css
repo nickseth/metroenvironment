@@ -2016,7 +2016,7 @@ transform: scale(1.4); opacity:1}
 .reset-btn:after{background:#FAA31C}
 
 .survey-oath .form-row {
-    max-width: 360px;
+    max-width: 380px;
 }
 
 .lang-btn {
@@ -2064,3 +2064,27 @@ body.german .home-content {
 	text-align:center;
 }
 .navbar-header a.navbar-brand {pointer-events:none!important}
+@keyframes highlight {
+    0% { box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%); }
+    50% { box-shadow: none; }
+    100% { box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%); }
+}
+
+@-webkit-keyframes highlight {
+    0% { box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%); }
+    50% { box-shadow: 0 0 0; }
+    100% { box-shadow: 0px 0px 10px 0px rgb(76 159 56 / 95%); }
+}
+
+input.highlight {
+	    border-color: #4C9F38;
+    -webkit-animation: highlight 2.0s linear infinite;
+    -moz-animation: highlight 2.0s linear infinite;
+    -ms-animation: highlight 2.0s linear infinite;
+    -o-animation: highlight 2.0s linear infinite;
+    animation: highlight 2.0s linear infinite;
+}
+
+.box-icon.animate__fadeInLeft {
+    animation-duration: 3.5s;
+}
