@@ -492,7 +492,7 @@ $('.selected_language').val(Cookies.get('language_selected'))
 				if(!$('#allsame').is(':checked')){
 					if($('.bio-options-wrapper input:checked').length == 0 || $('.organic-options-wrapper input:checked').length == 0){
 											$('.error-message').remove();
-					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Please select an option to proceed.</p>')
+					$('.button-wrapper').append('<p class="error-message animate__animated animate__fadeIn gray-text">Bitte wählen Sie eine Option, um fortzufahren.</p>')
 
 						return false;
 					}
@@ -669,7 +669,7 @@ $('.mid-drag ul li').droppable({
   drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
-
+$('.top-prompt').addClass('element-dropped')
     if (droppable.find('.grid-icons').length) {
 	    draggable.draggable('option', 'revert', true);
 	    return false;

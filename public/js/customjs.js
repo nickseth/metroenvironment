@@ -669,7 +669,7 @@ $('.mid-drag ul li').droppable({
   drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
-
+	$('.top-prompt').addClass('element-dropped')
     if (droppable.find('.grid-icons').length) {
 	    draggable.draggable('option', 'revert', true);
 	    return false;
