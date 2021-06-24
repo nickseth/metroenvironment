@@ -24,7 +24,13 @@
 Alternatively, if you want to view the website in another language, you can avail of the translation feature in Google Chrome. To know more, go to the following link:<br/><br/><a href="https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=en" >
 https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=en</a>
 <br/><br/>
-<em><strong>Note:</strong> Google Translate cannot translate all content, and may not provide an exact translation. Anyone relying on information obtained from using Google Translate does so at his or her own risk.<em>
+<em><strong>Note:</strong> Google Translate cannot translate all content, and may not provide an exact translation. Anyone relying on information obtained from using Google Translate does so at his or her own risk.
+<br/>
+<br/>
+1. This survey is best viewed on your PC in 1920x1080 resolution.<br/>
+2. If you are using a mobile, then view it in landscape mode.<br/>
+3. Recommended browser Google Chrome, Microsoft Edge, Safari.<br/>
+<em>
 
 </p></div>
 </body>
