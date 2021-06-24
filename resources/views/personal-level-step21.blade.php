@@ -30,8 +30,8 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Which of the following steps have you already adopted in your everyday life?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Choose the boxes for the initiatives that you have embraced in your daily routine.</p>
-							<p class="animate__animated animate__fadeIn gray-text">More than one answer can be choosen.</p>
+							<p class="animate__animated animate__fadeIn gray-text">Choose the boxes for the initiatives that you have embraced in your daily routine. More than one answer can be choosen.</p>
+							
 						</div>
 					</div>
 					<div class="col-sm-12">

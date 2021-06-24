@@ -30,8 +30,8 @@
 						</div>
 						<div class="animate__animated animate__fadeIn green-text">How do you know if your food is organic or not?</div>
 					</div>
-					<p class="animate__animated animate__fadeIn gray-text">Tick the boxes that are most relevant to you</p>
-					<p class="animate__animated animate__fadeIn gray-text">More than one answer can be choosen.</p>
+					<p class="animate__animated animate__fadeIn gray-text">Tick the boxes that are most relevant to you. More than one answer can be choosen.</p>
+					
 				</div>
 			</div>
 			<div class="col-sm-12">

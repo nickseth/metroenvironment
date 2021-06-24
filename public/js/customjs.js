@@ -356,9 +356,6 @@ $('.selected_language').val(Cookies.get('language_selected'))
 
 		window.history.back();
 	})
-	if(performance.navigation.type == 2) {
-    $('body').fadeIn(2000)
-}
 	$('.reset-btn').click(function(e){
 		e.preventDefault();
 		location.reload();
@@ -762,3 +759,11 @@ function randOrder() {
 setInterval(function() {
     $('.st86').removeClass('st86__active').sort( randOrder ).slice(0,3).addClass('st86__active')
 }, 1000);
+window.addEventListener( "pageshow", function ( event ) {
+  var historyTraversal = event.persisted || ( typeof window.performance != "undefined" && window.performance.navigation.type === 2 );
+  if ( historyTraversal ) {
+    // Handle page restore.
+    //alert('refresh');
+    $('body').fadeIn(500)
+  }
+});
