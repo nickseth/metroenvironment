@@ -37997,7 +37997,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
           </h3>
         </div>
         <div class="home-content clr-blue mt-3">
-          <p> Wir beginnen nun mit Abschnitt 3 der Umfrage. Dieser Abschnitt der Umfrage konzentriert sich auf die Rolle, die Nachhaltigkeit bei der Gestaltung Ihrer beruflichen Einstellung zu verantwortungsvollem Handeln spielt. </p>
+          <p> Wir beginnen nun mit Abschnitt 3 der Umfrage. Dieser Abschnitt der Umfrage konzentriert sich auf Ihre berufliche Einstellung zu verantwortungsvollem Handeln. </p>
         </div>
         <div class="mt-7 btn-cover">
 		<a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK"></a>

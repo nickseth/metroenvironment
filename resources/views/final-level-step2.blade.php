@@ -779,7 +779,7 @@ Yearly, METRO produces 21.000.000 kWh.
 							</div>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
-								<h2 class="clr-blue">Do you know about METRO reduced emissions by electric cars, electricity saving etc.?</h2>
+								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy? </h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -810,7 +810,16 @@ Yearly, METRO produces 21.000.000 kWh.
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Initiative aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
+								<p>Palm oil is the world’s most widely traded and versatile, edible vegetable oil. It is an extremely efficient crop, producing between 4 to 10 times more oil than other crops per unit of cultivated land with low agro-inputs. However, it is also a major driver of deforestation. Every year 130,000 square kilometres of forest are cut down or burned. This is equivalent to the destruction of an area the size of a football field every 1.4 seconds. The clearing of tropical forests is a big contributor to global climate change and accounts for about 20% of the world’s greenhouse gas emissions.<br/>
+
+Categories with high likelihood of palm  oil in products:<br/>
+Bakery (e.g. bread, pastry)<br/>
+Dairy (e.g. butter)<br/>
+Deep frozen (e.g. ice cream, French fries)<br/>
+Processed meat (e.g. sausages)<br/>
+Fruit & Vegetables (e.g. dried nuts)<br/>
+Home care (e.g. laundry, cleaning)
+</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more"></a>
 							<div class="submit-btn">
@@ -930,9 +939,9 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>METRO’s Sustainable Restaurant Toolbox is a guide to sustainability that enables communication with HoreCa customers on topics including food waste, plastic use, energy, ingredient sourcing and safe food practices. </p>
+								<p>METRO is the world's first wholesaler to launch a multi-year cooperation with Plastic Bank. In partnership with the Canadian social entreprise, selected suppliers and millions of METRO customers across 24 countries, we will prevent over 65 million plastic bottles from entering the oceans.  </p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
-					             <a href="https://www.metro.de/unternehmen/nachhaltigkeit/plastikinitiative
+					             <a href="https://www.metro-wholesale.com/be-sustainable/metro-plastic-initiative
 " class="read-more" target="_blank">Read More</a>
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Submit" data-front="Submit" ></a>
