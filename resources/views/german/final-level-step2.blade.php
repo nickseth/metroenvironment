@@ -550,15 +550,15 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Die METRO Water Initiative in Bihar, Indien, hat sich zum Ziel gesetzt, einer halben Million Menschen einen nachhaltigen Zugang zu Wasser und sanitären Einrichtungen zu ermöglichen. </p>
+								<p>METRO ist das weltweit erste Großhandelsunternehmen, das eine mehrjährige Kooperation mit Plastic Bank startet. In Zusammenarbeit mit dem kanadischen Sozialunternehmen, ausgewählten Lieferanten und Millionen von METRO-Kunden in 24 Ländern werden wir allein in den ersten 12 Monaten der METRO Plastic Initiative verhindern, dass über 65 Millionen Plastikflaschen in die Ozeane gelangen. </p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
-					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" target="_blank" class="read-more">Weiterlesen</a>
+					        <a href="https://www.metro-wholesale.de/nachhaltig-sein/metro-plastic-initiative" target="_blank" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Senden" data-front="Senden" ></a>
 							</div>
 							</div>
 							<div class="popup-ques-container climate-action">
-								<h2 class="clr-blue">“Haben Sie schon von METRO reduzierte Emissionen durch Elektroautos, Stromsparen etc. gehört?</h2>
+								<h2 class="clr-blue">Haben Sie schon von METRO´s reduzierten Emissionen durch Elektroautos, Stromsparen etc. gehört?</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -715,7 +715,7 @@
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">Kennen sie: "Mein nachhaltiges Restaurant</h2>
+								<h2 class="clr-blue">Kennen Sie: "Mein nachhaltiges Restaurant</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">

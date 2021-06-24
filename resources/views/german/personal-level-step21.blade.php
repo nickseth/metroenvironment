@@ -22926,7 +22926,7 @@
 </g>
 </svg>
 										</div>
-										<p class="light-text">Lebensmittelverschwen<br/>dung</p>
+										<p class="light-text">Lebensmittelverschwen-dung</p>
 									
 									</div>
                   <div class="form-group">
