@@ -1,5 +1,14 @@
 @include('header')
 <body class="final-level-step12 personal-level-step">
+<div style="display:none;">
+<img src="images/fls-12-img0.svg" />
+<img src="images/fls-12-img1.svg" />
+<img src="images/fls-12-img2.svg" />
+<img src="images/fls-12-img3.svg" />
+<img src="images/fls-12-img4.svg" />
+<img src="images/fls-12-img5.svg" />
+<img src="images/fls-12-img6.svg" />
+</div>
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
