@@ -729,7 +729,7 @@ setTimeout(function(){
 
 
 function dataSubmission(data,url,redirect){
-	console.log(data)
+	var url = url.replace("http://", "https://");
 	  $.ajax({
           url: url,
           type:"POST",
@@ -744,8 +744,8 @@ function dataSubmission(data,url,redirect){
            window.location.href = redirect;
           },
 		  error:function(err){
-			//alert('Something went wrong.');
-		window.location.href = redirect;
+			alert('Etwas ist schief gelaufen. Bitte mach die Umfrage noch einmal.');
+			window.location.href = redirect;
 		  }
          });
 }
