@@ -1,6 +1,6 @@
 @include('header')
 
-<body class="sec2-bg2 hide-loader drag-slides" style="">
+<body class="sec2-bg2 drag-slides" style="">
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">

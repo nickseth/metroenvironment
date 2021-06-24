@@ -364,8 +364,11 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		setTimeout(function(){
 			if(elem.is(':checked')){
 				$('.drag-input-details').val(elem.val())
+				$('.plate-item').removeClass('usedDraggable').css('pointer-events','auto');
+				$('.empty-plate').html('')
 			}
 			else{
+				
 				$('.drag-input-details').val('');
 				//$('.reset-btn').click();
 			}
@@ -705,6 +708,7 @@ $('.empty-plate').droppable({
     // Move draggable into droppable
     // droppable.html('');
     // droppable.find('.plate-item').css({zIndex:'99'});
+	$('#none_of_these').prop('checked',false)
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');

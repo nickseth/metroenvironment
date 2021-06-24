@@ -364,6 +364,8 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		setTimeout(function(){
 			if(elem.is(':checked')){
 				$('.drag-input-details').val(elem.val())
+				$('.plate-item').removeClass('usedDraggable').css('pointer-events','auto');
+				$('.empty-plate').html('')
 			}
 			else{
 				$('.drag-input-details').val('');
@@ -697,7 +699,7 @@ $('.empty-plate').droppable({
   drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
-
+$('#none_of_these').prop('checked',false)
     // if (droppable.find('.grid-icons').length) {
 	   //  draggable.draggable('option', 'revert', true);
 	   //  return false;
