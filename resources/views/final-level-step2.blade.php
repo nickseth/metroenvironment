@@ -899,7 +899,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>METRO cooperates with even more partners to reduce food waste such as: Surplus, Whole surplus, World Food Program.
+								<p>METRO cooperates with even more partners to reduce food waste such as: <a href="https://sirplus.de/" target="_blank">Surplus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program</a>.
 </p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="#" class="read-more"></a>
