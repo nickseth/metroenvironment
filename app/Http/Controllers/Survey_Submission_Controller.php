@@ -135,13 +135,18 @@ class Survey_Submission_Controller extends BaseController
 				'language' => $language,
 				'total_badge_score' => $total_badge_score
                 );
-               $execution = DB::table('survey_data')->insert($country_data);
-			   if(isset($execution)){
-				echo json_encode(array(
-				"status" => "success",
-				"badge_score" => $total_badge_score
-				),JSON_UNESCAPED_SLASHES);
-			   }
+				try{
+				   $execution = DB::table('survey_data')->insert($country_data);
+				   if(isset($execution)){
+					echo json_encode(array(
+					"status" => "success",
+					"badge_score" => $total_badge_score
+					),JSON_UNESCAPED_SLASHES);
+				   }
+				}
+				catch(Exception $err){
+					echo $err;
+				}
 
 	}
 }
