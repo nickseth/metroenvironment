@@ -1717,8 +1717,30 @@ background-size:90%
     background: #ffffff url(../images/fls-12-img5.svg) no-repeat center center;
    
 }
+
 .final-level-step11 .circular-range-slider .rs-bg-color {
-	background: #ffffff url(../images/fls-11-img0.svg) no-repeat center center;
+	background: #ffffff url(../images/fls-11-img1.svg) no-repeat center center;
+	
+}
+.final-level-step11 .circular-range-slider.current-step-1 .rs-bg-color {
+	background: #ffffff url(../images/fls-11-img2.svg) no-repeat center center;
+	
+}
+.final-level-step11 .circular-range-slider.current-step-2 .rs-bg-color {
+	background: #ffffff url(../images/fls-11-img3.svg) no-repeat center center;
+	
+}
+.final-level-step11 .circular-range-slider.current-step-3 .rs-bg-color {
+	background: #ffffff url(../images/fls-11-img4.svg) no-repeat center center;
+	
+}
+
+.final-level-step11 .circular-range-slider.current-step-4 .rs-bg-color {
+	background: #ffffff url(../images/fls-11-img5.svg) no-repeat center center;
+	
+}
+.final-level-step11 .circular-range-slider.current-step-5 .rs-bg-color {
+	background: #ffffff url(../images/fls-11-img6.svg) no-repeat center center;
 	
 }
 .circular-range-slider .rs-bg-color {background-size:90%!important;}
