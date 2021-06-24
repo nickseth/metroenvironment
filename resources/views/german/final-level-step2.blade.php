@@ -589,7 +589,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Mit mehr als 48 Märkten in Deutschland, die mit Solaranlagen ausgestattet sind, produziert METRO 21.000.000 kWh Solarstrom pro Jahr.</p>
+								<p>METRO hat derzeit 250 Elektrofahrzeuge, davon 200 in Deutschland. Mit mehr als 48 Märkten in Deutschland, die mit Solaranlagen ausgestattet sind, produziert METRO 21.000.000 kWh Solarstrom pro Jahr.</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" target="_blank" class="read-more"></a>
 							<div class="submit-btn">
@@ -636,7 +636,7 @@
 							</div>
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
-								<h2 class="clr-blue">METRO‘s bemüht sich um die Reduzierung von Lebensmittelverschwendung mit Partnerschaften wie unserer Zusammenarbeit mit “Too Good To Go”?</h2>
+								<h2 class="clr-blue">Kennen Sie die METRO Diversity & Inclusion Days?</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -667,9 +667,9 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: <a href="https://sirplus.de/" target="_blank">Sir Plus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program.</a></p>
+								<p>Diversity & Inclusion ist für einen internationalen Konzern gelebte Realität. Gerade deshalb ist es für METRO besonders wichtig, sich in regelmäßigen Abständen mit diesem Thema auseinanderzusetzen und die Mitarbeiter für dieses Thema zu sensibilisieren und zu engagieren.</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
-					        <a href="https://www.metro.de/unternehmen/nachhaltigkeit/plastikinitiative" class="read-more" target="_blank">Weiterlesen</a>
+					        <a href="https://www.metroag.de/news" class="read-more" target="_blank">Weiterlesen</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -707,7 +707,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie zum Beispiel: <a href="https://sirplus.de/" target="_blank">Sirplus</a>, <a href="https://wholesurplus.com/" target="_blank">SWhole Surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program</a>.</p>
+								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: <a href="https://sirplus.de/" target="_blank">Sir Plus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program.</a></p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/mein-nachhaltiges-restaurant.html" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
@@ -715,7 +715,7 @@
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">Kennen Sie: "Mein nachhaltiges Restaurant</h2>
+								<h2 class="clr-blue">Kennen Sie: "Mein nachhaltiges Restaurant"</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
