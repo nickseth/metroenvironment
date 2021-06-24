@@ -27,21 +27,21 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Der Klimawandel wird sich nachweislich auswirken auf</h4>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Mehrere Antworten können asugewählt werden.</p>
-  <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Die richtigen Antworten sind meine Generation, meine Kinder und meine Enkel"><div class="checkbox-group">
     <div class="form-group">
-      <input type="checkbox" id="html"class="multiple-checkbox-data" value="My generation">
+      <input type="checkbox" id="html"class="multiple-checkbox-data correct-answer" value="My generation">
       <label for="html">Meine Generation</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="css" class="multiple-checkbox-data" value="My grandchildren">
+      <input type="checkbox" id="css" class="multiple-checkbox-data correct-answer" value="My grandchildren">
       <label for="css">Meine Enkel</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript"class="multiple-checkbox-data" value="My children">
+      <input type="checkbox" id="javascript"class="multiple-checkbox-data correct-answer" value="My children">
       <label for="javascript">Meine Kinder</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java" class="multiple-checkbox-data" value="This not a serious threat">
+      <input type="checkbox" id="java" class="multiple-checkbox-data correct-answer" value="This not a serious threat">
       <label for="java">Es ist keine ernsthafte Bedrohung</label>
     </div></div>
 	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question1"/>

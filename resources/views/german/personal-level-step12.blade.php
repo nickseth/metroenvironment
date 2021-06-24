@@ -1,11 +1,6 @@
 @include('/german/header')
-<<<<<<< HEAD
-<body class="personal-level-step12 personal-level-step sec2-bg2 drag-slides">
-<div class="loader-wrap"><div class="loader"><img src="images/anim-tree.gif" /></div></div>
-=======
 <body class="personal-level-step12 personal-level-step sec2-bg2">
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
->>>>>>> 203a7a35e84f3503c53891329908c834d7853cb0
 <nav class="navbar navbar-default">
   <div class="container"><div class="d-flex align-center space-between">
     <div class="navbar-header">

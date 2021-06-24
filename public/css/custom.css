@@ -801,3 +801,7 @@ form .form-group label{
 	margin-left:auto;
 	margin-right:auto;
 }
+p.error-message.correct-message {
+    max-width: 35%;
+    color: #4c9f38!important;
+}

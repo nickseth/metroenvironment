@@ -364,8 +364,11 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		setTimeout(function(){
 			if(elem.is(':checked')){
 				$('.drag-input-details').val(elem.val())
+				$('.plate-item').removeClass('usedDraggable').css('pointer-events','auto');
+				$('.empty-plate').html('')
 			}
 			else{
+				
 				$('.drag-input-details').val('');
 				//$('.reset-btn').click();
 			}
@@ -374,6 +377,10 @@ $('.selected_language').val(Cookies.get('language_selected'))
 	})
 	$('.survey-form .grid-item').click(function(){
 		$(this).next().find('input').click();
+	})
+	$('.correct-answer').click(function(){
+		$('.error-message').remove();
+		$('.button-wrapper').append('<p class="error-message correct-message animate__animated animate__fadeIn gray-text">'+$('.survey-form').attr('data-correct-answers')+'</p>')
 	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
@@ -701,6 +708,7 @@ $('.empty-plate').droppable({
     // Move draggable into droppable
     // droppable.html('');
     // droppable.find('.plate-item').css({zIndex:'99'});
+	$('#none_of_these').prop('checked',false)
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');

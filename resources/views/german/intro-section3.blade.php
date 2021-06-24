@@ -29,7 +29,8 @@
  
 
 
-  <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="
+Die richtige Antwort ist 72 Terawatts"><div class="checkbox-group">
     <div class="form-group">
       <input type="radio" id="html" name="intro_section_question3" value="62 Terawatts">
       <label for="html">62 Terawatt</label>
