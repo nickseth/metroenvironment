@@ -2121,3 +2121,5 @@ input.highlight {
 .margin-auto {max-width:195px; margin:0 auto; position:relative; top:-25px }
 .personal-level-step12 .link-np {margin-top:-15px;}
 .page13 .page-width {max-width: 100%;}
+.box-top .green-text br {display:block;}
+.page13 .box-top .green-text, .page14 .box-top .green-text, .page15 .box-top .green-text, .page16 .box-top .green-text, .page17 .box-top .green-text  {line-height:1.5}
