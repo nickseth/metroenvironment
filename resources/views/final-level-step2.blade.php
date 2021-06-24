@@ -676,17 +676,7 @@
 										</div>
 										<hr>
 										<h5>Did you know?</h5>
-										<p><b>METRO’s SSM tool ensures:</b><br/>
-1. Supplier & producer social compliance status at one glance​<br/>
-2. Latest audit information in place​<br/>
-3. System-to-system interphase with leading social compliance schemes amfori BSCI + Sedex (overnight synchronization of all relevant data (updates)​<br/>
-4. Quick response & action taking ​​<br/>
-5. Automated information and call for action by mail, e.g.​<br/>
-6. Audit expiry reminder​ ​<br/>
-7. Deal-breaker findings ​​<br/>
-8. Dashboard overview​​<br/>
-9. Reporting functions (monthly push report + daily overview in the tool)​​<br/>
-10. Management tool to comply with legal requirements + comply with METRO Social Compliance Policy​​<br/>
+										<p>METRO's SSM tool ensures the latest audit information at a glance and a system-to-system interphase with a leading social compliance status.
 </p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
 										 <a href="#" class="read-more"></a>
@@ -779,7 +769,7 @@ Yearly, METRO produces 21.000.000 kWh.
 							</div>
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
-								<h2 class="clr-blue">Are you aware that palm oil is in nearly every product you buy? </h2>
+								<h2 class="clr-blue">Do you know that palm oil is in almost every product you buy? </h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
