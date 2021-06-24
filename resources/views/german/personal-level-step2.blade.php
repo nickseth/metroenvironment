@@ -73,7 +73,7 @@
     </div>
 	<div class="form-group">
      <input type="radio" id="pesticites_organic" name="personal_level_step2_organic" value="The organic certification does not have an own logo">
-      <label for="pesticites_organic">Die organischeZertifizierung hat kein eigenes Logo</label>
+      <label for="pesticites_organic">Die organische Zertifizierung hat kein eigenes Logo</label>
 	 
     </div>
  

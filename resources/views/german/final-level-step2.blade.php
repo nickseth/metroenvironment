@@ -715,7 +715,7 @@
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">Kennen Sie: "Mein nachhaltiges Restaurant</h2>
+								<h2 class="clr-blue">Kennen Sie: "Mein nachhaltiges Restaurant"</h2>
 								<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
