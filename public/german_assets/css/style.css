@@ -1,5 +1,8 @@
 *{margin:0; padding:0}
-
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 body.index-page .navbar .right-header {
     display: none;
 }
@@ -1333,7 +1336,7 @@ height:0!important;opacity:0!important;
 
 /* Several different images */
 .bg-one {background-image: url(../images/sec-2-home-bg.svg);
-background-position: 140px -80px;
+background-position: 120px -80px;
 }
 
 
@@ -1358,12 +1361,15 @@ background-position: 140px -80px;
 .personal-level-start .button-wrapper {display:none; position:fixed; width:100%; left:0; right:0; bottom:0; height:auto;}
 .personal-level-start.zoom-backrgound .button-wrapper {
 display: block;
-    position: absolute;
+    position: static;
     width: auto;
     right: auto;
-    left: 38%;
-    top: 52%;
+   
 	}
+	.caption-sec2 .button-wrapper {
+    position: static !important;
+    margin: 5px 0 0 0;
+}
 .personal-level-start .navbar-default,.personal-level-start .navbar-default{position:absolute; top:0; left:0; right:0; width:100%; background:transparent}
 .personal-level-step {background:url(../images/sec-2bg.jpg) no-repeat; background-size:cover}
 .loader-wrap {
@@ -1515,7 +1521,7 @@ background-size:90%
 .col-sm-5 .gbb-wrap {margin-right:5%; }
 .col-sm-7 .gbb-wrap {margin-left:5%}
 .gbb-wrap .green-brdr-box {
-    padding:20px 25px;
+    padding:20px;
     border: solid 4px #4c9f38;
     border-radius: 16px;
 }
