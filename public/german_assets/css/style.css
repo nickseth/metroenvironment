@@ -1650,7 +1650,7 @@ background-size:90%
     position: absolute;
     right: 17px;
     color: #4c9f38;
-    text-transform: uppercase;
+    text-transform: uppercase;white-space: nowrap;
 }
 
 .sec3-green-bg{background:url(../images/sec3-last-bg.jpg) no-repeat top center; background-size:100%;}
@@ -2120,3 +2120,4 @@ input.highlight {
 .vegi-plate {margin-top:-65px}
 .margin-auto {max-width:195px; margin:0 auto; position:relative; top:-25px }
 .personal-level-step12 .link-np {margin-top:-15px;}
+.page13 .page-width {max-width: 100%;}
