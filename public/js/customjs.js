@@ -353,8 +353,12 @@ $('.selected_language').val(Cookies.get('language_selected'))
 	})
 	$('.back-navigate-btn').click(function(e){
 		e.preventDefault();
+
 		window.history.back();
 	})
+	if(performance.navigation.type == 2) {
+    $('body').fadeIn(2000)
+}
 	$('.reset-btn').click(function(e){
 		e.preventDefault();
 		location.reload();

@@ -707,7 +707,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie zum Beispiel: Surplus, Whole Surplus, World Food Program.</p>
+								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie zum Beispiel: <a href="https://sirplus.de/" target="_blank">Sirplus</a>, <a href="https://wholesurplus.com/" target="_blank">SWhole Surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program</a>.</p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        <a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/mein-nachhaltiges-restaurant.html" class="read-more">Weiterlesen</a>
 							<div class="submit-btn">
