@@ -39879,7 +39879,7 @@
 </div>
 <div class="grid-container animate__zoomIn row2 top-prompt-wrap">
 <div class="top-prompt animate__animated animate__slideInUp"><img src="../german_assets/images/arrow-up.svg"/>
-<span>Start from here</span>
+<span>Von hier aus starten</span>
 </div>
 							<div class="grid-list">
 								<div class="grid-item" data-text="Avocado">
