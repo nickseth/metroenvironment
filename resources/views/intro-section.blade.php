@@ -31,21 +31,21 @@
  
 
 
-  <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="The correct answers are my generation, my children and my grandchildren"><div class="checkbox-group" >
     <div class="form-group">
-      <input type="checkbox" id="html" class="multiple-checkbox-data"  value="My generation">
+      <input type="checkbox" id="html" class="multiple-checkbox-data correct-answer"  value="My generation">
       <label for="html">My generation</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="css" class="multiple-checkbox-data"  value="My grandchildren">
+      <input type="checkbox" id="css" class="multiple-checkbox-data correct-answer"  value="My grandchildren">
       <label for="css">My grandchildren</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript" class="multiple-checkbox-data"  value="My children">
+      <input type="checkbox" id="javascript" class="multiple-checkbox-data correct-answer"  value="My children">
       <label for="javascript">My children</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java" class="multiple-checkbox-data" value="This not a serious threat">
+      <input type="checkbox" id="java" class="multiple-checkbox-data correct-answer" value="This not a serious threat">
       <label for="java">This is not a serious threat</label>
     </div></div>
 	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question1"/>

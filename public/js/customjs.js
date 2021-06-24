@@ -375,6 +375,10 @@ $('.selected_language').val(Cookies.get('language_selected'))
 	$('.survey-form .grid-item').click(function(){
 		$(this).next().find('input').click();
 	})
+	$('.correct-answer').click(function(){
+		$('.error-message').remove();
+		$('.button-wrapper').append('<p class="error-message correct-message animate__animated animate__fadeIn gray-text">'+$('.survey-form').attr('data-correct-answers')+'</p>')
+	})
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
 		e.preventDefault();

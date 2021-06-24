@@ -29,21 +29,22 @@
  
 
 
-  <form class="survey-form required-validation" data-validation-type="radio"><div class="checkbox-group">
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="
+Die richtige Antwort ist Stahl"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section_question2" value="1">
+      <input type="radio" id="html" name="intro_section_question2" value="1"class="correct-answer">
       <label for="html">Holz</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_question2" value="2">
+      <input type="radio" id="css" name="intro_section_question2" value="2" class="correct-answer">
       <label for="css">Papier</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section_question2" value="3">
+      <input type="radio" id="javascript" name="intro_section_question2" value="3" class="correct-answer">
       <label for="javascript">Plastik</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="intro_section_question2" value="4">
+      <input type="radio" id="java" name="intro_section_question2" value="4" class="correct-answer">
       <label for="java">Stahl</label>
     </div></div>
   </form>
