@@ -1649,7 +1649,7 @@ background-size:90%
     position: absolute;
     right: 17px;
     color: #4c9f38;
-    text-transform: uppercase;
+    text-transform: uppercase;white-space:nowrap;
 }
 
 .sec3-green-bg{background:url(../images/sec3-last-bg.jpg) no-repeat top center; background-size:100%;}
