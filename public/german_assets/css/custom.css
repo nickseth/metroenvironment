@@ -247,10 +247,7 @@ font-family: "Verdana";
 	text-align: center;}
 
 	
-	.grid-list .form-group input:checked + label:before {
-		background: #10cfbd;
-		border-color: #10cfbd;
-	}
+
 	.grid-list .form-group {    margin-top: 15px;    margin-bottom: 0;text-align: center;}
 
 		.grid-icons svg{    width: 65px;
