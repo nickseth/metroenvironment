@@ -118,8 +118,7 @@ form *{display:block; width:100%}
 <option value="" disabled selected>Select your department size range</option>
 <option value="Less than 10">Less than 10</option>
 <option value="10-20" >10-20</option>
-<option value="21-30">21-30</option>
-<option value="31 and above">31 and above</option>
+<option value="20 and above">20+</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="images/select-arrow.svg" />

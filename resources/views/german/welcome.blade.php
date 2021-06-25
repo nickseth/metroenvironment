@@ -38029,9 +38029,9 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
   </div>
 </nav>
 <main class="mid-content">
-<div class="welcome"><h3>WILLKOMMEN ZUR NACHHALTIGKEITSUMFRAGE!</h3>
+<div class="welcome"><h3>WILLKOMMEN ZUR #<span style="color:#4c9f38;">M</span>VIRONMENT</h3>
 </div>
-<div class="home-content"><p>Hallo und willkommen! Vielen Dank, dass Sie sich die Zeit nehmen, an dieser interaktiven Umfrage teilzunehmen. Ihre Antworten werden es uns ermöglichen, wirkungsvolle Strategien zu entwickeln, von denen die Welt um uns herum profitiert. Wir versprechen, dass es nicht lange dauern wird.</p></div>
+<div class="home-content"><p>Hallo! MVIRONMENT ist eine interaktive Umfrage, die es uns ermöglichen wird, wirkungsvolle Strategien zu entwickeln, die der Welt um uns herum zugute kommen. Ihr Input ist uns wichtig und keine Sorge, wir werden Ihre Angaben sicher aufbewahren. Also, lassen Sie uns anfangen.</p></div>
 <!-- First Container -->
 </main>
 

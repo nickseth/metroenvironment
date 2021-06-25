@@ -21,9 +21,9 @@
 <a href="{{URL::to('/de')}}" class="btn-flip index-btn translate-btn" data-back="GERMAN " data-language="de" data-front="GERMAN"></a>
 </div>
 <p>
-Alternatively, if you want to view the website in another language, you can avail of the translation feature in Google Chrome. To know more, go to the following link:<br/><br/><a href="https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=en" >
-https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=en</a>
-<br/><br/>
+To view the #MVIRONMENT website in another language, you can use the automated translate option provided by your browser. However, these are automated translations and may not provide an exact translation. Therefore, kindly use this option only if it is necessary.
+<br/><br/><span class="text-center" style="display:block;">Get help here:<a href="https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=en" target="_blank">Chrome</a> | <a href="https://support.microsoft.com/en-us/topic/use-microsoft-translator-in-microsoft-edge-browser-4ad1c6cb-01a4-4227-be9d-a81e127fcb0b" target="_blank">Edge</a> | <a href="https://support.apple.com/en-in/guide/safari/ibrw646b2ca2/mac" target="_blank">Safari</a>
+</span><br/>
 <em><strong>Note:</strong> Google Translate cannot translate all content, and may not provide an exact translation. Anyone relying on information obtained from using Google Translate does so at his or her own risk.
 <br/>
 <br/>

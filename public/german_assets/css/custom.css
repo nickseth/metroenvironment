@@ -628,7 +628,7 @@ border-right: 40px solid transparent;
  .page13 .sec1-box-right img{    margin: 0 auto;    padding-top: 25px;
     display: block;}
 	.selecionado_opcion,.cont_select_int > li,
-form.survey-form input, form.survey-form  select{font-size: 16px;}
+form.survey-form input, form.survey-form  select{font-size: 12px;}
 form.survey-form  select::-webkit-input-placeholder,
 form.survey-form input::-webkit-input-placeholder {
 	opacity: .8;

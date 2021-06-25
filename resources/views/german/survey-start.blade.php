@@ -38,7 +38,7 @@ form *{display:block; width:100%}
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
 <select name="age" onchange="" class="required-field" onclick="return false;" id="">
-<option value="" disabled selected >Ihr Alter</option>
+<option value="" disabled selected >Wählen Sie Ihr Alter</option>
 <option value="20-30">20-30</option>
 <option value="31-40" >31-40</option>
 <option value="41+">41+</option>
@@ -64,7 +64,7 @@ form *{display:block; width:100%}
   <!-- Custom select structure --> 
 <div class="select_mate" data-mate-select="active" >
 <select name="gender" onchange=""  onclick="return false;" id="">
-<option value="" disabled selected >Geschlecht</option>
+<option value="" disabled selected >Wählen Sie Ihr Geschlecht</option>
 <option value="Male">Männlich</option>
 <option value="Female" >Weiblich</option>
 <option value="Other">Andere</option>
@@ -88,10 +88,10 @@ form *{display:block; width:100%}
 <div class="select_mate" data-mate-select="active" >
 <select name="joining_years" onchange=""  onclick="return false;" id="">
 <option value="" disabled selected>Wie lange sind Sie schon Teil der METRO Familie?</option>
-<option value="Less than 10">Less than 10</option>
-<option value="10-20" >10-20</option>
-<option value="21-30">21-30</option>
-<option value="31 and above">31 and above</option>
+<option value="1-5 years">1-5 Jahre</option>
+<option value="5-10 Years">5-10 Jahre</option>
+<option value="10-15 Years">10-15 Jahre</option>
+<option value="15+ Years">15+ Jahre</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="../german_assets/images/select-arrow.svg" />
@@ -116,11 +116,9 @@ form *{display:block; width:100%}
 <div class="select_mate department-options" data-mate-select="active" >
 <select name="department_size"  onchange="" onclick="return false;" id="">
 <option value="" disabled selected>Wie groß ist Ihre Abteilung bei METRO?</option>
-<option value="5">0-5</option>
-<option value="10" >5-10</option>
-<option value="15">10-15</option>
-<option value="20">15-20</option>
-<option value="20 and above">20 und über</option>
+<option value="Less than 10">Weniger als 10</option>
+<option value="10-20" >10-20</option>
+<option value="20 and above">20+</option>
   </select>
 <p class="selecionado_opcion"  onclick="open_select(this)" ></p><span onclick="open_select(this)" class="icon_select_mate" >
 <img src="../german_assets/images/select-arrow.svg" />
