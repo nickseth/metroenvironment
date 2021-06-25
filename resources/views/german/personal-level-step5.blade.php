@@ -11626,10 +11626,10 @@
 									</div>
 									<ul class="range-labels">
 										<li>Keine<br/>Umstellung</li>
-										<li>Reduzierung im Konsum geplant</li>
+										<li>Geplante Verbrauchsreduzierung</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>
-										<li>Konsum komplett gestoppt</li>
+										<li>Konsum komplett eingestellt</li>
 									</ul>
 								</div>
 								<div class="outer-input foods-check">

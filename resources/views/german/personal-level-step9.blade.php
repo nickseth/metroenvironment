@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Haben Sie in den letzten Jahren Ihr Konsumverhalten bei den folgenden Lebensmitteln geändert?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Mewegen Sie den Schieberegler nach rechts, entsprechend der Option, die für Sie am relevantesten ist. Kreuzen Sie das Kästchen an, wenn die Aussage für Sie zutrifft.</p>
+							<p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler nach rechts, entsprechend der Option, die für Sie am relevantesten ist. Kreuzen Sie das Kästchen an, wenn die Aussage für Sie zutrifft.</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
@@ -70,16 +70,16 @@
 									</div>
 									<ul class="range-labels">
 										<li>Keine<br/>Umstellung</li>
-										<li>Reduzierung im Konsum geplant</li>
+										<li>Geplante Verbrauchsreduzierung</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>
-										<li>Konsum komplett gestoppt</li>
+										<li>Konsum komplett eingestellt</li>
 									</ul>
 								</div>
 								<div class="outer-input foods-check">
 									<div class="form-group">
 										<input type="checkbox" id="allsame_personal_step_9" name="personal_level_step9_never" value="I have never eaten Eggs" class="never-selection-checkbox">
-										<label for="allsame_personal_step_9">Ich habe noch nie Eier gegessen</label>
+										<label for="allsame_personal_step_9">Ich habe noch nie Eier gegessen.</label>
 									</div>
 								</div>
 							</div>

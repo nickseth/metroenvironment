@@ -14623,16 +14623,16 @@
 									</div>
 									<ul class="range-labels">
 										<li>Keine<br/>Umstellung</li>
-										<li>Reduzierung im Konsum geplant</li>
+										<li>Geplante Verbrauchsreduzierung</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>
-										<li>Konsum komplett gestoppt</li>
+										<li>Konsum komplett eingestellt</li>
 									</ul>
 								</div>
 								<div class="outer-input foods-check">
 									<div class="form-group">
 										<input type="checkbox" id="allsame_personal_step_6" name="personal_level_step6_never" value="I have never eaten Poultry" class="never-selection-checkbox">
-										<label for="allsame_personal_step_6">Ich habe noch nie Geflügelfleisch gegessen</label>
+										<label for="allsame_personal_step_6">Ich habe noch nie Geflügelfleisch gegessen.</label>
 									</div>
 								</div>
 							</div>
