@@ -18,7 +18,7 @@ window.onload = function(){
   crear_select();
   $('.department-options li').click(function(){
 	
-	if($('.department-options select').val() == '21-30' || $('.department-options select').val() == '31 and above'){
+	if($('.department-options select').val() == '21-30' || $('.department-options select').val() == '31 and above' || $('.department-options select').val() == '20 and above'){
 		$('.organization-team-input').removeAttr('disabled');
 		$('.organization-team-input').addClass('highlight');
 	}

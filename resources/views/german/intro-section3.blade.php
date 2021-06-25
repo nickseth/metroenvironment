@@ -32,19 +32,19 @@
   <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="
 Die richtige Antwort ist 72 Terawatts"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section_question3" value="62 Terawatts">
+      <input type="radio" id="html" name="intro_section_question3" value="62 Terawatts" class="correct-answer">
       <label for="html">62 Terawatt</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_question3" value="72 Terawatts">
+      <input type="radio" id="css" name="intro_section_question3" value="72 Terawatts" class="correct-answer">
       <label for="css">72 Terawatt</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section_question3" value="10 Terawatts">
+      <input type="radio" id="javascript" name="intro_section_question3" value="10 Terawatts" class="correct-answer">
       <label for="javascript">10 Terawatt</label>
     </div>
 	 <div class="form-group">
-      <input type="radio" id="java" name="intro_section_question3" value="28 Terawatts">
+      <input type="radio" id="java" name="intro_section_question3" value="28 Terawatts" class="correct-answer">
       <label for="java">28 Terawatt</label>
     </div></div>
   </form>
