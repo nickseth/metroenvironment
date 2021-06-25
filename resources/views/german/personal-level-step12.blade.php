@@ -25,7 +25,9 @@
 
  <div class="sec1-box-center text-center">
  <div class="box-top">
- 
+ <div class="box-icon animate__animated animate__fadeInLeft">
+								<img src="../german_assets/images/leaves.svg">
+							</div>
  <div class="animate__animated animate__fadeIn green-text">Welche der folgenden alternativen Proteinquellen verwenden Sie in Ihrer Ernährung?</div>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Ziehen Sie die Lebensmittel, die Sie regelmäßig konsumieren, per Drag & Drop auf den Teller.</p>

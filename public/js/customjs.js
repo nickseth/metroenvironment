@@ -290,14 +290,14 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		}
 	})
 	var target = '';
-	$('#sust1-group .sust-item').click(function(){
-		$('.sust1-marked-element').removeClass('blinking-text');
+$('#sust1-group .sust-item').click(function(){
+		//$('.sust1-marked-element').removeClass('blinking-text');
 	 target = $(this).attr('id');
 		$('.popup-ques-container').removeClass('active-popover');
 		$('.'+target).addClass('active-popover')
 	})
 	$('#sust2-svg .sust-item').click(function(){
-		$('.sust1-marked-element').removeClass('blinking-text');
+		//$('.sust1-marked-element').removeClass('blinking-text');
 		target = $(this).attr('id');
 		$('.popup-ques-container').removeClass('active-popover');
 		$('.'+target).addClass('active-popover')
