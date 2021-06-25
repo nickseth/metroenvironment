@@ -31,7 +31,7 @@
 								<div class="animate__animated animate__fadeIn green-text">Wie würden Sie beim Kauf der Produkte eines Unternehmens die Faktoren priorisieren,
 <br/>die die Kaufentscheidung beeinflussen?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler nach rechts, entsprechend der Option, die für Sie am relevantesten ist, wobei 1 = Stimme überhaupt nicht zu und 5 = Stimme voll und ganz zu</p>
+							<p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler nach rechts, entsprechend der Option, die für Sie am relevantesten ist, wobei 1 = Stimme überhaupt nicht zu und 5 = Stimme voll und ganz zu.</p>
 						</div>
 					</div>
 					<div class="col-sm-12">

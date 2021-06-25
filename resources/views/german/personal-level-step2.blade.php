@@ -28,7 +28,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Was ist der Unterschied zwischen Bioprodukten und organischen Produkten?</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Wählen Sie die Kästchen mit den Aussagen aus, die Ihnen am relevantesten erscheinen</p>
+ <p class="animate__animated animate__fadeIn gray-text">Wählen Sie die Kästchen mit den Aussagen aus, die Ihnen am relevantesten erscheinen.</p>
 
 </div>
  
