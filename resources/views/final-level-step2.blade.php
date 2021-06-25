@@ -685,7 +685,7 @@
 							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
-								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic initiative</h2>
+								<h2 class="clr-blue">Are you aware of METRO's Water Initiative / METRO Plastic initiative</h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -716,7 +716,7 @@
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>The METRO Water Initiative in Bihar, India aims to provide sustainable access to water and sanitation to half a million people.</p>
+								<p>METRO is the world's first wholesaler to launch a multi-year cooperation with Plastic Bank. In partnership with the Canadian social enterprise, selected suppliers and millions of METRO customers across 24 countries, we will prevent over 65 million plastic bottles from entering the oceans. </p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
 					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india " class="read-more" target="_blank">Read More</a>
 							<div class="submit-btn">
@@ -724,7 +724,7 @@
 							</div>
 							</div>
 							<div class="popup-ques-container climate-action">
-								<h2 class="clr-blue">Do you know about METRO reduced
+								<h2 class="clr-blue">Do you know about METRO's reduced
 emissions by electric cars,
 electricity saving etc.?
 </h2>
@@ -800,16 +800,7 @@ Yearly, METRO produces 21.000.000 kWh.
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Palm oil is the world’s most widely traded and versatile, edible vegetable oil. It is an extremely efficient crop, producing between 4 to 10 times more oil than other crops per unit of cultivated land with low agro-inputs. However, it is also a major driver of deforestation. Every year 130,000 square kilometres of forest are cut down or burned. This is equivalent to the destruction of an area the size of a football field every 1.4 seconds. The clearing of tropical forests is a big contributor to global climate change and accounts for about 20% of the world’s greenhouse gas emissions.<br/>
-
-Categories with high likelihood of palm  oil in products:<br/>
-Bakery (e.g. bread, pastry)<br/>
-Dairy (e.g. butter)<br/>
-Deep frozen (e.g. ice cream, French fries)<br/>
-Processed meat (e.g. sausages)<br/>
-Fruit & Vegetables (e.g. dried nuts)<br/>
-Home care (e.g. laundry, cleaning)
-</p>
+								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Initiative aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        <a href="#" class="read-more"></a>
 							<div class="submit-btn">
@@ -857,7 +848,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							</div>
 							</div>
 							<div class="popup-ques-container food-waste">
-								<h2 class="clr-blue">Do you know about METRO efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?
+								<h2 class="clr-blue">Do you know about METRO's efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?
 </h2>
 <p class="support-text">Submit your response to move to the next question.</p>								
 								<div class="emoji-cover">
@@ -929,7 +920,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>METRO is the world's first wholesaler to launch a multi-year cooperation with Plastic Bank. In partnership with the Canadian social entreprise, selected suppliers and millions of METRO customers across 24 countries, we will prevent over 65 million plastic bottles from entering the oceans.  </p>
+								<p>METRO’s Sustainable Restaurant Toolbox is a guide to sustainability that enables communication with HoReCa customers on topics including food waste, plastic use, energy, ingredient sourcing and safe food practices.</p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
 					             <a href="https://www.metro-wholesale.com/be-sustainable/metro-plastic-initiative
 " class="read-more" target="_blank">Read More</a>
