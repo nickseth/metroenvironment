@@ -5051,3 +5051,6 @@ a.read-more {
 .user-rating li > * {
     cursor: pointer;
 }
+.que-1-wrapper,.que-2-wrapper,.que-3-wrapper{
+	width:100%;
+}
