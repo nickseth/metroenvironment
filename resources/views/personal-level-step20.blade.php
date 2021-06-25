@@ -1,6 +1,12 @@
 @include('header')
 <body class="personal-level-step20 personal-level-step">
 <div style="display:none">
+<img src="images/dollor-circle-0.png" />
+<img src="images/dollor-circle-1.png" />
+<img src="images/dollor-circle-2.png" />
+<img src="images/dollor-circle-3.png" />
+<img src="images/dollor-circle-4.png" />
+<img src="images/dollor-circle-5.png" />
 <div class="personal-level-step20">
 <div class="circular-range-slider current-step-1 current-step-2 current-step-3 current-step-4 current-step-5 "><div class="rs-inner rs-bg-color rs-border"></div></div>
 </div>

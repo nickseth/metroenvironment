@@ -1,6 +1,13 @@
 @include('header')
 <body class="final-level-step11 personal-level-step">
 <div style="display:none">
+<img src="images/fls-11-img0.svg" />
+<img src="images/fls-11-img1.svg" />
+<img src="images/fls-11-img2.svg" />
+<img src="images/fls-11-img3.svg" />
+<img src="images/fls-11-img4.svg" />
+<img src="images/fls-11-img5.svg" />
+<img src="images/fls-11-img6.svg" />
 <div class="final-level-step11">
 <div class="circular-range-slider current-step-1 current-step-2 current-step-3 current-step-4 current-step-5 "><div class="rs-inner rs-bg-color rs-border"></div></div>
 </div>
