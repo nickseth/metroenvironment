@@ -645,7 +645,9 @@
 							  
 								</div>
 							</div>
-						</div>
+
+<p class="animate__animated animate__fadeIn gray-text all-question-text" style="display:none;margin-top: 20px;">More information about METRO's Sustainability Initiatives available in the #MVIRONMENT Booklet at the end of this survey.</p>
+</div>
 						
 						
 						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">

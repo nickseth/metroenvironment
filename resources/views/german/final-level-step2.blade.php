@@ -481,6 +481,7 @@
 							  
 								</div>
 							</div>
+						<p class="animate__animated animate__fadeIn gray-text all-question-text" style="display:none;margin-top: 20px;">Weitere Informationen zu den Nachhaltigkeitsinitiativen von METRO finden Sie im #MVIRONMENT Booklet am Ende dieser Umfrage.</p>
 						</div>
 						
 						

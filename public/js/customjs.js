@@ -328,6 +328,7 @@ $('#sust1-group .sust-item').click(function(){
 		}
 		if($('.next-to-active').length == 8 ){
 			$('.question-wrapper').removeClass('col-sm-6').addClass('col-sm-12');
+			$('.all-question-text').show();
 			$('.answers-wrapper').addClass('hide');
 		}
 		$('.popup-ques-container').removeClass('active-popover');

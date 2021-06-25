@@ -328,6 +328,7 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		}
 		if($('.next-to-active').length == 8 ){
 			$('.question-wrapper').removeClass('col-sm-6').addClass('col-sm-12');
+			$('.all-question-text').show();
 			$('.answers-wrapper').addClass('hide');
 		}
 		$('.popup-ques-container').removeClass('active-popover');
