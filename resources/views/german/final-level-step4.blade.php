@@ -37,7 +37,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Ich glaube, dass Nachhaltigkeit und soziale Faktoren einen direkten Einfluss auf den Gesamterfolg von METRO heute und in Zukunft haben.</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 0 bis 5, um Ihre Antwort einzureichen, wobei 1 = am wenigsten wahrscheinlich und 5 = am wahrscheinlichsten</p>
+ <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 1 bis 5, um Ihre Antwort einzureichen, wobei 1 am wenigsten wahrscheinlich und 5 am wahrscheinlichsten entspricht.</p>
 
 </div>
  
