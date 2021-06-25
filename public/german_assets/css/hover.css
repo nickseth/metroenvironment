@@ -4576,7 +4576,7 @@
   content: '';
   display: block;
   height: 145%;
-  width: 72%;
+  width: 92%;
   border: 10px solid #214d88;
   border-radius: 50%;
   position: absolute;
@@ -4752,13 +4752,28 @@ a.read-more {
 	animation:blinkingText 0.8s infinite;
 }
 .blinking-text g g rect,
-.blinking-text g g path{	animation:blinkingText 1s infinite;}
+.blinking-text g g path, 
+#climate-action.blinking-text g g g path, #climate-action.blinking-text g path{	animation:blinkingText 1.7s infinite!important;}
 @keyframes blinkingText{
 	0%{	fill: #003c7f;	}
 	49%{	fill: transparent;	}
-	50%{	fill: transparent;	}
-	99%{	fill:transparent;	}
+	50%{	fill: #003c7f;	}
+	99%{	fill:#003c7f;	}
 	100%{	fill: #003c7f;	}
+}
+
+
+#food-waste.blinking-text g g path, #organic.blinking-text g g path, #organic.blinking-text g path.cls-6, #conscious-proteins.blinking-text g g path, #conscious-proteins.blinking-text g path.cls-6,  #organic.blinking-text g#B_Organic_and_Responsible_Products_R1 path,
+#conscious-proteins.blinking-text g#B_Conscious_Proteins_R1 path
+
+ {animation:blinkingTextIn 1.7s infinite!important;}
+
+@keyframes blinkingTextIn{
+	0%{	fill: #fff;	}
+	49%{	fill: transparent;	}
+	50%{	fill: #fff;	}
+	99%{	fill:#fff;	}
+	100%{	fill: #fff;	}
 }
 .blinking{
 	animation:blinking 0.8s infinite;
