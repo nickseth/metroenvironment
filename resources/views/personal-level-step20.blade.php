@@ -34,7 +34,7 @@
  <div class="sec1-box-center text-center">
  <div class="box-top">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
- <div class="animate__animated animate__fadeIn green-text">I am willing to pay a higher price for products that cause less<br> environmental pollution, and are fairly traded</div>
+ <div class="animate__animated animate__fadeIn green-text">I am willing to pay a higher price for products that cause less<br> environmental pollution, and are fairly traded.</div>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5 to submit your response, where 1 = least likely and 5 = most likely.</p>
 

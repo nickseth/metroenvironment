@@ -28,7 +28,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">What is the difference between Bio Products and Organic Products?</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Select the main point of difference between the two types of products</p>
+ <p class="animate__animated animate__fadeIn gray-text">Select the main point of difference between the two types of products.</p>
 
 </div>
  
