@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Markieren Sie Ihr Bewusstseinsniveau bei den verschiedenen METRO-Nachhaltigkeitsinitiativen</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Dieses Rad weist auf die Nachhaltigkeitsinitiativen von METRO hin. Das Rad beginnt , Abschnitt für Abschnitt an zu blinken. Wählen Sie für die Fragen zu den einzelnen Abschnitten bitte ein Kästchen als Antwort aus.</br>
+							<p class="animate__animated animate__fadeIn gray-text">Dieses Rad weist auf die Nachhaltigkeitsinitiativen von METRO hin. Das Rad beginnt, Abschnitt für Abschnitt an zu blinken. Wählen Sie für die Fragen zu den einzelnen Abschnitten bitte ein Kästchen als Antwort aus.</br>
               Wählen Sie unter jeder Frage das für Sie relevanteste Feld aus.</p>
 						</div>
 					</div>

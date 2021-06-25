@@ -679,7 +679,7 @@
 										<p>METRO's SSM tool ensures the latest audit information at a glance and a system-to-system interphase with a leading social compliance status.
 </p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
-										 <a href="#" class="read-more"></a>
+										
 										 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -718,7 +718,7 @@
 								<h5>Did you know?</h5>
 								<p>METRO is the world's first wholesaler to launch a multi-year cooperation with Plastic Bank. In partnership with the Canadian social enterprise, selected suppliers and millions of METRO customers across 24 countries, we will prevent over 65 million plastic bottles from entering the oceans. </p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
-					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india " class="read-more" target="_blank">Read More</a>
+
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -763,7 +763,7 @@ electricity saving etc.?
 Yearly, METRO produces 21.000.000 kWh.
 </p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
-					        <!-- <a href="#" class="read-more">Read More</a> -->
+
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="climate-action" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -802,7 +802,7 @@ Yearly, METRO produces 21.000.000 kWh.
 								<h5>Did you know?</h5>
 								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Initiative aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
-					        <a href="#" class="read-more"></a>
+					        
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -842,7 +842,6 @@ Yearly, METRO produces 21.000.000 kWh.
 								<p>
 Diversity & Inclusion is a lived reality for an international corporation. This is precisely why it is particularly important for METRO to address this topic at regualr intervals and to sensitise and engage its employees for this topic.</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
-					        <a href="https://www.metroag.de/news/2019/02/18/diversity-and-inclusion-days" class="read-more" target="_blank">Read More</a>
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -883,7 +882,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								<p>METRO cooperates with even more partners to reduce food waste such as: <a href="https://sirplus.de/" target="_blank">Surplus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program</a>.
 </p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
-					        <a href="#" class="read-more"></a>
+					        
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -922,8 +921,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								<h5>Did you know?</h5>
 								<p>METRO’s Sustainable Restaurant Toolbox is a guide to sustainability that enables communication with HoReCa customers on topics including food waste, plastic use, energy, ingredient sourcing and safe food practices.</p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
-					             <a href="https://www.metro-wholesale.com/be-sustainable/metro-plastic-initiative
-" class="read-more" target="_blank">Read More</a>
+					          
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Submit" data-front="Submit" ></a>
 							</div>
@@ -962,7 +960,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								<h5>Did you know?</h5>
 								<p>With plant based meat alternatives such as burgers, strips and mince, the METRO Chef Veggie range is available in 15 Metro countries. It is an excellent example of METRO’s shift consciousness towards changing global patterns.</p>
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
-					             <a href="https://responsibility.metroag.de/focus-areas/conscious-proteins" target="_blank" class="read-more">Read More</a>
+
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="conscious-proteins" data-back="Submit" data-front="Submit" ></a>
 							</div>
