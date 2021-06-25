@@ -550,7 +550,7 @@ $('#sust1-group .sust-item').click(function(){
 	$('.download-zip-btn').click(function(){
 		setTimeout(function(){
 			Cookies.set('badge_score',0, { expires: 1 });
-			window.location.href = $('html').attr('data-base-path');
+			window.location.href = 'https://metro-united.com/files/aa23566c-b1f0-420a-80da-d91e4df0dcc3/933585da-e747-432e-a521-bc5541935227/MVironment%20Booklet_S1_EN%20pdf';
 		},1000)
 	})
 	// circular range slider //

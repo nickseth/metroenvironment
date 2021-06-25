@@ -31,7 +31,7 @@
  
 
 
-  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="The correct answers are my generation, my children and my grandchildren"><div class="checkbox-group" >
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="You're right. Climate change will affect everyone adversely."><div class="checkbox-group" >
     <div class="form-group">
       <input type="checkbox" id="html" class="multiple-checkbox-data correct-answer"  value="My generation">
       <label for="html">My generation</label>
