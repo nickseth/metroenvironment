@@ -24,7 +24,7 @@
  <div class="sec1-box-left">
  <p class="animate__animated animate__fadeIn">Die globale Erwärmung ist weltweit ein ernstes Problem, und steigende Temperaturen haben natürliche Klimamuster verschoben. Wer wird Ihrer Meinung nach diese negativen Auswirkungen am stärksten spüren?</p>
  <div class="box-head">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Der Klimawandel wird sich nachweislich auswirken auf</h4>
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Der Klimawandel wird sich nachweislich auswirken auf.</h4>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Mehrere Antworten können asugewählt werden.</p>
   <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Die richtigen Antworten sind meine Generation, meine Kinder und meine Enkel"><div class="checkbox-group">

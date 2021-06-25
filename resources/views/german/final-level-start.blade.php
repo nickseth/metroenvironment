@@ -37961,7 +37961,7 @@ iMeJAdqSYZn1IL9aKCKl1NwGcZ7MZJOdi8SvVlXfRsCugqj4RQwwWz66f+6fje5f3nBX8fx9/z/9
         </div>
         <div class=" navbar-collapse right-header text-right" id="myNavbar">
           <h1>#<span>M</span>vironment</h1>
-		  <strong>Nachhaltigkeit & Arbeit</strong>
+		
         </div></div>
       </div>
     </nav>

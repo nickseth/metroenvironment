@@ -481,6 +481,7 @@
 							  
 								</div>
 							</div>
+						<p class="animate__animated animate__fadeIn gray-text all-question-text" style="display:none;margin-top: 20px;">Weitere Informationen zu den Nachhaltigkeitsinitiativen von METRO finden Sie im #MVIRONMENT Booklet am Ende dieser Umfrage.</p>
 						</div>
 						
 						
@@ -513,7 +514,7 @@
 										<h5>Wusstest du schon?</h5>
 										<p>Das SSM-Tool von METRO gewährleistet auf einen Blick die neuesten Auditinformationen, die System-zu-System-Interphase mit führendem Social-Compliance-Status.</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
-										 <a href="#" class="read-more"></a>
+										
 										 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="human-rights" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -552,7 +553,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>METRO ist das weltweit erste Großhandelsunternehmen, das eine mehrjährige Kooperation mit Plastic Bank startet. In Zusammenarbeit mit dem kanadischen Sozialunternehmen, ausgewählten Lieferanten und Millionen von METRO-Kunden in 24 Ländern werden wir allein in den ersten 12 Monaten der METRO Plastic Initiative verhindern, dass über 65 Millionen Plastikflaschen in die Ozeane gelangen. </p>
   <input type="hidden" name="final_level_step2_ques2" class="final_level_step2_ques2" value="" />
-					        <a href="https://www.metro-wholesale.de/nachhaltig-sein/metro-plastic-initiative" target="_blank" class="read-more">Weiterlesen</a>
+					       
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="packaging-plastic" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -591,7 +592,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>METRO hat derzeit 250 Elektrofahrzeuge, davon 200 in Deutschland. Mit mehr als 48 Märkten in Deutschland, die mit Solaranlagen ausgestattet sind, produziert METRO 21.000.000 kWh Solarstrom pro Jahr.</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
-					        <a href="https://www.metroag.de/en/news/2021/03/22/metro-water-initiative-benefits-500-000-people-in-northern-india" target="_blank" class="read-more"></a>
+					       
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="climate-action" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -630,7 +631,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>Jedes Jahr werden 130.000 Quadratkilometer Wald abgeholzt oder verbrannt. Die Rohstoffbeschaffungsinitiative von METRO zielt darauf ab, Palmöl in Produkten wie Backwaren, Milchprodukten, tiefgekühlten Lebensmitteln, verarbeitetem Fleisch, Obst und Gemüse sowie Haushaltspflegeprodukten zu reduzieren.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
-					        <a href="#" class="read-more"></a>
+					        
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="raw-material-sourcing" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -669,7 +670,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>Diversity & Inclusion ist für einen internationalen Konzern gelebte Realität. Gerade deshalb ist es für METRO besonders wichtig, sich in regelmäßigen Abständen mit diesem Thema auseinanderzusetzen und die Mitarbeiter für dieses Thema zu sensibilisieren und zu engagieren.</p>
   <input type="hidden" name="final_level_step2_ques5" class="final_level_step2_ques5" value="" />
-					        <a href="https://www.metroag.de/news" class="read-more" target="_blank">Weiterlesen</a>
+					       
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="diversity-inclusion" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -709,7 +710,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>METRO kooperiert mit noch mehr Partnern, um Lebensmittelverschwendung zu reduzieren, wie: <a href="https://sirplus.de/" target="_blank">Sir Plus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program.</a></p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
-					        <a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/mein-nachhaltiges-restaurant.html" class="read-more">Weiterlesen</a>
+					       
 							<div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="food-waste" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -748,8 +749,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>Die Sustainable Restaurant Toolbox von METRO ist ein Leitfaden für Nachhaltigkeit, der die Kommunikation mit HoreCa-Kunden zu Themen wie Lebensmittelverschwendung, Kunststoffverbrauch, Energie, Zutatenbeschaffung und sichere Lebensmittelpraktiken ermöglicht. </p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
-					             <a href="https://www.metro.de/unternehmen/nachhaltigkeit/plastikinitiative
-" class="read-more" target="_blank">Weiterlesen</a>
+					         
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="organic" data-back="Senden" data-front="Senden" ></a>
 							</div>
@@ -788,7 +788,7 @@
 								<h5>Wusstest du schon?</h5>
 								<p>Mit pflanzlichen Fleischalternativen wie Burger, Streifen- und Hackfleisch ist das METRO Chef Veggie-Sortiment in 15 Metro-Ländern erhältlich. Es ist ein hervorragendes Beispiel für METROs Bewusstseinswandel hin zu sich ändernden globalen Mustern.</p>
 <input type="hidden" name="final_level_step2_ques8" class="final_level_step2_ques8" value="" />
-					             <a href="https://responsibility.metroag.de/focus-areas/conscious-proteins" target="_blank" class="read-more">Weiterlesen</a>
+					             
 								 <div class="submit-btn">
 							<a href="javascript:void(0)" class="link-btn popover-btn btn-flip" data-target="conscious-proteins" data-back="Senden" data-front="Senden" ></a>
 							</div>

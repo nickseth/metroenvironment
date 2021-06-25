@@ -34,7 +34,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Organic food forms a large part of my diet.</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5 to submit your response, where 1 = least likely and 5 = most likely</p>
+ <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5 to submit your response, where 1 = least likely and 5 = most likely.</p>
 
 </div>
  

@@ -187,7 +187,7 @@ headers: {
 });
 if(!$('body').hasClass('language-page')){
 	if(Cookies.get('language_selected') == undefined || Cookies.get('language_selected') == ''){
-				window.location.href = $('html').attr('data-base-path')+'/language';
+				window.location.href = $('html').attr('data-original-path')+'/language';
 		}
 }
 $('.selected_language').val(Cookies.get('language_selected'))
@@ -217,14 +217,14 @@ $('.selected_language').val(Cookies.get('language_selected'))
 			if(Cookies.get('language_selected') != undefined && Cookies.get('language_selected') != ''){
 				if(Cookies.get('surveyAgree') == undefined || Cookies.get('surveyAgree') == ''){
 					if(Cookies.get('language_selected') == 'de'){
-						window.location.href = $('html').attr('data-base-path')+'/de';
+						window.location.href = $('html').attr('data-original-path')+'/de';
 					}else{
-					window.location.href = $('html').attr('data-base-path');
+					window.location.href = $('html').attr('data-original-path');
 					}
 				}
 			}
 			else{
-				window.location.href = $('html').attr('data-base-path')+'/language'
+				window.location.href = $('html').attr('data-original-path')+'/language'
 			}
 		}
 	}
@@ -291,13 +291,13 @@ $('.selected_language').val(Cookies.get('language_selected'))
 	})
 	var target = '';
 	$('#sust1-group .sust-item').click(function(){
-		$('.sust1-marked-element').removeClass('blinking-text');
+		//$('.sust1-marked-element').removeClass('blinking-text');
 	 target = $(this).attr('id');
 		$('.popup-ques-container').removeClass('active-popover');
 		$('.'+target).addClass('active-popover')
 	})
 	$('#sust2-svg .sust-item').click(function(){
-		$('.sust1-marked-element').removeClass('blinking-text');
+		//$('.sust1-marked-element').removeClass('blinking-text');
 		target = $(this).attr('id');
 		$('.popup-ques-container').removeClass('active-popover');
 		$('.'+target).addClass('active-popover')
@@ -328,6 +328,7 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		}
 		if($('.next-to-active').length == 8 ){
 			$('.question-wrapper').removeClass('col-sm-6').addClass('col-sm-12');
+			$('.all-question-text').show();
 			$('.answers-wrapper').addClass('hide');
 		}
 		$('.popup-ques-container').removeClass('active-popover');
