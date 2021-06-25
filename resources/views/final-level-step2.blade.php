@@ -28,7 +28,7 @@
 									<div class="box-icon animate__animated animate__fadeInLeft">
 										<img src="images/leaves.svg">
 									</div>
-									<div class="animate__animated animate__fadeIn green-text">Mark your awareness level on the various Metro Sustainability initiatives</div>
+									<div class="animate__animated animate__fadeIn green-text">Mark your awareness level on the various Metro Sustainability initiatives.</div>
 								</div>
 								<p class="animate__animated animate__fadeIn gray-text">Select a section of the wheel to view the information under each one of them.</p>
 							</div>
@@ -687,7 +687,7 @@
 							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
-								<h2 class="clr-blue">Are you aware of METRO's Water Initiative / METRO Plastic initiative</h2>
+								<h2 class="clr-blue">Are you aware of METRO's Water Initiative / METRO Plastic initiative.</h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -890,7 +890,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">“My Sustainable Restaurant” Toolbox</h2>
+								<h2 class="clr-blue">“My Sustainable Restaurant” Toolbox.</h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">

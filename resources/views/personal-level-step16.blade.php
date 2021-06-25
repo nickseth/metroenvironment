@@ -31,7 +31,7 @@
 								<div class="animate__animated animate__fadeIn green-text">While purchasing a company’s products, how would you prioritise <br>
 the factors that affect purchase decision?</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you, where 1 = Strongly disagree and 5 = Strongly agree</p>
+							<p class="animate__animated animate__fadeIn gray-text">Move the slider to the right, corresponding to the option that is most relevant to you, where 1 = Strongly disagree and 5 = Strongly agree.</p>
 						</div>
 					</div>
 					<div class="col-sm-12">
