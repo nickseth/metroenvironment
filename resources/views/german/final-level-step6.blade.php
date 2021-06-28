@@ -1,13 +1,13 @@
 @include('/german/header')
 <body class="final-level-step13 personal-level-step">
 <div style="display:none">
-<img src="images/fls-13-img0.svg" />
-<img src="images/fls-13-img1.svg" />
-<img src="images/fls-13-img2.svg" />
-<img src="images/fls-13-img3.svg" />
-<img src="images/fls-13-img4.svg" />
-<img src="images/fls-13-img5.svg" />
-<img src="images/fls-13-img6.svg" />
+<img src="../german_assets/images/fls-13-img0.svg" />
+<img src="../german_assets/images/fls-13-img1.svg" />
+<img src="../german_assets/images/fls-13-img2.svg" />
+<img src="../german_assets/images/fls-13-img3.svg" />
+<img src="../german_assets/images/fls-13-img4.svg" />
+<img src="../german_assets/images/fls-13-img5.svg" />
+<img src="../german_assets/images/fls-13-img6.svg" />
 <div class="final-level-step13">
 <div class="circular-range-slider current-step-1 current-step-2 current-step-3 current-step-4 current-step-5 "><div class="rs-inner rs-bg-color rs-border"></div></div>
 </div>

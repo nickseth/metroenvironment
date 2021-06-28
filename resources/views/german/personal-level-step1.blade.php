@@ -1,12 +1,12 @@
 @include('/german/header')
 <body class="personal-level-step1 personal-level-step">
 <div style="display:none">
-<img src="images/circle-cart.svg" />
-<img src="images/circle-cart-1.svg" />
-<img src="images/circle-cart-2.svg" />
-<img src="images/circle-cart-3.svg" />
-<img src="images/circle-cart-4.svg" />
-<img src="images/circle-cart-5.svg" />
+<img src="../german_assets/images/circle-cart.svg" />
+<img src="../german_assets/images/circle-cart-1.svg" />
+<img src="../german_assets/images/circle-cart-2.svg" />
+<img src="../german_assets/images/circle-cart-3.svg" />
+<img src="../german_assets/images/circle-cart-4.svg" />
+<img src="../german_assets/images/circle-cart-5.svg" />
 <div class="personal-level-step1">
 <div class="circular-range-slider current-step-1 current-step-2 current-step-3 current-step-4 current-step-5 "><div class="rs-inner rs-bg-color rs-border"></div></div>
 </div>
