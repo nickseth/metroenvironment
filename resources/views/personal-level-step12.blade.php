@@ -25,7 +25,9 @@
 
  <div class="sec1-box-center text-center">
  <div class="box-top">
- 
+ <div class="box-icon animate__animated animate__fadeInLeft">
+								<img src="images/leaves.svg">
+							</div>
  <div class="animate__animated animate__fadeIn green-text">Which of the following alternative protein sources do you use in your diet?</div>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items you consume regularly on to the plate.</p>

@@ -45,7 +45,7 @@
       <label for="javascript">My children</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java" class="multiple-checkbox-data correct-answer" value="This not a serious threat">
+      <input type="checkbox" id="java" class="multiple-checkbox-data" value="This not a serious threat">
       <label for="java">This is not a serious threat</label>
     </div></div>
 	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question1"/>
