@@ -760,10 +760,7 @@ electricity saving etc.?
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>METRO currently has 250 electric vehicles, thereof 200 in Germany.
-48 stores are equipped with solar panels 
-yearly, METRO produces 21.000.000 kWh.
-</p>
+								<p>METRO currently has 250 electric vehicles, thereof 200 in Germany. 48 stores are equipped with solar panels with which METRO produces 21.000.000 kWh yearly.</p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 
 							<div class="submit-btn">
@@ -881,7 +878,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>METRO cooperates with even more partners to reduce food waste such as: <a href="https://sirplus.de/" target="_blank">Surplus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program</a>.
+								<p>METRO cooperates with even more partners to reduce food waste such as: <a href="https://sirplus.de/" target="_blank">Sir Plus</a>, <a href="https://wholesurplus.com/" target="_blank">Whole surplus</a>, <a href="https://www.wfp.org/" target="_blank">World Food Program</a>.
 </p>
   <input type="hidden" name="final_level_step2_ques6" class="final_level_step2_ques6" value="" />
 					        
