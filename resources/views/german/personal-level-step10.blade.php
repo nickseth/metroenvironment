@@ -34,7 +34,7 @@
 						</div>
 					</div>
 					<div class="col-sm-12">
-						<div class="sec1-box-right animate__animated animate__fadeInUp ">
+						<div class="sec1-box-right animate__animated animate__zoomIn">
 							<div class="foods-list">
 								<div class="grid-container animate__zoomIn ">
 									<div class="grid-list">
