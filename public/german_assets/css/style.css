@@ -2168,3 +2168,7 @@ input.highlight {
 .page13 .page-width {max-width: 100%;}
 .box-top .green-text br {display:block;}
 .page13 .box-top .green-text, .page14 .box-top .green-text, .page15 .box-top .green-text, .page16 .box-top .green-text, .page17 .box-top .green-text  {line-height:1.5}
+g#Inner_Circle_Content path {
+    pointer-events: none!important;
+    cursor: pointer!important;
+}
