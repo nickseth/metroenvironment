@@ -19,8 +19,8 @@
     </div>
 	
 	 <div class="caption-sec2">
-	    <h3>NACHHALTIGKEIT UND SIE</h3>
-    <p class="caption-paragraph">Nachhaltigkeit & Du<br/>
+	    <h3>NACHHALTIGKEIT UND DU</h3>
+    <p class="caption-paragraph"><br/>
 Wir beginnen nun mit Abschnitt 2 der Umfrage. Dieser Teil der Umfrage konzentriert sich auf die Rolle, die Nachhaltigkeit bei der Gestaltung Ihres persönlichen Lebens spielt. 
     </p>
 	<p> Erzählen Sie uns ein bisschen mehr über Ihr persönliches Konsumverhalten.</p>
