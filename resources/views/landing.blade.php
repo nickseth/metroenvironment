@@ -24,8 +24,6 @@
 To view the #MVIRONMENT website in another language, you can use the automated translate option provided by your browser. However, these are automated translations and may not provide an exact translation. Therefore, kindly use this option only if it is necessary.
 <br/><br/><span class="text-center" style="display:block;">Get help here:<a href="https://support.google.com/chrome/answer/173424?co=GENIE.Platform%3DDesktop&hl=en" target="_blank">Chrome</a> | <a href="https://support.microsoft.com/en-us/topic/use-microsoft-translator-in-microsoft-edge-browser-4ad1c6cb-01a4-4227-be9d-a81e127fcb0b" target="_blank">Edge</a> | <a href="https://support.apple.com/en-in/guide/safari/ibrw646b2ca2/mac" target="_blank">Safari</a>
 </span><br/>
-<br/>
-<br/>
 1. This survey is best viewed on your PC in 1920x1080 resolution.<br/>
 2. If you are using a mobile, then view it in landscape mode.<br/>
 3. Recommended browser Google Chrome, Microsoft Edge, Safari.<br/>
