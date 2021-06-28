@@ -687,7 +687,7 @@
 							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
-								<h2 class="clr-blue">Are you aware of METRO's Water Initiative / METRO Plastic initiative.</h2>
+								<h2 class="clr-blue">Are you aware of METRO's Water Initiative / METRO Plastic initiative?</h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -762,7 +762,7 @@ electricity saving etc.?
 								<h5>Did you know?</h5>
 								<p>METRO currently has 250 electric vehicles, thereof 200 in Germany.
 48 stores are equipped with solar panels 
-Yearly, METRO produces 21.000.000 kWh.
+yearly, METRO produces 21.000.000 kWh.
 </p>
   <input type="hidden" name="final_level_step2_ques3" class="final_level_step2_ques3" value="" />
 

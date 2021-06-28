@@ -24,7 +24,7 @@
  <div class="sec1-box-left">
  <p class="animate__animated animate__fadeIn">Global warming is a serious problem, and rising temperatures have shifted natural climatic patterns.<br/>Who do you think will feel these adverse effects the most?</p>
  <div class="box-head">
- <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect.</h4>
+ <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect</h4>
 
  </div>
   <p class="animate__animated animate__fadeIn gray-text">More than one answer can be choosen.</p>
