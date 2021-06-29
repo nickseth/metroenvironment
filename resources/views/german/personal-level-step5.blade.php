@@ -11625,7 +11625,7 @@
 										<input type="range" name="personal_level_step5" min="1" max="5" steps="1" value="1">
 									</div>
 									<ul class="range-labels">
-										<li>Keine<br/>Umstellung</li>
+										<li>Zufrieden mit<br>dem, was ich<br>konsumiere</li>
 										<li>Geplante Verbrauchsreduzierung</li>
 										<li>Reduzierter Konsum</li>
 										<li>Konsum wird vermieden</li>
