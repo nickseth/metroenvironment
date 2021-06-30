@@ -2940,7 +2940,7 @@ the factors that affect purchase decision?</div>
 			</div>
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
-<a href="{{url('/personal-level-step18')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/personal-level-step19')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>
 	</form>

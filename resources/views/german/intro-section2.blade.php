@@ -32,15 +32,15 @@
   <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="
 Die richtige Antwort ist Stahl"><div class="checkbox-group">
     <div class="form-group">
-      <input type="radio" id="html" name="intro_section_question2" value="1" >
+      <input type="radio" id="html" name="intro_section_question2" class="correct-answer" value="1" >
       <label for="html">Holz</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="css" name="intro_section_question2" value="2" >
+      <input type="radio" id="css" name="intro_section_question2" class="correct-answer" value="2" >
       <label for="css">Papier</label>
     </div>
     <div class="form-group">
-      <input type="radio" id="javascript" name="intro_section_question2" value="3" >
+      <input type="radio" id="javascript" name="intro_section_question2" class="correct-answer" value="3" >
       <label for="javascript">Plastik</label>
     </div>
 	 <div class="form-group">
