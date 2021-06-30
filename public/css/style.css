@@ -1660,9 +1660,9 @@ background-size:90%
 .badges {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; max-width:75%; margin:auto;
 }
-.badges > div {max-width:13%; margin:3%}
+.badges > div { margin:3%}
 
 
 .final-level-step13 .circular-range-slider .rs-bg-color {
@@ -2179,3 +2179,14 @@ g#Inner_Circle_Content path {
     pointer-events: none!important;
     cursor: pointer!important;
 }
+
+.badge-info-box {background:#214d88; border-radius:15px; color:#fff; padding:20px; text-align:center }
+.badge-info-box pre{background:transparent; font-family:verdana; color:#fff; border:none}
+.icon-badges {
+    width: 80%;
+    margin: auto 7% -55px;
+}
+.icon-badges img {
+    max-width: 100%;
+}
+.badge-info-box a{color:#fff}
