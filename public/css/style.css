@@ -1657,12 +1657,7 @@ background-size:90%
 .badge-text {text-transform:uppercase}
 .badge-owner{font-family: 'SandwichMarkerPro'!important; font-size:29px!important; color:#214d88}
 .thank-title{font-family: 'SandwichMarkerPro'!important; font-size:52px!important; color:#214d88}
-.badges {
-    display: flex;
-    align-items: center;
-    justify-content: center; max-width:75%; margin:auto;
-}
-.badges > div { margin:3%}
+
 
 
 .final-level-step13 .circular-range-slider .rs-bg-color {
@@ -2179,7 +2174,13 @@ g#Inner_Circle_Content path {
     pointer-events: none!important;
     cursor: pointer!important;
 }
-
+.badges {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; max-width:85%; margin:auto;
+}
+.badges > div.deactivate-badge1 { margin-right:7%}
+.badges > div.deactivate-badge2 { margin-left:7%}
 .badge-info-box {background:#214d88; border-radius:15px; color:#fff; padding:20px; text-align:center }
 .badge-info-box pre{background:transparent; font-family:verdana; color:#fff; border:none}
 .icon-badges {
@@ -2190,3 +2191,13 @@ g#Inner_Circle_Content path {
     max-width: 100%;
 }
 .badge-info-box a{color:#fff}
+.deactivate-badge1 {order:1; width:90%; margin-top: 60px}
+.deactivate-badge2 {order:3; width:90%; margin-top: 60px}
+.active-badge {order:2}
+p.note {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12px;
+}
+.badges .badge-grid .center-btn, .badges .badge-grid .note {display:none}
+.badges .badge-grid.active-badge .center-btn, .badges .badge-grid.active-badge .note {display:block}
