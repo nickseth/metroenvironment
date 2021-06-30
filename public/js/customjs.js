@@ -560,7 +560,7 @@ $('#sust1-group .sust-item').click(function(){
 			if($(this).hasClass('trigger-popup')){
 				var el = $(this);
 				setTimeout(function(){
-					//window.location.href = el.attr('href');
+					window.location.href = el.attr('href');
 				},5000)
 			}
 			else{
