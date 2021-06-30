@@ -245,7 +245,7 @@ $('.selected_language').val(Cookies.get('language_selected'))
 			$('.gold-badge').removeClass('hide');
 		}
 		else{
-			window.location.href = $('html').attr('data-base-path');
+			//window.location.href = $('html').attr('data-base-path');
 		}
 	}
 	$('#allsame').click(function(){
