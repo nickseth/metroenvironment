@@ -1,7 +1,13 @@
 @include('header')
 
-<body class="sec2-bg2 drag-slides" style="">
+<body class="sec2-bg2 drag-slides" style=""> 
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
+<div class="co-wrap">
+<div class="co-popup">
+<div class="co-popup-img text-center"><img src="images/correct-order.png"></div>
+<p class="co-popup-info text-center">Here is the correct ranking</p>
+</div>
+</div>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
 	<div class="container">
