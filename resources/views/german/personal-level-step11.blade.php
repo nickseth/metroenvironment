@@ -4,7 +4,7 @@
 <div class="loader-wrap"><div class="loader"><div class="loadersmall"></div></div></div>
 <div class="co-wrap">
 <div class="co-popup">
-<div class="co-popup-img text-center"><img src="images/correct-order.png"></div>
+<div class="co-popup-img text-center"><img src="../german_assets/images/correct-order.png"></div>
 <p class="co-popup-info text-center">Hier ist die richtige Rangfolge</p>
 </div>
 </div>
