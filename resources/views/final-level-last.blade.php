@@ -72,7 +72,7 @@ inspiring work with us.
 
 Follow us on
 <strong>UNITED</strong>
-(M-Corprate Responsibility)</pre><div class="icon-badges"><img src="images/sustainable-badges.png" /></div>
+(M-Corprate Responsibility)</pre><div class="icon-badges"><a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/unsere-schwerpunktthemen.html" target="_blank" ><img src="images/sustainable-badges.png" /></a></div>
 						</div></div></div>
 					
 				</div>
