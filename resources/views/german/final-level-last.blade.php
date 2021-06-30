@@ -70,7 +70,11 @@ Wir würden uns freuen, mehr zu erfahren!
 
 Folgen Sie uns auf
 <strong>UNITED</strong>
+<<<<<<< HEAD
 (M-Corporate Responsibility)</pre><div class="icon-badges"><a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/unsere-schwerpunktthemen.html" target="_blank" ><img src="../german_assets/images/sustainable-badges.png" /></a></div>
+=======
+(M-Corporate Responsibility)</pre><div class="icon-badges"><img src="../german_assets/images/sustainable-badges.png" /></div>
+>>>>>>> 21dae93941d59a2c3a943b68d463e2d99c68d1ee
 						</div></div></div>
 					
 				</div>
