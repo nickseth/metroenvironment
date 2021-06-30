@@ -32,18 +32,18 @@
 									<br/>nach teurer als konventioneller Einkauf?</div>
 							</div>
 							<p class="animate__animated animate__fadeIn gray-text">Wählen Sie das Kästchen aus, das Ihnen am relevantesten erscheint.</p>
-							<form class="survey-form required-validation" data-validation-type="radio">
+							<form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Selbst wenn wir einen kleinen Aufpreis zahlen, sorgen wir dafür, dass die Natur erhalten bleibt und die Arbeiter einen fairen Lohn bekommen.">
 								<div class="checkbox-group">
 									<div class="form-group">
-										<input type="radio" id="html" name="personal_level_step19" value="Yes">
+										<input type="radio" id="html" name="personal_level_step19" class="correct-answer" value="Yes">
 										<label for="html">Ja</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="css" name="personal_level_step19" value="No">
+										<input type="radio" id="css" name="personal_level_step19"class="correct-answer" value="No">
 										<label for="css">Nein</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="javascript" name="personal_level_step19" value="Maybe/Not sure">
+										<input type="radio" id="javascript" name="personal_level_step19" class="correct-answer" value="Maybe/Not sure">
 										<label for="javascript">Vielleicht/Bin mir nicht sicher</label>
 									</div>
 								</div>

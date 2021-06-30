@@ -51307,7 +51307,7 @@
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
 <a href="#" class="link-btn reset-btn btn-flip" data-back="Zurücksetzen" data-front="Zurücksetzen" ></a>
-<a href="{{url('/de/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details" data-back="WEITER" data-front="WEITER" ></a>
+<a href="{{url('/de/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details trigger-popup" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
 	</div>
