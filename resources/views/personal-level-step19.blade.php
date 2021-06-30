@@ -32,18 +32,18 @@
 									<br/>more expensive than conventional purchasing?</div>
 							</div>
 							<p class="animate__animated animate__fadeIn gray-text">Select the box that seems most relevant to you.</p>
-							<form class="survey-form required-validation" data-validation-type="radio">
+							<form class="survey-form required-validation"  data-correct-answers="Even if paying a little premium we make sure that we preserve nature and workers get fair pay." data-validation-type="radio">
 								<div class="checkbox-group">
 									<div class="form-group">
-										<input type="radio" id="html" name="personal_level_step19" value="Yes">
+										<input type="radio" id="html" name="personal_level_step19" class="correct-answer" value="Yes">
 										<label for="html">Yes</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="css" name="personal_level_step19" value="No">
+										<input type="radio" id="css" name="personal_level_step19" class="correct-answer" value="No">
 										<label for="css">No</label>
 									</div>
 									<div class="form-group">
-										<input type="radio" id="javascript" name="personal_level_step19" value="Maybe/Not sure">
+										<input type="radio" id="javascript" name="personal_level_step19" class="correct-answer" value="Maybe/Not sure">
 										<label for="javascript">Maybe/Not sure</label>
 									</div>
 								</div>

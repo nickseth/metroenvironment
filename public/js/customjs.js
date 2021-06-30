@@ -232,15 +232,15 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		Cookies.set('formdetails','');
 		Cookies.set('surveyAgree','');
 		var badge_score = parseInt(Cookies.get('badge_score'));
-		if(badge_score <= 24 ){
+		if(badge_score <= 20 ){
 			$('.badge-grid').not($('.bronze-badge')).remove();
 			$('.bronze-badge').removeClass('hide');
 		}
-		else if(badge_score > 24 && badge_score <= 39){
+		else if(badge_score > 20 && badge_score <= 30){
 			$('.badge-grid').not($('.silver-badge')).remove();
 			$('.silver-badge').removeClass('hide');
 		}
-		else if(badge_score > 39 && badge_score <= 55 ){
+		else if(badge_score > 30 && badge_score <= 40 ){
 			$('.badge-grid').not($('.gold-badge')).remove();
 			$('.gold-badge').removeClass('hide');
 		}
