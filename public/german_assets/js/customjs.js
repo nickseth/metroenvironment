@@ -570,7 +570,7 @@ $('.selected_language').val(Cookies.get('language_selected'))
 	$('.download-zip-btn').click(function(){
 		setTimeout(function(){
 			Cookies.set('badge_score',0, { expires: 1 });
-			window.location.href = 'https://metro-united.com/files/aa23566c-b1f0-420a-80da-d91e4df0dcc3/d5f2084d-e475-4aea-84ed-b2ff6425803e/MVironment%20Booklet_S1_DE%20pdf';
+			// window.location.href = 'https://metro-united.com/files/aa23566c-b1f0-420a-80da-d91e4df0dcc3/d5f2084d-e475-4aea-84ed-b2ff6425803e/MVironment%20Booklet_S1_DE%20pdf';
 		},1000)
 	})
 	// circular range slider //

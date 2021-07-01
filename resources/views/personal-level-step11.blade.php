@@ -6,6 +6,8 @@
 <div class="co-popup">
 <div class="co-popup-img text-center"><img src="images/correct-order.png"></div>
 <p class="co-popup-info text-center">Here is the correct ranking</p>
+<p class="co-popup-info text-center">You will be redirected to the next question in 10 seconds.</p>
+
 </div>
 </div>
 <!-- Navbar -->

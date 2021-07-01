@@ -687,7 +687,7 @@
 							</div>
 									</div>
 									<div class="popup-ques-container packaging-plastic">
-								<h2 class="clr-blue">Are you aware of METRO's Water Initiative / METRO Plastic initiative?</h2>
+								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic initiative?</h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">

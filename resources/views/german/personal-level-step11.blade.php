@@ -6,6 +6,7 @@
 <div class="co-popup">
 <div class="co-popup-img text-center"><img src="../german_assets/images/correct-order.png"></div>
 <p class="co-popup-info text-center">Hier ist die richtige Rangfolge</p>
+<p class="co-popup-info text-center">Sie werden in 10 Sekunden zur nächsten Frage weitergeleitet.</p>
 </div>
 </div>
 <!-- Navbar -->

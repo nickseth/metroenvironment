@@ -14624,7 +14624,7 @@
 									<ul class="range-labels">
 										<li>Zufrieden mit<br>dem, was ich<br>konsumiere</li>
 										<li>Geplante Verbrauchsreduzierung</li>
-										<li>Reduzierter Konsum</li>
+										<li>Reduzierter<br/>Konsum</li>
 										<li>Konsum wird vermieden</li>
 										<li>Konsum komplett eingestellt</li>
 									</ul>

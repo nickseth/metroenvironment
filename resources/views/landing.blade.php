@@ -26,7 +26,7 @@ To view the #MVIRONMENT website in another language, you can use the automated t
 </span><br/>
 1. This survey is best viewed on your PC in 1920x1080 resolution.<br/>
 2. This website is NOT optimized for mobile viewing.<br/>
-3. Recommended browser Google Chrome, Microsoft Edge, Safari.<br/>
+3. Recommended browsers Google Chrome, Microsoft Edge, Safari.<br/>
 <em>
 
 </p></div>

@@ -58,7 +58,7 @@
 						}
 						</style>
 						<div class="col-sm-3"><div class="mt-5 badge-info"><div class="badge-info-box">
-						<pre>Hat es Ihnen Spaß gemacht,
+						<pre style="font-size:10px;">Hat es Ihnen Spaß gemacht,
 an #Mvironment teilzunehmen?
 
 Dann freuen wir uns über 
@@ -73,7 +73,7 @@ und inspirierende Arbeit mit uns teilen.
 Wir würden uns freuen, mehr zu erfahren!
 
 Folgen Sie uns auf
-<strong>UNITED</strong>
+<strong><a href="https://metro-united.com/pages/pg-m-corporate-responsibility/apps/timeline/app-wall-pinnwand96" target="_blank">UNITED</a></strong>
 (M-Corporate Responsibility)</pre><div class="icon-badges"><a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/unsere-schwerpunktthemen.html" target="_blank"><img src="../german_assets/images/sustainable-badges.png" /></a></div>
 						</div></div></div>
 					
