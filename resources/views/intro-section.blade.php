@@ -31,24 +31,25 @@
  
 
 
-  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="You're right. Climate change will affect everyone adversely."><div class="checkbox-group" >
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Climate change will affect everyone adversely."><div class="checkbox-group" >
     <div class="form-group">
-      <input type="checkbox" id="html" class="multiple-checkbox-data correct-answer"  value="My generation">
+      <input type="radio" id="html" class="correct-answer" name="intro_section_question1"  value="My generation">
       <label for="html">My generation</label>
     </div>
+    
     <div class="form-group">
-      <input type="checkbox" id="css" class="multiple-checkbox-data correct-answer"  value="My grandchildren">
-      <label for="css">My grandchildren</label>
+      <input type="radio" id="javascript" class="correct-answer" name="intro_section_question1"  value="My children and grandchildren">
+      <label for="javascript">My children and grandchildren</label>
     </div>
-    <div class="form-group">
-      <input type="checkbox" id="javascript" class="multiple-checkbox-data correct-answer"  value="My children">
-      <label for="javascript">My children</label>
+	<div class="form-group">
+      <input type="radio" id="css" class=" correct-answer" name="intro_section_question1"  value="Everyone">
+      <label for="css">Everyone</label>
     </div>
 	 <div class="form-group">
-      <input type="checkbox" id="java" class="multiple-checkbox-data" value="This not a serious threat">
+      <input type="radio" id="java" class="correct-answer" name="intro_section_question1" value="This not a serious threat">
       <label for="java">This is not a serious threat</label>
     </div></div>
-	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question1"/>
+	
   </form>
 
 </div>

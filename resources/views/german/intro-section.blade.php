@@ -27,24 +27,26 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Der Klimawandel wird sich nachweislich auswirken auf</h4>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Mehrere Antworten können asugewählt werden.</p>
-  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Du hast recht. Der Klimawandel wird sich negativ auf alle auswirken."><div class="checkbox-group">
+  <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Der Klimawandel wird sich negativ auf alle auswirken."><div class="checkbox-group">
     <div class="form-group">
-      <input type="checkbox" id="html"class="multiple-checkbox-data correct-answer" value="My generation">
+      <input type="radio" id="html"class="correct-answer" name="intro_section_question1" value="My generation">
       <label for="html">Meine Generation</label>
     </div>
-    <div class="form-group">
-      <input type="checkbox" id="css" class="multiple-checkbox-data correct-answer" value="My grandchildren">
-      <label for="css">Meine Enkel</label>
+	<div class="form-group">
+      <input type="radio" id="javascript"class="correct-answer" name="intro_section_question1" value="My children and my grandchildren">
+      <label for="javascript">
+Meine Kinder und meine Enkel</label>
     </div>
     <div class="form-group">
-      <input type="checkbox" id="javascript"class="multiple-checkbox-data correct-answer" value="My children">
-      <label for="javascript">Meine Kinder</label>
+      <input type="radio" id="css" class="correct-answer" name="intro_section_question1" value="Everyone">
+      <label for="css">Jeder</label>
     </div>
+    
 	 <div class="form-group">
-      <input type="checkbox" id="java" class="multiple-checkbox-data" value="This not a serious threat">
+      <input type="radio" id="java" class="correct-answer" name="intro_section_question1" value="This not a serious threat">
       <label for="java">Es ist keine ernsthafte Bedrohung</label>
     </div></div>
-	<input type="hidden" class="multiple-checkbox-hidden" name="intro_section_question1"/>
+	
   </form>
 
 </div>

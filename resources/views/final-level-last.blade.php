@@ -55,6 +55,11 @@ available for download here</p>
 							</div>
 							</div>
 						</div>
+						<style>
+						.note{
+							margin-top:20px;
+						}
+						</style>
 						<div class="col-sm-3"><div class="mt-5 badge-info"><div class="badge-info-box">
 						<pre>Did you enjoy
 taking #MViroment?
@@ -63,7 +68,7 @@ We’ll be delighted to hear
 your opinion about it!
 
 Please share your feedback
-with <a href = "mailto: CR@metro.de"><strong>CR@metro.de</strong></a>
+with <a href = "mailto:CR@metro.de"><strong>CR@metro.de</strong></a>
 
 Additionally, you can also
 share your Sustainability
@@ -72,7 +77,7 @@ inspiring work with us.
 
 Follow us on
 <strong>UNITED</strong>
-(M-Corprate Responsibility)</pre><div class="icon-badges"><img src="images/sustainable-badges.png" /></div>
+(M-Corprate Responsibility)</pre><div class="icon-badges"><a href="https://reports.metroag.de/corporate-responsibility-report/2019-2020/strategy/our-focus-areas.html" target="_blank"><img src="images/sustainable-badges.png" /></a></div>
 						</div></div></div>
 					
 				</div>

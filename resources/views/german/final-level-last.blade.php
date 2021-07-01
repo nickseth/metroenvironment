@@ -12,7 +12,7 @@
 					</a>
 				</div>
 				<div class=" navbar-collapse right-header text-right" id="myNavbar">
-					<h1>#<span>M</span>vironment</h1><strong>Nachhaltigkeit & Arbeit</strong>
+					<h1>#<span>M</span>vironment</h1>
 				</div>
 			</div>
 		</div>
@@ -27,7 +27,7 @@
 											<div class="sec1-box-center text-center mt-5">
 							<div class="box-top">
 
-								<div class="animate__animated animate__fadeIn green-text badge-text">HERZLICHEN GLÜCKWÜNSCH! SIE HABEN DAS
+								<div class="animate__animated animate__fadeIn green-text badge-text">HERZLICHEN GLÜCKWÜNSCH! SIE HABEN EIN
 </div>
 							</div>
 							<p class="animate__animated animate__fadeIn  badge-owner">EHRENABZEICHEN GEWONNEN</p>
@@ -52,7 +52,11 @@
 							</div>
 							</div>
 						</div>
-						
+						<style>
+						.note{
+							margin-top:20px;
+						}
+						</style>
 						<div class="col-sm-3"><div class="mt-5 badge-info"><div class="badge-info-box">
 						<pre>Hat es Ihnen Spaß gemacht,
 an #Mvironment teilzunehmen?
@@ -61,7 +65,7 @@ Dann freuen wir uns über
 Ihre Meinung!
 
 Bitte teilen Sie Ihr Feedback
-mit <a href = "mailto: CR@metro.de"><strong>CR@metro.de</strong></a>
+mit <a href = "mailto:CR@metro.de"><strong>CR@metro.de</strong></a>
 
 Zusätzlich können Sie auch Ihre
 Nachhaltigkeitsgeschichten, Innovationen
@@ -70,7 +74,7 @@ Wir würden uns freuen, mehr zu erfahren!
 
 Folgen Sie uns auf
 <strong>UNITED</strong>
-(M-Corporate Responsibility)</pre><div class="icon-badges"><img src="../german_assets/images/sustainable-badges.png" /></div>
+(M-Corporate Responsibility)</pre><div class="icon-badges"><a href="https://berichte.metroag.de/corporate-responsibility-report/2019-2020/strategie/unsere-schwerpunktthemen.html" target="_blank"><img src="../german_assets/images/sustainable-badges.png" /></a></div>
 						</div></div></div>
 					
 				</div>
