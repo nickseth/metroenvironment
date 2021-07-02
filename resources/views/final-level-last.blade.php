@@ -76,7 +76,7 @@ stories, innovation and
 inspiring work with us.
 
 Follow us on
-<strong><a href="https://metro-united.com/pages/pg-m-corporate-responsibility/apps/timeline/app-wall-pinnwand96" target="_blank">UNITED</a></strong>
+<strong><a href="https://metro-united.com/pages/pg-m-corporate-responsibility/apps/timeline/app-wall-pinnwand96" target="_blank"><img src="images/united.png" style="max-width: 25px;margin: 5px;"/>UNITED</a></strong>
 (M-Corprate Responsibility)</pre><div class="icon-badges"><a href="https://reports.metroag.de/corporate-responsibility-report/2019-2020/strategy/our-focus-areas.html" target="_blank"><img src="images/sustainable-badges.png" /></a></div>
 						</div></div></div>
 					

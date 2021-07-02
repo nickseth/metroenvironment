@@ -27,7 +27,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Climate change will demonstrably affect</h4>
 
  </div>
-  <p class="animate__animated animate__fadeIn gray-text">More than one answer can be choosen.</p>
+  <p class="animate__animated animate__fadeIn gray-text">Please select the option most relevant to you.</p>
  
 
 

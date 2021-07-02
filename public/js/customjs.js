@@ -758,6 +758,7 @@ setTimeout(function(){
 
 function dataSubmission(data,url,redirect){
 	var url = url.replace("http://", "https://");
+	var redirect = redirect.replace("http://", "https://");
 	  $.ajax({
           url: url,
           type:"POST",
