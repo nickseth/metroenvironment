@@ -35,6 +35,7 @@ form label{font-size:25px}
     src: url('../fonts/SandwichMarkerPro-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/SandwichMarkerPro-Bold.woff2') format('woff2'),
         url('../fonts/SandwichMarkerPro-Bold.woff') format('woff');
+		url('../fonts/Sandwichmarkerpro-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -82,7 +83,8 @@ form label{font-size:25px}
     font-style: italic;
     font-display: swap;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+.google-head{font-family: 'Mogra', cursive; font-weight:bold;}
 body{font-family: 'Verdana';}
 .right-header {font-family: 'SandwichMarkerPro'; color:#214d88; font-size:36px}
 .right-header span{color:#4c9f38}
@@ -2120,8 +2122,8 @@ body.german .home-content {
 .landing-box {max-width:760px; margin:0 auto; background:rgba(255, 255, 255,.4); padding:25px; -webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75); border-radius:25px;}
-.landing-box h2{font-size: 25px;
-    font-family: 'SandwichMarkerPro';}
+.landing-box h2{font-size: 20px;
+    }
 .navbar-header a.navbar-brand {pointer-events:none!important}
 
 @keyframes highlight {

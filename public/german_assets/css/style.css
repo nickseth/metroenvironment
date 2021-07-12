@@ -34,7 +34,7 @@ form label{font-size:25px}
         url('../fonts/SandwichMarkerPro-Bold.woff2') format('woff2'),
 		url('../fonts/sandwichmarkerpro-bold-webfont.woff') format('woff'),
         url('../fonts/SandwichMarkerPro-Bold.woff') format('woff'),
-		url('../fonts/sandwichMarkerPro-Bold..ttf')  format('truetype');
+		url('../fonts/SandwichMarkerPro-Bold.ttf')  format('truetype');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
