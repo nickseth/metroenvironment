@@ -40,7 +40,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Ich bin bereit, für Produkte, die weniger Umweltbelastungen verursachen und fair gehandelt werden, einen höheren Preis zu zahlen</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 10 bis 5, um Ihre Antwort einzureichen, wobei 1 = am wenigsten wahrscheinlich und 5 = am wahrscheinlichsten entspricht.</p>
+ <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 1 bis 5, um Ihre Antwort einzureichen, wobei 1 = Stimme überhaupt nicht zu und 5 = Stimme voll und ganz zu. Klicken Sie auf Weiter, um zu senden und fortzufahren.</p>
 
 </div>
  

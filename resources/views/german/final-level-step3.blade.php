@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">Ich sehe einen direkten Zusammenhang zwischen der Arbeit, die wir in unserer Abteilung machen, und den Best Practices für Nachhaltigkeit</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Wählen Sie die am besten geeignete Option, indem Sie eine Box auswählen.</p>
+							<p class="animate__animated animate__fadeIn gray-text">Wählen Sie die Option aus, die Ihnen am relevantesten erscheint. Klicken Sie auf Weiter, um zu senden und fortzufahren.</p>
 							<form class="survey-form">
 								<div class="checkbox-group">
 									<div class="form-group">

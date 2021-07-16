@@ -41,7 +41,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">I believe, sustainability is a promising business opportunity to be leveraged.</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5, where 1 = Strongly Disagree and 5 = Strongly agree.</p>
+ <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5 to submit your response, where 1 = Strongly disagree and 5 = Strongly agree. Click next to submit and proceed.</p>
 
 </div>
  

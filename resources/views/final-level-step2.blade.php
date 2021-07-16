@@ -652,7 +652,7 @@
 						
 						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
 										<h2 class="clr-blue">Are you aware that we aim to disclose all our supply chains until 2030?</h2>
-										<p class="support-text">Submit your response to move to the next question.</p>
+										<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="5">
 												<img src="images/sec-3-01.svg" alt="Emoji">
@@ -686,7 +686,7 @@
 									</div>
 									<div class="popup-ques-container packaging-plastic">
 								<h2 class="clr-blue">Are you aware of METRO Water Initiative / METRO Plastic initiative?</h2>
-								<p class="support-text">Submit your response to move to the next question.</p>
+								<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -728,7 +728,7 @@
 emissions by electric cars,
 electricity saving etc.?
 </h2>
-								<p class="support-text">Submit your response to move to the next question.</p>
+								<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -767,7 +767,7 @@ electricity saving etc.?
 							</div>
 							<div class="popup-ques-container raw-material-sourcing">
 								<h2 class="clr-blue">Do you know that palm oil is in almost every product you buy? </h2>
-								<p class="support-text">Submit your response to move to the next question.</p>
+								<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -806,7 +806,7 @@ electricity saving etc.?
 							</div>
 							<div class="popup-ques-container diversity-inclusion">
 								<h2 class="clr-blue">Do you know about the METRO Diversity & Inclusion Days?</h2>
-								<p class="support-text">Submit your response to move to the next question.</p>
+								<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -846,7 +846,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							<div class="popup-ques-container food-waste">
 								<h2 class="clr-blue">Do you know about METRO's efforts to reduce food waste with partnerships such as our cooperation with “Too good to go”?
 </h2>
-<p class="support-text">Submit your response to move to the next question.</p>								
+<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>								
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -886,7 +886,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							</div>
 							<div class="popup-ques-container organic">
 								<h2 class="clr-blue">Are you aware of the "My Sustainable Restaurant" Customer Toolbox?</h2>
-								<p class="support-text">Submit your response to move to the next question.</p>
+								<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
 										<img src="images/sec-3-01.svg" alt="Emoji">
@@ -925,7 +925,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							</div>
 							<div class="popup-ques-container conscious-proteins">
 								<h2 class="clr-blue">Do you already know that METRO offers vegan/vegetarian alternatives to its customers?</h2>
-								<p class="support-text">Submit your response to move to the next question.</p>
+								<p class="support-text">Select one of the emojis to mark your awareness level about METRO’s Sustainability Initiatives. Submit your response to move on to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="5">
 										<img src="images/sec-3-01.svg" alt="Emoji">

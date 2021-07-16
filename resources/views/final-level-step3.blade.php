@@ -30,7 +30,7 @@
 								</div>
 								<div class="animate__animated animate__fadeIn green-text">I see a direct link between the work we do in our department and sustainability best practices.</div>
 							</div>
-							<p class="animate__animated animate__fadeIn gray-text">Select the box that seems most relevant to you.</p>
+							<p class="animate__animated animate__fadeIn gray-text">Select the option that seems most relevant to you. Click next to submit and proceed.</p>
 							<form class="survey-form">
 								<div class="checkbox-group">
 									<div class="form-group">
