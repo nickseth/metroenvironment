@@ -851,7 +851,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 								var selected_values = json_cookie_data[key].replace(/\s/g,'').split(',');
 								$('.plate-item').each(function(){
 									for(var i=0;i<selected_values.length;i++){
-										if($(this).find('img').attr('data-text') == selected_values[i]){
+										if($(this).find('img').attr('data-text').replace(/\s/g,'') == selected_values[i]){
 											$(this).clone().addClass('ui-draggable ui-draggable-handle').appendTo(".empty-plate");
 											$(this).addClass('usedDraggable')
 										}
