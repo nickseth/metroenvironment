@@ -698,7 +698,7 @@ $('.draggable').draggable({
   revert: "invalid",
   stack: ".draggable",
   helper: 'clone',
-  // scursorAt: {left: 50}
+  cursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
   accept: ".draggable_main__item .draggable",
@@ -715,15 +715,36 @@ $('.mid-drag ul li').droppable({
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');
-    $('.ui-droppable .draggable').draggable({
+    $('.mid-drag .ui-droppable .draggable').draggable({
 	  start:handleDragStart,
 	  revert: "invalid",
 	  stack: ".draggable",
-	  // helper: 'clone',
-	  // cursorAt: {left: 50}
 	});
   }
 });
+
+$('.draggable_main__item').droppable({
+	accept: ".mid-drag .draggable",
+	drop: function(event, ui) {
+    var droppable = $(this);
+    var draggable = ui.draggable;
+    var drag_text_handle = draggable.data('text');
+    var drop_text_handle = droppable.find('.grid-icons').data('text');
+
+    if (!droppable.find('.grid-icons').hasClass('usedDraggable') || drag_text_handle != drop_text_handle) {
+	    draggable.draggable('option', 'revert', true);
+	    return false;
+    }
+    // Move draggable into droppable
+    
+    droppable.find('.grid-icons').css({pointerEvents:'auto'});
+    droppable.find('.grid-icons').removeClass('usedDraggable');
+    draggable.remove();
+  }
+});
+
+
+
 $('.vegi-group .plate-item').draggable({
   start:handleDragStartvegi,
   revert: "invalid",
@@ -830,7 +851,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 								var selected_values = json_cookie_data[key].replace(/\s/g,'').split(',');
 								$('.plate-item').each(function(){
 									for(var i=0;i<selected_values.length;i++){
-										if($(this).find('img').attr('data-text') == selected_values[i]){
+										if($(this).find('img').attr('data-text').replace(/\s/g,'') == selected_values[i]){
 											$(this).clone().addClass('ui-draggable ui-draggable-handle').appendTo(".empty-plate");
 											$(this).addClass('usedDraggable')
 										}
