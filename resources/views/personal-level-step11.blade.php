@@ -44,7 +44,7 @@
 				</div>
 				<div class="col-sm-12">
 					<div class="sec1-box-right animate__animated animate__zoomIn">
-						<div class="grid-container animate__zoomIn row1">
+						<div class="grid-container draggable-wrapper animate__zoomIn row1">
 							<div class="grid-list">
 								<div class="grid-item draggable_main__item">
 									<div class="grid-icons draggable" data-text="Cocoa">
@@ -39890,8 +39890,8 @@
 <span>Start from here</span>
 </div>
 							<div class="grid-list">
-								<div class="grid-item draggable_main__item" data-text="Avocado">
-									<div class="grid-icons draggable">
+								<div class="grid-item draggable_main__item" >
+									<div class="grid-icons draggable" data-text="Avocado">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 77" style="enable-background:new 0 0 96 77;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E5E08C;}
@@ -51309,12 +51309,11 @@
 </div>
 				</div>
 			</div>
-			<form class="survey-form hide required-validation" data-validation-type="single-input-field">
+			<form class="survey-form hide required-validation" data-validation-type="single-input-field" data-form-type="draggable-row">
 				<input type="hidden" name="personal_level_step11" value="" class="drag-input-details"/>
 			</form>
 			<div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
-<a href="#" class="link-btn reset-btn btn-flip" data-back="Reset" data-front="Reset" ></a>
 <a href="{{url('/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details trigger-popup" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>

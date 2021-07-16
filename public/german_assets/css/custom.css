@@ -798,5 +798,9 @@ form .form-group label{
 }
 p.error-message.correct-message {
     max-width: 35%;
+	font-size:13px;
     color: #4c9f38!important;
+}
+.step-text{
+	    padding-top: 10px;
 }

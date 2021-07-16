@@ -26,6 +26,8 @@
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Wie viele Energieeinheiten werden benötigt, um 1 Bitcoin zu generieren?</h4>
  </div>
+   <p class="animate__animated animate__fadeIn gray-text">Bitte wählen Sie einen Betrag aus den vier unten angegebenen Optionen aus, der Ihrer Meinung nach erforderlich ist, um eine Einheit Kryptowährung abzubauen. Klicken Sie auf Weiter, um zu senden und fortzufahren.
+</p>
  
 
 

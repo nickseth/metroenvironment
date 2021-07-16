@@ -26,6 +26,7 @@
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Which straw do you think is the most sustainable?</h4>
  </div>
+ <p class="animate__animated animate__fadeIn gray-text">Please select one material from the four options given below that you think is the most environment friendly. Click next to submit and proceed.</p>
  
 
 

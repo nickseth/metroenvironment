@@ -26,7 +26,8 @@
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">How many units of energy are required to mine <br/>one bitcoin?</h4>
  </div>
- 
+  <p class="animate__animated animate__fadeIn gray-text">Please select one amount from the four options given below that you think will be required to mine one unit of cryptocurrency. Click next to submit and proceed. 
+</p>
 
 
   <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="The correct answer is 72 terawatts"><div class="checkbox-group">

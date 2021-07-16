@@ -26,7 +26,8 @@
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Welcher Strohhalm ist Ihrer Meinung nach der nachhaltigste?</h4>
  </div>
- 
+  <p class="animate__animated animate__fadeIn gray-text">Bitte wählen Sie eines der vier unten aufgeführten Materialien aus, das Ihrer Meinung nach am umweltfreundlichsten ist. Klicken Sie auf Weiter, um zu senden und fortzufahren.
+</p>
 
 
   <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="
