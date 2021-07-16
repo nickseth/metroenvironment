@@ -39,7 +39,7 @@
  <div class="sec1-box-center text-center">
  <div class="box-top">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="images/leaves.svg" /></div>
- <div class="animate__animated animate__fadeIn green-text">I believe, sustainability & social factors have a direct influence on METRO’s overall success, <br>today and in the future.</div>
+ <div class="animate__animated animate__fadeIn green-text">I believe, sustainability have a direct influence on METRO’s overall success, <br>today and in the future.</div>
  </div>
  <p class="animate__animated animate__fadeIn gray-text">Move the slider on the circle on a scale of 1 to 5, where 1 = Strongly Disagree and 5 = Strongly agree.</p>
 

@@ -651,8 +651,7 @@
 						
 						
 						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
-										<h2 class="clr-blue">Are you aware that a Social Standard Management tool exists? 
-</h2>
+										<h2 class="clr-blue">Are you aware that we aim to disclose all our supply chains until 2030?</h2>
 										<p class="support-text">Submit your response to move to the next question.</p>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -678,8 +677,7 @@
 										</div>
 										<hr>
 										<h5>Did you know?</h5>
-										<p>METRO's SSM tool ensures the latest audit information at a glance and a system-to-system interphase with a leading social compliance status.
-</p>
+										<p>In order to unfold effective impact METRO closely collaborates with its supply chain partners and peers, e.g. by joining the Consumer Goods Forum (CGF) CGF Human rights coalition of action in October 2019, which aims to fight forced labor in our sector as well address potential other human rights violations at a later stage.</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
 										
 										 <div class="submit-btn">
@@ -799,7 +797,7 @@ electricity saving etc.?
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Initiative aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
+								<p>Every year 130,000 square kilometres of forest are cut down or burned. METRO’s Raw Material Sourcing Approach aims at reduced quantities of palm oil in products including bakery, dairy, deep frozen foods, processed meat, fruits and vegetables and home care.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        
 							<div class="submit-btn">
@@ -887,7 +885,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 							</div>
 							</div>
 							<div class="popup-ques-container organic">
-								<h2 class="clr-blue">“My Sustainable Restaurant” Toolbox.</h2>
+								<h2 class="clr-blue">Are you aware of the "My Sustainable Restaurant" Customer Toolbox?</h2>
 								<p class="support-text">Submit your response to move to the next question.</p>
 								<div class="emoji-cover">
 									<div class="emoji-cover-item emoji-option-js active" data-value="1">
@@ -918,7 +916,7 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 								</div>
 								<hr>
 								<h5>Did you know?</h5>
-								<p>METRO’s Sustainable Restaurant Toolbox is a guide to sustainability that enables communication with HoReCa customers on topics including food waste, plastic use, energy, ingredient sourcing and safe food practices.</p>
+								<p>METRO's Sustainable Restaurant Customer Toolbox is a guide that enables sustainability communication with HoReCa customers on topics including: responsibly sourced food, plastic use, energy, waste and many more.</p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
 					          
 								 <div class="submit-btn">

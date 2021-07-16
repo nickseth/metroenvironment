@@ -37,7 +37,7 @@
 							<div class="animate__animated animate__fadeIn green-text">Sortieren Sie die folgenden Produkte nach der Wassermenge, die zur Herstellung von 1 kg dieses Lebensmittels notwenig waren.</div>
 							
 						</div>
-						<p class="animate__animated animate__fadeIn gray-text">Ziehen Sie die Lebensmittel per Drag & Drop in die Kästchen, beginnend mit der linken Seite für die höchste Wassermenge und der rechten Seite für die geringste Wassermenge.</p>
+						<p class="animate__animated animate__fadeIn gray-text">Ziehen Sie die Lebensmittel per Drag-and-Drop in die Kisten, je nach Wasser, das bei ihrer Herstellung verwendet wird. Beginnen Sie mit dem ersten Kästchen links für die meiste Wassermenge, bis zum letzten Kästchen rechts für die geringste Wassermenge. Klicken Sie auf Weiter, um zu senden und fortzufahren.</p>
 						
 					</div>
 				</div>

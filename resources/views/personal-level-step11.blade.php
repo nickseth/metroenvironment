@@ -38,7 +38,7 @@
 							<div class="animate__animated animate__fadeIn green-text">Arrange the following foods according to the amount of water required to produce 1 kg of that food item.</div>
 							
 						</div>
-						<p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items into the boxes, starting with at the left side for the highest amount of water and the right side for the least amount of water.</p>
+						<p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items into the boxes, as per the water used in their production. Start with the first box on the left for the most amount of water, to the last box on the right for the least amount of water.  Click next to submit and proceed.</p>
 						
 					</div>
 				</div>

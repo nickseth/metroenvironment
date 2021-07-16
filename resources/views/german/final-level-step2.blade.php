@@ -486,7 +486,7 @@
 						
 						
 						<div class="col-sm-6 answers-wrapper"><div class="popup-ques-container human-rights">
-										<h2 class="clr-blue">Wussten Sie, dass es ein Social Standard Management Tool gibt?</h2>
+										<h2 class="clr-blue">Ist Ihnen bekannt, dass wir bis 2030 unsere gesamten Lieferketten offenlegen wollen?</h2>
 										<p class="support-text">Klicken Sie auf Senden, um zur nächsten Frage zu gelangen</p>
 										<div class="emoji-cover">
 											<div class="emoji-cover-item emoji-option-js active" data-value="5">
@@ -512,7 +512,7 @@
 										</div>
 										<hr>
 										<h5>Wusstest du schon?</h5>
-										<p>Das SSM-Tool von METRO gewährleistet auf einen Blick die neuesten Auditinformationen, die System-zu-System-Interphase mit führendem Social-Compliance-Status.</p>
+										<p>Um eine effektive Wirkung zu entfalten, arbeitet METRO eng mit seinen Partnern in der Lieferkette und anderen Unternehmen zusammen, z. B. durch den Beitritt zur CGF Human Rights Coalition of Action des Consumer Goods Forum (CGF) im Oktober 2019, die darauf abzielt, Zwangsarbeit in unserer Branche zu bekämpfen und mögliche andere Menschenrechtsverletzungen zu einem späteren Zeitpunkt anzugehen.</p>
 										<input type="hidden" name="final_level_step2_ques1" class="final_level_step2_ques1" value="" />
 										
 										 <div class="submit-btn">
@@ -747,7 +747,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Die Sustainable Restaurant Toolbox von METRO ist ein Leitfaden für Nachhaltigkeit, der die Kommunikation mit HoreCa-Kunden zu Themen wie Lebensmittelverschwendung, Kunststoffverbrauch, Energie, Zutatenbeschaffung und sichere Lebensmittelpraktiken ermöglicht. </p>
+								<p>METRO's Sustainable Restaurant Kunden-Toolbox ist ein Leitfaden, der die Nachhaltigkeitskommunikation mit HoReCa-Kunden zu Themen wie: verantwortungsvoll beschaffte Lebensmittel, Plastikverbrauch, Energie, Abfall und vielem mehr ermöglicht.</p>
 <input type="hidden" name="final_level_step2_ques7" class="final_level_step2_ques7" value="" />
 					         
 								 <div class="submit-btn">
