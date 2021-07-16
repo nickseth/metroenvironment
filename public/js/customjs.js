@@ -715,7 +715,7 @@ $('.mid-drag ul li').droppable({
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');
-    $('.ui-droppable .draggable').draggable({
+    $('.mid-drag .ui-droppable .draggable').draggable({
 	  start:handleDragStart,
 	  revert: "invalid",
 	  stack: ".draggable",
@@ -724,6 +724,27 @@ $('.mid-drag ul li').droppable({
 	});
   }
 });
+
+$('.draggable_main__item').droppable({
+	accept: ".mid-drag .draggable",
+	drop: function(event, ui) {
+    var droppable = $(this);
+    var draggable = ui.draggable;
+
+    if (!droppable.find('.grid-icons').hasClass('usedDraggable')) {
+	    draggable.draggable('option', 'revert', true);
+	    return false;
+    }
+    // Move draggable into droppable
+    
+    droppable.find('.grid-icons').css({pointerEvents:'auto'});
+    droppable.find('.grid-icons').removeClass('usedDraggable');
+    draggable.remove();
+  }
+});
+
+
+
 $('.vegi-group .plate-item').draggable({
   start:handleDragStartvegi,
   revert: "invalid",
