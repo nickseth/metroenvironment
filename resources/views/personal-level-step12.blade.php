@@ -62,7 +62,7 @@
 										<input type="checkbox" id="none_of_these" value="None of these" class="never-selection-checkbox">
 										<label for="none_of_these">None of these</label>
 									</div>
- <form class="survey-form hide required-validation" data-validation-type="single-input-field">
+ <form class="survey-form hide required-validation" data-form-type="draggable" data-validation-type="single-input-field">
 				<input type="hidden" name="personal_level_step12" value="" class="drag-input-details"/>
 			</form>
 			
