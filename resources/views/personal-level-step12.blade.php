@@ -30,7 +30,7 @@
 							</div>
  <div class="animate__animated animate__fadeIn green-text">Which of the following alternative protein sources do you use in your diet?</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items you consume regularly on to the plate.</p>
+ <p class="animate__animated animate__fadeIn gray-text">Drag and drop the food items you consume regularly on to the plate. More than one option can be placed on the plate. Click next to submit and proceed.</p>
 
 </div>
  

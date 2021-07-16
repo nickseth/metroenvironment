@@ -40,7 +40,7 @@
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div>
  <div class="animate__animated animate__fadeIn green-text">Bio-Lebensmittel machen einen großen Teil meiner Ernährung aus.</div>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 1 bis 5, um Ihre Antwort einzureichen, wobei 1 am wenigsten wahrscheinlich und 5 am wahrscheinlichsten entspricht.</p>
+ <p class="animate__animated animate__fadeIn gray-text">Bewegen Sie den Schieberegler auf dem Kreis auf einer Skala von 1 bis 5, um Ihre Antwort einzureichen, wobei 1 = am wenigsten wahrscheinlich und 5 = am wahrscheinlichsten ist. Klicken Sie auf Weiter, um zu senden und fortzufahren</p>
 
 </div>
  

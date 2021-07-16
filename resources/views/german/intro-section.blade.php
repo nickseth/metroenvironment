@@ -26,7 +26,7 @@
  <div class="box-head">
  <div class="box-icon animate__animated animate__fadeInLeft"><img src="../german_assets/images/leaves.svg" /></div><h4 class="animate__animated animate__fadeIn">Der Klimawandel wird sich nachweislich auswirken auf</h4>
  </div>
- <p class="animate__animated animate__fadeIn gray-text">Bitte wählen Sie die für Sie relevanteste Option aus.</p>
+ <p class="animate__animated animate__fadeIn gray-text">Bitte wählen Sie eine der vier unten aufgeführten Optionen aus. Klicken Sie auf Weiter, um zu senden und fortzufahren.</p>
   <form class="survey-form required-validation" data-validation-type="radio" data-correct-answers="Der Klimawandel wird sich negativ auf alle auswirken."><div class="checkbox-group">
     <div class="form-group">
       <input type="radio" id="html"class="correct-answer" name="intro_section_question1" value="My generation">
