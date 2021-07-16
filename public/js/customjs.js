@@ -737,8 +737,9 @@ $('.draggable_main__item').droppable({
     }
     // Move draggable into droppable
     
-    droppable.find('.grid-icons').css({pointerEvents:'none'});
-    droppable.find('.grid-icons').addClass('usedDraggable');
+    droppable.find('.grid-icons').css({pointerEvents:'auto'});
+    droppable.find('.grid-icons').removeClass('usedDraggable');
+    draggable.remove();
   }
 });
 
