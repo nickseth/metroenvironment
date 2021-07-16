@@ -698,7 +698,7 @@ $('.draggable').draggable({
   revert: "invalid",
   stack: ".draggable",
   helper: 'clone',
-  scursorAt: {left: 50}
+  // scursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
   accept: ".draggable",
@@ -718,7 +718,7 @@ $('.mid-drag ul li').droppable({
     $('.ui-droppable .draggable').draggable({
 	  start:handleDragStart,
 	  revert: "invalid",
-	  stack: ".draggable",
+	  stack: ".draggable-clone",
 	  // helper: 'clone',
 	  // cursorAt: {left: 50}
 	});
