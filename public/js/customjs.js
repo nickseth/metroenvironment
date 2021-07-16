@@ -701,7 +701,7 @@ $('.draggable').draggable({
   // scursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
-  accept: ".draggable",
+  accept: ".draggable_main__item .draggable",
   drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
@@ -718,7 +718,7 @@ $('.mid-drag ul li').droppable({
     $('.ui-droppable .draggable').draggable({
 	  start:handleDragStart,
 	  revert: "invalid",
-	  stack: ".draggable-clone",
+	  stack: ".draggable",
 	  // helper: 'clone',
 	  // cursorAt: {left: 50}
 	});
