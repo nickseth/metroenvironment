@@ -804,7 +804,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 							
 						}
 					}
-					else if($('.survey-form').attr('data-validation-type') == 'single-input-field'){
+					else if($('.survey-form').attr('data-validation-type') == 'single-input-field' && $('.survey-form').attr('data-form-type') != 'draggable'){
 						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
 							$('.emoji-option-js[data-value='+json_cookie_data[key]+']').click();
 							
@@ -815,6 +815,24 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 							$('[name="'+key+'"]').val(json_cookie_data[key])
 							$('[name="'+key+'"]').parent().find('.emoji-option-js[data-value='+json_cookie_data[key]+']').click();
 							$('[name="'+key+'"]').parent().find('.popover-btn').click();
+						}
+					}
+					else if($('.survey-form').attr('data-form-type') == 'draggable'){
+						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
+							try{
+								var selected_values = json_cookie_data[key].replace(/\s/g,'').split(',');
+								$('.plate-item').each(function(){
+									for(var i=0;i<selected_values.length;i++){
+										if($(this).find('img').attr('data-text') == selected_values[i]){
+											$(this).clone().addClass('ui-draggable ui-draggable-handle').appendTo(".empty-plate");
+											$(this).addClass('usedDraggable')
+										}
+									}
+								})
+							}
+							catch(err){
+								
+							}
 						}
 					}
 					
