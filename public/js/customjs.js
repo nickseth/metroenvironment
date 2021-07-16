@@ -365,6 +365,10 @@ $('#sust1-group .sust-item').click(function(){
 	})
 	$('.reset-btn').click(function(e){
 		e.preventDefault();
+		$('.drag-input-details').val('')
+		$('.plate-item').removeClass('usedDraggable').css('pointer-events','auto');
+		$('.empty-plate').html('')
+		$('#none_of_these').prop('checked',false)
 		location.reload();
 	})
 	$('#none_of_these').click(function(){
