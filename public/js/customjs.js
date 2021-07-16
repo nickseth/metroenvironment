@@ -702,7 +702,7 @@ $('.draggable').draggable({
   revert: "invalid",
   stack: ".draggable",
   helper: 'clone',
-  // scursorAt: {left: 50}
+  cursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
   accept: ".draggable_main__item .draggable",
@@ -723,8 +723,6 @@ $('.mid-drag ul li').droppable({
 	  start:handleDragStart,
 	  revert: "invalid",
 	  stack: ".draggable",
-	  // helper: 'clone',
-	  // cursorAt: {left: 50}
 	});
   }
 });
@@ -734,8 +732,10 @@ $('.draggable_main__item').droppable({
 	drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
+    var drag_text_handle = draggable.data('text');
+    var drop_text_handle = droppable.find('.grid-icons').data('text');
 
-    if (!droppable.find('.grid-icons').hasClass('usedDraggable')) {
+    if (!droppable.find('.grid-icons').hasClass('usedDraggable') || drag_text_handle != drop_text_handle) {
 	    draggable.draggable('option', 'revert', true);
 	    return false;
     }
