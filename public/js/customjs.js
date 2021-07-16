@@ -726,7 +726,7 @@ $('.mid-drag ul li').droppable({
 });
 
 $('.draggable_main__item').droppable({
-	accept: ".mid-drag .ui-droppable .draggable",
+	accept: ".mid-drag .draggable",
 	drop: function(event, ui) {
     var droppable = $(this);
     var draggable = ui.draggable;
