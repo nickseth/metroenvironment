@@ -756,8 +756,10 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 		console.log(json_cookie_data)
 				Object.keys(json_cookie_data).forEach(key => {
 					if($('.survey-form').attr('data-validation-type') == 'radio' && $('.survey-form').attr('data-form-type') == undefined ){
-						$('[name="'+key+'"]').click();
-						$('[name="'+key+'"]').val(json_cookie_data[key]).change();
+						$('[value="'+json_cookie_data[key]+'"]').click();
+						if($('[name="'+key+'"] option').length > 0 ){
+							$('[name="'+key+'"]').val(json_cookie_data[key]).change();
+						}
 					}
 					else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
 						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
@@ -809,6 +811,20 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 							
 						}
 					}
+					else if($('.survey-form').attr('data-validation-type') == 'single-input-field'){
+						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
+							$('.emoji-option-js[data-value='+json_cookie_data[key]+']').click();
+							
+						}
+					}
+					else if($('.survey-form').attr('data-validation-type') == 'multiple-inputs'){
+						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
+							$('[name="'+key+'"]').val(json_cookie_data[key])
+							$('[name="'+key+'"]').parent().find('.emoji-option-js[data-value='+json_cookie_data[key]+']').click();
+							$('[name="'+key+'"]').parent().find('.popover-btn').click();
+						}
+					}
+					
 			});
 			//console.log(json_cookie_data[$(this).attr('name')])
 	}
