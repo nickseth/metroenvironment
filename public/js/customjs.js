@@ -698,7 +698,7 @@ $('.draggable').draggable({
   revert: "invalid",
   stack: ".draggable",
   helper: 'clone',
-    cursorAt: {left: 50}
+  scursorAt: {left: 50}
 });
 $('.mid-drag ul li').droppable({
   accept: ".draggable",
@@ -715,6 +715,13 @@ $('.mid-drag ul li').droppable({
     draggable.clone().appendTo(droppable);
     draggable.css({pointerEvents:'none'});
     draggable.addClass('usedDraggable');
+    $('.ui-droppable .draggable').draggable({
+	  start:handleDragStart,
+	  revert: "invalid",
+	  stack: ".draggable",
+	  // helper: 'clone',
+	  // cursorAt: {left: 50}
+	});
   }
 });
 $('.vegi-group .plate-item').draggable({
