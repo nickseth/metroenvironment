@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="d-flex align-center space-between">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="{{url('/de/de')}}">
+					<a class="navbar-brand" href="{{url('/de')}}">
 						<img src="../german_assets/images/metro-logo.svg" />
 					</a>
 				</div>
@@ -14340,6 +14340,9 @@
 <a href="{{url('/de/personal-level-step11')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
+	<div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">11 von 25</p>
+</div>
 	</form>
 	</div>
 	</div>

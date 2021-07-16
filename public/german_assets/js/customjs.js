@@ -554,10 +554,10 @@ $('.selected_language').val(Cookies.get('language_selected'))
 		}
 		else{
 			if($(this).hasClass('trigger-popup')){
-				var el = $(this);
-				setTimeout(function(){
-					window.location.href = el.attr('href');
-				},5000)
+				// var el = $(this);
+				// setTimeout(function(){
+					// window.location.href = el.attr('href');
+				// },5000)
 			}
 			else{
 				$("body").fadeOut(500);

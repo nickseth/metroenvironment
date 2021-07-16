@@ -80,6 +80,9 @@
 			
 			
 		</div>
+	<div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">17 of 25</p>
+</div>
 	</form>
 	</div>
 	

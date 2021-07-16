@@ -6,7 +6,7 @@
 <div class="co-popup">
 <div class="co-popup-img text-center"><img src="../german_assets/images/correct-order.png"></div>
 <p class="co-popup-info text-center">Hier ist die richtige Rangfolge</p>
-<p class="co-popup-info text-center">Sie werden in 10 Sekunden zur nächsten Frage weitergeleitet.</p>
+<p class="co-popup-info text-center"><a href="{{url('/de/personal-level-step12')}}" class="link-btn btn-flip" data-back="WEITER" data-front="WEITER" ></a></p>
 </div>
 </div>
 <!-- Navbar -->
@@ -51317,6 +51317,9 @@
 <a href="{{url('/de/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details trigger-popup" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
+		<div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">12 von 25</p>
+</div>
 	</div>
 
 

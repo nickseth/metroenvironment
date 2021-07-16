@@ -56,7 +56,11 @@
 <a href="{{url('/de/personal-level-step4')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
- </div></div>
+ </div>
+ <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">6 von 25</p>
+</div>
+ </div>
 
 
 

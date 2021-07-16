@@ -69,9 +69,12 @@
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="Back" data-front="Back" ></a>
 <a href="#" class="link-btn reset-btn btn-flip" data-back="Reset" data-front="Reset" ></a>
-<a href="{{url('/personal-level-step13')}}" class="link-btn get-survey-details btn-flip get-veg-input-details" data-back="Next" data-front="Next" ></a>
+<a href="{{url('/personal-level-step19')}}" class="link-btn get-survey-details btn-flip get-veg-input-details" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
+  <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">13 of 25</p>
+</div>
  </div></div>
 
 

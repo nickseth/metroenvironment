@@ -974,6 +974,9 @@ Diversity & Inclusion is a lived reality for an international corporation. This 
 <a href="{{url('/final-level-step3')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 				</div>
 			</div>
+		<div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">18 of 25</p>
+</div>
 		</form>
 	</div>
 	</div>

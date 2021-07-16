@@ -17632,6 +17632,9 @@
 <a href="{{url('/de/personal-level-step8')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 			</div>
 		</div>
+	<div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">10 von 25</p>
+</div>
 	</form>
 	</div>
 	</div>

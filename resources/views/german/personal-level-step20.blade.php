@@ -50,13 +50,18 @@
 <input type="hidden" class="hidden-circular-slider-input" value="0" name="personal_level_step20"/>
 </form>
 <div class="circular-range-slider"></div>
- </div></div>
+ </div>
+ </div>
 <div class="button-wrapper bottom-button link-np">
 <a href="#" class="link-btn back-navigate-btn btn-flip" data-back="ZURÜCK" data-front="ZURÜCK" ></a>
 <a href="{{url('/de/personal-level-step21')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
- </div></div>
+ </div>
+  <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">15 von 25</p>
+</div>
+ </div>
 
 
 

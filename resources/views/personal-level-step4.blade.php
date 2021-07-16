@@ -18,7 +18,7 @@
 </div>
 </nav>
 <div class="container ">
-<form class="survey-form required-validation" data-validation-type="radio">
+<form class="survey-form required-validation" data-form-type="multiple" data-validation-type="radio">
 <div class="relative">
 	<div class="page-width mt-4 page4">
 		<div class="row">
@@ -20759,6 +20759,9 @@ price point</p>
 <a href="{{url('/personal-level-step5')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 		</div>
 	</div>
+ <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">7 of 25</p>
+</div>
 </form>
 </div>
 </div>

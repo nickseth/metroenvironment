@@ -57,7 +57,11 @@
 <a href="{{url('/de/final-level-step7')}}" class="link-btn get-survey-details btn-flip" data-back="WEITER" data-front="WEITER" ></a>
 </div>
  </div>
- </div></div>
+ </div>
+  <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">22 von 25</p>
+</div>
+ </div>
 
 
 

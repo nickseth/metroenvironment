@@ -6,7 +6,7 @@
 <div class="co-popup">
 <div class="co-popup-img text-center"><img src="images/correct-order.png"></div>
 <p class="co-popup-info text-center">Here is the correct ranking</p>
-<p class="co-popup-info text-center">You will be redirected to the next question in 10 seconds.</p>
+<p class="co-popup-info text-center"><a href="{{url('/personal-level-step12')}}" class="link-btn btn-flip" data-back="Next" data-front="Next" ></a></p>
 
 </div>
 </div>
@@ -51318,6 +51318,9 @@
 <a href="{{url('/personal-level-step12')}}" class="link-btn get-survey-details btn-flip get-drag-input-details trigger-popup" data-back="Next" data-front="Next" ></a>
 			</div>
 		</div>
+	 <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">12 of 25</p>
+</div>
 	</div>
 
 

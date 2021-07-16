@@ -152,6 +152,9 @@ form *{display:block; width:100%}
 <a href="{{url('/de/intro-section')}}" class="link-btn btn-flip get-survey-details" data-back="Start der Umfrage" data-front="Start der Umfrage"></a>
 </div>
 </div>
+<div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">1 von 25</p>
+</div>
 </div>
 
 

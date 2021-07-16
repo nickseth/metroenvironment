@@ -390,8 +390,11 @@ $('#sust1-group .sust-item').click(function(){
 		$('.error-message').remove();
 		$('.button-wrapper').append('<p class="error-message correct-message animate__animated animate__fadeIn gray-text">'+$('.survey-form').attr('data-correct-answers')+'</p>')
 	})
+	
+	
 	// storing form data in cookie //
 	$('.get-survey-details').click(function(e){
+		
 		e.preventDefault();
 		// form validation //
 		if($('.required-field').length > 0 ){
@@ -558,10 +561,10 @@ $('#sust1-group .sust-item').click(function(){
 		}
 		else{
 			if($(this).hasClass('trigger-popup')){
-				var el = $(this);
-				setTimeout(function(){
-					window.location.href = el.attr('href');
-				},5000)
+				// var el = $(this);
+				// setTimeout(function(){
+					// window.location.href = el.attr('href');
+				// },5000)
 			}
 			else{
 				 $("body").fadeOut(500);
@@ -740,6 +743,59 @@ $('.empty-plate').droppable({
     draggable.addClass('usedDraggable');
   }
 });
+
+if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
+		var json_cookie_data = JSON.parse(Cookies.get('formdetails'));
+		console.log(json_cookie_data)
+				Object.keys(json_cookie_data).forEach(key => {
+					if($('.survey-form').attr('data-validation-type') == 'radio' && $('.survey-form').attr('data-form-type') == undefined ){
+						$('[name="'+key+'"]').click();
+						$('[name="'+key+'"]').val(json_cookie_data[key]).change();
+					}
+					else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
+						if($('[name="'+key+'"]').length > 0){
+							$('[name="'+key+'"]').val(json_cookie_data[key]);
+							$(".circular-range-slider").roundSlider('setValue',json_cookie_data[key])
+							var max_value = json_cookie_data[key]
+							for(var i=0;i<=5;i++){
+								$(".circular-range-slider").removeClass('current-step-'+i);
+								$('.rs-first .rs-handle').removeClass('stepmove'+i);
+							}
+							$('.rs-first .rs-handle').addClass('stepmove'+max_value);
+							$(".circular-range-slider").addClass('current-step-'+max_value);
+							$('.hidden-circular-slider-input').val(max_value)
+						}
+						
+					}
+					else if($('.survey-form').attr('data-form-type') == 'multiple'){
+						if($('[name="'+key+'"]').length > 0){
+							try{
+								var selected_values = json_cookie_data[key].replace(/\s/g,'').split('|');
+								$('.multiple-checkbox-data').each(function(){
+									var input_value = $(this).val().replace(/\s/g,'');
+									console.log(input_value);
+									for(var i=0;i< selected_values.length;i++){
+										console.log(selected_values[i])
+										if(input_value == selected_values[i]){
+											$(this).click();
+										}
+									}
+								})
+							}
+							catch(err){
+								var selected_values = json_cookie_data[key].replace(/\s/g,'')
+								$('.multiple-checkbox-data').each(function(){
+									var input_value = $(this).val().replace(/\s/g,'');
+										if(input_value == selected_values){
+											$(this).click();
+										}
+								})
+							}
+						}
+					}
+			});
+			//console.log(json_cookie_data[$(this).attr('name')])
+	}
 
 }); //END ready
 

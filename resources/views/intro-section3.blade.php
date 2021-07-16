@@ -58,6 +58,10 @@
 <a href="{{url('/personal-level-start')}}" class="link-btn get-survey-details btn-flip" data-back="Next" data-front="Next" ></a>
 </div>
  </div>
- </div></div>
+ </div>
+  <div class="col-sm-12 text-center step-text">
+	<p class="animate__animated animate__fadeIn gray-text">4 of 25</p>
+</div>
+ </div>
 </body>
 </html>
