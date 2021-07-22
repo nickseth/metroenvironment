@@ -84,7 +84,7 @@ form label{font-size:25px}
     font-display: swap;
 }
 @import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
-.google-head{font-family: 'Mogra', cursive; font-weight:bold;}
+.google-head{font-family: 'SandwichMarkerPro'; }
 body{font-family: 'Verdana';}
 .right-header {font-family: 'SandwichMarkerPro'; color:#214d88; font-size:36px}
 .right-header span{color:#4c9f38}
