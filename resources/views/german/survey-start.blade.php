@@ -28,7 +28,7 @@ form *{display:block; width:100%}
 
 <div class="row" >
 
-<form class="survey-form">
+<form class="survey-form"  data-form-type="multiple-form-fields">
   <input type="hidden" name="language" value="" class="selected_language"/>
 <div class="col-sm-3 mt-5">
 <div class="form-row">

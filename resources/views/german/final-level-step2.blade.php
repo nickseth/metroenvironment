@@ -629,7 +629,7 @@
 								</div>
 								<hr>
 								<h5>Wusstest du schon?</h5>
-								<p>Jedes Jahr werden 130.000 Quadratkilometer Wald abgeholzt oder verbrannt. Die Rohstoffbeschaffungsinitiative von METRO zielt darauf ab, Palmöl in Produkten wie Backwaren, Milchprodukten, tiefgekühlten Lebensmitteln, verarbeitetem Fleisch, Obst und Gemüse sowie Haushaltspflegeprodukten zu reduzieren.</p>
+								<p>Jedes Jahr werden 130.000 Quadratkilometer Wald abgeholzt oder verbrannt. METROs Ansatz zur Rohstoffbeschaffung zielt darauf ab, Palmöl in Produkten wie Backwaren, Milchprodukten, tiefgekühlten Lebensmitteln, verarbeitetem Fleisch, Obst und Gemüse sowie Haushaltspflegeprodukten zu reduzieren.</p>
   <input type="hidden" name="final_level_step2_ques4" class="final_level_step2_ques4" value="" />
 					        
 							<div class="submit-btn">

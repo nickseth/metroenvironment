@@ -392,10 +392,10 @@ $('#sust1-group .sust-item').click(function(){
 	$('.survey-form .grid-item').click(function(){
 		$(this).next().find('input').click();
 	})
-	$('.correct-answer').click(function(){
-		$('.error-message').remove();
-		$('.button-wrapper').append('<p class="error-message correct-message animate__animated animate__fadeIn gray-text">'+$('.survey-form').attr('data-correct-answers')+'</p>')
-	})
+	// $('.correct-answer').click(function(){
+		// $('.error-message').remove();
+		// $('.button-wrapper').append('<p class="error-message correct-message animate__animated animate__fadeIn gray-text">'+$('.survey-form').attr('data-correct-answers')+'</p>')
+	// })
 	
 	
 	// storing form data in cookie //
@@ -580,6 +580,14 @@ $('#sust1-group .sust-item').click(function(){
 					// window.location.href = el.attr('href');
 				// },5000)
 			}
+			else if($('.survey-form').attr('data-correct-answers') != undefined && $('.survey-form').attr('data-correct-answers') != ''){
+				$('.error-message').remove();
+				var el = $(this)
+				$('.button-wrapper').append('<p class="error-message correct-message animate__animated animate__fadeIn gray-text">'+$('.survey-form').attr('data-correct-answers')+'</p>')
+				setTimeout(function(){
+					 window.location.href = el.attr('href');
+				},3000)
+			}
 			else{
 				 $("body").fadeOut(500);
 				window.location.href = $(this).attr('href');
@@ -709,11 +717,22 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 		var json_cookie_data = JSON.parse(Cookies.get('formdetails'));
 		console.log(json_cookie_data)
 				Object.keys(json_cookie_data).forEach(key => {
-					if($('.survey-form').attr('data-validation-type') == 'radio' && $('.survey-form').attr('data-form-type') == undefined ){
+					if($('.survey-form').attr('data-form-type') == 'multiple-form-fields' ){
 						$('[value="'+json_cookie_data[key]+'"]').click();
-						if($('[name="'+key+'"] option').length > 0 ){
+						if($('[name="'+key+'"]').length > 0 ){
 							$('[name="'+key+'"]').val(json_cookie_data[key]).change();
+							$('[name="'+key+'"]').val(json_cookie_data[key]).click();
+							$('.survey-form').css('pointer-events','none');
 						}
+						
+					}
+					else if($('.survey-form').attr('data-validation-type') == 'radio' && $('.survey-form').attr('data-form-type') == undefined ){
+						$('[value="'+json_cookie_data[key]+'"]').click();
+						if($('[name="'+key+'"]').length > 0 ){
+							$('[name="'+key+'"]').val(json_cookie_data[key]).change();
+							$('.form-group').css('pointer-events','none');
+						}
+						
 					}
 					else if($('.survey-form').attr('data-validation-type') == 'circular-slider' ){
 						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
@@ -727,6 +746,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 							$('.rs-first .rs-handle').addClass('stepmove'+max_value);
 							$(".circular-range-slider").addClass('current-step-'+max_value);
 							$('.hidden-circular-slider-input').val(max_value)
+							$('.circular-range-slider').css('pointer-events','none')
 						}
 						
 					}
@@ -745,6 +765,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 										}
 										})
 									}
+									$('.survey-form .sec1-box-right').css('pointer-events','none')
 								
 							}
 							catch(err){
@@ -755,6 +776,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 											$(this).prop('checked',true);
 										}
 								})
+								$('.survey-form .sec1-box-right').css('pointer-events','none')
 							}
 						}
 					}
@@ -762,15 +784,22 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
 							setTimeout(function(){
 								$('[name="'+key+'"]').parent().next().find('li').eq(json_cookie_data[key]-1).click();
-								$('[name="'+key+'"]').click();
+								if(!$('[name="'+key+'"]').is(':checked')){
+									$('[name="'+key+'"]').click();
+								}
 							},1000)
-							
+							$('.survey-form .sec1-box-right').css('pointer-events','none')
 						}
 					}
 					else if($('.survey-form').attr('data-validation-type') == 'single-input-field' && $('.survey-form').attr('data-form-type') != 'draggable' && $('.survey-form').attr('data-form-type') != 'draggable-row'){
 						if($('[name="'+key+'"]').length > 0 && json_cookie_data[key] != '' && json_cookie_data[key] != undefined){
 							$('.emoji-option-js[data-value='+json_cookie_data[key]+']').click();
-							
+							if($('.emoji-cover').length > 0 ){
+								$('.emoji-cover').css('pointer-events','none')
+							}
+							else{
+							$('.survey-form .sec1-box-right').css('pointer-events','none')
+							}
 						}
 					}
 					else if($('.survey-form').attr('data-validation-type') == 'multiple-inputs'){
@@ -779,6 +808,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 							$('[name="'+key+'"]').parent().find('.emoji-option-js[data-value='+json_cookie_data[key]+']').click();
 							$('[name="'+key+'"]').parent().find('.popover-btn').click();
 							$('.sust-item').removeClass('.blinking-text');
+							$('.sec1-box-right').css('pointer-events','none')
 						}
 					}
 					else if($('.survey-form').attr('data-form-type') == 'draggable'){
@@ -798,6 +828,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 								if(selected_values[0] == "Noneofthese"){
 									$('#none_of_these').prop('checked',true);
 								}
+								$('.vegi-grup-wrap,.form-group').css('pointer-events','none')
 							}
 							catch(err){
 								var selected_values = json_cookie_data[key].replace(/\s/g,'');
@@ -812,6 +843,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 								if(selected_values == "Noneofthese"){
 									$('#none_of_these').prop('checked',true);
 								}
+								$('.vegi-grup-wrap,.form-group').css('pointer-events','none')
 							}
 						}
 					}
@@ -829,7 +861,7 @@ if(Cookies.get('formdetails') != undefined && Cookies.get('formdetails') != ''){
 											}
 										})
 									}
-								
+								$('.sec1-box-right').css('pointer-events','none')
 							}
 							catch(err){
 								
